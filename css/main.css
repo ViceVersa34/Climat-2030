@@ -191,3 +191,21 @@ body {
 	}
 
 }
+
+@media only screen and (max-width: 1400px) {
+	/* --------------------- Header ----------------------- */
+	.nav-item {
+		padding: .5rem 1rem;
+	}
+	
+	.nav-item:last-child {
+		padding: 0rem 1.5rem;
+		right: 0rem;
+	}
+	
+	.nav-item-language {
+		padding: .5rem .75rem;
+	}
+	
+}
+
