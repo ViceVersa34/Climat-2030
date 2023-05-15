@@ -18,3 +18,8 @@ html {
 	scroll-behavior: smooth;
 }
 
+body {
+	background: #161515;
+	font-family: 'Inter', sans-serif;
+}
+
