@@ -50,6 +50,10 @@ body {
 	margin-bottom: 6rem;
 }
 
+.menu-burger {
+	display: none;
+}
+
 .img-logo {
 	position: absolute;
 	top: 0;
@@ -240,6 +244,19 @@ body {
 		margin-bottom: 6rem;
 	}
 
+	.menu-burger {
+		display: block;
+		border: none	;
+		background: none;
+		position: absolute;
+		top: 15px;
+		left: 15px;
+	}
+
+	.menu-burger img {
+		width: 40px;
+	}
+	
 	.img-logo {
 		position: initial;
 		padding: 0;
@@ -259,7 +276,7 @@ body {
 		padding: 2rem 0 0 3rem;
 		position: absolute;
 		top: 0;
-		left: 0;
+		left: -18rem;
 	}
 	
 	.nav-item {
