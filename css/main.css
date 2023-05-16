@@ -331,7 +331,7 @@ body {
 	.active {
 		border-top: solid 1px #ba83f0;
 	}
-	
+
 	.blur {
 		display: none;
 		position: absolute;
@@ -346,69 +346,48 @@ body {
 
 	/* --------------------- Footer ----------------------- */
 	.footer {
-		margin-top: 2rem;
-	}
-	
-	.footer-top {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-	}
-	
-	.bandeau-contact {
-		width: 100vw;
-		overflow-x: hidden;
-	}
-	
-	.we-can-do-it {
-		position: absolute;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-	
-	.we-can-do-it-img {
-		width: 175px;
-		border-radius: 75px;
-		margin-bottom: .5rem;
-	}
-	
-	.we-can-do-it-description a {
-		font-size: 1.5rem;
-		font-weight: bold;
-		font-style: italic;
-		color: #e77754;
-		transition: .1s;
+		/* margin-top: 2rem; */
+		margin-bottom: 3rem;
 	}
 	
 	.we-can-do-it-description a:hover {
-		color: #fbca38;
+		color: #e77754;
 	}
 	
 	.footer-bottom {
+		margin-top: 8rem;
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: space-between;
-	}
-	
-	.gen-egal {
-		width: 300px;
-		padding-right: 1.5rem;
-		right: 0;
-	}
-	
-	.mention-legales {
-		padding: 1.5rem;
-		color: #fff
-	}
-	
-	.mention-legales a {
-		color: #e77754;
-		transition: .1s;
+		justify-content: space-around;
 	}
 	
 	.mention-legales a:hover {
-		color: #fbca38;
+		color: #e77754;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+
+	/* --------------------- Header ----------------------- */
+	.nav {
+		margin-bottom: 3rem;
+	}
+
+	.img-logo img {
+		max-width: 150px;
+	}
+
+
+	/* --------------------- Footer ----------------------- */
+	.footer-bottom {
+		margin-top: 5rem;
+	}
+
+	.we-can-do-it-description a {
+		font-size: 1rem;
+	}
+
+	.mention-legales {
+		font-size: .8rem;
 	}
 }
