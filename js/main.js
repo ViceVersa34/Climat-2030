@@ -23,6 +23,7 @@ function changerLeft (gauche){
     
     element1.style.left=gauche;
     element2.style.overflowY='hidden';
+    element2.style.overflowX='hidden';
     element3.style.display='block';
     element3.style.width=cache+'px';
 }
@@ -33,6 +34,7 @@ function changerLeft2 (gauche){
     var element3 = document.getElementById('blur');
     element1.style.left=gauche;
     element2.style.overflowY='auto';
+    element2.style.overflowX='auto';
     element3.style.display='none';
 }
 
