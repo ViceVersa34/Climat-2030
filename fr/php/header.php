@@ -8,7 +8,7 @@
         <li class="nav-item"><a href="/fr/academie-du-climat.php">L'académie du climat</a></li>
         <li class="nav-item"><a href="/fr/social-club.php">Le Social Club</a></li>
         <li class="nav-item"><a href="/fr/exposition.php">L'exposition</a></li>
-        <li class="nav-item"><a href="/fr/humour.php">L'humour</a></li>
+        <li class="nav-item"><a href="/fr/humoo ur.php">L'humour</a></li>
         <li class="nav-item"><a href="/fr/inscription.php">S'inscrire</a></li>
         <li class="nav-item">
             <ul class="language">
