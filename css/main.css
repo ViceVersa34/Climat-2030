@@ -21,6 +21,7 @@ html {
 body {
 	background: #161515;
 	font-family: 'Inter', sans-serif;
+	/* overflow-x: hidden; */
 }
 
 .scrollUp {
@@ -51,6 +52,10 @@ body {
 }
 
 .menu-burger {
+	display: none;
+}
+
+.arrow-menu-burger {
 	display: none;
 }
 
@@ -139,6 +144,7 @@ body {
 
 .bandeau-contact {
 	width: 100vw;
+	overflow-x: hidden;
 }
 
 .we-can-do-it {
@@ -256,6 +262,19 @@ body {
 	.menu-burger img {
 		width: 40px;
 	}
+
+	.arrow-menu-burger {
+		display: block;
+		border: none	;
+		background: none;
+		position: absolute;
+		top: 15px;
+		left: 225px;
+	}
+
+	.arrow-menu-burger img {
+		width: 40px;
+	}
 	
 	.img-logo {
 		position: initial;
@@ -273,24 +292,26 @@ body {
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: start;
-		padding: 2rem 0 0 3rem;
+		padding: 4rem 5rem 100vh 3rem;
 		position: absolute;
 		top: 0;
-		left: -18rem;
+		left: -20rem;
+		transition: .25s;
+		background: #1d1919;
 	}
 	
 	.nav-item {
 		padding: 1.5rem 0;
 		transition: .2s;
-		border-top: solid 1px #161515;
+		border-top: none;
 	}
 	
 	.nav-item:hover {
-		border-top: solid 1px #161515;
+		border-top: none;
 	}
 	
 	.nav-item:last-child:hover {
-		border-top: solid 1px #161515;
+		border-top: none;
 	}
 	
 	.nav-item:last-child {
@@ -313,11 +334,11 @@ body {
 	.nav-item-language {
 		padding: .5rem 1rem;
 		transition: .2s;
-		border-top: solid 1px #161515;
+		border-top: none;
 	}
 	
 	.nav-item-language:hover {
-		border-top: solid 1px #161515;
+		border-top: none;
 	}
 	
 	.nav-item-language a {
@@ -331,5 +352,16 @@ body {
 
 	.active {
 		border-top: solid 1px #ba83f0;
+	}
+
+	.blur {
+		display: none;
+		position: absolute;
+		height: 100vh;
+		top: -1rem;
+		left: 18rem;
+		background: none;
+		z-index: 10;
+		transition: 2s;
 	}
 }
