@@ -23,6 +23,22 @@ body {
 	font-family: 'Inter', sans-serif;
 }
 
+.scrollUp {
+    position: fixed;
+    bottom : 15px;
+    right: -100px;
+    opacity: 0.5;
+    
+    &:hover {
+        opacity: 1;
+    }
+
+    & img {
+        max-width: 3rem;
+        width: 100%;
+    }
+}
+
 /* -------------------------------------------------------------------------------- */
 /* ----------------------------------- Nav bar ------------------------------------ */
 /* -------------------------------------------------------------------------------- */
@@ -99,6 +115,9 @@ body {
 	font-size: 1rem;
 }
 
+.active {
+	border-top: solid 1px #ba83f0;
+}
 
 /* -------------------------------------------------------------------------------- */
 /* ----------------------------------- Footer ------------------------------------- */
@@ -237,14 +256,14 @@ body {
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: start;
-		padding: 2rem 0;
+		padding: 2rem 0 0 3rem;
 		position: absolute;
 		top: 0;
 		left: 0;
 	}
 	
 	.nav-item {
-		padding: .5rem 3rem;
+		padding: 1.5rem 0;
 		transition: .2s;
 		border-top: solid 1px #161515;
 	}
@@ -258,7 +277,7 @@ body {
 	}
 	
 	.nav-item:last-child {
-		padding: 0rem 3rem;
+		padding: 2rem 0 0 0;
 		position: initial;
 	}
 	
@@ -287,5 +306,13 @@ body {
 	.nav-item-language a {
 		color: #fff;
 		font-size: 1rem;
+	}
+
+	.nav-item-language:first-child {
+		padding: .5rem 0rem;
+	}
+
+	.active {
+		border-top: solid 1px #ba83f0;
 	}
 }
