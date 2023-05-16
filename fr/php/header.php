@@ -1,4 +1,5 @@
 <div class="nav">
+    <button class="menu-burger"><img src="/img/menu.svg" alt="Menu burger"></button>
     <a href="/" class="img-logo"><img src="/img/logo.png" alt="logo Climat-2030"></a>
     <ul class="nav-list">
         <li class="nav-item"><a href="/fr/">Accueil</a></li>
