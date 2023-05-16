@@ -1,7 +1,9 @@
 <div class="nav">
-    <button class="menu-burger"><img src="/img/menu.svg" alt="Menu burger"></button>
+    <div class="blur" id="blur" onclick="changerLeft2('-18rem');"></div>
+    <button class="menu-burger" onclick="changerLeft('0');"><img src="/img/menu.svg" alt="Menu burger"></button>
     <a href="/" class="img-logo"><img src="/img/logo.png" alt="logo Climat-2030"></a>
-    <ul class="nav-list">
+    <ul class="nav-list" id="nav">
+        <li class="arrow-menu"><button class="arrow-menu-burger" onclick="changerLeft2('-20rem');"><img src="/img/croix.svg" alt="Menu burger"></button></li>
         <li class="nav-item"><a href="/fr/">Accueil</a></li>
         <li class="nav-item"><a href="/fr/academie-du-climat.php">L'académie du climat</a></li>
         <li class="nav-item"><a href="/fr/social-club.php">Le Social Club</a></li>
