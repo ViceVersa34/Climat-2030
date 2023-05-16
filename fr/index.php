@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="/css/index.css">
     <title>Climat-2030</title>
 </head>
-<body>
+<body id="body">
     <header>
         <?php include('php/header.php'); ?>
     </header>
