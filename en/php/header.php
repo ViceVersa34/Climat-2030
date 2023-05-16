@@ -9,6 +9,8 @@
         <li class="nav-item"><a href="/en/inscription.php">S'inscrire</a></li>
         <li class="nav-item">
             <ul class="language">
+                <li class="nav-item-language"><a href="/en/">FR</a></li>
+                <li class="nav-item-language"><a href="/fr/">EN</a></li>
             </ul>
         </li>
     </ul>
