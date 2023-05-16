@@ -283,10 +283,6 @@ body {
 		margin-right: auto;
 	}
 	
-	.img-logo img {
-		max-width: 175px;
-	}
-	
 	.nav-list {
 		display: flex;
 		flex-direction: column;
@@ -302,7 +298,6 @@ body {
 	
 	.nav-item {
 		padding: 1.5rem 0;
-		transition: .2s;
 		border-top: none;
 	}
 	
@@ -319,18 +314,6 @@ body {
 		position: initial;
 	}
 	
-	.nav-item a {
-		color: #fff;
-		font-size: 1rem;
-		font-family: 'Inter', sans-serif;
-	}
-	
-	.language {
-		display: flex;
-		justify-content: center;
-		align-items: start;
-	}
-	
 	.nav-item-language {
 		padding: .5rem 1rem;
 		transition: .2s;
@@ -340,11 +323,6 @@ body {
 	.nav-item-language:hover {
 		border-top: none;
 	}
-	
-	.nav-item-language a {
-		color: #fff;
-		font-size: 1rem;
-	}
 
 	.nav-item-language:first-child {
 		padding: .5rem 0rem;
@@ -353,15 +331,84 @@ body {
 	.active {
 		border-top: solid 1px #ba83f0;
 	}
-
+	
 	.blur {
 		display: none;
 		position: absolute;
 		height: 100vh;
-		top: -1rem;
+		top: 0rem;
 		left: 18rem;
 		background: none;
 		z-index: 10;
 		transition: 2s;
+	}
+
+
+	/* --------------------- Footer ----------------------- */
+	.footer {
+		margin-top: 2rem;
+	}
+	
+	.footer-top {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	
+	.bandeau-contact {
+		width: 100vw;
+		overflow-x: hidden;
+	}
+	
+	.we-can-do-it {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.we-can-do-it-img {
+		width: 175px;
+		border-radius: 75px;
+		margin-bottom: .5rem;
+	}
+	
+	.we-can-do-it-description a {
+		font-size: 1.5rem;
+		font-weight: bold;
+		font-style: italic;
+		color: #e77754;
+		transition: .1s;
+	}
+	
+	.we-can-do-it-description a:hover {
+		color: #fbca38;
+	}
+	
+	.footer-bottom {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	
+	.gen-egal {
+		width: 300px;
+		padding-right: 1.5rem;
+		right: 0;
+	}
+	
+	.mention-legales {
+		padding: 1.5rem;
+		color: #fff
+	}
+	
+	.mention-legales a {
+		color: #e77754;
+		transition: .1s;
+	}
+	
+	.mention-legales a:hover {
+		color: #fbca38;
 	}
 }
