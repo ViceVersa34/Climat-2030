@@ -12,6 +12,47 @@
 
     <main>
 
+    <h1 class="top_txt">Métamorphoser l'humanité en virtuose du climat</h1>
+    <a href="" class="en-savoir-plus">En savoir +</a>
+
+    <div class="top-illustration">
+        <img src="/img/earth_day.jpg" alt="Illustration - 'earth day'">
+        <img src="/img/earth_day.jpg" alt="Illustration - 'earth day'">
+        <img src="/img/earth_day.jpg" alt="Illustration - 'earth day'">
+    </div>
+
+    <div class="valeurs">
+        <div class="valeurs-part1">
+            <div class="principe"><span class="yello-txt size-txt pr">Pourquoi</span> Si nous arrivons à comprendre le réchauffement climatique, cela changera l'avenir de l'humanité dans le monde.</div>
+            <div class="principe"><span class="yello-txt size-txt pr">Comment</span> En mettant l'accent sur <span class="yello-txt ml pr">l'émancipation</span> des humains et <span class="yello-txt ml pr">des femmes</span> en particulier pour garantir un avenir durable.</div>
+            <div class="principe"><span class="yello-txt size-txt pr">Proposition</span> Une éducation aussi puissante qu'originale au climat pour se métamorphoser en virtuose du climat.</div>
+        </div>
+        <div class="img-principes"><img src="/img/butterfly.jpg" alt="butterfly"></div>
+        <div class="valeurs-part2">
+            <div class="principe">
+                Vision Un monde où chaque personne a conscience de la nécessité de limiter le réchauffement climatique à 1,50C d'ici 2030 et au delà. <br>
+                Pour cela, il faut mettre à disposition de chaque cerveau humain la passion pour l'érudition et la capacité d'innovation pour faire de 
+                "2 tonnes de carbone" une habitude de pensée quotidienne.
+            </div>
+            <div class="principe">
+                Mission Encourager les femmes et les hommes à prendre leur place pour parvenir à contenir l'objectif de réchauffement 
+                climatique à 1,50C...en créant un programme d'éducation sur le climat pour respecter l'échéance de l'humanité.
+            </div>
+            <div class="yello-txt size-txt pr valeur">Valeurs ?</div>
+            <div class="penser-climat">
+                <div class="yello-txt size-txt pr penser-le-climat">Penser le climat</div>
+                <div class="pensee"><span class="yello-txt size-txt pr">C</span> ommencer par soi</div>
+                <div class="pensee"><span class="yello-txt size-txt pr">L</span> ibérer (se) des habitudes passées</div>
+                <div class="pensee"><span class="yello-txt size-txt pr">I</span> nvestir du temps pour s'éduquer</div>
+                <div class="pensee"><span class="yello-txt size-txt pr">M</span> aintenant. Plus tard n'est plus une option</div>
+                <div class="pensee"><span class="yello-txt size-txt pr">A</span> dapter son comportement à l'urgence climatique</div>
+                <div class="pensee"><span class="yello-txt size-txt pr">T</span> riompher collectivement !</div>
+            </div>
+        </div>
+    </div>
+
+
+
 
     <div class="scrollUp">
         <a href="#top"><img src="/img/up-arrow.svg"/></a>
