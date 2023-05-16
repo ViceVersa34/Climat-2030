@@ -19,3 +19,6 @@
         <img src="/img/generation_egalite" alt="logo generation égalité" class="gen-egal">
     </div>
 </div>
+
+
+
