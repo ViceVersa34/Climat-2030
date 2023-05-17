@@ -231,7 +231,11 @@ main {
 	/* --------------------- Footer ----------------------- */
 	.we-can-do-it-img {
 		width: 10vw;
-		border-radius: 4vw;
+		border-radius: 5vw;
+	}
+
+	.bandeau-contact {
+		margin-top: 3vh;
 	}
 
 }
@@ -394,6 +398,27 @@ main {
 	}
 }
 
+@media only screen and (max-width: 800px) {
+
+	.bandeau-contact {
+		margin-top: 2.5vh;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+
+	.bandeau-contact {
+		margin-top: 2vh;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+
+	.bandeau-contact {
+		margin-top: 1.5vh;
+	}
+}
+
 @media only screen and (max-width: 400px) {
 
 	/* --------------------- Header ----------------------- */
@@ -407,6 +432,10 @@ main {
 
 
 	/* --------------------- Footer ----------------------- */
+	.bandeau-contact {
+		margin-top: 1vh;
+	}
+
 	.footer-bottom {
 		margin-top: 5rem;
 	}
