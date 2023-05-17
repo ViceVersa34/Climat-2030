@@ -49,14 +49,6 @@ h1 {
     font-size: 1.1rem !important;
 }
 
-.ml {
-    margin: 0 0 0 .4rem;
-}
-
-.pr {
-    padding: 0 .4rem 0 0;
-}
-
 .valeurs {
     display: flex;
     flex-direction: column;
