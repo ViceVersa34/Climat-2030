@@ -16,9 +16,9 @@
     <a href="" class="en-savoir-plus">En savoir +</a>
 
     <div class="top-illustration">
-        <img src="/img/earth_day.jpg" alt="Illustration - 'earth day'">
-        <img src="/img/earth_day.jpg" alt="Illustration - 'earth day'">
-        <img src="/img/earth_day.jpg" alt="Illustration - 'earth day'">
+        <img src="/img/index/earth_day.jpg" alt="Illustration - 'earth day'">
+        <img src="/img/index/earth_day.jpg" alt="Illustration - 'earth day'">
+        <img src="/img/index/earth_day.jpg" alt="Illustration - 'earth day'">
     </div>
 
     <div class="valeurs">
@@ -40,7 +40,7 @@
             </div>
         </div>
 
-        <div class="img-principes"><img src="/img/butterfly.jpg" alt="butterfly"></div>
+        <div class="img-principes"><img src="/img/index/butterfly.jpg" alt="butterfly"></div>
         <div class="valeurs-part2">
             <div class="principe sl">
                 <p>
