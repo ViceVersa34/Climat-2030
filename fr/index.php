@@ -81,11 +81,3 @@
     </footer>
 </body>
 </html>
-
-
-
-<!-- 
-    1-- Remonter la we can do it au centre
-
-    2-- le header en sticky
- -->
