@@ -41,9 +41,11 @@
         <div class="programmes">
             <div class="desc-programmes">
                 <div class="desc">Programme de formation au climat</div>
-                <a href="#levelA" class="lien-programmes">Débutant</a>
-                <a href="#levelB" class="lien-programmes">Intermédiaire</a>
-                <a href="#levelC" class="lien-programmes">Confirmé</a>
+                <div class="lien-programmes">
+                    <a href="#levelA" class="lien-programme">Débutant</a>
+                    <a href="#levelB" class="lien-programme">Intermédiaire</a>
+                    <a href="#levelC" class="lien-programme">Confirmé</a>
+                </div>
                 <div class="repere" id="levelA"></div>
             </div>
             <div class="programme">

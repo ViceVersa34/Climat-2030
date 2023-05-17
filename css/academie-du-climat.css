@@ -98,10 +98,18 @@ h1 {
     font-size: 1.25rem !important;
 }
 
-.desc-programmes .lien-programmes {
+.desc-programmes .lien-programme {
     color: #e77754 !important;
     font-size: 1.1rem;
     margin-left: 3rem;
+}
+
+.normal {
+    display: block;
+}
+
+.responsive {
+    display: none;
 }
 
 .programme-img {
@@ -125,20 +133,116 @@ h1 {
     margin-top: 0 !important;
 }
 
-@media only screen and (max-width: 1100px) {
-
-    /* ------------------------------ EARTH DAY EVERY DAY ------------------------------*/
+@media only screen and (max-width: 1280px) {
+    /* ------------------------------ OISEAU ------------------------------*/
     .top-illustration img {
         width: 300px;
     }
-    
+
+    .top-illustration img:first-child {
+        border-bottom-left-radius: 100px;
+        border-top-left-radius: 100px;
+    }
+
     .top-illustration img:nth-child(2) {
+        display: none;
+    }
+    
+    .top-illustration img:last-child {
         border-bottom-right-radius: 100px;
         border-top-right-radius: 100px;
     }
 
-    .top-illustration img:last-child {
+    .valeurs {
+        max-width: 800px;
+        width: 100%;
+    }
+    
+    .valeurs-part1 {
+        max-width: 800;
+        width: 100%;
+    }
+    
+    .programmes {
+        width: 800px;
+    }
+    
+    .programme {
+        max-width: 800px;
+        width: 100%;
+    }
+    
+    .programme-img img {
+        width: 700px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .normal {
         display: none;
+    }
+    
+    .responsive {
+        display: block;
+    }
+    
+}
+
+@media only screen and (max-width: 950px) {
+    /* ------------------------------ OISEAU ------------------------------*/
+    .top-illustration img {
+        width: 300px;
+    }
+
+    .top-illustration img:first-child {
+        border-bottom-left-radius: 100px;
+        border-top-left-radius: 100px;
+    }
+
+    .top-illustration img:nth-child(2) {
+        display: none;
+    }
+
+    .top-illustration img:nth-child(3) {
+        display: none;
+    }
+    
+    .top-illustration img:last-child {
+        border-bottom-right-radius: 100px;
+        border-top-right-radius: 100px;
+    }
+
+    .valeurs {
+        max-width: 600px;
+        width: 100%;
+    }
+    
+    .valeurs-part1 {
+        max-width: 600px;
+        width: 100%;
+    }
+    
+    .programmes {
+        width: 600px;
+    }
+    
+    .programme {
+        max-width: 600px;
+        width: 100%;
+    }
+    
+    .programme-img img {
+        width: 550px;
+    }
+
+    .desc-programmes {
+        display: flex;
+        margin-bottom: 6.5rem;
+        flex-direction: column;
+    }
+
+    .desc {
+        margin-bottom: 1rem;
     }
 }
 
@@ -151,15 +255,11 @@ h1 {
     }
 }
 
-@media only screen and (max-width: 630px) {
-
-    /* ------------------------------ EARTH DAY EVERY DAY ------------------------------*/
+@media only screen and (max-width: 650px) {
     .top-illustration img {
-        max-width: 300px;
-        width: 100%;
-        padding: 0 1rem;
+        width: 300px;
     }
-    
+
     .top-illustration img:first-child {
         border-radius: 100px;
     }
@@ -168,13 +268,61 @@ h1 {
         display: none;
     }
 
+    .top-illustration img:nth-child(3) {
+        display: none;
+    }
+    
     .top-illustration img:last-child {
         display: none;
     }
 
-    .img-principes img {
-        border-radius: 200px;
-        max-width: 560px;
+    .valeurs {
+        max-width: 650px;
         width: 100%;
+    }
+    
+    .valeurs-part1 {
+        max-width: 650px;
+        width: 100%;
+    }
+    
+    .programmes {
+        max-width: 650px;
+        width: 100%;
+    }
+    
+    .programme {
+        max-width: 650px;
+        width: 100%;
+    }
+    
+    .programme-img img {
+        max-width: 650px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .programmes {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .lien-programmes {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .lien-programme {
+        margin: 0 0 1rem 0;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .top-illustration img {
+        max-width: 300px;
+        width: 100%;
+        padding: 0 .5rem;
     }
 }
