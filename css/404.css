@@ -1,0 +1,40 @@
+.erreur-404 a {
+    padding: .5rem 2.5rem;
+    background: #ba83f0;
+    border-radius: 10px;
+    margin: 0 0 4rem 0;
+    transition: .2s;
+}
+
+.erreur-404 a:hover {
+    transform: scale(1.1);
+}
+
+.orange-txt {
+    color: #e77754 !important;
+}
+
+.size-txt {
+    font-size: 2rem !important;
+}
+
+.font-family {
+    font-family: 'Fugaz One', cursive !important;
+}
+
+.erreur-404 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15vh;
+}
+
+.erreur {
+    font-size: 1.8rem !important;
+    margin-bottom: 6rem;
+}
+
+.desc {
+    margin-bottom: 3rem;
+}
