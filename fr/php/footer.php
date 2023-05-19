@@ -4,7 +4,7 @@
         <div class="we-can-do-it">
             <img src="/img/we_can_do_it" alt="illustration 'we can do it'" class="we-can-do-it-img">
             <div class="we-can-do-it-description">
-                <a href="/fr/">En savoir plus sur Climat-2030</a>
+                <a href="/fr/en-savoir-plus.php">En savoir plus sur Climat-2030</a>
             </div>
         </div>
     </div>  

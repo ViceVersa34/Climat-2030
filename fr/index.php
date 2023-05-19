@@ -13,7 +13,7 @@
     <main>
 
     <h1 class="top_txt">Métamorphoser l'humanité en virtuose du climat</h1>
-    <a href="" class="en-savoir-plus">En savoir +</a>
+    <a href="/fr/en-savoir-plus.php" class="en-savoir-plus">En savoir +</a>
 
     <div class="top-illustration">
         <img src="/img/index/earth_day.jpg" alt="Illustration - 'earth day'">
