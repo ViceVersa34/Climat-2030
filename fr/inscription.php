@@ -12,7 +12,7 @@
 
     <main>
 
-    <h1 class="top_txt">L'inscription -<span class="orange-txt size-txt2 font-weight font-family"> Climat-2030</span></h1>
+    <h1 class="top_txt" id="academie-du-climat">L'inscription -<span class="orange-txt size-txt2 font-weight font-family"> Climat-2030</span></h1>
 
     <div class="inscription">
         <div class="academie-du-climat">
@@ -30,13 +30,13 @@
                 <a class="bouton-inscription">S'inscrire</a>
             </div>
             <div class="tarif-pro">
-                <h3>Tarif Professionnel sur devis</h3>
+                <h3 id="exposition">Tarif Professionnel sur devis</h3>
                 <a href="" class="bouton-inscription">Demander un devis</a>
             </div>
         </div>
 
         <div class="exposition">
-            <div class="desc">
+            <div class="desc" id="humour">
                 <h2 class="orange-txt">Exposition "La grande histoire du climat"</h2>
                 <div class="description">Tarif sur devis</div>
             </div>
@@ -56,7 +56,7 @@
                 <h2 class="orange-txt">Social Club</h2>
                 <div class="description">Disponible à l'horizon fin 2023 pour la version Bêta par abonnement annuel : 2,90€/mois/personne.</div>
             </div>
-            <a href="" class="bouton-inscription">Pré-réservation</a>
+            <a href="" class="bouton-inscription" id="social-club">Pré-réservation</a>
         </div>
     </div>
 
