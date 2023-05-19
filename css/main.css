@@ -42,6 +42,32 @@ body {
     }
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 1.5rem;
+}
+
+.en-savoir-plus {
+    padding: .25rem 2.5rem;
+    background: #ba83f0;
+    border-radius: 10px;
+    margin: 2rem 0 4rem 0;
+    transition: .2s;
+}
+
+.en-savoir-plus:hover {
+    transform: scale(1.1);
+}
+
 /* -------------------------------------------------------------------------------- */
 /* ----------------------------------- Nav bar ------------------------------------ */
 /* -------------------------------------------------------------------------------- */
