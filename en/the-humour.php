@@ -12,8 +12,8 @@
 
     <main>
 
-    <h1 class="top_txt">L'humour <span class="orange-txt size-txt2 txt-g font-family">"L'émancipation des femmes & le climat"</span></h1>
-    <a href="/en/sign-up.php#humour" class="en-savoir-plus">Pré-réservation</a>
+    <h1 class="top_txt">Humour <span class="orange-txt size-txt2 txt-g font-family">“Women's Empowerment & Climate”</span></h1>
+    <a href="/en/sign-up.php#humour" class="en-savoir-plus">Pre-booking</a>
 
     <div class="top-illustration">
         <img src="/img/humour/ALONDRA_DE_LA_PARRA.jpg" alt="Illustration humour">
@@ -23,20 +23,21 @@
         <div class="valeurs-part1">
             <div class="principe">
                 <p>
-                    <span class="yello-txt size-txt">Objectif</span><br><br>
-                    Comprendre que lutter contre le réchauffement climatique et l'émancipation des femmes sont liés. Encore trop peu de <span class="yello-txt">femmes sont décisionnaires</span>
-                    des trajectoires à donner à nos sociétés partout dans le monde.<br><br>
-                    Elles doivent avoir le pouvoir de diriger afin de décider et de veiller à préserver notre humanité. Elles doivent faire respecter les droits des Humains
-                    et de tous les vivants dans le monde. Ainsi, nos chances de contenir un réchauffement à 1,50C d'ici 2030 et au delà se multiplieront.<br><br>
-                    Nous avons besoin du regard des femmes sur la conduite de notre futur à mener. Notre futur en dépend.
+                    <span class="yello-txt size-txt">Goal</span><br><br>
+                    Understand that fighting global warming and women's empowerment are linked. Still too few  <span class="yello-txt">women are decision makers</span>
+                    of the trajectories to give to our societies all over the world.<br><br>
+                    They must have the power to lead in order to decide and ensure that our humanity is preserved. They must redefine the essential priorities and 
+                    ensure respect for the rights of human beings and all living beings in the world. This will increase our chances of containing 1.5°C warming by 
+                    2030 and beyond. <br><br>
+                    We need women to look at the conduct of our future. Our future depends on it.
                 </p>
             </div>
             <div class="principe">
                 <p>
-                    <span class="yello-txt size-txt">Comment</span><br><br>
-                    <span class="yello-txt">Spectacle humoristique</span> sur la corrélation entre l'impact du modèle de société patriarcale et le réchauffement climatique. Sous forme de <span class="yello-txt">conférence
-                    ponctuée de musique et de vidéos</span>, menée par une femme en crises. L'idée est de démontrer les bienfaits de l'émancipation des femmes pour notre
-                    futur, sans domination masculine, sans menace climatique et respectueux du Vivant.
+                    <span class="yello-txt size-txt">How</span><br><br>
+                    <span class="yello-txt">Humorous show</span> about the link between the impact of the patriarchal model of society and global warming. The show looks like a 
+                    <span class="yello-txt">conference punctuated with music and videos</span>, led by a woman in crisis. The idea is to demonstrate the benefits of women's 
+                    emancipation for our future, without male domination, without climate threat and respectful of the Living.
                 </p>
             </div>
         </div>
