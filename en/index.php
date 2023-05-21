@@ -12,8 +12,8 @@
 
     <main>
 
-    <h1 class="top_txt">Métamorphoser l'humanité en virtuose du climat</h1>
-    <a href="/en/more-about-climat-2030.php" class="en-savoir-plus">En savoir +</a>
+    <h1 class="top_txt">Metamorphosis humanity into climate virtuosos</h1>
+    <a href="/en/more-about-climat-2030.php" class="en-savoir-plus">Learn more</a>
 
     <div class="top-illustration">
         <img src="/img/index/earth_day.jpg" alt="Illustration - 'earth day'">
@@ -25,17 +25,18 @@
         <div class="valeurs-part1">
             <div class="principe">
                 <p>
-                    <span class="yello-txt size-txt">Pourquoi</span> Si nous arrivons à comprendre le réchauffement climatique, cela changera l'avenir de l'humanité dans le monde.
+                    <span class="yello-txt size-txt">Why</span> If we can figure out climate warming , it will change the future of humanity in the world.
                 </p>
             </div>
             <div class="principe">
                 <p>
-                    <span class="yello-txt size-txt">Comment</span> En mettant l'accent sur <span class="yello-txt">l'émancipation</span> des humains et <span class="yello-txt">des femmes</span> en particulier pour garantir un avenir durable.
+                    <span class="yello-txt size-txt">How</span> We focus on <span class="yello-txt">empowering</span> people and <span class="yello-txt">women</span> 
+                    in particular to fight global warming and ensure a sustainable future.
                 </p>
             </div>
             <div class="principe">
                 <p>
-                    <span class="yello-txt size-txt">Proposition</span> Une éducation aussi puissante qu'originale au climat pour se métamorphoser en virtuose du climat.
+                    <span class="yello-txt size-txt">What</span> We are building smart and powerful climate program to metamorphosis human in climate virtuoso.
                 </p>
             </div>
         </div>
@@ -44,25 +45,26 @@
         <div class="valeurs-part2">
             <div class="principe sl">
                 <p>
-                    <span class="yello-txt size-txt">Vision</span> Un monde où chaque personne a <span class="yello-txt">conscience</span> de la nécessité de limiter le réchauffement climatique à 1,50C d'ici 2030 et au delà. <br>
-                    Pour cela, il faut mettre à disposition de chaque cerveau humain la passion pour l'érudition et la capacité d'innovation pour faire de "2 tonnes de carbone" une habitude de pensée quotidienne.
+                    <span class="yello-txt size-txt">Our vision</span> We see a world where everybody matters of 1,5°C of climate warming limit before 2030  — united 
+                    in the action. Driven by our passion for education and our instinct for innovation, we aim to empower every brain to make 2 tons carbon a daily habit.
                 </p>
             </div>
             <div class="principe sl">
                 <p>
-                    <span class="yello-txt size-txt">Mission</span> Encourager les femmes et les hommes à prendre leur place pour parvenir à contenir l'objectif de réchauffement climatique à 1,50C...en créant 
-                    un programme d'éducation sur le climat pour respecter l'échéance de <span class="yello-txt">l'humanité</span>.
+                    <span class="yello-txt size-txt">Our mission</span> Our mission is to encourage women and men to take the power in containing the climate target of 
+                    1.5°C or less. We do this by creating an innovative global warming education programme to meet humanity's deadline.
                 </p>
             </div>
-            <div class="yello-txt size-txt pr valeur">Valeurs ?</div>
+            <div class="yello-txt size-txt pr valeur">Our values</div>
             <div class="penser-climat">
                 <div class="yello-txt size-txt pr penser-le-climat">Penser le climat</div>
-                <div class="pensee"><span class="yello-txt size-txt pr">C</span> ommencer par soi</div>
-                <div class="pensee"><span class="yello-txt size-txt pr">L</span> ibérer (se) des habitudes passées</div>
-                <div class="pensee"><span class="yello-txt size-txt pr">I</span> nvestir du temps pour s'éduquer</div>
-                <div class="pensee"><span class="yello-txt size-txt pr">M</span> aintenant. Plus tard n'est plus une option</div>
-                <div class="pensee"><span class="yello-txt size-txt pr">A</span> dapter son comportement à l'urgence climatique</div>
-                <div class="pensee"><span class="yello-txt size-txt pr">T</span> riompher collectivement !</div>
+                <div class="pensee"><span class="yello-txt size-txt pr">C</span> ritical</div>
+                <div class="pensee"><span class="yello-txt size-txt pr">L</span> Later is not an option</div>
+                <div class="pensee"><span class="yello-txt size-txt pr">I</span> ndividuals will make the difference</div>
+                <div class="pensee"><span class="yello-txt size-txt pr">M</span> ake choices with climate in mind</div>
+                <div class="pensee"><span class="yello-txt size-txt pr">A</span> act</div>
+                <div class="pensee"><span class="yello-txt size-txt pr">T</span> oo late (before is)</div>
+                <div class="pensee"><span class="yello-txt size-txt pr">T</span> very little bit will help</div>
             </div>
         </div>
     </div>
