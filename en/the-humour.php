@@ -13,7 +13,7 @@
     <main>
 
     <h1 class="top_txt">L'humour <span class="orange-txt size-txt2 txt-g font-family">"L'émancipation des femmes & le climat"</span></h1>
-    <a href="/fr/inscription.php#humour" class="en-savoir-plus">Pré-réservation</a>
+    <a href="/en/sign-up.php#humour" class="en-savoir-plus">Pré-réservation</a>
 
     <div class="top-illustration">
         <img src="/img/humour/ALONDRA_DE_LA_PARRA.jpg" alt="Illustration humour">

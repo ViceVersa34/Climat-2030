@@ -13,7 +13,7 @@
     <main>
 
     <h1 class="top_txt">Le réseau <span class="orange-txt size-txt2 txt-g font-family">Social Club</span></h1>
-    <a href="/fr/inscription.php#social-club" class="en-savoir-plus">Pré-inscription</a>
+    <a href="/en/sign-up.php#social-club" class="en-savoir-plus">Pré-inscription</a>
 
     <div class="top-illustration">
         <img src="/img/social_club/illustration_social_club.png" alt="Illustration social club">

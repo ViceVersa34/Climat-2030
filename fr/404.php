@@ -19,7 +19,7 @@
         <div class="desc">
             Ooops, Il n'y a rien par ici :(
         </div>
-        <a href="/">Retour à l'acceuil</a>
+        <a href="/fr/">Retour à l'acceuil</a>
     </div>
 
     <div class="scrollUp">
