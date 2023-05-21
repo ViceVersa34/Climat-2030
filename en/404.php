@@ -14,12 +14,12 @@
 
     <div class="erreur-404">
         <div class="erreur">
-            Erreur <span class="orange-txt size-txt font-family">404</span> !
+            Error <span class="orange-txt size-txt font-family">404</span> !
         </div>
         <div class="desc">
-            Ooops, Il n'y a rien par ici :(
+            Oops, there's nothing here. :(
         </div>
-        <a href="/en/">Retour à l'acceuil</a>
+        <a href="/en/">Back to homepage</a>
     </div>
 
     <div class="scrollUp">
