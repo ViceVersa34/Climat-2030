@@ -3,7 +3,7 @@
 <head>
     <?php include('php/head.php'); ?>
     <link rel="stylesheet" href="/css/academie-du-climat.css">
-    <title>Climat-2030</title>
+    <title>The climate-2030 academy - Climat-2030</title>
 </head>
 <body id="body">
     <header>

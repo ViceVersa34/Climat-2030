@@ -3,7 +3,7 @@
 <head>
     <?php include('php/head.php'); ?>
     <link rel="stylesheet" href="/css/exposition.css">
-    <title>Climat-2030</title>
+    <title>The Exhibition - Climat-2030</title>
 </head>
 <body id="body">
     <header>
