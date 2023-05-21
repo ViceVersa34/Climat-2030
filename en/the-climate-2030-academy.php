@@ -12,8 +12,8 @@
 
     <main>
 
-    <h1 class="top_txt">Académie du climat-2030</h1>
-    <a href="/en/sign-up.php#academie-du-climat" class="en-savoir-plus">S'inscrire</a>
+    <h1 class="top_txt">The Climate-2030 Academy </h1>
+    <a href="/en/sign-up.php#academie-du-climat" class="en-savoir-plus">Sign up</a>
 
     <div class="top-illustration">
         <img src="/img/academie_du_climat/oiseau.jpg" alt="Illustration - 'oiseau'">
@@ -26,25 +26,25 @@
         <div class="valeurs-part1">
             <div class="principe">
                 <p>
-                    <span class="yello-txt size-txt">Objectif</span> L'académie s'est fixée comme objectif que chaque personne puisse s'éduquer aux enjeux du climat, quelque soit son niveau de connaissances de départ.
+                    <span class="yello-txt size-txt">Aim</span> The academy’s goal is to educate each person about climate issues whatever their level of knowledge.
                 </p>
             </div>
             <div class="principe">
                 <p>
-                    <span class="yello-txt size-txt">Modalités</span><br>
-                    Trois niveaux pour monter en compétence : Débutant, Intermédiaire et Confirmé.<br>
-                    L'académie du climat-2030 favorise l'intelligence collective de groupe.<br>
-                    Les séances mixent le jeu, l'interaction et les données issues du GIEC, de l'ADEME et d'autres organisations scientifiques en lien avec Le Climat.
+                    <span class="yello-txt size-txt">Terms</span><br>
+                    Three levels for proficiency: Beginner, Intermediate and Confirmed.<br>
+                    The climate academy-2030 promotes group collective intelligence.<br>
+                    The sessions combine play, interaction and data from the IPCC, ADEME and other scientific organizations related to Climate.
                 </p>
             </div>
         </div>
         <div class="programmes">
             <div class="desc-programmes">
-                <div class="desc">Programme de formation au climat</div>
+                <div class="desc">Climate Training Program</div>
                 <div class="lien-programmes">
-                    <a href="#levelA" class="lien-programme">Débutant</a>
-                    <a href="#levelB" class="lien-programme">Intermédiaire</a>
-                    <a href="#levelC" class="lien-programme">Confirmé</a>
+                    <a href="#levelA" class="lien-programme">Beginner</a>
+                    <a href="#levelB" class="lien-programme">Intermediate</a>
+                    <a href="#levelC" class="lien-programme">Confirmed</a>
                 </div>
                 <div class="repere" id="levelA"></div>
             </div>
