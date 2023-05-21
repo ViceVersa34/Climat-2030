@@ -9,7 +9,7 @@
         <li class="nav-item"><a href="/en/the-social-club-network.php">The social Club Network</a></li>
         <li class="nav-item"><a href="/en/the-exhibition.php">The Exhibition</a></li>
         <li class="nav-item"><a href="/en/the-humour.php">The Humour</a></li>
-        <li class="nav-item"><a href="/en/sign-up.php">Sign-in</a></li>
+        <li class="nav-item"><a href="/en/sign-up.php">Sign up</a></li>
         <li class="nav-item">
             <ul class="language">
                 <li class="nav-item-language"><a href="/fr/">FR</a></li>
