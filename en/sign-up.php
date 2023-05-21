@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <?php include('php/head.php'); ?>
     <link rel="stylesheet" href="/css/inscription.css">

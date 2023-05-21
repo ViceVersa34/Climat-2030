@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <?php include('php/head.php'); ?>
     <link rel="stylesheet" href="/css/404.css">
