@@ -42,23 +42,23 @@
             <div class="desc-programmes">
                 <div class="desc">Programme de formation au climat</div>
                 <div class="lien-programmes">
-                    <a href="#levelA_fr" class="lien-programme">Débutant</a>
-                    <a href="#levelB_fr" class="lien-programme">Intermédiaire</a>
-                    <a href="#levelC_fr" class="lien-programme">Confirmé</a>
+                    <a href="#levelA" class="lien-programme">Débutant</a>
+                    <a href="#levelB" class="lien-programme">Intermédiaire</a>
+                    <a href="#levelC" class="lien-programme">Confirmé</a>
                 </div>
                 <div class="repere" id="levelA"></div>
             </div>
             <div class="programme">
                 <div class="programme-img">
-                    <img src="/img/academie_du_climat/levelA" alt="Programme niveau débutant">
+                    <img src="/img/academie_du_climat/levelA_fr.png" alt="Programme niveau débutant">
                     <div class="repere" id="levelB"></div>
                 </div>
                 <div class="programme-img">
-                    <img src="/img/academie_du_climat/levelB" alt="Programme niveau intermédiaire">
+                    <img src="/img/academie_du_climat/levelB_fr.png" alt="Programme niveau intermédiaire">
                     <div class="repere" id="levelC"></div>
                 </div>
                 <div class="programme-img">
-                    <img src="/img/academie_du_climat/levelC" alt="Programme niveau confirmé">
+                    <img src="/img/academie_du_climat/levelC_fr.png" alt="Programme niveau confirmé">
                 </div>
             </div>
         </div>
