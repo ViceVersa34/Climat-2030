@@ -180,75 +180,47 @@ main {
 /* -------------------------------------------------------------------------------- */
 
 .footer {
-	margin-top: 2rem;
-}
-
-.footer-top {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.bandeau-contact {
-	margin-top: 3rem;
-	width: 100vw;
-	overflow-x: hidden;
-}
-
-.we-can-do-it {
-	position: absolute;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	border-top: 1px solid rgb(83, 73, 70);
+	padding: 2rem 1.5rem 3rem 1.5rem;
+	justify-content: space-around;
 	align-items: center;
 }
 
-.we-can-do-it-img {
-	width: 175px;
-	border-radius: 100px;
-	margin-bottom: .5rem;
+.left,
+.center,
+.right {
+	margin: 3rem 1rem;
 }
 
-.we-can-do-it-description a {
-	font-size: 1.5rem;
-	font-weight: bold;
-	font-style: italic;
-	color: #e77754;
-	transition: .1s;
+.left img {
+	width: 150px;
+	border-radius: 50%;
 }
 
-.we-can-do-it-description a:hover {
-	color: #fbca38;
-}
-
-.footer-bottom {
+.lien-utile {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	flex-direction: column;
 }
 
-.gen-egal {
-	width: 300px;
-	padding-right: 1.5rem;
-	margin-right: 8vw;
-	right: 0;
+.lien-utile-item {
+	padding: .5rem 1rem;
 }
 
-.mention-legales {
-	padding: 1.5rem;
-	color: #fff
-}
-
-.mention-legales a {
+.lien-utile-item:first-child {
 	color: #e77754;
-	transition: .1s;
+	font-size: 2rem;
+	font-family: 'Fugaz One', cursive;
 }
 
-.mention-legales a:hover {
-	color: #fbca38;
+.label {
+	font-size: 2rem;
 }
 
-
+.label .txt {
+	margin-bottom: 1.5rem;
+}
 
 /* -------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------- */

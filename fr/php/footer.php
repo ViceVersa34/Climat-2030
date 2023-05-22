@@ -1,18 +1,20 @@
 <div class="footer">
-    <div class="footer-top">
-        <img src="/img/contact.png" alt="bandeau contact" class="bandeau-contact">
-        <div class="we-can-do-it">
-            <img src="/img/we_can_do_it" alt="illustration 'we can do it'" class="we-can-do-it-img">
-            <div class="we-can-do-it-description">
-                <a href="/fr/en-savoir-plus.php">En savoir plus sur Climat-2030</a>
-            </div>
+    <div class="left">
+        <img src="/img/we_can_do_it.png" alt="illustration 'we can do it'">
+    </div>
+    <div class="center">
+        <div class="lien-utile">
+            <div class="lien-utile-item">Climat-2030</div>
+            <div class="lien-utile-item"><a href="/fr/en-savoir-plus.php">En savoir plus sur Climat-2030</a></div>
+            <div class="lien-utile-item"><a href="https://www.instagram.com/climat.2030/" target="blank">Instagram</a></div>
+            <div class="lien-utile-item"><a href="https://www.linkedin.com/" target="blank">Linkedin</a></div>
+            <div class="lien-utile-item"><a href="/fr/contact">Contact</a></div>
         </div>
-    </div>  
-    <div class="footer-bottom">
-        <div class="mention-legales">
-            © Climat-2030 - 2023
-            <a href="/fr/mention-legales.php">Mention légales</a>
+    </div>
+    <div class="right">
+        <div class="label">
+            <div class="txt">Label</div>
+            <img src="/img/generation_egalite.svg" alt="logo génération égalité">
         </div>
-        <img src="/img/generation_egalite" alt="logo generation égalité" class="gen-egal">
     </div>
 </div>
