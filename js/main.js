@@ -47,3 +47,27 @@ function tailleCache (){
     alert(largeur);
     alert(cache);
 }
+
+function afficherChamps() {
+    var choix = document.getElementById("choix");
+    var champsQuestion = document.getElementById("champsQuestion");
+    var champsDevis = document.getElementById("champsDevis");
+
+    if (choix.value === "question") {
+        champsQuestion.style.display = "block";
+        champsDevis.style.display = "none";
+    } else if (choix.value === "devis") {
+        champsQuestion.style.display = "none";
+        champsDevis.style.display = "block";
+    } else {
+        champsQuestion.style.display = "none";
+        champsDevis.style.display = "none";
+    }
+}
+
+function compterCaracteres() {
+    var message = document.getElementById("message");
+    var compteur = document.getElementById("compteur");
+    var nombreCaracteres = message.value.length;
+    compteur.textContent = nombreCaracteres + "/500 caractères";
+}

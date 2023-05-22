@@ -1,0 +1,69 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    color: #000000 !important;
+    margin-bottom: 8rem;
+}
+
+label {
+    margin-bottom: 10px;
+    color: #ffffff !important;
+
+}
+
+select,
+input[type="text"],
+input[type="mail"],
+textarea {
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #e77754;
+    background: #272323;
+    margin-bottom: 10px;
+    color: #ffffff !important;
+}
+
+option {
+    background: #272323;
+    color: #ffffff !important;
+}
+
+.compteur {
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #a7a7a7 !important;
+}
+
+input[type="submit"] {
+    background-color: #ba83f0;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ffffff !important;
+}
+
+.mb {
+    margin-bottom: 2rem;
+}
+
+h1 {
+    margin-bottom: 5rem;
+}
+
+.orange-txt {
+    color: #e77754 !important;
+}
+
+.size-txt2 {
+    font-size: 2rem !important;
+}
+
+.font-weight {
+    font-weight: 700 !important;
+}
+
+.font-family {
+    font-family: 'Fugaz One', cursive !important;
+}
