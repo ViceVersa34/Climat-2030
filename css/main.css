@@ -26,6 +26,7 @@ html {
 }
 
 body {
+	/* background: #000000; */
 	background: #161515;
 }
 
@@ -229,6 +230,7 @@ main {
 .gen-egal {
 	width: 300px;
 	padding-right: 1.5rem;
+	margin-right: 8vw;
 	right: 0;
 }
 
