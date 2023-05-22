@@ -52,6 +52,7 @@
 }
 
 .img-principes img {
+    width: 800px;
     border-radius: 200px;
 }
 
@@ -94,12 +95,24 @@
     }
 }
 
+@media only screen and (max-width: 850px) {
+    .img-principes img {
+        width: 700px;
+    }
+}
+
 @media only screen and (max-width: 800px) {
 
     h1 {
         text-align: center;
         width: auto;
         padding: 1rem;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .img-principes img {
+        width: 600px;
     }
 }
 
