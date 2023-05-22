@@ -42,9 +42,9 @@
             <div class="desc-programmes">
                 <div class="desc">Climate Training Program</div>
                 <div class="lien-programmes">
-                    <a href="#levelA" class="lien-programme">Beginner</a>
-                    <a href="#levelB" class="lien-programme">Intermediate</a>
-                    <a href="#levelC" class="lien-programme">Confirmed</a>
+                    <a href="#levelA_en" class="lien-programme">Beginner</a>
+                    <a href="#levelB_en" class="lien-programme">Intermediate</a>
+                    <a href="#levelC_en" class="lien-programme">Confirmed</a>
                 </div>
                 <div class="repere" id="levelA"></div>
             </div>
