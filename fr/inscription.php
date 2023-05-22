@@ -20,7 +20,7 @@
                 <h2 class="orange-txt">Académie du climat 2030</h2>
                 <div class="description"></div>
             </div>
-            <a href="" class="bouton-inscription">Demander un devis</a>
+            <a href="/fr/contact.php" class="bouton-inscription">Demander un devis</a>
         </div>
 
         <div class="exposition">
@@ -28,7 +28,7 @@
                 <h2 class="orange-txt">Exposition "La grande histoire du climat"</h2>
                 <div class="description"></div>
             </div>
-            <a href="" class="bouton-inscription">Demander un devis</a>
+            <a href="/fr/contact.php" class="bouton-inscription">Demander un devis</a>
         </div>
         
         <div class="humour">
@@ -36,7 +36,7 @@
                 <h2 class="orange-txt">Humour "L'émancipation des femmes et le climat"</h2>
                 <div class="description">Disponible à l'horizon fin 2023</div>
             </div>
-            <a href="" class="bouton-inscription">Pré-réservation</a>
+            <a href="/fr/contact.php" class="bouton-inscription">Pré-réservation</a>
         </div>
         
         <div class="social-club">
@@ -44,7 +44,7 @@
                 <h2 class="orange-txt">Social Club</h2>
                 <div class="description">Disponible à l'horizon fin 2023 pour la version Bêta</div>
             </div>
-            <a href="" class="bouton-inscription" id="social-club">Pré-réservation</a>
+            <a href="/fr/contact.php" class="bouton-inscription" id="social-club">Pré-réservation</a>
         </div>
     </div>
 
