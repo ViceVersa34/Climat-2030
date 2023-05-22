@@ -10,30 +10,6 @@
 }
 
 /* ------------------------------ Changement forme txt ------------------------------*/
-.yello-txt {
-    color: #f5f6aa !important;
-}
-
-.orange-txt {
-    color: #e77754 !important;
-}
-
-.size-txt {
-    font-size: 1.25rem !important;
-}
-
-.size-txt2 {
-    font-size: 2rem !important;
-}
-
-.font-weight {
-    font-weight: 700 !important;
-}
-
-.font-family {
-    font-family: 'Fugaz One', cursive !important;
-}
-
 .valeurs {
     display: flex;
     flex-direction: column;

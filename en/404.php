@@ -14,7 +14,7 @@
 
     <div class="erreur-404">
         <div class="erreur">
-            Error <span class="orange-txt size-txt font-family">404</span> !
+            Error <span class="orange-txt size-txt2 font-family">404</span> !
         </div>
         <div class="desc">
             Goodness gracious, there's nothing here !

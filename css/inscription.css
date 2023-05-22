@@ -1,24 +1,4 @@
 /* ------------------------------ Changement forme txt ------------------------------*/
-.orange-txt {
-    color: #e77754 !important;
-}
-
-.size-txt {
-    font-size: 1.25rem !important;
-}
-
-.size-txt2 {
-    font-size: 2rem !important;
-}
-
-.font-weight {
-    font-weight: 700 !important;
-}
-
-.font-family {
-    font-family: 'Fugaz One', cursive !important;
-}
-
 h2 {
     font-weight: 500;
     margin-bottom: 2rem;

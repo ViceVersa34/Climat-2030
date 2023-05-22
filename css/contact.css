@@ -51,19 +51,3 @@ input[type="submit"] {
 h1 {
     margin-bottom: 5rem;
 }
-
-.orange-txt {
-    color: #e77754 !important;
-}
-
-.size-txt2 {
-    font-size: 2rem !important;
-}
-
-.font-weight {
-    font-weight: 700 !important;
-}
-
-.font-family {
-    font-family: 'Fugaz One', cursive !important;
-}

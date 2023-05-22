@@ -18,14 +18,6 @@
 }
 
 /* ------------------------------ Changement forme txt ------------------------------*/
-.yello-txt {
-    color: #f5f6aa !important;
-}
-
-.size-txt {
-    font-size: 1.25rem !important;
-}
-
 .valeurs {
     display: flex;
     flex-direction: column;
