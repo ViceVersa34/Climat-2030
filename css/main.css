@@ -16,13 +16,17 @@
 	color: #fff;
 }
 
+*::selection {
+    color: #000;
+    background: #fbca38;
+}
+
 html {
 	scroll-behavior: smooth;
 }
 
 body {
 	background: #161515;
-	/* overflow-x: hidden; */
 }
 
 .scrollUp {
@@ -32,14 +36,14 @@ body {
     opacity: 0.5;
 	transition: .2s;
     
-    &:hover {
-        opacity: 1;
-    }
+}
+.scrollUp:hover {
+	opacity: 1;
+}
 
-    & img {
-        max-width: 3rem;
-        width: 100%;
-    }
+.scrollUp img {
+	max-width: 3rem;
+	width: 100%;
 }
 
 main {
