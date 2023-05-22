@@ -17,7 +17,7 @@
             Error <span class="orange-txt size-txt font-family">404</span> !
         </div>
         <div class="desc">
-            Goodness, there's nothing here. :(
+            Goodness gracious, there's nothing here !
         </div>
         <a href="/en/">Back to homepage</a>
     </div>

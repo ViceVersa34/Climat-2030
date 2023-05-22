@@ -17,7 +17,7 @@
             Erreur <span class="orange-txt size-txt font-family">404</span> !
         </div>
         <div class="desc">
-            Saperlipopette, Il n'y a rien par ici :(
+            Saperlipopette, Il n'y a rien par ici !
         </div>
         <a href="/fr/">Retour à l'accueil</a>
     </div>

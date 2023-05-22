@@ -10,10 +10,7 @@
     </div>  
     <div class="footer-bottom">
         <div class="mention-legales">
-            Ce site est édité et publier par <br> 
-            Estelle Couderc-Doat [Tout droits réservés] <br> 
-            © Climat-2030 <br> 
-            2023 <br>
+            © Climat-2030 - 2023
             <a href="/fr/mention-legales.php">Mention légales</a>
         </div>
         <img src="/img/generation_egalite" alt="logo generation égalité" class="gen-egal">
