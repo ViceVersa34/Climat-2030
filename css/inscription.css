@@ -39,6 +39,10 @@ h3 {
     padding: 0 2rem;
 }
 
+.academie-du-climat {
+    margin-top: 10rem;
+}
+
 .exposition {
     margin-top: 10rem;
 }
@@ -75,8 +79,7 @@ h3 {
 }
 
 
-.tarif-public, 
-.tarif-pro, 
+.academie-du-climat, 
 .exposition, 
 .humour, 
 .social-club {
@@ -111,8 +114,7 @@ h3 {
 }
 
 @media only screen and (max-width: 650px) {
-    .tarif-public, 
-    .tarif-pro, 
+    .academie-du-climat, 
     .exposition, 
     .humour, 
     .social-club {

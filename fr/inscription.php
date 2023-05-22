@@ -14,15 +14,15 @@
 
     <h1 class="top_txt" id="academie-du-climat">L'inscription -<span class="orange-txt size-txt2 font-weight font-family"> Climat-2030</span></h1>
 
-    <div class="inscription">
+    <div class="inscription">        
         <div class="academie-du-climat">
-            <h2 class="orange-txt">Académie du climat 2030</h2>
-            <div class="tarif-pro">
-                <h3 id="exposition"></h3>
-                <a href="" class="bouton-inscription">Demander un devis</a>
+            <div class="desc" id="humour">
+                <h2 class="orange-txt">Académie du climat 2030</h2>
+                <div class="description"></div>
             </div>
+            <a href="" class="bouton-inscription">Demander un devis</a>
         </div>
-        
+
         <div class="exposition">
             <div class="desc" id="humour">
                 <h2 class="orange-txt">Exposition "La grande histoire du climat"</h2>
