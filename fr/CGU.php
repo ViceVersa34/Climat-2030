@@ -89,7 +89,7 @@
                     de suppression et d'opposition de ses données personnelles. L'Utilisateur exerce ce droit via :
                     <ul>
                         <li>Le formulaire de contact</li>
-                        <li>-------------------- Par mail à hello [at] climat-2030.org --------------------</li>
+                        <li>Par mail à contact@climat-2030.org</li>
                     </ul>
                 </div>
             </div>

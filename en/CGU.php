@@ -72,7 +72,7 @@
                     The User must provide personal information to send a message via the Contact page. The electronic address (e-mail) of the user may in particular be used by the climat-2030.org site for the communication of various information and the management of the account. climat-2030.org guarantees the respect of the privacy of the user, in accordance with the law n°78-17 of January 6, 1978 relating to data processing, files and freedoms. Under articles 39 and 40 of the French law dated January 6, 1978, the User has a right of access, rectification, deletion and opposition of his personal data. The User exercises this right via:
                     <ul>
                         <li>The contact form</li>
-                        <li>-------------------- By email to hello [at] climat-2030.org --------------------</li>
+                        <li>By email to contact@climat-2030.org</li>
                     </ul>
                 </div>
             </div>
