@@ -13,114 +13,93 @@
     <main>
 
     <div class="CGU">
-        <h1 class="top_txt">Conditions générales d'utilisation du site <span class="orange-txt size-txt2 txt-g font-family">climat-2030.org</span></h1>
+        <h1 class="top_txt">General terms and conditions of use of the <span class="orange-txt size-txt2 txt-g font-family">climat-2030.org</span> website</h1>
         
         <div class="articles">
             <div class="article">
-                <div class="titre-article">ARTICLE 1 : Objet</div>
+                <div class="titre-article">ARTICLE 1 : object</div>
                 <div class="texte-article">
-                    Les présentes « conditions générales d'utilisation » ont pour objet l'encadrement juridique de l'utilisation du 
-                    site climat-2030.org et de ses services. <br>
-                    Ce contrat est conclu entre :
+                    The purpose of these "general terms and conditions of use" is to provide a legal framework for the use of the climat-2030.org site and its services. <br>
+                    This contract is concluded between:
                     <ul>
-                        <li>Le gérant du site internet, ci-après désigné « l'Éditeur »,</li>
-                        <li>Toute personne physique ou morale souhaitant accéder au site et à ses services, ci-après appelé « l'Utilisateur ».</li>
+                        <li>The manager of the website, hereinafter referred to as "the Publisher",</li>
+                        <li>Any natural or legal person wishing to access the site and its services, hereinafter called "the User".</li>
                     </ul>
-                    Les conditions générales d'utilisation doivent être acceptées par tout Utilisateur, et son accès au site vaut 
-                    acceptation de ces conditions.
+                    The general conditions of use must be accepted by any User, and his access to the site constitutes acceptance of these conditions.
                 </div>
             </div>
             <div class="article">
-                <div class="titre-article">ARTICLE 2 : Mentions légales</div>
+                <div class="titre-article">ARTICLE 2 : Legal notices</div>
                 <div class="texte-article">
-                    Le site climat-2030.org est édité par la société LCNTR, SAS au capital de 10 0000€, dont le siège social est situé 
-                    au 17 rue Marceau, 34000 Montpellier. <br>
-                    La société est représentée par Estelle Couderc-Doat.
+                    The climat-2030.org site is published by Climat-2030, whose head office is located at 17 rue Marceau, 34000 Montpellier, France. <br>
+                    The company is represented by Estelle Couderc-Doat.
                 </div>
             </div>
             <div class="article">
-                <div class="titre-article">ARTICLE 3 : Accès au site et services</div>
+                <div class="titre-article">ARTICLE 3 : Access to the site and services</div>
                 <div class="texte-article">
-                    Tout Utilisateur ayant accès à internet peut accéder gratuitement et depuis n'importe où au site. Les frais supportés 
-                    par l'Utilisateur pour y accéder (connexion internet, matériel informatique, etc.) ne sont pas à la charge de l'Éditeur. <br>
-                    Le site et les éventuels services auquel celui-ci pourrait donner accès peuvent être interrompus ou suspendus par l'Éditeur, 
-                    notamment à l'occasion d'une maintenance, sans obligation de préavis ou de justification. <br>
+                    Any User with internet access can access the site free of charge and from anywhere. The costs incurred by the User to access it (internet connection, computer equipment, etc.) are not the responsibility of the Publisher. <br>
+                    The site and any services to which it may give access may be interrupted or suspended by the Publisher, in particular during maintenance, without obligation of notice or justification.
                 </div>
             </div>
             <div class="article">
-                <div class="titre-article">ARTICLE 4 : Responsabilité de l'Utilisateur</div>
+                <div class="titre-article">ARTICLE 4 : Responsibility of the User</div>
                 <div class="texte-article">
-                    L'Utilisateur assume l'entière responsabilité de l'utilisation qu'il fait des informations et contenus présents sur le 
-                    site climat-2030.org. <br>
-                    Tout usage du service par l'Utilisateur ayant directement ou indirectement pour conséquence des dommages doit faire l'objet 
-                    d'une indemnisation au profit du site. <br>
+                    The User assumes full responsibility for the use he makes of the information and content present on the climat-2030.org website. <br>
+                    Any use of the service by the User resulting directly or indirectly in damage must be subject to compensation for the benefit of the site.
                 </div>
             </div>
             <div class="article">
-                <div class="titre-article">ARTICLE 5 : Responsabilité de l'Éditeur</div>
+                <div class="titre-article">ARTICLE 5 : Liability of the Publisher</div>
                 <div class="texte-article">
-                    Tout dysfonctionnement du serveur ou du réseau ne peut engager la responsabilité de l'Éditeur. <br>
-                    De même, la responsabilité du site ne peut être engagée en cas de force majeure ou du fait imprévisible et insurmontable d'un tiers. <br>
-                    Le site climat-2030.org s'engage à mettre en œuvre tous les moyens nécessaires pour garantir la sécurité et la confidentialité des 
-                    données. Toutefois, il n'apporte pas une garantie de sécurité totale. <br>
-                    L'Éditeur se réserve la faculté d'une non-garantie de la fiabilité des sources, bien que les informations diffusées sur le 
-                    site soient réputées fiables. <br>
+                    Any malfunction of the server or the network cannot engage the responsibility of the Publisher. <br>
+                    Similarly, the site cannot be held liable in the event of force majeure or the unforeseeable and insurmountable act of a third party. <br>
+                    The climat-2030.org site undertakes to implement all necessary means to guarantee the security and confidentiality of data. However, it does not provide a guarantee of total security. <br>
+                    The Publisher reserves the right to not guarantee the reliability of the sources, although the information disseminated on the site is deemed reliable.
                 </div>
             </div>
             <div class="article">
-                <div class="titre-article">ARTICLE 6 : Propriété intellectuelle</div>
+                <div class="titre-article">ARTICLE 6 : Intellectual property</div>
                 <div class="texte-article">
-                    Les contenus du site climat-2030.org (logos, textes, éléments graphiques, vidéos, etc.) sont protégés par le droit d'auteur, en 
-                    vertu du Code de la propriété intellectuelle. <br>  
-                    L'Utilisateur devra obtenir l'autorisation de l'éditeur du site avant toute reproduction, copie ou publication de ces différents 
-                    contenus. <br>
-                    Ces derniers peuvent être utilisés par les utilisateurs à des fins privées ; tout usage commercial est interdit.
+                    The contents of the climat-2030.org site (logos, texts, graphic elements, videos, etc.) are protected by copyright, under the Intellectual Property Code. <br>  
+                    The User must obtain the authorization of the publisher of the site before any reproduction, copy or publication of these various contents. <br>
+                    These can be used by users for private purposes; any commercial use is prohibited.
                 </div>
             </div>
             <div class="article">
                 <div class="titre-article">ARTICLE 7 : Données personnelles</div>
                 <div class="texte-article">
-                    L'Utilisateur doit obligatoirement fournir des informations personnelles pour envoyer un message via la page Contact. <br>
-                    L'adresse électronique (e-mail) de l'utilisateur pourra notamment être utilisée par le site climat-2030.org pour la communication 
-                    d'informations diverses et la gestion du compte. <br>
-                    climat-2030.org garantit le respect de la vie privée de l'utilisateur, conformément à la loi n°78-17 du 6 janvier 1978 relative 
-                    à l'informatique, aux fichiers et aux libertés. <br>
-                    En vertu des articles 39 et 40 de la loi en date du 6 janvier 1978, l'Utilisateur dispose d'un droit d'accès, de rectification, 
-                    de suppression et d'opposition de ses données personnelles. L'Utilisateur exerce ce droit via :
+                    The User must provide personal information to send a message via the Contact page. The electronic address (e-mail) of the user may in particular be used by the climat-2030.org site for the communication of various information and the management of the account. climat-2030.org guarantees the respect of the privacy of the user, in accordance with the law n°78-17 of January 6, 1978 relating to data processing, files and freedoms. Under articles 39 and 40 of the French law dated January 6, 1978, the User has a right of access, rectification, deletion and opposition of his personal data. The User exercises this right via:
                     <ul>
-                        <li>Le formulaire de contact</li>
-                        <li>-------------------- Par mail à hello [at] climat-2030.org --------------------</li>
+                        <li>The contact form</li>
+                        <li>-------------------- By email to hello [at] climat-2030.org --------------------</li>
                     </ul>
                 </div>
             </div>
             <div class="article">
-                <div class="titre-article">ARTICLE 8 : Liens hypertextes</div>
+                <div class="titre-article">ARTICLE 8 : Hypertext links</div>
                 <div class="texte-article">
-                    Les domaines vers lesquels mènent les liens hypertextes présents sur le site n'engagent pas la responsabilité de l'Éditeur 
-                    de climat-2030.org, qui n'a pas de contrôle sur ces liens. <br>
-                    Il est possible pour un tiers de créer un lien vers une page du site climat-2030.org sans autorisation expresse de l'éditeur.
+                    The domains to which the hypertext links on the site lead do not engage the responsibility of the Publisher of climat-2030.org, which has no control over these links. <br>
+                    It is possible for a third party to create a link to a page on the climat-2030.org site without the express authorization of the publisher.
                 </div>
             </div>
             <div class="article">
-                <div class="titre-article">ARTICLE 9 : Évolution des conditions générales d'utilisation</div>
+                <div class="titre-article">ARTICLE 9 : Evolution of the general conditions of use</div>
                 <div class="texte-article">
-                    Le site climat-2030.org se réserve le droit de modifier les clauses de ces conditions générales d'utilisation à tout moment 
-                    et sans justification.
+                    The climat-2030.org site reserves the right to modify the clauses of these general conditions of use at any time and without justification.
                 </div>
             </div>
             <div class="article">
-                <div class="titre-article">ARTICLE 10 : Durée du contrat</div>
+                <div class="titre-article">ARTICLE 10 : Duration of the contract</div>
                 <div class="texte-article">
-                    La durée du présent contrat est indéterminée. Le contrat produit ses effets à l'égard de l'Utilisateur à compter du début de 
-                    l'utilisation du service.
+                    The duration of this contract is indefinite. The contract takes effect with respect to the User from the start of the use of the service.
                 </div>
             </div>
             <div class="article">
-                <div class="titre-article">ARTICLE 11 : Droit applicable et juridiction compétente</div>
+                <div class="titre-article">ARTICLE 11 : Applicable law and competent jurisdiction</div>
                 <div class="texte-article">
-                    Le présent contrat dépend de la législation française. <br>
-                    En cas de litige non résolu à l'amiable entre l'Utilisateur et l'Éditeur, les tribunaux de Bourges sont compétents pour régler 
-                    le contentieux.
+                    This contract depends on French legislation. <br>
+                    In the event of a dispute not resolved amicably between the User and the Publisher, the courts of Bourges are competent to settle the dispute.
                 </div>
             </div>
         </div>
