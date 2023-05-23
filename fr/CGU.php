@@ -44,7 +44,7 @@
                     Tout Utilisateur ayant accès à internet peut accéder gratuitement et depuis n'importe où au site. Les frais supportés 
                     par l'Utilisateur pour y accéder (connexion internet, matériel informatique, etc.) ne sont pas à la charge de l'Éditeur. <br>
                     Le site et les éventuels services auquel celui-ci pourrait donner accès peuvent être interrompus ou suspendus par l'Éditeur, 
-                    notamment à l'occasion d'une maintenance, sans obligation de préavis ou de justification. <br>
+                    notamment à l'occasion d'une maintenance, sans obligation de préavis ou de justification.
                 </div>
             </div>
             <div class="article">
@@ -53,7 +53,7 @@
                     L'Utilisateur assume l'entière responsabilité de l'utilisation qu'il fait des informations et contenus présents sur le 
                     site climat-2030.org. <br>
                     Tout usage du service par l'Utilisateur ayant directement ou indirectement pour conséquence des dommages doit faire l'objet 
-                    d'une indemnisation au profit du site. <br>
+                    d'une indemnisation au profit du site.
                 </div>
             </div>
             <div class="article">
@@ -64,7 +64,7 @@
                     Le site climat-2030.org s'engage à mettre en œuvre tous les moyens nécessaires pour garantir la sécurité et la confidentialité des 
                     données. Toutefois, il n'apporte pas une garantie de sécurité totale. <br>
                     L'Éditeur se réserve la faculté d'une non-garantie de la fiabilité des sources, bien que les informations diffusées sur le 
-                    site soient réputées fiables. <br>
+                    site soient réputées fiables.
                 </div>
             </div>
             <div class="article">
