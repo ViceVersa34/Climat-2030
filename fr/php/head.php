@@ -13,3 +13,4 @@ wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,4
 <link rel="stylesheet" href="/css/main.css">
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script src="/js/main.js"></script>
+<link rel="icon" href="/img/logo.svg">
