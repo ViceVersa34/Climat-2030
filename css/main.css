@@ -373,7 +373,7 @@ main {
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: start;
-		padding: 4rem 1.5rem 100vh 3rem;
+		padding: 4rem 1.5rem 100vh 2rem;
 		position: absolute;
 		top: 0;
 		left: -20rem;
