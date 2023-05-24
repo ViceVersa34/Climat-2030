@@ -384,6 +384,8 @@ main {
 	.nav-item {
 		padding: 1.5rem 0;
 		border-top: none;
+		transition: 0;
+		border-top: solid 1px #1d1919;
 	}
 	
 	.nav-item:hover {
@@ -403,6 +405,7 @@ main {
 		padding: .5rem 1rem;
 		transition: .2s;
 		border-top: none;
+		border-top: solid 1px #1d1919;
 	}
 	
 	.nav-item-language:hover {
@@ -426,6 +429,13 @@ main {
 		background: none;
 		z-index: 10;
 		transition: 2s;
+	}
+
+	.nav-item:hover {
+		border-top: solid 1px #1d1919;
+	}
+	.nav-item-language:hover {
+		border-top: solid 1px #1d1919;
 	}
 
 

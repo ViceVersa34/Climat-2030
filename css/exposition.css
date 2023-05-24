@@ -44,3 +44,9 @@
     margin-bottom: 1.25rem;
     text-align: justify;
 }
+
+@media only screen and (max-width: 1200px) {
+    .menu-exposition{
+        border-top: solid 1px #1d1919;
+    }
+}

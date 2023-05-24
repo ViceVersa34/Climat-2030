@@ -163,6 +163,10 @@
 }
 
 @media only screen and (max-width: 1280px) {
+    .menu-academie-du-climat{
+        border-top: solid 1px #1d1919;
+    }
+
     /* ------------------------------ OISEAU ------------------------------*/
     .top-illustration img {
         width: 300px;

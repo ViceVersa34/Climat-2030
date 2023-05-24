@@ -44,6 +44,12 @@
     text-align: justify;
 }
 
+@media only screen and (max-width: 1200px) {
+    .menu-humour{
+        border-top: solid 1px #1d1919;
+    }
+}
+
 @media only screen and (max-width: 900px) {
     .top-illustration img {
         max-width: 800px;
