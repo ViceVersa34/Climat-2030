@@ -53,28 +53,19 @@
 
 .programmes {
     padding: 0 1.5rem;
-    width: 1100px;
+    max-width: 1100px;
+    width: 100%;
+    margin: 3rem 0;
 }
 
 .programme {
     max-width: 1100px;
     width: 100%;
-}
-
-.desc-programmes {
-    display: flex;
-    margin-bottom: 6.5rem;
-}
+} 
 
 .desc-programmes .desc {
     color: #f5f6aa !important;
     font-size: 1.25rem !important;
-}
-
-.desc-programmes .lien-programme {
-    color: #e77754 !important;
-    font-size: 1.1rem;
-    margin-left: 3rem;
 }
 
 .normal {
@@ -85,17 +76,82 @@
     display: none;
 }
 
-.programme-img {
+.desc-programmes {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 8rem;
+    max-width: 1500px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5rem;
 }
 
-.programme-img img {
-    width: 1000px;
-    border-radius: 75px;
+.desc-programmes .lien-programmes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.desc-programmes .lien-programme {
+    color: #e77754 !important;
+    font-size: 1.1rem;
+    margin-left: 1.5rem;
+}
+
+.level {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 6rem;
+    background: #ecdcce;
+    border-radius: 125px;
+    max-width: 1050px;
+    width: 100%;
+}
+
+.level .txt {
+    max-width: 500px;
+    width: 100%;
+    padding: 1rem;
+}
+
+.level p {
+    color: #000;
+}
+
+.level img {
+    max-width: 300px;
+    width: 100%;
+    margin-left: 2rem;
+}
+.level-content {
+    margin-bottom: 1rem;
+}
+
+.duree {
+    margin-bottom: 0;
+}
+
+.titre p {
+    color: #3c491b;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.level-content p span {
+    color: #3c491b;
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+.A p span,
+.B p span,
+.C p span {
+    font-size: .75rem !important;
+}
+
+.A,
+.B,
+.C {
+    font-size: .75rem;
 }
 
 .repere {
@@ -135,19 +191,6 @@
         max-width: 800;
         width: 100%;
     }
-    
-    .programmes {
-        width: 800px;
-    }
-    
-    .programme {
-        max-width: 800px;
-        width: 100%;
-    }
-    
-    .programme-img img {
-        width: 700px;
-    }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -158,7 +201,7 @@
     .responsive {
         display: block;
     }
-    
+
 }
 
 @media only screen and (max-width: 950px) {
@@ -194,37 +237,30 @@
         max-width: 600px;
         width: 100%;
     }
-    
-    .programmes {
-        width: 600px;
-    }
-    
-    .programme {
-        max-width: 600px;
-        width: 100%;
-    }
-    
-    .programme-img img {
-        width: 550px;
-    }
-
-    .desc-programmes {
-        display: flex;
-        margin-bottom: 6.5rem;
-        flex-direction: column;
-    }
-
-    .desc {
-        margin-bottom: 1rem;
-    }
 }
 
 @media only screen and (max-width: 800px) {
-
     h1 {
         text-align: center;
         width: auto;
         padding: 1rem;
+    }
+
+    .desc-programmes {
+        flex-direction: column;
+    }
+
+    .desc-programmes .lien-programmes {
+        margin-top: 1rem;
+    }
+
+    .level img {
+        display: none;
+    }
+
+    .level {
+        padding: 1.5rem 4rem;
+        border-radius: 125px;
     }
 }
 
@@ -258,37 +294,22 @@
         max-width: 650px;
         width: 100%;
     }
-    
-    .programmes {
-        max-width: 650px;
-        width: 100%;
-    }
-    
-    .programme {
-        max-width: 650px;
-        width: 100%;
-    }
-    
-    .programme-img img {
-        max-width: 650px;
-        width: 100%;
+}
+
+@media only screen and (max-width: 550px) {
+    .level {
+        padding: 1.5rem 2rem;
+        border-radius: 100px;
     }
 }
 
-@media only screen and (max-width: 520px) {
-    .programmes {
-        padding: 0;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    .lien-programmes {
-        display: flex;
+@media only screen and (max-width: 400px) {
+    .desc-programmes .lien-programmes {
         flex-direction: column;
     }
-    
-    .lien-programme {
-        margin: 0 0 1rem 0;
+
+    .desc-programmes .lien-programme {
+        margin-top: 1rem;
     }
 }
 
@@ -297,5 +318,12 @@
         max-width: 300px;
         width: 100%;
         padding: 0 .5rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .level {
+        padding: 1rem 1rem;
+        border-radius: 75px;
     }
 }
