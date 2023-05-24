@@ -29,8 +29,7 @@ $url = MAPPING[$url];
         <li class="nav-item menu-social-club"><a href="/fr/social-club.php">Le Social Club</a></li>
         <li class="nav-item menu-exposition"><a href="/fr/exposition.php">L'exposition</a></li>
         <li class="nav-item menu-humour"><a href="/fr/humour.php">L'humour</a></li>
-        <!-- <li class="nav-item menu-inscription"><a href="/fr/inscription.php">S'inscrire</a></li> -->
-        <li class="nav-item menu-inscription"><a href="/fr/inscription.php"><?php echo $url; ?></a></li>
+        <li class="nav-item menu-inscription"><a href="/fr/inscription.php">S'inscrire</a></li>
         <li class="nav-item">
             <ul class="language">
                 <li class="nav-item-language active"><a href="<?php echo $url; ?>">FR</a></li>
