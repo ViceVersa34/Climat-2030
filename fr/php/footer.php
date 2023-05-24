@@ -21,8 +21,8 @@
     </div>
     <div class="bottom">
         <div class="line"></div>
-        <a class="legal" href="/fr/CGU.php">
-            © Climat-2030 | Estelle Couderc-Doat - 2023
-        </a>
+        <div class="legal">
+            <a href="/en/CGU.php">© Climat-2030 | Estelle Couderc-Doat - 2023</a>
+        </div>
     </div>
 </div>
