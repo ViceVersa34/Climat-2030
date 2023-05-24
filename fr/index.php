@@ -44,13 +44,13 @@
         <div class="valeurs-part2">
             <div class="principe sl">
                 <p>
-                    <span class="yello-txt size-txt">Vision</span> Un monde où chaque personne a <span class="yello-txt">conscience</span> de la nécessité de limiter le réchauffement climatique à 1,50C d'ici 2030 et au delà. <br>
+                    <span class="yello-txt size-txt">Vision</span> Un monde où chaque personne a <span class="yello-txt">conscience</span> de la nécessité de limiter le réchauffement climatique à 1,5°C d'ici 2030 et au delà. <br>
                     Pour cela, il faut mettre à disposition de chaque cerveau humain la passion pour l'érudition et la capacité d'innovation pour faire de "2 tonnes de carbone" une habitude de pensée quotidienne.
                 </p>
             </div>
             <div class="principe sl">
                 <p>
-                    <span class="yello-txt size-txt">Mission</span> Encourager les femmes et les hommes à prendre leur place pour parvenir à contenir l'objectif de réchauffement climatique à 1,50C...en créant 
+                    <span class="yello-txt size-txt">Mission</span> Encourager les femmes et les hommes à prendre leur place pour parvenir à contenir l'objectif de réchauffement climatique à 1,5°C...en créant 
                     un programme d'éducation sur le climat pour respecter l'échéance de <span class="yello-txt">l'humanité</span>.
                 </p>
             </div>

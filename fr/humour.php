@@ -27,7 +27,7 @@
                     Comprendre que lutter contre le réchauffement climatique et l'émancipation des femmes sont liés. Encore trop peu de <span class="yello-txt">femmes sont décisionnaires</span>
                     des trajectoires à donner à nos sociétés partout dans le monde.<br><br>
                     Elles doivent avoir le pouvoir de diriger afin de décider et de veiller à préserver notre humanité. Elles doivent faire respecter les droits des Humains
-                    et de tous les vivants dans le monde. Ainsi, nos chances de contenir un réchauffement à 1,50C d'ici 2030 et au delà se multiplieront.<br><br>
+                    et de tous les vivants dans le monde. Ainsi, nos chances de contenir un réchauffement à 1,5°C d'ici 2030 et au delà se multiplieront.<br><br>
                     Nous avons besoin du regard des femmes sur la conduite de notre futur à mener. Notre futur en dépend.
                 </p>
             </div>

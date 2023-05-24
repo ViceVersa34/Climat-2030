@@ -29,7 +29,7 @@
             <div class="principe">
                 <p>
                     <span class="yello-txt size-txt">Comment</span> Exposition de frises chronologiques expliquant les mécanismes historiques, politiques, économiques, scientifiques
-                    et artistiques qui ont conduit à notre situation actuelle où contenir le réchauffement climatique à 1,50C d'ici 2030 et au delà est devenu une nécessité absolue.
+                    et artistiques qui ont conduit à notre situation actuelle où contenir le réchauffement climatique à 1,5°C d'ici 2030 et au delà est devenu une nécessité absolue.
                 </p>
             </div>
         </div>

@@ -34,13 +34,13 @@
             <div class="principe">
                 <p>
                     <span class="yello-txt size-txt">Pourquoi un réseau social</span> Créer du lien entre virtuoses du climat est ressenti comme nécessaire pour se motiver, 
-                    se soutenir pour contenir le réchauffement climatique à 1,50C à l'horizon 2030 et au delà.
+                    se soutenir pour contenir le réchauffement climatique à 1,5°C à l'horizon 2030 et au delà.
                 </p>
             </div>
             <div class="principe">
                 <p>
                     <span class="yello-txt size-txt">Se connecter</span> Pour rester proches à distance. Pour s'inspirer mutuellement ou agir ensemble, réuni.e.s par leur 
-                    talent et leur volonté de contenir le réchauffement climatique à 1,50C à l'horizon 2030 et au delà.
+                    talent et leur volonté de contenir le réchauffement climatique à 1,5°C à l'horizon 2030 et au delà.
                 </p>
             </div>
         </div>
