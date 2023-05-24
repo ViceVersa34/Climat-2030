@@ -9,7 +9,7 @@
                 <div class="lien-utile-item"><a href="/en/en-savoir-plus.php">Learn more about Climat-2030</a></div>
                 <div class="lien-utile-item"><a href="https://www.instagram.com/climat.2030/" target="blank">Instagram</a></div>
                 <div class="lien-utile-item"><a href="https://www.linkedin.com/" target="blank">Linkedin</a></div>
-                <div class="lien-utile-item"><a href="/en/contact">Contact</a></div>
+                <div class="lien-utile-item"><a href="/en/contact.php">Contact</a></div>
             </div>
         </div>
         <div class="right">
