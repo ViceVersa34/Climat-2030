@@ -141,9 +141,10 @@ header {
 }
 
 .nav-item {
-	padding: .5rem 3rem;
 	transition: .2s;
 	border-top: solid 1px #161515;
+	padding-top: .5rem;
+	margin: 0 1rem;
 }
 
 .nav-item:hover {
@@ -164,6 +165,7 @@ header {
 	color: #fff;
 	font-size: 1rem;
 	font-family: 'Inter', sans-serif;
+	padding: 0 1rem;
 }
 
 .language {
@@ -173,9 +175,10 @@ header {
 }
 
 .nav-item-language {
-	padding: .5rem 1rem;
 	transition: .2s;
 	border-top: solid 1px #161515;
+	padding-top: .5rem;
+	margin: 0 .5rem;
 }
 
 .nav-item-language:hover {
@@ -185,6 +188,7 @@ header {
 .nav-item-language a {
 	color: #fff;
 	font-size: 1rem;
+	padding: .5rem .75rem;
 }
 
 .active {
@@ -269,7 +273,12 @@ main {
 @media only screen and (max-width: 1500px) {
 	/* --------------------- Header ----------------------- */
 	.nav-item {
-		padding: .5rem 2rem;
+		padding-top: .5rem;
+		margin: 0 1rem;
+	}
+
+	.nav-item a {
+		padding: 0 1rem;
 	}
 	
 	/* --------------------- Footer ----------------------- */
@@ -287,7 +296,12 @@ main {
 @media only screen and (max-width: 1400px) {
 	/* --------------------- Header ----------------------- */
 	.nav-item {
-		padding: .5rem 1rem;
+		padding-top: .5rem;
+		margin: 0 .75rem;
+	}
+
+	.nav-item a {
+		padding: 0 .75rem;
 	}
 	
 	.nav-item:last-child {
@@ -296,7 +310,8 @@ main {
 	}
 	
 	.nav-item-language {
-		padding: .5rem .75rem;
+		padding-top: .5rem;
+		margin: 0 .5rem;
 	}
 	
 }
