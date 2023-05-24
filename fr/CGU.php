@@ -33,7 +33,7 @@
             <div class="article">
                 <div class="titre-article">ARTICLE 2 : Mentions légales</div>
                 <div class="texte-article">
-                    Le site climat-2030.org est édité par la société LCNTR, SAS au capital de 10 0000€, dont le siège social est situé 
+                    Le site climat-2030.org est édité par la société Climat-2030, dont le siège social est situé 
                     au 17 rue Marceau, 34000 Montpellier. <br>
                     La société est représentée par Estelle Couderc-Doat.
                 </div>
@@ -119,7 +119,7 @@
                 <div class="titre-article">ARTICLE 11 : Droit applicable et juridiction compétente</div>
                 <div class="texte-article">
                     Le présent contrat dépend de la législation française. <br>
-                    En cas de litige non résolu à l'amiable entre l'Utilisateur et l'Éditeur, les tribunaux de Bourges sont compétents pour régler 
+                    En cas de litige non résolu à l'amiable entre l'Utilisateur et l'Éditeur, les tribunaux de Montpellier sont compétents pour régler 
                     le contentieux.
                 </div>
             </div>

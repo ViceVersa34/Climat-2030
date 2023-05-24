@@ -14,7 +14,7 @@
         </div>
         <div class="right">
             <div class="label">
-                <div class="txt">Label</div>
+                <div class="txt orange-txt size-txt2 txt-g font-family">Label</div>
                 <img src="/img/generation_egalite.svg" alt="logo génération égalité">
             </div>
         </div>
@@ -22,7 +22,7 @@
     <div class="bottom">
         <div class="line"></div>
         <a class="legal" href="/fr/CGU.php">
-            © Climat-2030 - 2023 | Estelle Couderc-Doat
+            © Climat-2030 | Estelle Couderc-Doat - 2023
         </a>
     </div>
 </div>
