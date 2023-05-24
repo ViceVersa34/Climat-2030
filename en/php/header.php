@@ -14,7 +14,7 @@ const MAPPING = [
     "/en/the-social-club-network.php" => "/fr/social-club.php"
 ];
 
-$url = MAPPING[$url];
+$url2 = MAPPING[$url];
 
 ?>
 
@@ -32,7 +32,7 @@ $url = MAPPING[$url];
         <li class="nav-item menu-inscription"><a href="/en/sign-up.php">Sign up</a></li>
         <li class="nav-item">
             <ul class="language">
-                <li class="nav-item-language"><a href="<?php echo $url; ?>">FR</a></li>
+                <li class="nav-item-language"><a href="<?php echo $url2; ?>">FR</a></li>
                 <li class="nav-item-language active"><a href="<?php echo $url; ?>">EN</a></li>
             </ul>
         </li>
