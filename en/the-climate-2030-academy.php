@@ -93,7 +93,7 @@
                         <img src="/img/illustration_level.png" alt="Illustration programmes">
                     </div>
                 </div>
-                <div class="repere" id="level levelB"></div>
+                <div class="repere" id="levelB"></div>
             </div>
             <div class="programme-img">
                 <div class="level levelB">
@@ -136,7 +136,7 @@
                         <img src="/img/illustration_level.png" alt="Illustration programmes">
                     </div>
                 </div>
-                <div class="repere" id="level levelC"></div>
+                <div class="repere" id="levelC"></div>
             </div>
             <div class="programme-img">
                 <div class="level levelC">
