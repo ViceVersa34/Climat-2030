@@ -1,3 +1,23 @@
+<?php
+$url = $_SERVER['REQUEST_URI'];
+
+const MAPPING = [
+    "/en/404.php" => "/fr/404.php",
+    "/en/the-climate-2030-academy.php" => "/fr/academie-du-climat.php",
+    "/en/CGU.php" => "/fr/CGU.php",
+    "/en/contact.php" => "/fr/contact.php",
+    "/en/more-about-climat-2030.php" => "/fr/en-savoir-plus.php",
+    "/en/the-exhibition.php" => "/fr/exposition.php",
+    "/en/the-humour.php" => "/fr/humour.php",
+    "/en/" => "/fr/",
+    "/en/sign-up.php" => "/fr/inscription.php",
+    "/en/the-social-club-network.php" => "/fr/social-club.php"
+];
+
+$url = MAPPING[$url];
+
+?>
+
 <div class="nav">
     <div class="blur" id="blur" onclick="changerLeft2('-18rem');"></div> <!-- Cache permettant de sortir du menu (en mode responsive) lors d'un click a côté -->
     <button class="menu-burger" onclick="changerLeft('0');"><img src="/img/menu.svg" alt="Menu burger"></button>
@@ -12,8 +32,8 @@
         <li class="nav-item menu-inscription"><a href="/en/sign-up.php">Sign up</a></li>
         <li class="nav-item">
             <ul class="language">
-                <li class="nav-item-language"><a href="/fr/">FR</a></li>
-                <li class="nav-item-language active"><a href="/en/">EN</a></li>
+                <li class="nav-item-language"><a href="<?php echo $url; ?>">FR</a></li>
+                <li class="nav-item-language active"><a href="<?php echo $url; ?>">EN</a></li>
             </ul>
         </li>
     </ul>
