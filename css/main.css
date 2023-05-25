@@ -144,7 +144,7 @@ header {
 	transition: .2s;
 	border-top: solid 1px #161515;
 	padding-top: .5rem;
-	margin: 0 1rem;
+	margin: 0 1.5rem;
 }
 
 .nav-item:hover {
@@ -193,6 +193,26 @@ header {
 
 .active {
 	border-top: solid 1px #ba83f0;
+}
+
+.sub-menu {
+	display: none;
+	flex-direction: column;
+	position: absolute;
+	padding: 1rem 1rem 1rem 0;
+	background: #161515;
+}
+
+.sub-menu a {
+	padding: 0 0 0 1rem;
+}
+
+.sub-menu a:hover {
+	color: #ddd !important;
+}
+
+.nav-item:hover .sub-menu {
+	display: flex;
 }
 
 /* -------------------------------------------------------------------------------- */

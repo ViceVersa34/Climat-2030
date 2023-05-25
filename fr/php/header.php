@@ -1,5 +1,6 @@
 <?php
 $url = $_SERVER['REQUEST_URI'];
+$url2 = $url;
 
 const MAPPING = [
     "/fr/404.php" => "/en/404.php",
@@ -14,7 +15,12 @@ const MAPPING = [
     "/fr/social-club.php" => "/en/the-social-club-network.php"
 ];
 
-$url2 = MAPPING[$url];
+if (!array_key_exists($url, MAPPING)) {
+    $url2 = "/en/404.php";
+    $url = "/fr/404.php";
+} else {
+    $url2 = MAPPING[$url];
+}
 
 ?>
 
@@ -25,10 +31,29 @@ $url2 = MAPPING[$url];
     <ul class="nav-list" id="nav">
         <li class="arrow-menu"><button class="arrow-menu-burger" onclick="changerLeft2('-20rem');"><img src="/img/croix.svg" alt="Menu burger"></button></li>
         <li class="nav-item menu-acceuil"><a href="/fr/">Accueil</a></li>
-        <li class="nav-item menu-academie-du-climat"><a href="/fr/academie-du-climat.php">L'académie du climat</a></li>
-        <li class="nav-item menu-social-club"><a href="/fr/social-club.php">Le Social Club</a></li>
-        <li class="nav-item menu-exposition"><a href="/fr/exposition.php">L'exposition</a></li>
-        <li class="nav-item menu-humour"><a href="/fr/humour.php">L'humour</a></li>
+        <li class="nav-item menu-academie-du-climat">
+            <a href="">L'académie</a>
+            <ul class="sub-menu">
+                <li class="sub-nav-item"><a href="/fr/academie-du-climat.php">Sensibilisation</a></li>
+                <li class="sub-nav-item"><a href="/fr/academie-du-climat.php">Formation</a></li>
+                <li class="sub-nav-item"><a href="/fr/academie-du-climat.php">Parcours Climat</a></li>
+            </ul>
+        </li>
+        <li class="nav-item menu-social-club">
+            <a href="">Le Social Club</a>
+            <ul class="sub-menu">
+                <li class="sub-nav-item"><a href="/fr/social-club.php">Le réseau social</a></li>
+                <li class="sub-nav-item"><a href="/fr/humour.php">L'humour</a></li>
+            </ul>
+        </li>
+        <li class="nav-item menu-exposition">
+            <a href="">L'exposition</a>
+            <ul class="sub-menu">
+                <li class="sub-nav-item"><a href="/fr/exposition.php">L'exposition</a></li>
+                <li class="sub-nav-item"><a href="/fr/exposition.php">Le livre</a></li>
+                <li class="sub-nav-item"><a href="/fr/exposition.php">Le guide</a></li>
+            </ul>
+        </li>
         <li class="nav-item menu-inscription"><a href="/fr/inscription.php">S'inscrire</a></li>
         <li class="nav-item">
             <ul class="language">
