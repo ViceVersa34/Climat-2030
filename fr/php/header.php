@@ -47,7 +47,7 @@ if (!array_key_exists($url, MAPPING)) {
             </ul>
         </li>
         <li class="nav-item menu-exposition">
-            <a href="/fr/exposition.php">L'exposition</a>
+            <a href="/fr/exposition.php">L'édition</a>
             <ul class="sub-menu">
                 <li class="sub-nav-item"><a href="/fr/exposition.php">L'edition</a></li>
                 <li class="sub-nav-item"><a href="/fr/exposition.php">Le livre</a></li>
