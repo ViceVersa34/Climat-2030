@@ -63,7 +63,6 @@ if (!array_key_exists($url, MAPPING)) {
                     <ul id="suggestions-list"></ul>
                 </div>
             </div>
-            <script src="/js/search.js"></script>
         </li>
         <li class="nav-item">
             <ul class="language">

@@ -48,10 +48,10 @@ suggestionsList.addEventListener('click', function (event) {
 
 function search() {
     var element1 = document.getElementById('search-container');
-    var element2 = document.getElementById('search-icon');
+    var element2 = document.getElementById('searchActive');
     
     element1.classList.toggle("display");
-    element2.classList.toggle("background");
+    element2.classList.toggle("activeSearch");
 }
 
 // -------------------------------------- </RECHERHCER> --------------------------------------
