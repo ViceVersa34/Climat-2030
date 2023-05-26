@@ -274,6 +274,21 @@ main {
 	padding: 12rem 0 0 0;
 }
 
+.en-savoir-plus {
+    width: 210px;
+    text-align: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background: #ba83f0;
+    border-radius: 15px;
+    margin: 2rem 0 4rem 0;
+    transition: .2s;
+}
+
+.en-savoir-plus:hover {
+    transform: scale(1.1);
+}
+
 /* -------------------------------------------------------------------------------- */
 /* ----------------------------------- Footer ------------------------------------- */
 /* -------------------------------------------------------------------------------- */
@@ -282,7 +297,7 @@ main {
 	display: flex;
 	flex-wrap: wrap;
 	border-top: 1px solid rgb(83, 73, 70);
-	padding: 2rem 1.5rem 3rem 1.5rem;
+	padding: .5rem 1.5rem .75rem 1.5rem;
 	justify-content: space-around;
 	align-items: center;
 }
@@ -293,14 +308,14 @@ main {
 	margin: 3rem 1rem;
 }
 
-.left {
+.center {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
 
-.left img {
+.center img {
 	width: 150px;
 	border-radius: 50%;
 }
@@ -312,6 +327,10 @@ main {
 
 .lien-utile-item {
 	padding: .5rem 1rem;
+}
+
+.lien-utile-item a:hover {
+	color: #ffc5b5 !important;
 }
 
 .lien-utile-item:first-child {
@@ -347,16 +366,37 @@ main {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin: 1rem 0;
+	margin: 4rem 0 3rem 0;
 }
 
 .countdown-text {
-	margin-bottom: .75rem;
+	margin-bottom: 1rem;
 }
 
 .countdown {
 	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
 }
+
+.countdown-top {
+	display: flex;
+}
+
+.countdown-bottom {
+	display: flex;
+}
+
+/* .countdown-top {
+	display: flex;
+	margin-bottom: .4rem;
+}
+
+.countdown-bottom {
+	display: flex;
+	margin-top: .4rem;
+} */
 
 .countdown-item {
 	display: flex;
@@ -372,18 +412,19 @@ main {
 }
 
 .unit {
-	font-size: .7rem;
+	font-size: .9rem;
 }
 
 .global-counter {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-bottom: 2rem;
 }
 
 .counter {
-	margin-right: .5rem;
-	font-size: 1.25rem;
+	text-align: center;
+	font-size: 1.75rem;
 }
 
 /* -------------------------------------------------------------------------------- */
@@ -609,6 +650,21 @@ main {
 
 	.bandeau-contact {
 		margin-top: 1.5vh;
+	}
+
+	.countdown {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.countdown-top {
+		display: flex;
+		margin-bottom: .4rem;
+	}
+	
+	.countdown-bottom {
+		display: flex;
+		margin-top: .4rem;
 	}
 }
 

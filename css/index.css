@@ -24,6 +24,9 @@
 
 .global-bouton {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .bouton {
@@ -43,9 +46,11 @@
 
 .bouton:first-child {
     margin-right: 1rem;
+    margin-left: 1rem;
 }
 
 .bouton:last-child {
+    margin-right: 1rem;
     margin-left: 1rem;
 }
 
