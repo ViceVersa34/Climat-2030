@@ -11,17 +11,23 @@
     </header>
 
     <main>
-
+    <div class="cache-logo"></div>
     <h1 class="top_txt">Métamorphoser l'humanité en virtuose du climat</h1>
     <div class="global-bouton">
         <a href="/fr/#countdown" class="bouton">En combien de temps ?</a>
         <a href="/fr/en-savoir-plus.php" class="bouton">En savoir +</a>
     </div>
 
+    <!-- <div class="top-illustration">
+        <img src="/img/index/earth_day.jpg" alt="Illustration - 'earth day'">
+        <img src="/img/index/earth_day.jpg" alt="Illustration - 'earth day'">
+        <img src="/img/index/earth_day.jpg" alt="Illustration - 'earth day'">
+    </div> -->
+    <!-- <div class="top-illustration">
+        <img src="/img/logoV2.00.png" alt="Illustration - 'earth day'">
+    </div> -->
     <div class="top-illustration">
-        <img src="/img/index/earth_day.jpg" alt="Illustration - 'earth day'">
-        <img src="/img/index/earth_day.jpg" alt="Illustration - 'earth day'">
-        <img src="/img/index/earth_day.jpg" alt="Illustration - 'earth day'">
+        <img src="/img/index/butterfly.jpg" alt="Illustration - 'earth day'">
     </div>
 
     <div class="valeurs">

@@ -114,11 +114,11 @@ header {
 	position: absolute;
 	top: 0;
 	left: 0;
-	padding: 0;
+	padding: 10px 0 0 10px;
 }
 
 .img-logo img {
-	max-width: 175px;
+	max-width: 125px;
 }
 
 .nav-list {

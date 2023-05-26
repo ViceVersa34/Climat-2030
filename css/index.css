@@ -3,23 +3,34 @@
     border-top: solid 1px #ba83f0;
 }
 
+.cache-logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    padding: 10px 0 0 10px;
+    width: 135px;
+    height: 156px;
+    background: #161515;
+}
+
 /* ------------------------------ EARTH DAY EVERY DAY ------------------------------*/
 .top-illustration {
     display: flex;
 }
 
 .top-illustration img {
-    width: 350px;
+    width: 800px;
 }
 
 .top-illustration img:first-child {
-    border-bottom-left-radius: 100px;
-    border-top-left-radius: 100px;
+    border-bottom-left-radius: 200px;
+    border-top-left-radius: 200px;
 }
 
 .top-illustration img:last-child {
-    border-bottom-right-radius: 100px;
-    border-top-right-radius: 100px;
+    border-bottom-right-radius: 200px;
+    border-top-right-radius: 200px;
 }
 
 .global-bouton {
