@@ -11,10 +11,10 @@ const pageUrls = {
     'The social club network': '/fr/social-club.php',
     'The exhibition': '/fr/exposition.php',
     'The humour': '/fr/humour.php',
-    'Sign up' : '/fr/inscription.php',
-    'Learn more' : '/fr/en-savoir-plus.php',
-    'Contact' : '/fr/contact.php',
-    'CGU' : '/fr/CGU.php'
+    'Sign up': '/fr/inscription.php',
+    'Learn more': '/fr/en-savoir-plus.php',
+    'Contact': '/fr/contact.php',
+    'CGU': '/fr/CGU.php'
 };
 
 searchInput.addEventListener('input', function () {
