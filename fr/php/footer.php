@@ -37,9 +37,6 @@
                         <div class="unit">Secondes</div>
                     </div>
                 </div>
-                <div class="fin" style="margin-top: .75rem">
-                    Après c'est la fin du monde
-                </div>
             </div>
             <div class="global-counter">
                 <div class="counter font-family font-weight orange-txt">
