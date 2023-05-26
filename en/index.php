@@ -13,7 +13,10 @@
     <main>
 
     <h1 class="top_txt">Metamorphosis humanity into climate virtuosos</h1>
-    <a href="/en/more-about-climat-2030.php" class="en-savoir-plus">Learn more</a>
+    <div class="global-bouton">
+        <a href="/fr/#countdown" class="bouton">How long did it take ?</a>
+        <a href="/fr/en-savoir-plus.php" class="bouton">Learn more</a>
+    </div>
 
     <div class="top-illustration">
         <img src="/img/index/earth_day.jpg" alt="Illustration - 'earth day'">
