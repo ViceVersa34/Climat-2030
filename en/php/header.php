@@ -33,7 +33,7 @@ if (!array_key_exists($url, MAPPING)) {
         <li class="nav-item menu-acceuil"><a href="/en/">Home</a></li>
         <li class="nav-item menu-academie-du-climat"><a href="/en/the-climate-2030-academy.php">Climate-2023 Academy</a></li>
         <li class="nav-item menu-social-club"><a href="/en/the-social-club-network.php">Social Club</a></li>
-        <li class="nav-item menu-exposition"><a href="/en/the-exhibition.php">Exhibition</a></li>
+        <li class="nav-item menu-exposition"><a href="/en/the-exhibition.php">Edition</a></li>
         <li class="nav-item menu-inscription"><a href="/en/sign-up.php">Sign up</a></li>
         <li class="nav-item menu-search" id="searchActive">
             <div class="search main-div">
