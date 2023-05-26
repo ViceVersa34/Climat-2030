@@ -305,6 +305,13 @@ main {
 	margin: 3rem 1rem;
 }
 
+.left {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
 .left img {
 	width: 150px;
 	border-radius: 50%;
@@ -345,6 +352,50 @@ main {
 
 .legal a {
 	text-align: start;
+}
+
+.global-countdown {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0;
+}
+
+.countdown-text {
+	margin-bottom: .75rem;
+}
+
+.countdown {
+	display: flex;
+}
+
+.countdown-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 .5rem;
+}
+
+.time,
+.separateur {
+	font-size: 1.25rem;
+}
+
+.unit {
+	font-size: .7rem;
+}
+
+.global-counter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.counter {
+	margin-right: .5rem;
+	font-size: 1.25rem;
 }
 
 /* -------------------------------------------------------------------------------- */
