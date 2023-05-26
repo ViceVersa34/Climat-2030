@@ -2,6 +2,33 @@
     <div class="top">
         <div class="left">
             <img src="/img/we_can_do_it.png" alt="illustration 'we can do it'">
+            <div id="countdown">
+                <div class="countdown-item">
+                    <span id="years">00</span>
+                    <span>Years</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="months">00</span>
+                    <span>Months</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="days">00</span>
+                    <span>Days</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="hours">00</span>
+                    <span>Hours</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="minutes">00</span>
+                    <span>Minutes</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="seconds">00</span>
+                    <span>Seconds</span>
+                </div>
+            </div>
+            <script src="/js/countdown.js"></script>
         </div>
         <div class="center">
             <div class="lien-utile">
