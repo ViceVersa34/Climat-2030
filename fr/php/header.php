@@ -32,7 +32,7 @@ if (!array_key_exists($url, MAPPING)) {
         <li class="arrow-menu"><button class="arrow-menu-burger" onclick="changerLeft2('-20rem');"><img src="/img/croix.svg" alt="Menu burger"></button></li>
         <li class="nav-item menu-acceuil"><a href="/fr/">Accueil</a></li>
         <li class="nav-item menu-academie-du-climat">
-            <a href="">L'académie</a>
+            <a href="/fr/academie-du-climat.php">L'académie</a>
             <ul class="sub-menu">
                 <li class="sub-nav-item"><a href="/fr/academie-du-climat.php">Sensibilisation</a></li>
                 <li class="sub-nav-item"><a href="/fr/academie-du-climat.php">Formation</a></li>
@@ -40,14 +40,14 @@ if (!array_key_exists($url, MAPPING)) {
             </ul>
         </li>
         <li class="nav-item menu-social-club">
-            <a href="">Le Social Club</a>
+            <a href="/fr/social-club.php">Le Social Club</a>
             <ul class="sub-menu">
                 <li class="sub-nav-item"><a href="/fr/social-club.php">Le réseau social</a></li>
                 <li class="sub-nav-item"><a href="/fr/humour.php">L'humour</a></li>
             </ul>
         </li>
         <li class="nav-item menu-exposition">
-            <a href="">L'exposition</a>
+            <a href="/fr/exposition.php">L'exposition</a>
             <ul class="sub-menu">
                 <li class="sub-nav-item"><a href="/fr/exposition.php">L'exposition</a></li>
                 <li class="sub-nav-item"><a href="/fr/exposition.php">Le livre</a></li>
