@@ -1,5 +1,6 @@
 <?php
 $url = $_SERVER['REQUEST_URI'];
+$url2 = $url;
 
 const MAPPING = [
     "/en/404.php" => "/fr/404.php",
@@ -14,7 +15,12 @@ const MAPPING = [
     "/en/the-social-club-network.php" => "/fr/social-club.php"
 ];
 
-$url2 = MAPPING[$url];
+if (!array_key_exists($url, MAPPING)) {
+    $url = "/en/404.php";
+    $url2 = "/fr/404.php";
+} else {
+    $url2 = MAPPING[$url];
+}
 
 ?>
 
@@ -37,8 +43,8 @@ $url2 = MAPPING[$url];
                     <input type="text" id="search-input" placeholder="Recherche">
                     <ul id="suggestions-list"></ul>
                 </div>
-                <script src="/js/enSearch.js"></script>
             </div>
+            <script src="/js/search.js"></script>
         </li>
         <li class="nav-item">
             <ul class="language">
