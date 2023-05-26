@@ -14,8 +14,8 @@
 
     <h1 class="top_txt">Metamorphosis humanity into climate virtuosos</h1>
     <div class="global-bouton">
-        <a href="/fr/#countdown" class="bouton">How long did it take ?</a>
-        <a href="/fr/en-savoir-plus.php" class="bouton">Learn more</a>
+        <a href="/en/#countdown" class="bouton">How long did it take ?</a>
+        <a href="/en/en-savoir-plus.php" class="bouton">Learn more</a>
     </div>
 
     <div class="top-illustration">
