@@ -14,9 +14,9 @@
             <div class="global-countdown">
                 <div class="global-counter">
                     <p>
-                    Climat-2030 a permis de sensibiliser
-                    <span class="counter orange-txt font-weight"> 12 </span>
-                    personnes à ce jour.
+                        Climat-2030 a permis de sensibiliser
+                        <span class="counter orange-txt font-weight"> 12 </span>
+                        personnes à ce jour.
                     </p>
                 </div>
                 <div class="countdown-text">
