@@ -55,6 +55,16 @@ if (!array_key_exists($url, MAPPING)) {
             </ul>
         </li>
         <li class="nav-item menu-inscription"><a href="/fr/inscription.php">S'inscrire</a></li>
+        <li class="nav-item menu-search">
+            <div class="search main-div">
+                <img src="/img/search.svg" alt="" class="search-icon" id="search-icon" onclick="search();">
+                <div class="search-container" id="search-container">
+                    <input type="text" id="search-input" placeholder="Recherche">
+                    <ul id="suggestions-list"></ul>
+                </div>
+            </div>
+            <script src="/js/search.js"></script>
+        </li>
         <li class="nav-item">
             <ul class="language">
                 <li class="nav-item-language active"><a href="<?php echo $url; ?>">FR</a></li>

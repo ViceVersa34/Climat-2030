@@ -30,6 +30,16 @@ $url2 = MAPPING[$url];
         <li class="nav-item menu-exposition"><a href="/en/the-exhibition.php">Exhibition</a></li>
         <li class="nav-item menu-humour"><a href="/en/the-humour.php">Humour</a></li>
         <li class="nav-item menu-inscription"><a href="/en/sign-up.php">Sign up</a></li>
+        <li class="nav-item menu-search">
+            <div class="search main-div">
+                <img src="/img/search.svg" alt="" class="search-icon" id="search-icon" onclick="search();">
+                <div class="search-container" id="search-container">
+                    <input type="text" id="search-input" placeholder="Recherche">
+                    <ul id="suggestions-list"></ul>
+                </div>
+                <script src="/js/enSearch.js"></script>
+            </div>
+        </li>
         <li class="nav-item">
             <ul class="language">
                 <li class="nav-item-language"><a href="<?php echo $url2; ?>">FR</a></li>
