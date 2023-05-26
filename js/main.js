@@ -1,3 +1,5 @@
+// -------------------------------------- <SROLL UP> --------------------------------------
+
 jQuery(function(){
     $(function () {
         $(window).scroll(function () {
@@ -6,10 +8,14 @@ jQuery(function(){
             } else { 
                 $('.scrollUp').removeAttr( 'style' );
             }
-        
+            
         }); 
     });
 });
+
+// -------------------------------------- </SROLL UP> --------------------------------------
+
+// -------------------------------------- <NAV-BAR RESPONSIVE> --------------------------------------
 
 function changerLeft (gauche){
     var element1= document.getElementById('nav');
@@ -48,6 +54,10 @@ function tailleCache (){
     alert(cache);
 }
 
+// -------------------------------------- </NAV-BAR RESPONSIVE> --------------------------------------
+
+// -------------------------------------- <FORM PAGE CONTACT> --------------------------------------
+
 function afficherChamps() {
     var choix = document.getElementById("choix");
     var champsQuestion = document.getElementById("champsQuestion");
@@ -71,3 +81,5 @@ function compterCaracteres() {
     var nombreCaracteres = message.value.length;
     compteur.textContent = nombreCaracteres + "/500 caractères";
 }
+
+// -------------------------------------- </FORM PAGE CONTACT> --------------------------------------
