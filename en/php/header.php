@@ -32,11 +32,10 @@ if (!array_key_exists($url, MAPPING)) {
         <li class="arrow-menu"><button class="arrow-menu-burger" onclick="changerLeft2('-20rem');"><img src="/img/croix.svg" alt="Menu burger"></button></li>
         <li class="nav-item menu-acceuil"><a href="/en/">Home</a></li>
         <li class="nav-item menu-academie-du-climat"><a href="/en/the-climate-2030-academy.php">Climate-2023 Academy</a></li>
-        <li class="nav-item menu-social-club"><a href="/en/the-social-club-network.php">Social Club Network</a></li>
+        <li class="nav-item menu-social-club"><a href="/en/the-social-club-network.php">Social Club</a></li>
         <li class="nav-item menu-exposition"><a href="/en/the-exhibition.php">Exhibition</a></li>
-        <li class="nav-item menu-humour"><a href="/en/the-humour.php">Humour</a></li>
         <li class="nav-item menu-inscription"><a href="/en/sign-up.php">Sign up</a></li>
-        <li class="nav-item menu-search">
+        <li class="nav-item menu-search" id="searchActive">
             <div class="search main-div">
                 <img src="/img/search.svg" alt="" class="search-icon" id="search-icon" onclick="search();">
                 <div class="search-container" id="search-container">
@@ -54,3 +53,4 @@ if (!array_key_exists($url, MAPPING)) {
         </li>
     </ul>
 </div>
+<script src="/js/search.js"></script>

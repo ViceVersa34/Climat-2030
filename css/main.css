@@ -214,9 +214,9 @@ header {
     visibility: visible !important;
 }
 
-/* .background {
+.activeSearch {
     border-top: solid 1px #ba83f0 !important;
-} */
+}
 
 .search-icon {
 	position: absolute;
@@ -266,6 +266,7 @@ header {
 #suggestions-list li:hover {
     background-color: #896f26;
 }
+
 /* -------------------------------------------------------------------------------- */
 /* ------------------------------------ Main -------------------------------------- */
 /* -------------------------------------------------------------------------------- */
@@ -479,7 +480,7 @@ main {
 	
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1250px) {
 	/* --------------------- Header ----------------------- */
 	
 	/* -- menu burger -- */
@@ -550,6 +551,10 @@ main {
 		transition: 0;
 		border-top: solid 1px #1d1919;
 	}
+
+	.menu-inscription {
+		padding: 1.5rem 0 3rem 0 !important;
+	}
 	
 	.nav-item:hover {
 		border-top: none;
@@ -602,6 +607,56 @@ main {
 		border-top: solid 1px #1d1919;
 	}
 
+	.search-icon {
+		top: 27rem;
+		width: 35px;
+		padding: 1rem .25rem .25rem .75rem;
+		margin-bottom: 1rem;
+		transition: .25s;
+	}
+
+	.search-container {
+		visibility: hidden;
+		position: relative;
+		display: inline-block;
+	}
+
+	.search-container input {
+		position: absolute;
+		top: -20px;
+		background: #161515;
+		border-radius: 10px;
+		max-width: 180px;
+	}
+	
+	#search-input {
+		margin-top: 0;
+		margin-left: 2.5rem;
+		padding: 10px;
+		width: 180px;
+	}
+
+	#suggestions-list {
+		display: none;
+		position: absolute;
+		z-index: 1;
+		top: 30px;
+		left: 40px;
+		width: 180px;
+		background: #161515;
+		border: 1px solid #5c5c5c;
+		border-radius: 15px;
+	}
+
+	#suggestions-list li {
+		padding: 10px;
+		cursor: pointer;
+		border-radius: 15px;
+	}
+
+	#suggestions-list li:hover {
+		background-color: #896f26;
+	}
 
 	/* ------------------------------------ Main -------------------------------------- */
 

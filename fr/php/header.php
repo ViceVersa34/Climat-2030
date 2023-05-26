@@ -55,7 +55,7 @@ if (!array_key_exists($url, MAPPING)) {
             </ul>
         </li>
         <li class="nav-item menu-inscription"><a href="/fr/inscription.php">S'inscrire</a></li>
-        <li class="nav-item menu-search">
+        <li class="nav-item menu-search" id="searchActive">
             <div class="search main-div">
                 <img src="/img/search.svg" alt="" class="search-icon" id="search-icon" onclick="search();">
                 <div class="search-container" id="search-container">
@@ -73,3 +73,4 @@ if (!array_key_exists($url, MAPPING)) {
         </li>
     </ul>
 </div>
+<script src="/js/search.js"></script>
