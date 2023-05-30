@@ -56,7 +56,7 @@
             </div>
             <div class="info">
                 <p>
-                    <span class="orange-txt size-txt font-family">Des actions</span> pour agir collectivement avec la possibilité de sfinscrire, seul ou en groupe, au niveau au niveau local, 
+                    <span class="orange-txt size-txt font-family">Des actions</span> pour agir collectivement avec la possibilité de s'inscrire, seul ou en groupe, au niveau au niveau local, 
                     national ou international.
                 </p>
             </div>
