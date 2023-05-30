@@ -31,10 +31,29 @@ if (!array_key_exists($url, MAPPING)) {
     <ul class="nav-list" id="nav">
         <li class="arrow-menu"><button class="arrow-menu-burger" onclick="changerLeft2('-20rem');"><img src="/img/croix.svg" alt="Menu burger"></button></li>
         <li class="nav-item menu-acceuil"><a href="/en/">Home</a></li>
-        <li class="nav-item menu-academie-du-climat"><a href="/en/the-climate-2030-academy.php">Climate-2023 Academy</a></li>
-        <li class="nav-item menu-social-club"><a href="/en/the-social-club-network.php">Social Club</a></li>
-        <li class="nav-item menu-exposition"><a href="/en/the-exhibition.php">Edition</a></li>
-        <li class="nav-item menu-inscription"><a href="/en/sign-up.php">Sign up</a></li>
+        <li class="nav-item menu-academie-du-climat">
+            <a href="/en/the-climate-2030-academy.php">The academy</a>
+            <ul class="sub-menu">
+                <li class="sub-nav-item"><a href="/en/the-climate-2030-academy.php">sensitization</a></li>
+                <li class="sub-nav-item"><a href="/en/the-climate-2030-academy.php">Training</a></li>
+                <li class="sub-nav-item"><a href="/en/the-climate-2030-academy.php">Climate route</a></li>
+            </ul>
+        </li>
+        <li class="nav-item menu-social-club">
+            <a href="/en/the-social-club-network.php">The Social Club</a>
+            <ul class="sub-menu">
+                <li class="sub-nav-item"><a href="/en/the-social-club-network.php">The social network</a></li>
+                <li class="sub-nav-item"><a href="/en/the-humour.php">L'humour</a></li>
+            </ul>
+        </li>
+        <li class="nav-item menu-exposition">
+            <a href="/en/the-exhibition.php">The edition</a>
+            <ul class="sub-menu">
+                <li class="sub-nav-item"><a href="/en/the-exhibition.php">The exhibition</a></li>
+                <li class="sub-nav-item"><a href="/en/the-exhibition.php">The book</a></li>
+                <li class="sub-nav-item"><a href="/en/the-exhibition.php">The guide</a></li>
+            </ul>
+        </li>
         <li class="nav-item menu-search" id="searchActive">
             <div class="search main-div">
                 <img src="/img/search.svg" alt="" class="search-icon" id="search-icon" onclick="search();">
