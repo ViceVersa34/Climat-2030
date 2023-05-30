@@ -16,7 +16,7 @@
     <a href="/en/sign-up.php#social-club" class="en-savoir-plus">Pre-booking</a>
 
     <div class="top-illustration">
-        <img src="/img/social_club/illustration_social_club.png" alt="Illustration social club">
+        <img src="/img/social_club/casque.jpg" alt="Illustration social club">
     </div>
 
     <div class="valeurs">
@@ -46,7 +46,6 @@
         </div>
         <div class="bottom-illustration">
             <img src="/img/social_club/fiche_telecom.jpg" alt="Illustration social club">
-            <img src="/img/social_club/casque.jpg" alt="Illustration social club">
         </div>
         <div class="infos">
             <div class="info">

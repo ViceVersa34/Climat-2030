@@ -10,7 +10,7 @@
 }
 
 .top-illustration img {
-    width: 1000px;
+    width: 725px;
     border-radius: 250px;
 }
 
@@ -20,7 +20,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;   
-    max-width: 900px;
+    max-width: 700px;
     width: 100%;
     margin-top: 4rem;
     padding: 0 1.5rem;
@@ -51,19 +51,8 @@
 }
 
 .bottom-illustration img {
-    height: 300px;
-}
-
-.bottom-illustration img:first-child {
+    height: 600px;
     border-radius: 125px;
-    position: relative;
-    left: 280px;
-}
-
-.bottom-illustration img:last-child {
-    border-radius: 100px;
-    position: relative;
-    left: -280px;
 }
 
 .infos {

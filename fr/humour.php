@@ -16,7 +16,7 @@
     <a href="/fr/inscription.php#humour" class="en-savoir-plus">Pré-réservation</a>
 
     <div class="top-illustration">
-        <img src="/img/humour/ALONDRA_DE_LA_PARRA.jpg" alt="Illustration humour">
+        <img src="/img/humour/illustration_humour.png" alt="Illustration humour">
     </div>
 
     <div class="valeurs">
