@@ -40,10 +40,10 @@ if (!array_key_exists($url, MAPPING)) {
             </ul>
         </li>
         <li class="nav-item menu-social-club">
-            <a href="/en/the-social-club-network.php">The Social Club</a>
+            <a href="">The Social Club</a>
             <ul class="sub-menu">
-                <li class="sub-nav-item"><a href="/en/the-social-club-network.php">The social network</a></li>
-                <li class="sub-nav-item"><a href="/en/the-humour.php">L'humour</a></li>
+                <li class="sub-nav-item"><a href="/en/the-social-club-network.php#social-network">The social network</a></li>
+                <li class="sub-nav-item"><a href="/en/the-social-club-network.php#humour">The humour</a></li>
             </ul>
         </li>
         <li class="nav-item menu-exposition">
