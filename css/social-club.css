@@ -1,21 +1,34 @@
+.social-network {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-club-repere {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 /* ------------------------------ HEADER ------------------------------*/
-.menu-social-club{
+.social-network .menu-social-club{
     border-top: solid 1px #ba83f0;
 }
 
 /* ------------------------------ ILLUSTRATION ------------------------------*/
-.top-illustration {
+.social-network .top-illustration {
     display: flex;
     padding: 2rem;
 }
 
-.top-illustration img {
+.social-network .top-illustration img {
     width: 725px;
     border-radius: 250px;
 }
 
 /* ------------------------------ Changement forme txt ------------------------------*/
-.valeurs {
+.social-network .valeurs {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,7 +39,7 @@
     padding: 0 1.5rem;
 }
 
-.valeurs-part1 {
+.social-network .valeurs-part1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,7 +48,7 @@
     width: 100%;
 }
 
-.principe {
+.social-network .principe {
     display: flex;
     align-items: center;
     font-size: .9rem;
@@ -45,17 +58,17 @@
 
 
 /* ------------------------------ ILLUSTRATION ------------------------------*/
-.bottom-illustration {
+.social-network .bottom-illustration {
     display: flex;
     margin: 10rem 0 8rem 0 ;
 }
 
-.bottom-illustration img {
+.social-network .bottom-illustration img {
     height: 600px;
     border-radius: 125px;
 }
 
-.infos {
+.social-network .infos {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,7 +78,7 @@
     margin-bottom: 8rem;
 }
 
-.info {
+.social-network .info {
     display: flex;
     align-items: center;
     font-size: .9rem;
@@ -74,13 +87,13 @@
 }
 
 @media only screen and (max-width: 1200px) {
-    .menu-social-club{
+    .social-network .menu-social-club{
         border-top: solid 1px #1d1919;
     }
 }
 
 @media only screen and (max-width: 1100px) {
-    .top-illustration img {
+    .social-network .top-illustration img {
         width: 900px;
         border-radius: 250px;
     }
@@ -88,7 +101,7 @@
 }
 
 @media only screen and (max-width: 970px) {
-    .top-illustration img {
+    .social-network .top-illustration img {
         width: 800px;
         border-radius: 250px;
     }
@@ -96,7 +109,7 @@
 }
 
 @media only screen and (max-width: 870px) {
-    .top-illustration img {
+    .social-network .top-illustration img {
         width: 700px;
         border-radius: 250px;
     }
@@ -104,7 +117,7 @@
 }
 
 @media only screen and (max-width: 770px) {
-    .top-illustration img {
+    .social-network .top-illustration img {
         width: 600px;
         border-radius: 250px;
     }
@@ -112,7 +125,7 @@
 }
 
 @media only screen and (max-width: 730px) {
-    .top-illustration img {
+    .social-network .top-illustration img {
         max-width: 600px;
         width: 100%;
         border-radius: 250px;
@@ -121,49 +134,49 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .bottom-illustration img {
+    .social-network .bottom-illustration img {
         height: 250px;
     }
     
-    .bottom-illustration img:first-child {
+    .social-network .bottom-illustration img:first-child {
         left: 230px;
     }
     
-    .bottom-illustration img:last-child {
+    .social-network .bottom-illustration img:last-child {
         left: -230px;
     }
 }
 
 @media only screen and (max-width: 500px) {
-    .bottom-illustration img {
+    .social-network .bottom-illustration img {
         border-radius: 80px !important;
         height: 200px;
     }
     
-    .bottom-illustration img:first-child {
+    .social-network .bottom-illustration img:first-child {
         left: 180px;
     }
     
-    .bottom-illustration img:last-child {
+    .social-network .bottom-illustration img:last-child {
         left: -180px;
     }
 }
 
 @media only screen and (max-width: 400px) {
-    .bottom-illustration img {
+    .social-network .bottom-illustration img {
         border-radius: 50px !important;
         height: 150px;
     }
     
-    .bottom-illustration img:first-child {
+    .social-network .bottom-illustration img:first-child {
         left: 135px;
     }
     
-    .bottom-illustration img:last-child {
+    .social-network .bottom-illustration img:last-child {
         left: -135px;
     }
 
-    h1 {
+    .social-network h1 {
         text-align: center;
         width: auto;
         padding: 1rem;
@@ -171,16 +184,16 @@
 }
 
 @media only screen and (max-width: 300px) {
-    .bottom-illustration img {
+    .social-network .bottom-illustration img {
         border-radius: 40px !important;
         height: 130px;
     }
     
-    .bottom-illustration img:first-child {
+    .social-network .bottom-illustration img:first-child {
         left: 115px;
     }
     
-    .bottom-illustration img:last-child {
+    .social-network .bottom-illustration img:last-child {
         left: -115px;
     }
 }

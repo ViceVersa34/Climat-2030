@@ -1,21 +1,28 @@
+.humour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
 /* ------------------------------ HEADER ------------------------------*/
-.menu-humour{
+.humour .menu-humour{
     border-top: solid 1px #ba83f0;
 }
 
 /* ------------------------------ ILLUSTRATION ------------------------------*/
-.top-illustration {
+.humour .top-illustration {
     display: flex;
     padding: 2rem;
 }
 
-.top-illustration img {
+.humour .top-illustration img {
     width: 1000px;
     border-radius: 100px;
 }
 
-/* ------------------------------ Changement forme txt ------------------------------*/
-.valeurs {
+.humour .valeurs {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,16 +34,16 @@
     padding: 0 1.5rem;
 }
 
-.valeurs-part1 {
+.humour .valeurs-part1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    max-width: 900px;
+    max-width: 800px;
     width: 100%;
 }
 
-.principe {
+.humour .principe {
     display: flex;
     align-items: center;
     font-size: .9rem;
@@ -45,26 +52,26 @@
 }
 
 @media only screen and (max-width: 1200px) {
-    .menu-humour{
+    .humour .menu-humour{
         border-top: solid 1px #1d1919;
     }
 }
 
 @media only screen and (max-width: 900px) {
-    .top-illustration img {
+    .humour .top-illustration img {
         max-width: 800px;
         width: 100%;
     }
 }
 
 @media only screen and (max-width: 450px) {
-    .top-illustration img {
+    .humour .top-illustration img {
         border-radius: 75px;
     }
 }
 
 @media only screen and (max-width: 350px) {
-    .top-illustration img {
+    .humour .top-illustration img {
         border-radius: 50px;
     }
 }
