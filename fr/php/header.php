@@ -49,12 +49,11 @@ if (!array_key_exists($url, MAPPING)) {
         <li class="nav-item menu-exposition">
             <a href="/fr/exposition.php">L'édition</a>
             <ul class="sub-menu">
-                <li class="sub-nav-item"><a href="/fr/exposition.php">L'edition</a></li>
+                <li class="sub-nav-item"><a href="/fr/exposition.php">L'exposition</a></li>
                 <li class="sub-nav-item"><a href="/fr/exposition.php">Le livre</a></li>
                 <li class="sub-nav-item"><a href="/fr/exposition.php">Le guide</a></li>
             </ul>
         </li>
-        <li class="nav-item menu-inscription"><a href="/fr/inscription.php">S'inscrire</a></li>
         <li class="nav-item menu-search" id="searchActive">
             <div class="search main-div">
                 <img src="/img/search.svg" alt="" class="search-icon" id="search-icon" onclick="search();">
