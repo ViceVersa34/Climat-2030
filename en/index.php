@@ -30,6 +30,7 @@
                 </p>
             </div>
             <div class="principe">
+                <div class="repere" id="countdown"></div>
                 <p>
                     <span class="yello-txt size-txt">How</span> We focus on <span class="yello-txt">empowering</span> people and <span class="yello-txt">women</span> 
                     in particular to fight global warming and ensure a sustainable future.
@@ -53,7 +54,7 @@
             <div class="countdown-text">
                 Pour parvenir a nos objectifs, nous avons :
             </div>
-            <div id="countdown" class="countdown">
+            <div class="countdown">
                 <div class="countdown-top">
                     <div class="countdown-item">
                         <div id="years" class="time size-txt2 font-weight orange-txt">00</div>

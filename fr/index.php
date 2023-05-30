@@ -29,6 +29,7 @@
                 </p>
             </div>
             <div class="principe">
+                <div class="repere" id="countdown"></div>
                 <p>
                     <span class="yello-txt size-txt">Comment</span> En mettant l'accent sur <span class="yello-txt">l'émancipation</span> des humains et <span class="yello-txt">des femmes</span> en particulier pour garantir un avenir durable.
                 </p>
@@ -51,7 +52,7 @@
             <div class="countdown-text">
                 Pour parvenir a nos objectifs, nous avons :
             </div>
-            <div id="countdown" class="countdown">
+            <div class="countdown">
                 <div class="countdown-top">
                     <div class="countdown-item">
                         <div id="years" class="time size-txt2 font-weight orange-txt">00</div>
