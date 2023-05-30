@@ -16,7 +16,7 @@
         <div class="social-network">
             <div class="repere social-club-repere" id="social-network"></div>
             <h1 class="top_txt">Le réseau <span class="orange-txt size-txt2 txt-g font-family">Social Club</span></h1>
-            <a href="/fr/inscription.php#social-club" class="en-savoir-plus">Pré-inscription</a>
+            <a href="/fr/contact.php" class="en-savoir-plus">Pré-inscription</a>
 
             <div class="top-illustration">
                 <img src="/img/social_club/casque.jpg" alt="Illustration social club">
