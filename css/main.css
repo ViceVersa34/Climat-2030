@@ -362,72 +362,6 @@ main {
 	text-align: start;
 }
 
-.global-countdown {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	margin: 4rem 0 3rem 0;
-}
-
-.countdown-text {
-	margin-bottom: 1rem;
-}
-
-.countdown {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-}
-
-.countdown-top {
-	display: flex;
-}
-
-.countdown-bottom {
-	display: flex;
-}
-
-/* .countdown-top {
-	display: flex;
-	margin-bottom: .4rem;
-}
-
-.countdown-bottom {
-	display: flex;
-	margin-top: .4rem;
-} */
-
-.countdown-item {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	margin: 0 .5rem;
-}
-
-.time,
-.separateur {
-	font-size: 1.25rem;
-}
-
-.unit {
-	font-size: .9rem;
-}
-
-.global-counter {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-bottom: 2rem;
-}
-
-.counter {
-	text-align: center;
-	font-size: 1.75rem;
-}
-
 /* -------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------- */
 /* -------------------------------- Break Points ---------------------------------- */
@@ -702,24 +636,8 @@ main {
 }
 
 @media only screen and (max-width: 500px) {
-
 	.bandeau-contact {
 		margin-top: 1.5vh;
-	}
-
-	.countdown {
-		display: flex;
-		flex-direction: column;
-	}
-	
-	.countdown-top {
-		display: flex;
-		margin-bottom: .4rem;
-	}
-	
-	.countdown-bottom {
-		display: flex;
-		margin-top: .4rem;
 	}
 }
 

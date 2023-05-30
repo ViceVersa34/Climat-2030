@@ -3,17 +3,6 @@
     border-top: solid 1px #ba83f0;
 }
 
-.cache-logo {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 0;
-    padding: 10px 0 0 10px;
-    width: 135px;
-    height: 156px;
-    background: #161515;
-}
-
 /* ------------------------------ EARTH DAY EVERY DAY ------------------------------*/
 .top-illustration {
     display: flex;
@@ -21,16 +10,7 @@
 
 .top-illustration img {
     width: 800px;
-}
-
-.top-illustration img:first-child {
-    border-bottom-left-radius: 200px;
-    border-top-left-radius: 200px;
-}
-
-.top-illustration img:last-child {
-    border-bottom-right-radius: 200px;
-    border-top-right-radius: 200px;
+    border-radius: 175px;
 }
 
 .global-bouton {
@@ -125,6 +105,63 @@
     flex-direction: column;
 }
 
+/* ------------------------------ COMPTEUR ------------------------------*/
+.global-countdown {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 6rem 0;
+}
+
+.countdown-text {
+	margin-bottom: 1rem;
+}
+
+.countdown {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.countdown-top {
+	display: flex;
+}
+
+.countdown-bottom {
+	display: flex;
+}
+
+.countdown-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 .5rem;
+}
+
+.time,
+.separateur {
+	font-size: 1.25rem;
+}
+
+.unit {
+	font-size: .9rem;
+}
+
+.global-counter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 2rem;
+}
+
+.counter {
+	text-align: center;
+	font-size: 1.75rem;
+}
+
 @media only screen and (max-width: 1200px) {
     .menu-acceuil {
         border-top: solid 1px #1d1919;
@@ -195,4 +232,21 @@
         max-width: 560px;
         width: 100%;
     }
+}
+
+@media only screen and (max-width: 500px) {
+	.countdown {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.countdown-top {
+		display: flex;
+		margin-bottom: .4rem;
+	}
+	
+	.countdown-bottom {
+		display: flex;
+		margin-top: .4rem;
+	}
 }
