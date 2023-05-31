@@ -12,19 +12,19 @@
 
     <main>
 
-    <div class="erreur-404">
-        <div class="erreur">
-            Erreur <span class="orange-txt size-txt2 font-family">404</span> !
+        <div class="erreur-404">
+            <div class="erreur">
+                Erreur <span class="orange-txt size-txt2 font-family">404</span> !
+            </div>
+            <div class="desc">
+                Saperlipopette, Il n'y a rien par ici !
+            </div>
+            <a href="/fr/">Retour à l'accueil</a>
         </div>
-        <div class="desc">
-            Saperlipopette, Il n'y a rien par ici !
-        </div>
-        <a href="/fr/">Retour à l'accueil</a>
-    </div>
 
-    <div class="scrollUp">
-        <a href="#top"><img src="/img/up-arrow.svg"/></a>
-    </div>
+        <div class="scrollUp">
+            <a href="#top"><img src="/img/up-arrow.svg"/></a>
+        </div>
 
     </main>
 

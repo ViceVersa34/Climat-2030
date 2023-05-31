@@ -12,19 +12,19 @@
 
     <main>
 
-    <div class="erreur-404">
-        <div class="erreur">
-            Error <span class="orange-txt size-txt2 font-family">404</span> !
+        <div class="erreur-404">
+            <div class="erreur">
+                Error <span class="orange-txt size-txt2 font-family">404</span> !
+            </div>
+            <div class="desc">
+                Goodness gracious, there's nothing here !
+            </div>
+            <a href="/en/">Back to homepage</a>
         </div>
-        <div class="desc">
-            Goodness gracious, there's nothing here !
-        </div>
-        <a href="/en/">Back to homepage</a>
-    </div>
 
-    <div class="scrollUp">
-        <a href="#top"><img src="/img/up-arrow.svg"/></a>
-    </div>
+        <div class="scrollUp">
+            <a href="#top"><img src="/img/up-arrow.svg"/></a>
+        </div>
 
     </main>
 
