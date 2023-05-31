@@ -211,6 +211,14 @@ header {
 	color: #ddd !important;
 }
 
+.responsive {
+	display: none;
+}
+
+.unresponsive {
+	display: block;
+}
+
 .nav-item:hover .sub-menu {
 	display: flex;
 }
@@ -519,6 +527,14 @@ main {
 		position: absolute;
 		top: 585px;
 		left: -55px;
+	}
+
+	.responsive {
+		display: block;
+	}
+
+	.unresponsive {
+		display: none;
 	}
 	
 	.nav-item-language {

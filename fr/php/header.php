@@ -1,6 +1,11 @@
 <?php
 $url = $_SERVER['REQUEST_URI'];
-$url2 = $url;
+
+if (!strpos($_SERVER['REQUEST_URI'], '?') == '') {
+    $i = strpos($_SERVER['REQUEST_URI'], '?');
+    $url = substr($_SERVER['REQUEST_URI'], 0, $i);
+    $url2 = $url;
+}
 
 const MAPPING = [
     "/fr/404.php" => "/en/404.php",
@@ -65,10 +70,20 @@ if (!array_key_exists($url, MAPPING)) {
         </li>
         <li class="nav-item">
             <ul class="language">
-                <li class="nav-item-language active"><a href="<?php echo $url; ?>">FR</a></li>
-                <li class="nav-item-language"><a href="<?php echo $url2; ?>">EN</a></li>
+                <li class="nav-item-language active unresponsive"><a href="<?php echo $url; ?>">FR</a></li>
+                <li class="nav-item-language active responsive"><a href="<?php echo $url."?navbar=1"; ?>">FR</a></li>
+                <li class="nav-item-language unresponsive"><a href="<?php echo $url2; ?>">EN</a></li>
+                <li class="nav-item-language responsive"><a href="<?php echo $url2."?navbar=1"; ?>">EN</a></li>
             </ul>
         </li>
     </ul>
 </div>
 <script src="/js/search.js"></script>
+
+<?php
+if (array_key_exists('navbar', $_GET)) {
+    echo "<script>";
+    echo "changerLeft('0');";
+    echo "</script>";
+}
+?>
