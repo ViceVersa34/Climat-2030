@@ -172,16 +172,8 @@
 
     /* ------------------------------ EARTH DAY EVERY DAY ------------------------------*/
     .top-illustration img {
-        width: 300px;
-    }
-    
-    .top-illustration img:nth-child(2) {
-        border-bottom-right-radius: 100px;
-        border-top-right-radius: 100px;
-    }
-
-    .top-illustration img:last-child {
-        display: none;
+        width: 600px;
+        border-radius: 200px;
     }
 }
 
@@ -210,21 +202,10 @@
 
     /* ------------------------------ EARTH DAY EVERY DAY ------------------------------*/
     .top-illustration img {
-        max-width: 300px;
+        max-width: 500px;
         width: 100%;
         padding: 0 1rem;
-    }
-    
-    .top-illustration img:first-child {
-        border-radius: 100px;
-    }
-
-    .top-illustration img:nth-child(2) {
-        display: none;
-    }
-
-    .top-illustration img:last-child {
-        display: none;
+        border-radius: 200px;
     }
 
     .img-principes img {
