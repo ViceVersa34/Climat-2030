@@ -13,7 +13,7 @@
     <main>
 
     <h1 class="top_txt">The Climate-2030 Academy </h1>
-    <a href="/en/sign-up.php#academie-du-climat" class="en-savoir-plus">Sign up</a>
+    <a href="/en/contact.php" class="en-savoir-plus">Sign up</a>
 
     <div class="top-illustration">
         <img src="/img/academie_du_climat/oiseau.jpg" alt="Illustration - 'oiseau'">

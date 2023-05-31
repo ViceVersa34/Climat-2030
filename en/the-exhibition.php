@@ -13,7 +13,7 @@
     <main>
 
     <h1 class="top_txt">The exhibition <span class="orange-txt size-txt2 txt-g font-family">“The great history of climate change”</span></h1>
-    <a href="/en/sign-up.php#exposition" class="en-savoir-plus">Request a quote</a>
+    <a href="/en/contact.php" class="en-savoir-plus">Request a quote</a>
 
     <div class="top-illustration">
         <img src="/img/exposition/illustration_exposition.png" alt="Illustration exposition">
