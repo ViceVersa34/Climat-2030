@@ -105,6 +105,28 @@
         </div>
     </div>
 
+    <div class="mention-icones">
+        <div class="title-mention-icone">Mention of icon creators</div>
+        <div class="icone">
+            <img src="/img/up-arrow.svg" alt="up arrow icons">
+            <div class="mention">
+                <a href="https://www.flaticon.com/free-icons/up-arrow" title="up arrow icons">Up arrow icons created by dmitri13 - Flaticon</a>
+            </div>
+        </div>
+        <div class="icone">
+            <img src="/img/menu.svg" alt="open menu icons">
+            <div class="mention">
+                <a href="https://www.flaticon.com/free-icons/open-menu" title="open menu icons">Open menu icons created by Freepik - Flaticon</a>
+            </div>
+        </div>
+        <div class="icone">
+            <img src="/img/croix.svg" alt="cross mark icons">
+            <div class="mention">
+                <a href="https://www.flaticon.com/free-icons/cross-mark" title="cross mark icons">Cross mark icons created by Andrean Prabowo - Flaticon</a>
+            </div>
+        </div>
+    </div>
+
 
     <div class="scrollUp">
         <a href="#top"><img src="/img/up-arrow.svg"/></a>
