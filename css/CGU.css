@@ -57,6 +57,44 @@
     width: 45px;
 }
 
-.mention {
+.icone .mention {
     margin-left: 2rem;
+}
+
+/* -------------------- Mention icônes -------------------- */
+.title-mention-image {
+    max-width: 1000px;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 6rem 0;
+    font-size: 2rem;
+}
+
+.mention-images {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+    max-width: 1000px;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 2rem 0;
+}
+
+.image img {
+    width: 125px;
+}
+
+.image .mention {
+    margin-left: 2rem;
+}
+
+.mention a:hover {
+    text-decoration: underline;
 }

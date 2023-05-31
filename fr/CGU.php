@@ -3,7 +3,7 @@
 <head>
     <?php include('php/head.php'); ?>
     <link rel="stylesheet" href="/css/CGU.css">
-    <title>404 - Climat-2030</title>
+    <title>CGU - Climat-2030</title>
 </head>
 <body id="body">
     <header>
@@ -145,6 +145,42 @@
                 <div class="mention">
                     <a href="https://www.flaticon.com/free-icons/cross-mark" title="cross mark icons" target="blank">Cross mark icons created by Andrean Prabowo - Flaticon</a>
                 </div>
+            </div>
+        </div>
+
+        <div class="mention-images">
+            <div class="title-mention-image">Mention des créateurs d'images</div>
+            <div class="image">
+                <img src="/img/index/earth_day.jpg" alt="earth day every day">
+                <div class="mention"><a href="https://www.hannahrosengren.com/#/earth-day-every-day/">Hanna Rosengren</a></div>
+            </div>
+            <div class="image">
+                <img src="/img/academie_du_climat/oiseau.jpg" alt="Illustration oiseau">
+                <div class="mention"><a href="https://i.pinimg.com/564x/9e/4b/26/9e4b26c459c7078c7da15a085e1c384b.jpg">i.pinimg.com</a></div>
+            </div>
+            <div class="image">
+                <img src="/img/index/butterfly.jpg" alt="Illustration butterfly">
+                <div class="mention"><a href="https://i.pinimg.com/564x/1a/99/6e/1a996e0052ff9ea0f19eae1f98577961.jpg">i.pinimg.com</a></div>
+            </div>
+            <div class="image">
+                <img src="" alt="">
+                <div class="mention"><a href=""></a></div>
+            </div>
+            <div class="image">
+                <img src="" alt="">
+                <div class="mention"><a href=""></a></div>
+            </div>
+            <div class="image">
+                <img src="" alt="">
+                <div class="mention"><a href=""></a></div>
+            </div>
+            <div class="image">
+                <img src="" alt="">
+                <div class="mention"><a href=""></a></div>
+            </div>
+            <div class="image">
+                <img src="" alt="">
+                <div class="mention"><a href=""></a></div>
             </div>
         </div>
 
