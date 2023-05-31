@@ -128,7 +128,7 @@
         </div>
 
         <div class="mention-images">
-            <div class="title-mention-image">Mention des créateurs d'images</div>
+            <div class="title-mention-image">Credit for image creators</div>
             <div class="image">
                 <img src="/img/index/earth_day.jpg" alt="earth day every day">
                 <div class="mention"><a href="https://www.hannahrosengren.com/#/earth-day-every-day/">Hanna Rosengren</a></div>
