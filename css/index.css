@@ -111,11 +111,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin: 6rem 0;
-}
-
-.countdown-text {
-	margin-bottom: 1rem;
+	margin: 1rem 0 6rem 0;
 }
 
 .countdown {
@@ -148,18 +144,6 @@
 
 .unit {
 	font-size: .9rem;
-}
-
-.global-counter {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-bottom: 2rem;
-}
-
-.counter {
-	text-align: center;
-	font-size: 1.75rem;
 }
 
 @media only screen and (max-width: 1200px) {

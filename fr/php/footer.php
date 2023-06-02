@@ -1,3 +1,25 @@
+<?php
+    CONST mois = [
+        '01' => "janvier",
+        '02' => "février",
+        '03' => "mars",
+        '04' => "avril",
+        '05' => "mai",
+        '06' => "juin",
+        '07' => "juillet",
+        '08' => "août",
+        '09' => "septembre",
+        '10' => "octobre",
+        '11' => "novembre",
+        '12' => "décembre"
+    ];
+
+    $jour = date('d');
+    $moi = mois[date('m')];
+    $annee = date('Y');
+    $date = $jour.' '.$moi.' '.$annee;
+?>
+
 <div class="footer">
     <div class="top">
         <div class="left">
@@ -11,6 +33,13 @@
         </div>
         <div class="center">
             <img src="/img/we_can_do_it.png" alt="illustration 'we can do it'">
+            <div class="global-counter">
+                <p>
+                    Personne impactés au <?php echo $date ?> :
+                    <span class="counter orange-txt font-weight"> 12 </span>
+                    éco-sensibilisés
+                </p>
+            </div>
         </div>
         <div class="right">
             <div class="label">

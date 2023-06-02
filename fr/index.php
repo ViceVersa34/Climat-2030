@@ -36,53 +36,39 @@
                 </div>
                 <div class="principe">
                     <p>
-                        <span class="yello-txt size-txt">Proposition</span> Une éducation aussi puissante qu'originale au climat pour se métamorphoser en virtuose du climat.
+                        <span class="yello-txt size-txt">Proposition</span> Une éducation aussi puissante qu'originale au climat pour se métamorphoser en virtuose du climat. Pour parvenir à nos objectifs, nous avons :
                     </p>
                 </div>
             </div>
 
             <div class="global-countdown">
-                <div class="global-counter">
-                    <p>
-                        Climat-2030 a permis de sensibiliser
-                        <span class="counter orange-txt font-weight"> 12 </span>
-                        personnes à ce jour.
-                    </p>
-                </div>
-                <div class="countdown-text">
-                    Pour parvenir a nos objectifs, nous avons :
-                </div>
                 <div class="countdown">
                     <div class="countdown-top">
                         <div class="countdown-item">
                             <div id="years" class="time size-txt2 font-weight orange-txt">00</div>
                             <div class="unit">ANS</div>
                         </div>
-                        <div class="separateur size-txt2 font-weight orange-txt">:</div>
                         <div class="countdown-item">
                             <div id="months" class="time size-txt2 font-weight orange-txt">00</div>
                             <div class="unit">MOIS</div>
                         </div>  
-                        <div class="separateur size-txt2 font-weight orange-txt">:</div>
                         <div class="countdown-item">
                             <div id="days" class="time size-txt2 font-weight orange-txt">00</div>
                             <div class="unit">JOURS</div>
                         </div>
-                    </div>
+                    </div>  
                     <div class="countdown-bottom">
                         <div class="countdown-item">
                             <div id="hours" class="time size-txt2 font-weight orange-txt">00</div>
                             <div class="unit">HEURES</div>
                         </div>
-                        <div class="separateur size-txt2 font-weight orange-txt">:</div>
                         <div class="countdown-item">
                             <div id="minutes" class="time size-txt2 font-weight orange-txt">00</div>
-                            <div class="unit">MINUTES</div>
+                            <div class="unit">MIN</div>
                         </div>
-                        <div class="separateur size-txt2 font-weight orange-txt">:</div>
                         <div class="countdown-item">
                             <div id="seconds" class="time size-txt2 font-weight orange-txt">00</div>
-                            <div class="unit">SECONDES</div>
+                            <div class="unit">SEC</div>
                         </div>
                     </div>
                 </div>

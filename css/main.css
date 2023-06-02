@@ -386,6 +386,19 @@ main {
 	text-decoration: underline;
 }
 
+.global-counter {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+.counter {
+	text-align: center;
+	font-size: 1.75rem;
+}
+
 /* -------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------- */
 /* -------------------------------- Break Points ---------------------------------- */
@@ -700,6 +713,17 @@ main {
 	}
 }
 
+@media only screen and (max-width: 525px) {
+	.global-counter p {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.counter {
+		font-size: 3rem;
+	}
+}
 @media only screen and (max-width: 500px) {
 	.bandeau-contact {
 		margin-top: 1.5vh;
