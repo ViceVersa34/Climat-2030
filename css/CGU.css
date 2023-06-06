@@ -61,7 +61,7 @@
     margin-left: 2rem;
 }
 
-/* -------------------- Mention icônes -------------------- */
+/* -------------------- Mention image -------------------- */
 .title-mention-image {
     max-width: 1000px;
     width: 100%;
@@ -92,7 +92,7 @@
 }
 
 .image .mention {
-    margin-left: 2rem;
+    margin-left: .75rem;
 }
 
 .mention a:hover {
