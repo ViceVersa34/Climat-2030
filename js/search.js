@@ -6,15 +6,15 @@ const suggestionsList = document.getElementById('suggestions-list');
 const words = ['Accueil', 'Académie du climat', 'Le social club', 'L\'exposition', 'L\'humour', 'S\'inscrire', 'En savoir plus', 'Contact', 'CGU'];
 
 const pageUrls = {
-    'Accueil': '/fr/',
-    'Académie du climat': '/fr/academie-du-climat.php',
-    'Le social club': '/fr/social-club.php',
-    'L\'exposition': '/fr/exposition.php',
-    'L\'humour': '/fr/humour.php',
-    'S\'inscrire' : '/fr/inscription.php',
-    'En savoir plus' : '/fr/en-savoir-plus.php',
-    'Contact' : '/fr/contact.php',
-    'CGU' : '/fr/CGU.php'
+    "Accueil": "/fr/",
+    "Académie du climat": "/fr/academie-du-climat.php",
+    "Le social club": "/fr/social-club.php",
+    "L\"exposition": "/fr/exposition.php",
+    "L\"humour": "/fr/humour.php",
+    "S\"inscrire" : "/fr/inscription.php",
+    "En savoir plus" : "/fr/en-savoir-plus.php",
+    "Contact" : "/fr/contact.php",
+    "CGU" : "/fr/CGU.php"
 };
 
 searchInput.addEventListener('input', function () {
