@@ -39,24 +39,24 @@ if (!array_key_exists($url, MAPPING)) {
         <li class="nav-item menu-academie-du-climat">
             <a href="/fr/academie-du-climat.php">L'académie</a>
             <ul class="sub-menu">
-                <li class="sub-nav-item"><a href="/fr/academie-du-climat.php">Sensibilisation</a></li>
-                <li class="sub-nav-item"><a href="/fr/academie-du-climat.php">Formation</a></li>
-                <li class="sub-nav-item"><a href="/fr/academie-du-climat.php">Parcours Climat</a></li>
+                <li class="sub-nav-item"><a href="/fr/academie-du-climat.php" onclick="changerLeft2('-18rem');">Sensibilisation</a></li>
+                <li class="sub-nav-item"><a href="/fr/academie-du-climat.php" onclick="changerLeft2('-18rem');">Formation</a></li>
+                <li class="sub-nav-item"><a href="/fr/academie-du-climat.php" onclick="changerLeft2('-18rem');">Parcours Climat</a></li>
             </ul>
         </li>
         <li class="nav-item menu-social-club">
-            <a href="">Le Social Club</a>
+            <a      >Le Social Club</a>
             <ul class="sub-menu">
-                <li class="sub-nav-item"><a href="/fr/social-club.php#social-network">Le réseau social</a></li>
-                <li class="sub-nav-item"><a href="/fr/social-club.php#humour">L'humour</a></li>
+                <li class="sub-nav-item"><a href="/fr/social-club.php#social-network" onclick="changerLeft2('-18rem');">Le réseau social</a></li>
+                <li class="sub-nav-item"><a href="/fr/social-club.php#humour" onclick="changerLeft2('-18rem');">L'humour</a></li>
             </ul>
         </li>
         <li class="nav-item menu-exposition">
             <a href="/fr/exposition.php">L'édition</a>
             <ul class="sub-menu">
-                <li class="sub-nav-item"><a href="/fr/exposition.php">L'exposition</a></li>
-                <li class="sub-nav-item"><a href="/fr/exposition.php">Le livre</a></li>
-                <li class="sub-nav-item"><a href="/fr/exposition.php">Le guide</a></li>
+                <li class="sub-nav-item"><a href="/fr/exposition.php" onclick="changerLeft2('-18rem');">L'exposition</a></li>
+                <li class="sub-nav-item"><a href="/fr/exposition.php" onclick="changerLeft2('-18rem');">Le livre</a></li>
+                <li class="sub-nav-item"><a href="/fr/exposition.php" onclick="changerLeft2('-18rem');">Le guide</a></li>
             </ul>
         </li>
         <li class="nav-item menu-search" id="searchActive">

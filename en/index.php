@@ -39,21 +39,12 @@
                 <div class="principe">
                     <p>
                         <span class="yello-txt size-txt">What</span> We are building smart and powerful climate program to metamorphosis human in climate virtuoso.
+                        To achieve our goals, we have :
                     </p>
                 </div>
             </div>
 
             <div class="global-countdown">
-                <div class="global-counter">
-                    <p>
-                        To date, Climate-2030 has raised awareness among
-                        <span class="counter orange-txt font-weight"> 12 </span>
-                        individuals.
-                    </p>
-                </div>
-                <div class="countdown-text">
-                    Pour parvenir a nos objectifs, nous avons :
-                </div>
                 <div class="countdown">
                     <div class="countdown-top">
                         <div class="countdown-item">
@@ -106,14 +97,42 @@
                 </div>
                 <div class="yello-txt size-txt pr valeur">Our values</div>
                 <div class="penser-climat">
-                    <div class="yello-txt size-txt pr penser-le-climat">Penser le climat</div>
-                    <div class="pensee"><span class="yello-txt size-txt pr">C</span> ritical</div>
-                    <div class="pensee"><span class="yello-txt size-txt pr">L</span> Later is not an option</div>
-                    <div class="pensee"><span class="yello-txt size-txt pr">I</span> ndividuals will make the difference</div>
-                    <div class="pensee"><span class="yello-txt size-txt pr">M</span> ake choices with climate in mind</div>
-                    <div class="pensee"><span class="yello-txt size-txt pr">A</span> act</div>
-                    <div class="pensee"><span class="yello-txt size-txt pr">T</span> oo late (before is)</div>
-                    <div class="pensee"><span class="yello-txt size-txt pr">T</span> very little bit will help</div>
+                    <div class="yello-txt size-txt pr penser-le-climat">Thinking the climate</div>
+                    <div class="pensee">
+                        <p>
+                            <span class="yello-txt size-txt pr">C</span> ritical
+                        </p>
+                    </div>
+                    <div class="pensee">
+                        <p>
+                            <span class="yello-txt size-txt pr">L</span> Later is not an option
+                        </p>
+                    </div>
+                    <div class="pensee">
+                        <p>
+                            <span class="yello-txt size-txt pr">I</span> ndividuals will make the difference
+                        </p>
+                    </div>
+                    <div class="pensee">
+                        <p>
+                            <span class="yello-txt size-txt pr">M</span> ake choices with climate in mind
+                        </p>
+                    </div>
+                    <div class="pensee">
+                        <p>
+                            <span class="yello-txt size-txt pr">A</span> act
+                        </p>
+                    </div>
+                    <div class="pensee">
+                        <p>
+                            <span class="yello-txt size-txt pr">T</span> oo late (before is)
+                        </p>
+                    </div>
+                    <div class="pensee">
+                        <p>
+                            <span class="yello-txt size-txt pr">T</span> very little bit will help
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

@@ -95,6 +95,10 @@
     margin-left: .75rem;
 }
 
-.mention a:hover {
+.mention a {
     text-decoration: underline;
+}
+
+.mention a:hover {
+    text-decoration: none;
 }

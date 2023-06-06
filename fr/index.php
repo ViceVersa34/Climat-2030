@@ -84,19 +84,43 @@
                 </div>
                 <div class="principe sl">
                     <p>
-                        <span class="yello-txt size-txt">Mission</span> Encourager les femmes et les hommes à prendre leur place pour parvenir à contenir l'objectif de réchauffement climatique à 1,5°C...en créant 
+                        <span class="yello-txt size-txt">Mission</span> Encourager les femmes et les hommes à prendre leur place pour parvenir à contenir l'objectif de réchauffement climatique à 1,5°C en créant 
                         un programme d'éducation sur le climat pour respecter l'échéance de <span class="yello-txt">l'humanité</span>.
                     </p>
                 </div>
                 <div class="yello-txt size-txt pr valeur">Valeurs ?</div>
                 <div class="penser-climat">
                     <div class="yello-txt size-txt pr penser-le-climat">Penser le climat</div>
-                    <div class="pensee"><span class="yello-txt size-txt pr">C</span> ommencer par soi</div>
-                    <div class="pensee"><span class="yello-txt size-txt pr">L</span> ibérer (se) des habitudes passées</div>
-                    <div class="pensee"><span class="yello-txt size-txt pr">I</span> nvestir du temps pour s'éduquer</div>
-                    <div class="pensee"><span class="yello-txt size-txt pr">M</span> aintenant. Plus tard n'est plus une option</div>
-                    <div class="pensee"><span class="yello-txt size-txt pr">A</span> dapter son comportement à l'urgence climatique</div>
-                    <div class="pensee"><span class="yello-txt size-txt pr">T</span> riompher collectivement !</div>
+                    <div class="pensee">
+                        <p>
+                            <span class="yello-txt size-txt pr">C</span> ommencer par soi
+                        </p>
+                    </div>
+                    <div class="pensee">
+                        <p>
+                            <span class="yello-txt size-txt pr">L</span> ibérer (se) des habitudes passées
+                        </p>
+                    </div>
+                    <div class="pensee">
+                        <p>
+                            <span class="yello-txt size-txt pr">I</span> nvestir du temps pour s'éduquer
+                        </p>
+                    </div>
+                    <div class="pensee">
+                        <p>
+                            <span class="yello-txt size-txt pr">M</span> aintenant. Plus tard n'est plus une option
+                        </p>
+                    </div>
+                    <div class="pensee">
+                        <p>
+                            <span class="yello-txt size-txt pr">A</span> dapter son comportement à l'urgence climatique
+                        </p>
+                    </div>
+                    <div class="pensee">
+                        <p>
+                            <span class="yello-txt size-txt pr">T</span> riompher collectivement !
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

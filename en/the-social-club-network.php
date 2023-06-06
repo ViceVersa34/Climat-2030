@@ -80,7 +80,7 @@
 
         <div class="humour">
             <h1 class="top_txt">Humour <span class="orange-txt size-txt2 txt-g font-family">“Women's Empowerment & Climate”</span></h1>
-            <a href="/en/sign-up.php#humour" class="en-savoir-plus">Pre-booking</a>
+            <a href="/en/contact.php" class="en-savoir-plus">Pre-booking</a>
 
             <div class="top-illustration">
                 <img src="/img/humour/illustration_humour.png" alt="Illustration humour">
