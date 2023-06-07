@@ -1,0 +1,26 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	border-style: border-box;
+	list-style : none;
+	text-decoration: none;
+	font-family: 'Inter', sans-serif;
+	color: #fff;
+}
+
+*::selection {
+    color: #000;
+    background: #fbca38;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: #161515;
+}
