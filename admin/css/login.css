@@ -39,14 +39,14 @@ input[type="submit"]:hover {
     border: 1px solid #e77754 !important;
 }
 
+.form-content div, .form-content input {
+    margin: .75rem 0;
+}
+
 @media only screen and (max-width: 450px) {
     .form-content {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    .form-content div, .form-content input {
-        margin: .75rem 0;
     }
 }
