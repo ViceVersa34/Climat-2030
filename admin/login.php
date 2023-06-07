@@ -32,11 +32,12 @@
             }
         }
     }
-
+    
     if(!empty($_GET)) {
         if(array_key_exists('destroy', $_GET)) {
             session_start();
             session_destroy();
+            header("Refresh: 0;url=/");
         }
     }
 
@@ -55,11 +56,15 @@
     </header>
 
     <main>
-
+        <h1 class="top_txt">Admin - <span class="orange-txt size-txt2 font-weight font-family">Climat-2030</span></h1>
         <div class="form">
             <form action="" method="POST">
-                <div class="fort-content">Email :</div><input type="email" name="mail" placeholder="Mail">
-                <div class="fort-content">Mot de passe :</div><input type="password" name="password" placeholder="Password">
+                <div class="form-content">
+                    <div class="input-name">Email :</div>
+                    <input type="email" name="mail" placeholder="Mail">
+                    <div class="input-name">Mot de passe :</div>
+                    <input type="password" name="password" placeholder="Password">
+                </div>
                 <input type="submit" value="Se connecter">
             </form>
         </div>
