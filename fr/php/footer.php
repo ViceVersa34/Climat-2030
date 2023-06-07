@@ -29,6 +29,7 @@
                 <div class="lien-utile-item"><a href="https://www.instagram.com/climat.2030/" target="blank">Instagram</a></div>
                 <div class="lien-utile-item"><a href="https://www.linkedin.com/" target="blank">Linkedin</a></div>
                 <div class="lien-utile-item"><a href="/fr/contact.php">Contact</a></div>
+                <div class="lien-utile-item"><a href="/admin">Admin</a></div>
             </div>
         </div>
         <div class="center">
