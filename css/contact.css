@@ -9,7 +9,6 @@ form {
 label {
     margin-bottom: 10px;
     color: #ffffff !important;
-
 }
 
 select,
@@ -51,4 +50,25 @@ input[type="submit"] {
 
 h1 {
     margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 330px) {
+    form {
+        width: 250px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    form{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    form,
+    label,
+    select {
+        width: 200px;
+    }
 }
