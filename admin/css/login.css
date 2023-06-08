@@ -43,6 +43,11 @@ input[type="submit"]:hover {
     margin: .75rem 0;
 }
 
+.error-message {
+    margin-top: .5rem;
+    color: #ff0000 !important;
+}
+
 @media only screen and (max-width: 450px) {
     .form-content {
         display: flex;

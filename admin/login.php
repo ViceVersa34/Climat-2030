@@ -26,8 +26,10 @@
                     $_SESSION['mail'] = $mail;
                     $_SESSION['password'] = $password;
                     $_SESSION['isAdmin'] = $user['users_isAdmin'];
-                    header("Refresh: 0;url=/admin");
+                    header("Refresh: 0;url=/admin/");
                     die();
+                } else {
+                    header("Refresh: 0;url=/admin/login.php?error=0");
                 }
             }
         }
@@ -38,6 +40,13 @@
             session_start();
             session_destroy();
             header("Refresh: 0;url=/");
+        }
+    }
+
+    $error_message = '';
+    if(array_key_exists('error', $_GET)) {
+        if($_GET['error'] == '0') {
+            $error_message = 'Identifiant ou mot de passe incorect !';
         }
     }
 
@@ -65,6 +74,7 @@
                     <div class="input-name">Mot de passe :</div>
                     <input type="password" name="password" placeholder="Password">
                 </div>
+                <div class="error-message"><?php echo $error_message; ?></div>
                 <input type="submit" value="Se connecter">
             </form>
         </div>
