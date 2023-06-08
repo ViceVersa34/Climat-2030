@@ -13,8 +13,11 @@
     <link rel="stylesheet" href="/admin/css/main.css">
     <title>Admin</title>
 </head>
-<body>
+<body style="display: flex; flex-direction: column;">
     <a href="/">accueil</a>
     <a href="/admin/login.php?destroy=">déconnecter</a>
+    <a href="/admin/tables/users.php">Users</a>
+    <a href="/admin/tables/customers.php">Customers</a>
+    <a href="/admin/tables/contents.php">Contents</a>
 </body>
 </html>
