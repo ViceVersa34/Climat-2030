@@ -27,7 +27,10 @@
     }
     $path = str_repeat('../', $i) . 'admin/php/link_db.php';
 
-    include($path); 
+    if ($_SERVER['PHP_SELF'] != '/admin/login.php') {
+        include($path); 
+    }
+    
     $sql = "SELECT COUNT(*) AS `compteur` FROM `customers`";
     $requete = $db->query($sql);
     $customers = $requete->fetchAll();
