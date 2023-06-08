@@ -18,6 +18,19 @@
     $moi = mois[date('m')];
     $annee = date('Y');
     $date = $jour.' '.$moi.' '.$annee;
+
+    $i = -1;
+    foreach (str_split($_SERVER['PHP_SELF']) as $chemin) {
+        if ($chemin == '/') {
+            $i += 1;
+        }   
+    }
+    $path = str_repeat('../', $i) . 'admin/php/link_db.php';
+
+    include($path); 
+    $sql = "SELECT COUNT(*) AS `compteur` FROM `customers`";
+    $requete = $db->query($sql);
+    $customers = $requete->fetchAll();
 ?>
 
 <div class="footer">
@@ -37,7 +50,7 @@
             <div class="global-counter">
                 <p>
                     Personne impactés au <?php echo $date ?> :
-                    <span class="counter orange-txt font-weight"> 12 </span>
+                    <span class="counter orange-txt font-weight"> <?php echo $customers[0]['compteur']; ?> </span>
                     éco-sensibilisés
                 </p>
             </div>
