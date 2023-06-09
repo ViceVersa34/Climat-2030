@@ -155,8 +155,6 @@
         <div class="boutons">
             <a href="" onclick="ajouter();" class="bouton">Ajouter une ligne</a>
             <a href="" onclick="effacerCustomers('all');" class="bouton">Tout effacer</a>
-            <a href="" class="bouton">Trier</a>
-            <a href="" class="bouton">Rechercher</a>
         </div>
         <div class="table">
             <table>
