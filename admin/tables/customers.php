@@ -267,8 +267,27 @@
                     <td> <?php echo ucfirst($customer['customers_city_organism']); ?> </td>
                     <td class="table-center"> 
                         <a href="" onclick="effacerCustomers(<?php echo $customer['id_customers']; ?>);"><img src="/admin/img/effacer.svg" alt="logo effacer"></a>
-                        <a href="?id=<?php echo $customer['id_customers']; ?>#afficher2" class="afficher2"><img src="/admin/img/modifier.svg" alt="logo modifier"></a>
+                        <a href="" onclick="update(<?php echo $customer['id_customers']; ?>);"><img src="/admin/img/modifier.svg" alt="logo modifier"></a>
                     </td>
+                </tr>
+                <tr class="invisible" id="<?php echo $customer['id_customers']; ?>">
+                    <form action="/admin/tables/customers.php" class="form-update">
+                        <input type="hidden" name="action" value="update">
+                        <td> <input type="hidden" name="id_customers" value="<?php echo $customer['id_customers']; ?>"> </td>
+
+                        <td> <input type="text" name="customers_name" value="<?php echo strtoupper($customer['customers_name']); ?>" class="input-update"> </td>
+                        <td> <input type="text" name="customers_surname" value="<?php echo ucfirst($customer['customers_surname']); ?>" class="input-update"> </td>
+                        <td> <input type="text" name="customers_mail" value="<?php echo $customer['customers_mail']; ?>" class="input-update"> </td>
+                        <td> <input type="text" name="customers_phone" value="<?php echo $customer['customers_phone']; ?>" class="input-update"> </td>
+                        <td> <input type="text" name="customers_age" value="<?php echo $customer['customers_age']; ?>" class="input-update"> </td>
+                        <td> <input type="text" name="customers_status" value="<?php echo $customer['customers_status']; ?>" class="input-update"> </td>
+                        <td> <input type="text" name="customers_nationality" value="<?php echo ucfirst($customer['customers_nationality']); ?>" class="input-update"> </td>
+                        <td> <input type="text" name="customers_organism" value="<?php echo ucfirst($customer['customers_organism']); ?>" class="input-update"> </td>
+                        <td> <input type="text" name="customers_country_organism" value="<?php echo ucfirst($customer['customers_country_organism']); ?>" class="input-update"> </td>
+                        <td> <input type="text" name="customers_city_organism" value="<?php echo ucfirst($customer['customers_city_organism']); ?>" class="input-update"> </td>
+
+                        <td> <input type="submit" value="Ajouter" class="input-update"></td>
+                    </form>
                 </tr>
                 <?php } ?>
             </table>
