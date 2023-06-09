@@ -3,6 +3,8 @@
     include('../php/link_db.php');
     include('../php/isAdmin.php');
 
+    $sql = "SELECT * FROM `customers` ORDER BY `id_customers` ASC";
+
     if(array_key_exists('action', $_GET)) {
         if($_GET['action'] == 'delete' and array_key_exists('id', $_GET)) {
             if($_GET['id'] == 'all') {
@@ -46,15 +48,85 @@
             VALUES ('$customers_name', '$customers_surname', '$customers_mail', '$customers_phone', '$customers_age', '$customers_status', '$customers_nationality', '$customers_organism', '$customers_country_organism', '$customers_city_organism')";
             $requete = $db->query($sql);
             $customers = $requete->fetchAll();
+            $sql = "SELECT * FROM `customers` ORDER BY `id_customers` ASC";
 
             header("Refresh: 0;url=/admin/tables/customers.php");
         }
-    }
+        
+        if($_GET['action'] == 'update' and 
+        array_key_exists('id_customers', $_GET) and
+        array_key_exists('customers_name', $_GET) and
+        array_key_exists('customers_surname', $_GET) and
+        array_key_exists('customers_mail', $_GET) and
+        array_key_exists('customers_phone', $_GET) and
+        array_key_exists('customers_age', $_GET) and
+        array_key_exists('customers_status', $_GET) and
+        array_key_exists('customers_nationality', $_GET) and
+        array_key_exists('customers_organism', $_GET) and
+        array_key_exists('customers_country_organism', $_GET) and
+        array_key_exists('customers_city_organism', $_GET)) {
+            
+            $id_customers = htmlspecialchars(strtolower($_GET['id_customers']));
+            $customers_name = htmlspecialchars(strtolower($_GET['customers_name']));
+            $customers_surname = htmlspecialchars(strtolower($_GET['customers_surname']));
+            $customers_mail = htmlspecialchars(strtolower($_GET['customers_mail']));
+            $customers_phone = htmlspecialchars(strtolower($_GET['customers_phone']));
+            $customers_age = htmlspecialchars((int)$_GET['customers_age']);
+            $customers_status = htmlspecialchars(strtolower($_GET['customers_status']));
+            $customers_nationality = htmlspecialchars(strtolower($_GET['customers_nationality']));
+            $customers_organism = htmlspecialchars(strtolower($_GET['customers_organism']));
+            $customers_country_organism = htmlspecialchars(strtolower($_GET['customers_country_organism']));
+            $customers_city_organism = htmlspecialchars(strtolower($_GET['customers_city_organism']));
+            
+            $sql = "UPDATE `customers` 
+            SET `customers_name`='$customers_name',`customers_surname`='$customers_surname',`customers_mail`='$customers_mail',
+            `customers_phone`='$customers_phone',`customers_age`='$customers_age',`customers_status`='$customers_status',`customers_nationality`='$customers_nationality',
+            `customers_organism`='$customers_organism',`customers_country_organism`='$customers_country_organism',`customers_city_organism`='$customers_city_organism' WHERE id_customers='$id_customers'";
+            $requete = $db->query($sql);
+            $customers = $requete->fetchAll();
+            $sql = "SELECT * FROM `customers` ORDER BY `id_customers` ASC";
 
-    $sql = "SELECT * FROM `customers` ORDER BY `id_customers` ASC";
+            header("Refresh: 0;url=/admin/tables/customers.php");
+        }
+
+        if($_GET['action'] == 'sortSearch' and 
+        array_key_exists('sort', $_GET) and
+        array_key_exists('order', $_GET) and
+        array_key_exists('search', $_GET) and
+        array_key_exists('query', $_GET)) {
+            if(!empty($_GET['sort']) and !empty($_GET['order']) and empty($_GET['search']) and empty($_GET['query'])) {
+                $sort = strtolower($_GET['sort']);
+                $order = strtolower($_GET['order']);
+                
+                $sql = "SELECT * FROM `customers` ORDER BY $sort $order";
+            }
+
+            if(empty($_GET['sort']) and empty($_GET['order']) and !empty($_GET['search']) and !empty($_GET['query'])) {
+                $search = strtolower($_GET['search']);
+                $query = strtolower($_GET['query']);
+                
+                $sql = "SELECT * FROM `customers` WHERE $search='$query'";
+            }
+            
+            if(!empty($_GET['sort']) and !empty($_GET['order']) and !empty($_GET['search']) and !empty($_GET['query'])) {
+                $sort = strtolower($_GET['sort']);
+                $order = strtolower($_GET['order']);
+                $search = strtolower($_GET['search']);
+                $query = strtolower($_GET['query']);
+
+                $sql = "SELECT * FROM `customers` WHERE $search=$query ORDER BY $sort $order";
+            }
+            
+        }
+        
+    }
+    
+    
+
+
     $requete = $db->query($sql);
     $customers = $requete->fetchAll();
-
+    
 ?>
 
 <!DOCTYPE html>
