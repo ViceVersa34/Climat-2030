@@ -171,3 +171,16 @@ input[type=submit]:hover {
     transition: .1s;
     font-size: 1rem;
 }
+
+.password {
+    display: flex;
+    flex-direction: column;
+}
+
+.password label {
+    margin-right: .5rem;
+}
+
+#password1, #password2 {
+    margin: .25rem 0;
+}
