@@ -11,4 +11,5 @@ if(!empty($_SESSION)) {
 
 if($isAdmin == 0) {
     header("Refresh: 0;url=/admin/login.php");
+    die();
 }
