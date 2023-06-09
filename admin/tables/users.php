@@ -228,7 +228,7 @@
                         <td> <input type="text" name="users_name" value="<?php echo strtoupper($user['users_name']); ?>" class="input-update"> </td>
                         <td> <input type="text" name="users_surname" value="<?php echo ucfirst($user['users_surname']); ?>" class="input-update"> </td>
                         <td> <input type="text" name="users_mail" value="<?php echo $user['users_mail']; ?>" class="input-update"> </td>
-                        <td> Vous ne pouvez pas modifier votre mot de passe ici. Allez dans 'mon compte' </td>
+                        <td> Vous ne pouvez pas modifier votre mot de passe ici. Allez dans '<a href="/admin/my-account">mon compte</a>' </td>
                         <td> <input type="text" name="users_isAdmin" value="<?php echo $user['users_isAdmin']; ?>" class="input-update"> </td>
                         <td> <input type="submit" value="Modifier" class="input-update"></td>
                     </form>
