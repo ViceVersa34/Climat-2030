@@ -137,6 +137,8 @@
     <link rel="stylesheet" href="/admin/css/tables.css">
     <script src="/admin/js/delete.js"></script>
     <script src="/admin/js/add.js"></script>
+    <script src="/admin/js/update.js"></script>
+
 </head>
 <body>
     <header>
