@@ -25,22 +25,27 @@
         array_key_exists('users_name', $_GET) and
         array_key_exists('users_surname', $_GET) and
         array_key_exists('users_mail', $_GET) and
-        array_key_exists('users_password', $_GET) and
+        array_key_exists('users_password1', $_GET) and
+        array_key_exists('users_password2', $_GET) and
         array_key_exists('users_isAdmin', $_GET)) {
             
             $users_name = htmlspecialchars(strtolower($_GET['users_name']));
             $users_surname = htmlspecialchars(strtolower($_GET['users_surname']));
             $users_mail = htmlspecialchars(strtolower($_GET['users_mail']));
-            $users_password = password_hash(htmlspecialchars(strtolower($_GET['users_password'])), PASSWORD_DEFAULT);
+            $users_password1 = htmlspecialchars(strtolower($_GET['users_password1']));
+            $users_password2 = htmlspecialchars(strtolower($_GET['users_password2']));
             $users_isAdmin = htmlspecialchars((int)$_GET['users_isAdmin']);
-            
-            $sql = "INSERT INTO `users`(`users_name`, `users_surname`, `users_mail`, `users_password`, `users_isAdmin`) 
-            VALUES ('$users_name', '$users_surname', '$users_mail', '$users_password', '$users_isAdmin')";
-            $requete = $db->query($sql);
-            $users = $requete->fetchAll();
-            $sql = "SELECT * FROM `users` ORDER BY `id_users` ASC";
 
-            header("Refresh: 0;url=/admin/tables/users.php");
+            if($users_password1 == $users_password2) {
+                $users_password = password_hash(htmlspecialchars(strtolower($users_password1)), PASSWORD_DEFAULT);
+                $sql = "INSERT INTO `users`(`users_name`, `users_surname`, `users_mail`, `users_password`, `users_isAdmin`) 
+                VALUES ('$users_name', '$users_surname', '$users_mail', '$users_password', '$users_isAdmin')";
+                $requete = $db->query($sql);
+                $users = $requete->fetchAll();
+                $sql = "SELECT * FROM `users` ORDER BY `id_users` ASC";
+                header("Refresh: 0;url=/admin/tables/users.php");
+            }
+            header("Refresh: 0;url=/admin/tables/users.php?error=0");
         }
         
         if($_GET['action'] == 'update' and 
@@ -193,7 +198,16 @@
                         <td> <input type="text" name="users_name" placeholder="Nom" class="input-add"> </td>
                         <td> <input type="text" name="users_surname" placeholder="Prénom" class="input-add"> </td>
                         <td> <input type="text" name="users_mail" placeholder="Mail" class="input-add"> </td>
-                        <td> <input type="password" name="users_password" placeholder="Password" class="input-add"> </td>
+                        <td class="password"> 
+                            <div>
+                                <label for="password1">Mot de passe : </label>
+                                <input type="password" name="users_password1" placeholder="Password" class="input-add" id="password1">
+                            </div>
+                            <div>
+                                <label for="password2">Verification :</label>
+                                <input type="password" name="users_password2" placeholder="Password" class="input-add" id="password2">
+                            </div>
+                        </td>
                         <td> <input type="text" name="users_isAdmin" placeholder="isAdmin" class="input-add"> </td>
                         <td> <input type="submit" value="Ajouter" class="input-add"></td>
                     </form>
