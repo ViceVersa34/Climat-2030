@@ -5,6 +5,7 @@
         <li class="nav-item"><a href="/admin/tables/users.php">Users</a></li>
         <li class="nav-item"><a href="/admin/tables/customers.php">Customers</a></li>
         <li class="nav-item"><a href="/admin/tables/contents.php">Contents</a></li>
+        <li class="nav-item"><a href="/admin/my-account.php">Mon compte</a></li>
         <li class="nav-item"><a href="/admin/login.php?destroy="><img src="/admin/img/bouton-marche.svg" alt="Déconnection"></a></li>
     </ul>
 </div>
