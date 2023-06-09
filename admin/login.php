@@ -23,8 +23,10 @@
             foreach($users as $user) {
                 if($mail == $user['users_mail'] and password_verify($password, $user['users_password'])) {
                     session_start();
+                    $_SESSION['id_users'] = $user['id_users'];
+                    $_SESSION['users_surname'] = $user['users_surname'];
                     $_SESSION['mail'] = $mail;
-                    $_SESSION['password'] = $password;
+                    $_SESSION['password'] = password_hash($password, PASSWORD_DEFAULT);
                     $_SESSION['isAdmin'] = $user['users_isAdmin'];
                     header("Refresh: 0;url=/admin/");
                     die();
