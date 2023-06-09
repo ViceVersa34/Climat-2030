@@ -155,6 +155,67 @@
         <div class="boutons">
             <a href="" onclick="ajouter();" class="bouton">Ajouter une ligne</a>
             <a href="" onclick="effacerCustomers('all');" class="bouton">Tout effacer</a>
+            <a href="" onclick="filtres();" class="bouton">Rechercher et Trier</a>
+            <?php
+                if(!empty(strpos($_SERVER['REQUEST_URI'], '?action=sortSearch'))) {
+                    echo '<a href="/admin/tables/customers" class="bouton" id="reset">Réinitialiser Trie / Recherche</a>';
+                }
+            ?>
+        </div>
+        <div class="filtres invisible" id="filtres">
+            <form action="/admin/tables/customers.php" method="get">
+                <input type="hidden" name="action" value="sortSearch">
+                    <div class="search">
+                        <select id="search" name="search" onchange="afficherSearch()">
+                            <option value="">-- Sélectionnez --</option>
+                            <option value="id_customers">id</option>
+                            <option value="customers_name">Nom</option>
+                            <option value="customers_surname">Prénom</option>
+                            <option value="customers_mail">Mail</option>
+                            <option value="customers_phone">Téléphone</option>
+                            <option value="customers_age">Âge</option>
+                            <option value="customers_status">Statut</option>
+                            <option value="customers_nationality">Nationnalité</option>
+                            <option value="customers_organism">Organisme</option>
+                            <option value="customers_country_organism">Pays organisme</option>
+                            <option value="customers_city_organism">Ville organisme</option>
+                        </select>
+                        <div id="globalQuery">
+                            <label for="query">Recherche :</label>
+                            <input type="text" name="query" id="query">
+                        </div>
+                    </div>
+                    <div class="sort">
+                        <select id="sort" name="sort" onchange="afficherSort()">
+                            <option value="">-- Sélectionnez --</option>
+                            <option value="id_customers">id</option>
+                            <option value="customers_name">Nom</option>
+                            <option value="customers_surname">Prénom</option>
+                            <option value="customers_mail">Mail</option>
+                            <option value="customers_phone">Téléphone</option>
+                            <option value="customers_age">Äge</option>
+                            <option value="customers_status">Statut</option>
+                            <option value="customers_nationality">Nationnalité</option>
+                            <option value="customers_organism">Organisme</option>
+                            <option value="customers_country_organism">Pays organisme</option>
+                            <option value="customers_city_organism">Ville organisme</option>
+                        </select>
+                        <div id="radio0">
+                            <input type="radio" id="initial" name="order" value="" checked>
+                            <label for="initial"></label>
+                        </div>
+                        <div id="radio1">
+                            <input type="radio" id="asc" name="order" value="asc">
+                            <label for="asc">Croissant</label>
+                        </div>
+                        <div id="radio2">
+                            <input type="radio" id="desc" name="order" value="desc">
+                            <label for="desc">Décroissant</label>
+                        </div>
+                    </div>
+                <input type="submit" value="Rechercher">
+            </form>
+            <script src="/admin/js/filtres.js"></script>
         </div>
         <div class="table">
             <table>
