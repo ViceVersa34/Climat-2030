@@ -1,3 +1,35 @@
+.nav-item.contents {
+    border-top: solid 1px #ba83f0 !important;
+}
+
+.global-title {
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-right: .5rem;
+}
+
+.info-icon {
+    font-size: 2rem;
+	font-weight: 300;
+    margin-left: .5rem;
+}
+
+.info {
+    display: none;
+    position: absolute;
+    padding: 1rem;
+    border-radius: 15px;
+    border: solid 1px #ecdcce60;
+    background: #161515;
+    box-shadow: 0px 0px 5px #2e2a2a;
+    margin-top: 2.5rem;
+}
+
 .pages-selectors {
     display: flex;
 }
@@ -11,5 +43,99 @@
 }
 
 .selector:hover {
+    transform: scale(1.1);
+}
+
+.yello-txt {
+    color: #f5f6aa !important;
+}
+
+.size-txt {
+    font-size: 1.25rem !important;
+}
+
+.orange-txt {
+    color: #e77754 !important;
+}
+
+.size-txt2 {
+    font-size: 2rem !important;
+}
+
+.font-weight {
+    font-weight: 700 !important;
+}
+
+.font-family {
+    font-family: 'Fugaz One', cursive !important;
+}
+
+main {
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-selector {
+    position: absolute;
+    margin-bottom: 100px;
+}
+
+.group-content {
+    border-bottom: solid 1px #534946;
+    padding: 2rem;
+    margin: 0 0 2rem 0;
+}
+
+.content {
+    margin: 3rem 0;
+}
+
+.language {
+    display: grid;
+    grid-template-columns: 800px 100px;
+    margin: .5rem 0;
+    padding: 0 0 0 2rem;
+}
+
+input, textarea {
+    max-width: 800px;
+    width: 100%;
+    height: 100px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background: #272323;
+    margin-bottom: 10px;
+    color: #ffffff !important;
+    outline: 0;
+}
+
+.invisible {
+    display: none !important;
+}
+
+.update-button img {
+    width: 30px;
+    margin-left: 1rem;
+}
+
+.contenu-input {
+    display: grid;
+    grid-template-columns: 700px 100px;
+
+}
+
+.contenu-input button {
+    margin: 30px 0 0 20px;
+    width: 80px;
+    height: 40px;
+    background: #ba83f0;
+    border-radius: 15px;
+    transition: .2s;
+    border: none;
+}
+.contenu-input button:hover {
     transform: scale(1.1);
 }
