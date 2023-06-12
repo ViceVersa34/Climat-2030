@@ -13,8 +13,8 @@ function afficherSort() {
         radio1Element.style.display = "none";
         radio2Element.style.display = "none";
     } else {
-        radio1Element.style.display = "inline";
-        radio2Element.style.display = "inline";
+        radio1Element.style.display = "flex";
+        radio2Element.style.display = "flex";
     }
 }
 
