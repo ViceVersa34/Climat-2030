@@ -122,8 +122,8 @@ input[type=submit]:hover {
 
 .sort, .search {
     display: flex;
-    width: 500px;
-    justify-content: space-around;
+    width: 600px;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -136,9 +136,9 @@ input[type=submit]:hover {
 }
 
 .sort input[type='radio'] {
-    width:20px;
-    height:20px;
-    border:1px solid #e77754;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #e77754;
     accent-color: #e77754;
     background: #2e2a2a;
     margin-right: .5rem;
@@ -151,6 +151,10 @@ input[type=submit]:hover {
 
 #globalQuery, #radio0, #radio1, #radio2 {
     display: none;
+}
+
+#radio1 label, #radio2 label {
+    padding-bottom: .5rem;
 }
 
 .search input[type=text] {
