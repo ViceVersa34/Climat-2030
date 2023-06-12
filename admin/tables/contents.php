@@ -25,9 +25,17 @@
         <?php include('../php/header.php'); ?>
     </header>
     <main>
+        <div class="global-title">
+            <div class="title">Contents</div>
+            <div class="info-icon" id="infoIcon">🛈</div>
+            <div class="info" id="info">La page 'Contents' contient les textes du site. Il est possible de les modifiés ici.</div>
+        </div>
+        <script src="/admin/js/info.js"></script>
+        
         <div class="pages-selectors">
             <div class="selector"><a href="#index">Accueil</a></div>
         </div>
+        
         <div class="pages">
             <div class="page index">
                 <?php include('../contents/accueil.php'); ?>
