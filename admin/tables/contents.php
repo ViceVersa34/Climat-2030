@@ -17,6 +17,7 @@
 <head>
     <?php include('../php/head.php'); ?>
     <link rel="stylesheet" href="/admin/css/contents.css">
+    <script src="/admin/js/updateContents.js"></script>
     <title>Document</title>
 </head>
 <body>
