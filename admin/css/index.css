@@ -1,3 +1,7 @@
+.nav-item.accueil {
+    border-top: solid 1px #ba83f0 !important;
+}
+
 main div {
     text-align: center;
     margin-top: 5rem;
