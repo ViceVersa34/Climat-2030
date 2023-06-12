@@ -135,6 +135,7 @@
     <?php include('../php/head.php'); ?>
     <title>Document</title>
     <link rel="stylesheet" href="/admin/css/tables.css">
+    <link rel="stylesheet" href="/admin/css/customers.css">
     <script src="/admin/js/delete.js"></script>
     <script src="/admin/js/add.js"></script>
     <script src="/admin/js/update.js"></script>
@@ -168,6 +169,7 @@
             <form action="/admin/tables/customers.php" method="get">
                 <input type="hidden" name="action" value="sortSearch">
                     <div class="search">
+                        <label for="search">Recherche :</label>
                         <select id="search" name="search" onchange="afficherSearch()">
                             <option value="">-- Sélectionnez --</option>
                             <option value="id_customers">id</option>
@@ -188,6 +190,7 @@
                         </div>
                     </div>
                     <div class="sort">
+                        <label for="sort">Trie :</label>
                         <select id="sort" name="sort" onchange="afficherSort()">
                             <option value="">-- Sélectionnez --</option>
                             <option value="id_customers">id</option>
