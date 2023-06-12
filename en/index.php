@@ -130,7 +130,7 @@
                     </div>
                     <div class="pensee">
                         <p>
-                            <span class="yello-txt size-txt pr">T</span> very little bit will help
+                            <span class="yello-txt size-txt pr">E</span> very little bit will help
                         </p>
                     </div>
                 </div>
