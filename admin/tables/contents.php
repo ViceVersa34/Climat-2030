@@ -29,47 +29,7 @@
         </div>
         <div class="pages">
             <div class="page index">
-                <div class="page-selector" id="index"></div>
-                <div class="contents">
-                    <div class="content">
-                        <!-- TITRE -->
-                        <?php
-                            $sql = "SELECT `contents_content` FROM `contents` WHERE `contents_name` = 'titre'";
-                            $requete = $db->query($sql);
-                            $contents = $requete->fetchAll();
-                            echo $contents[0]['contents_content'];
-                        ?>
-                    </div>
-                    <div class="content">
-                        <!-- QUESTION -->
-                        <?php
-                            $sql = "SELECT `contents_content` FROM `contents` WHERE `contents_name` = 'question 1'";
-                            $requete = $db->query($sql);
-                            $contents = $requete->fetchAll();
-                            echo $contents[0]['contents_content'];
-                        ?>
-                    </div>
-                    <div class="content">
-                        <!-- CONSTAT -->
-                        <?php
-                            $sql = "SELECT `contents_content` FROM `contents` WHERE `contents_name` = 'question 2'";
-                            $requete = $db->query($sql);
-                            $contents = $requete->fetchAll();
-                            echo $contents[0]['contents_content'];
-                        ?>
-                    </div>
-                    <div class="content">
-                        <!-- VALEURS -->
-                        <?php
-                            $sql = "SELECT `contents_content` FROM `contents` WHERE `contents_name` = 'question 3'";
-                            $requete = $db->query($sql);
-                            $contents = $requete->fetchAll();
-                            echo $contents[0]['contents_content'];
-                        ?>
-                    </div>
-                    <div class="content">
-                    </div>
-                </div>
+                <?php include('../contents/accueil.php'); ?>
             </div>
         </div>
     </main>
