@@ -1,3 +1,4 @@
+<?php include('../admin/tables/contents//part/content.php'); ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -11,7 +12,7 @@
     </header>
 
     <main>
-        <h1 class="top_txt">Métamorphoser l'humanité en virtuose du climat</h1>
+        <h1 class="top_txt"><?php echo $contenuView['index']['fr']['titre']['contenu']; ?></h1>
         <div class="global-bouton">
             <a href="/fr/#countdown" class="bouton">En combien de temps ?</a>
             <a href="/fr/en-savoir-plus.php" class="bouton">En savoir +</a>
@@ -25,19 +26,19 @@
             <div class="valeurs-part1">
                 <div class="principe">
                     <p>
-                        <span class="yello-txt size-txt">Pourquoi</span> Si nous arrivons à comprendre le réchauffement climatique, cela changera l'avenir de l'humanité dans le monde.
+                        <?php echo $contenuView['index']['fr']['question 1']['contenu']; ?>
                     </p>
                 </div>
                 <div class="principe">
                     <div class="repere" id="countdown"></div>
                     <p>
-                        <span class="yello-txt size-txt">Comment</span> En mettant l'accent sur <span class="yello-txt">l'émancipation</span> des humains et <span class="yello-txt">des femmes</span> en particulier pour garantir un avenir durable.
+                        <?php echo $contenuView['index']['fr']['question 2']['contenu']; ?>
                     </p>
                 </div>
                 <div class="principe">
                     <p>
-                        <span class="yello-txt size-txt">Proposition</span> Une éducation aussi puissante qu'originale au climat pour se métamorphoser en virtuose du climat. Pour parvenir à nos objectifs, nous avons :
-                    </p>
+                        <?php echo $contenuView['index']['fr']['question 3']['contenu']; ?>
+                    </p>    
                 </div>
             </div>
 
@@ -77,48 +78,48 @@
 
             <div class="valeurs-part2">
                 <div class="principe sl">
-                    <p>
-                        <span class="yello-txt size-txt">Vision</span> Un monde où chaque personne a <span class="yello-txt">conscience</span> de la nécessité de limiter le réchauffement climatique à 1,5°C d'ici 2030 et au delà. <br>
-                        Pour cela, il faut mettre à disposition de chaque cerveau humain la passion pour l'érudition et la capacité d'innovation pour faire de "2 tonnes de carbone" une habitude de pensée quotidienne.
+                    <p><p>
+                        <?php echo $contenuView['index']['fr']['question 4']['contenu']; ?>
                     </p>
                 </div>
                 <div class="principe sl">
                     <p>
-                        <span class="yello-txt size-txt">Mission</span> Encourager les femmes et les hommes à prendre leur place pour parvenir à contenir l'objectif de réchauffement climatique à 1,5°C en créant 
-                        un programme d'éducation sur le climat pour respecter l'échéance de <span class="yello-txt">l'humanité</span>.
+                        <?php echo $contenuView['index']['fr']['question 5']['contenu']; ?>
                     </p>
                 </div>
-                <div class="yello-txt size-txt pr valeur">Valeurs ?</div>
+                <div class="valeur"><?php echo $contenuView['index']['fr']['question 6']['contenu']; ?></div>
+                
                 <div class="penser-climat">
-                    <div class="yello-txt size-txt pr penser-le-climat">Penser le climat</div>
+                    <div class="penser-le-climat"><?php echo $contenuView['index']['fr']['valeurs 0']['contenu']; ?></div>
+                    
                     <div class="pensee">
                         <p>
-                            <span class="yello-txt size-txt pr">C</span> ommencer par soi
+                            <?php echo $contenuView['index']['fr']['valeurs 1']['contenu']; ?>
                         </p>
                     </div>
                     <div class="pensee">
                         <p>
-                            <span class="yello-txt size-txt pr">L</span> ibérer (se) des habitudes passées
+                            <?php echo $contenuView['index']['fr']['valeurs 2']['contenu']; ?>
                         </p>
                     </div>
                     <div class="pensee">
                         <p>
-                            <span class="yello-txt size-txt pr">I</span> nvestir du temps pour s'éduquer
+                            <?php echo $contenuView['index']['fr']['valeurs 3']['contenu']; ?>
                         </p>
                     </div>
                     <div class="pensee">
                         <p>
-                            <span class="yello-txt size-txt pr">M</span> aintenant. Plus tard n'est plus une option
+                            <?php echo $contenuView['index']['fr']['valeurs 4']['contenu']; ?>
                         </p>
                     </div>
                     <div class="pensee">
                         <p>
-                            <span class="yello-txt size-txt pr">A</span> dapter son comportement à l'urgence climatique
+                            <?php echo $contenuView['index']['fr']['valeurs 5']['contenu']; ?>
                         </p>
                     </div>
                     <div class="pensee">
                         <p>
-                            <span class="yello-txt size-txt pr">T</span> riompher collectivement !
+                            <?php echo $contenuView['index']['fr']['valeurs 6']['contenu']; ?>
                         </p>
                     </div>
                 </div>
