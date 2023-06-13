@@ -32,9 +32,15 @@
 
 .pages-selectors {
     display: flex;
+    margin-bottom: 4rem;
 }
 
 .selector {
+    transition: .2s;
+    margin: 0 1rem;
+}
+
+.selector a {
     text-align: center;
     border-radius: 10px;
     padding: .5rem 1.5rem;
@@ -79,7 +85,7 @@ main {
 
 .page-selector {
     position: absolute;
-    margin-bottom: 100px;
+    margin-bottom: 400px;
 }
 
 .group-content {
@@ -97,6 +103,7 @@ main {
     grid-template-columns: 800px 100px;
     margin: .5rem 0;
     padding: 0 0 0 2rem;
+    margin-bottom: 2rem;
 }
 
 input, textarea {
@@ -138,4 +145,62 @@ input, textarea {
 }
 .contenu-input button:hover {
     transform: scale(1.1);
+}
+
+.bouton {
+    padding: .25rem 1.5rem;
+    background: #ba83f0;
+    border-radius: 15px;
+    margin: 0 1.25rem;
+    transition: .2s;
+}
+
+.boutons {
+    margin-bottom: 2rem;
+}
+
+.mise-en-forme {
+    position: absolute;
+    top: 100px;
+    left: 275px;
+    padding: 2.5rem;
+    border: solid 1px #534946;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px #2e2a2a;
+    margin-bottom: 2rem;
+    cursor: move;
+    background: #161515;
+    z-index: 20;
+}
+
+.selectable-button, #copyButton, #copyClosingButton, #copyBrButton {
+    padding: .5rem;
+    min-width: 3rem;
+    margin: .5rem .5rem;
+    border-radius: 10px;
+    border: none;
+    background: #3b3636;
+    transition: .2s;
+}
+
+#copyButton {
+    margin-bottom: 1.5rem;
+}
+
+#copyButton, #copyClosingButton, #copyBrButton {
+    background: #ba83f0;
+}
+
+.selectable-button:hover, #copyButton:hover, #copyClosingButton:hover, #copyBrButton:hover {
+    transform: scale(1.1);
+}
+
+.selectable-button.active {
+    background-color: #534946; /* Couleur de fond pour les boutons sélectionnés */
+}
+
+#outputText {
+    width: 8rem;
+    height: 2rem;
+    border: none;
 }
