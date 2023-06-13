@@ -1,23 +1,39 @@
 <?php
-    CONST mois = [
-        '01' => "janvier",
-        '02' => "février",
-        '03' => "mars",
-        '04' => "avril",
-        '05' => "mai",
-        '06' => "juin",
-        '07' => "juillet",
-        '08' => "août",
-        '09' => "septembre",
-        '10' => "octobre",
-        '11' => "novembre",
-        '12' => "décembre"
+    const mois = [
+        '01' => "January",
+        '02' => "February",
+        '03' => "March",
+        '04' => "April",
+        '05' => "May",
+        '06' => "June",
+        '07' => "July",
+        '08' => "August",
+        '09' => "September",
+        '10' => "October",
+        '11' => "November",
+        '12' => "December"
     ];
 
     $jour = date('d');
     $moi = mois[date('m')];
     $annee = date('Y');
     $date = $jour.' '.$moi.' '.$annee;
+
+    $i = -1;
+    foreach (str_split($_SERVER['PHP_SELF']) as $chemin) {
+        if ($chemin == '/') {
+            $i += 1;
+        }   
+    }
+    // $path = str_repeat('../', $i) . 'admin/php/link_db.php';
+
+    // if ($_SERVER['PHP_SELF'] != '/admin/login.php') {
+    //     include($path); 
+    // }
+    
+    $sql = "SELECT COUNT(*) AS `compteur` FROM `customers`";
+    $requete = $db->query($sql);
+    $customers = $requete->fetchAll();
 ?>
 
 <div class="footer">
@@ -36,8 +52,8 @@
             <img src="/img/we_can_do_it.png" alt="illustration 'we can do it'">
             <div class="global-counter">
                 <p>
-                    people impacted as of <?php echo $date ?> :
-                    <span class="counter orange-txt font-weight"> 12 </span>
+                    People impacted as of <?php echo $date ?> :
+                    <span class="counter orange-txt font-weight"> <?php echo $customers[0]['compteur']; ?> </span>
                     eco-aware
                 </p>
             </div>
