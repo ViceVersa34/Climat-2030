@@ -105,3 +105,35 @@ header {
 .active {
 	border-top: solid 1px #ba83f0;
 }
+
+.sub-menu {
+	display: none;
+	flex-direction: row;
+	position: absolute;
+	left: 0;
+	top: 110;
+	width: 100vw;
+	padding: 1rem 1rem 1rem 0;
+	background: #161515;
+	/* background: #1d1919; */
+	align-items: center;
+	justify-content: center;
+	/* background: #fff; */
+}
+
+.sub-nav-item {
+	margin: .5rem 3rem;
+	padding: .5rem 0;
+}
+
+.sub-menu a {
+	padding: 0 0 0 1rem;
+}
+
+.sub-menu a:hover {
+	color: #ddd !important;
+}
+
+.nav-item:hover .sub-menu {
+	display: flex;
+}
