@@ -25,11 +25,11 @@
             $i += 1;
         }   
     }
-    $path = str_repeat('../', $i) . 'admin/php/link_db.php';
+    // $path = str_repeat('../', $i) . 'admin/php/link_db.php';
 
-    if ($_SERVER['PHP_SELF'] != '/admin/login.php') {
-        include($path); 
-    }
+    // if ($_SERVER['PHP_SELF'] != '/admin/login.php') {
+    //     include($path); 
+    // }
     
     $sql = "SELECT COUNT(*) AS `compteur` FROM `customers`";
     $requete = $db->query($sql);
