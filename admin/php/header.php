@@ -4,7 +4,13 @@
         <li class="nav-item accueil"><a href="/admin/">Accueil</a></li>
         <li class="nav-item users"><a href="/admin/tables/users.php">Users</a></li>
         <li class="nav-item customers"><a href="/admin/tables/customers.php">Customers</a></li>
-        <li class="nav-item contents"><a href="/admin/tables/contents.php">Contents</a></li>
+        <li class="nav-item contents">
+            <a href="/admin/tables/contents/">Contents</a>
+            <ul class="sub-menu">
+                <li class="sub-nav-item"><a href="/admin/tables/contents/">Accueil</a></li>
+                <li class="sub-nav-item"><a href="/admin/tables/contents/CGU.php">CGU</a></li>
+            </ul>
+        </li>
         <li class="nav-item my-account"><a href="/admin/my-account.php">Mon compte</a></li>
         <li class="nav-item"><a href="/admin/login.php?destroy="><img src="/admin/img/bouton-marche.svg" alt="Déconnection"></a></li>
     </ul>
