@@ -1,3 +1,6 @@
+<?php 
+    include('../admin/php/content.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +15,7 @@
 
     <main>
 
-        <h1 class="top_txt">Metamorphosis humanity into climate virtuosos</h1>
+        <h1 class="top_txt"><?php echo $contenuView['index']['en']['titre']['contenu']; ?></h1>
         <div class="global-bouton">
             <a href="/en/#countdown" class="bouton">How long did it take ?</a>
             <a href="/en/more-about-climat-2030.php" class="bouton">Learn more</a>
@@ -24,23 +27,21 @@
 
         <div class="valeurs">
             <div class="valeurs-part1">
-                <div class="principe">
+            <div class="principe">
                     <p>
-                        <span class="yello-txt size-txt">Why</span> If we can figure out climate warming , it will change the future of humanity in the world.
+                        <?php echo $contenuView['index']['en']['question 1']['contenu']; ?>
                     </p>
                 </div>
                 <div class="principe">
                     <div class="repere" id="countdown"></div>
                     <p>
-                        <span class="yello-txt size-txt">How</span> We focus on <span class="yello-txt">empowering</span> people and <span class="yello-txt">women</span> 
-                        in particular to fight global warming and ensure a sustainable future.
+                        <?php echo $contenuView['index']['en']['question 2']['contenu']; ?>
                     </p>
                 </div>
                 <div class="principe">
                     <p>
-                        <span class="yello-txt size-txt">What</span> We are building smart and powerful climate program to metamorphosis human in climate virtuoso.
-                        To achieve our goals, we have :
-                    </p>
+                        <?php echo $contenuView['index']['en']['question 3']['contenu']; ?>
+                    </p>    
                 </div>
             </div>
 
@@ -51,12 +52,10 @@
                             <div id="years" class="time size-txt2 font-weight orange-txt">00</div>
                             <div class="unit">YEARS</div>
                         </div>
-                        <div class="separateur size-txt2 font-weight orange-txt">:</div>
                         <div class="countdown-item">
                             <div id="months" class="time size-txt2 font-weight orange-txt">00</div>
                             <div class="unit">MONTHS</div>
                         </div>  
-                        <div class="separateur size-txt2 font-weight orange-txt">:</div>
                         <div class="countdown-item">
                             <div id="days" class="time size-txt2 font-weight orange-txt">00</div>
                             <div class="unit">DAYS</div>
@@ -67,12 +66,10 @@
                             <div id="hours" class="time size-txt2 font-weight orange-txt">00</div>
                             <div class="unit">HOUR</div>
                         </div>
-                        <div class="separateur size-txt2 font-weight orange-txt">:</div>
                         <div class="countdown-item">
                             <div id="minutes" class="time size-txt2 font-weight orange-txt">00</div>
                             <div class="unit">MINUTES</div>
                         </div>
-                        <div class="separateur size-txt2 font-weight orange-txt">:</div>
                         <div class="countdown-item">
                             <div id="seconds" class="time size-txt2 font-weight orange-txt">00</div>
                             <div class="unit">SECONDS</div>
@@ -83,54 +80,49 @@
             <script src="/js/countdown.js"></script>
 
             <div class="valeurs-part2">
-                <div class="principe sl">
-                    <p>
-                        <span class="yello-txt size-txt">Our vision</span> We see a world where everybody matters of 1,5°C of climate warming limit before 2030  — united 
-                        in the action. Driven by our passion for education and our instinct for innovation, we aim to empower every brain to make 2 tons carbon a daily habit.
+            <div class="principe sl">
+                    <p><p>
+                        <?php echo $contenuView['index']['en']['question 4']['contenu']; ?>
                     </p>
                 </div>
                 <div class="principe sl">
                     <p>
-                        <span class="yello-txt size-txt">Our mission</span> Our mission is to encourage women and men to take the power in containing the climate target of 
-                        1.5°C or less. We do this by creating an innovative global warming education programme to meet humanity's deadline.
+                        <?php echo $contenuView['index']['en']['question 5']['contenu']; ?>
                     </p>
                 </div>
-                <div class="yello-txt size-txt pr valeur">Our values</div>
+                <div class="valeur"><?php echo $contenuView['index']['en']['question 6']['contenu']; ?></div>
+                
                 <div class="penser-climat">
-                    <div class="yello-txt size-txt pr penser-le-climat">Thinking the climate</div>
+                    <div class="penser-le-climat"><?php echo $contenuView['index']['en']['valeurs 0']['contenu']; ?></div>
+                    
                     <div class="pensee">
                         <p>
-                            <span class="yello-txt size-txt pr">C</span> ritical
+                            <?php echo $contenuView['index']['en']['valeurs 1']['contenu']; ?>
                         </p>
                     </div>
                     <div class="pensee">
                         <p>
-                            <span class="yello-txt size-txt pr">L</span> Later is not an option
+                            <?php echo $contenuView['index']['en']['valeurs 2']['contenu']; ?>
                         </p>
                     </div>
                     <div class="pensee">
                         <p>
-                            <span class="yello-txt size-txt pr">I</span> ndividuals will make the difference
+                            <?php echo $contenuView['index']['en']['valeurs 3']['contenu']; ?>
                         </p>
                     </div>
                     <div class="pensee">
                         <p>
-                            <span class="yello-txt size-txt pr">M</span> ake choices with climate in mind
+                            <?php echo $contenuView['index']['en']['valeurs 4']['contenu']; ?>
                         </p>
                     </div>
                     <div class="pensee">
                         <p>
-                            <span class="yello-txt size-txt pr">A</span> act
+                            <?php echo $contenuView['index']['en']['valeurs 5']['contenu']; ?>
                         </p>
                     </div>
                     <div class="pensee">
                         <p>
-                            <span class="yello-txt size-txt pr">T</span> oo late (before is)
-                        </p>
-                    </div>
-                    <div class="pensee">
-                        <p>
-                            <span class="yello-txt size-txt pr">E</span> very little bit will help
+                            <?php echo $contenuView['index']['en']['valeurs 6']['contenu']; ?>
                         </p>
                     </div>
                 </div>
