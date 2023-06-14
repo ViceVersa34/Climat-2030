@@ -65,6 +65,7 @@
         <div class="pages">
             <div class="page index">
                 <?php include('part/accueil.php'); ?>
+                <script src="/admin/js/repereId.js"></script>
             </div>
         </div>
     </main>

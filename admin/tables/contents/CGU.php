@@ -63,6 +63,7 @@ include('part/content.php');
         <div class="pages">
             <div class="page index">
                 <?php include('part/CGU.php'); ?>
+                <script src="/admin/js/repereId.js"></script>
             </div>
         </div>
     </main>
