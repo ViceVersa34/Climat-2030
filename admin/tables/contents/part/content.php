@@ -103,7 +103,7 @@ function regExReplace($regExContent) {
         't2' => 'size-txt2',
         'g' => 'font-weight',
         'p' => 'font-family',
-          '/' => '/span'
+        '/' => '/span'
     ];
       $result = [];
     foreach($splitContent as $content) {
@@ -114,10 +114,10 @@ function regExReplace($regExContent) {
         }
     }
       
-      if($result[0] == '/span') {
+    if($result[0] == '/span') {
         $regExContent = '</span>';
     }
-      if($result[0] != '/span') {
+    if($result[0] != '/span' and $result[0] != 'br') {
         $regExContent = '<span class="';
         foreach($result as $res) {
             $regExContent = $regExContent.' '.$res;
