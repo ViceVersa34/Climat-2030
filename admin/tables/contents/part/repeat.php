@@ -1,3 +1,4 @@
+<div class="repereId" id="<?php echo 'r'.$tempId; ?>"></div>
 <div class="contenu" id="<?php echo $tempId; ?>">
     <p>
         <?php echo html_entity_decode($tempContenuView); ?>

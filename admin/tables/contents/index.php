@@ -11,7 +11,7 @@
         $sql = "UPDATE `contents` SET `contents_content`=\"$contents_content\" WHERE id_contents = $id_contents";
         $requete = $db->query($sql);
 
-        header("Refresh: 0;url=/admin/tables/contents/index.php");
+        header("Refresh: 0;url=/admin/tables/contents/index.php#r$id_contents");
 }
     
     // $contenuView = contentView($contents); (dans /admin/php/content.php)
