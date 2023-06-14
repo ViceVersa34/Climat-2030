@@ -13,7 +13,7 @@
 
     <main>
 
-        <h1 class="top_txt">L'exposition <span class="orange-txt size-txt2 txt-g font-family">“La grande histoire du climat”</span></h1>
+        <h1 class="top_txt">Balade artistique <span class="orange-txt size-txt2 txt-g font-family">“La grande histoire du climat”</span></h1>
         <a href="/fr/contact.php" class="en-savoir-plus">Demande de devis</a>
 
         <div class="top-illustration">
