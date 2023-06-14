@@ -9,6 +9,8 @@
             <ul class="sub-menu">
                 <li class="sub-nav-item"><a href="/admin/tables/contents/">Accueil</a></li>
                 <li class="sub-nav-item"><a href="/admin/tables/contents/CGU.php">CGU</a></li>
+                <li class="sub-nav-item"><a href="/admin/tables/contents/header.php">header</a></li>
+                <li class="sub-nav-item"><a href="/admin/tables/contents/footer.php">footer</a></li>
             </ul>
         </li>
         <li class="nav-item my-account"><a href="/admin/my-account.php">Mon compte</a></li>
