@@ -13,7 +13,7 @@
 
     <main>
 
-        <h1 class="top_txt">The Climate-2030 Academy </h1>
+        <h1 class="top_txt">The Climate Academy</h1>
         <a href="/en/contact.php" class="en-savoir-plus">Sign up</a>
 
         <div class="top-illustration">
@@ -44,9 +44,9 @@
             <div class="desc-programmes">
                 <div class="desc">Programme de formation au climat</div>
                 <div class="lien-programmes">
-                    <a href="#levelA" class="lien-programme">Débutant</a>
-                    <a href="#levelB" class="lien-programme">Intermédiaire</a>
-                    <a href="#levelC" class="lien-programme">Confirmé</a>
+                    <a href="#levelA" class="lien-programme">Équipe</a>
+                    <a href="#levelB" class="lien-programme">Référent pédagogique</a>
+                    <a href="#levelC" class="lien-programme">Éducateur climat </a>
                 </div>
                 <div class="repere" id="levelA"></div>
             </div>
