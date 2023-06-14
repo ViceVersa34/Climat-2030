@@ -2,7 +2,17 @@
 
     include('part/content.php');
 
-    
+    if(array_key_exists('action', $_GET) and
+    array_key_exists('id_contents', $_GET) and
+    array_key_exists('contents_content', $_GET)) {
+        $id_contents = htmlspecialchars($_GET['id_contents']);
+        $contents_content = htmlspecialchars($_GET['contents_content']);
+
+        $sql = "UPDATE `contents` SET `contents_content`=\"$contents_content\" WHERE id_contents = $id_contents";
+        $requete = $db->query($sql);
+
+        header("Refresh: 0;url=/admin/tables/contents/index.php");
+}
     
     // $contenuView = contentView($contents); (dans /admin/php/content.php)
     
