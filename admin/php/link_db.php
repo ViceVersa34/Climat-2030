@@ -1,10 +1,19 @@
 <?php
 
 //constante d'environnement
-define("DBHOST", "localhost");
-define("DBUSER", "root");
-define("DBPASS", "");
-define("DBNAME", "climat-2030");
+if ($_SERVER['SERVER_NAME'] == 'enzo-palermo.com') {
+    define("DBHOST", "enzopak162.mysql.db");
+    define("DBUSER", "enzopak162");
+    define("DBPASS", "5G4de67f");
+    define("DBNAME", "enzopak162");
+}
+
+if ($_SERVER['SERVER_NAME'] == 'climat-2030') {
+    define("DBHOST", "localhost");
+    define("DBUSER", "root");
+    define("DBPASS", "");
+    define("DBNAME", "climat-2030");
+}
 
 //DSN de connection
 $dsn = "mysql:dbname=".DBNAME.";host=".DBHOST;
