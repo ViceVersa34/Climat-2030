@@ -35,28 +35,39 @@ if (!array_key_exists($url, MAPPING)) {
     <a href="/fr/" class="img-logo"><img src="/img/logoV2.00.png" alt="logo Climat-2030"></a>
     <ul class="nav-list" id="nav">
         <li class="arrow-menu"><button class="arrow-menu-burger" onclick="changerLeft2('-20rem');"><img src="/img/croix.svg" alt="Menu burger"></button></li>
-        <li class="nav-item menu-acceuil"><a href="/fr/">Accueil</a></li>
+        <li class="nav-item menu-acceuil"><a href="/fr/"><?php echo $contenuView['header']['fr']['page 1']['contenu']; ?></a></li>
         <li class="nav-item menu-academie-du-climat">
-            <a href="/fr/academie-du-climat.php">L'Académie du Climat</a>
+            <a href="/fr/academie-du-climat.php"><?php echo $contenuView['header']['fr']['page 2']['contenu']; ?></a>
             <ul class="sub-menu">
-                <li class="sub-nav-item"><a href="/fr/academie-du-climat.php" onclick="changerLeft2('-18rem');">Sensibilisation</a></li>
-                <li class="sub-nav-item"><a href="/fr/academie-du-climat.php" onclick="changerLeft2('-18rem');">Formation Référent Climat</a></li>
+                <!-- <li class="sub-nav-item"><a href="" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 2.1']['contenu']; ?></a></li> -->
+                <!-- <li class="sub-nav-item"><a href="" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 2.2']['contenu']; ?></a></li> -->
+                <!-- <li class="sub-nav-item"><a href="" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 2.3']['contenu']; ?></a></li> -->
+                <!-- <li class="sub-nav-item"><a href="" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 2.4']['contenu']; ?></a></li> -->
+                <!-- Les pages en commentaire permettent d'en ajouter dans le site. 
+                Pour cela, il faut : Déocommenter, remplir le lien (href) et entrez le nom dans la partie admin (dans contents -> hearder) -->
             </ul>
         </li>
         <li class="nav-item menu-social-club">
-            <a>Le Social Club</a>
+            <a><?php echo $contenuView['header']['fr']['page 3']['contenu']; ?></a>
             <ul class="sub-menu">
-                <li class="sub-nav-item"><a href="/fr/academie-du-climat.php" onclick="changerLeft2('-18rem');">Parcours Climat</a></li>
-                <li class="sub-nav-item"><a href="/fr/social-club.php#social-network" onclick="changerLeft2('-18rem');">Club Climat</a></li>
-                <li class="sub-nav-item"><a href="/fr/social-club.php#social-network" onclick="changerLeft2('-18rem');">Forêt Club</a></li>
-                <li class="sub-nav-item"><a href="/fr/social-club.php#humour" onclick="changerLeft2('-18rem');">L'humour</a></li>
+                <!-- <li class="sub-nav-item"><a href="/fr/academie-du-climat.php" onclick="changerLeft2('-18rem');">Parcours Climat</a></li> -->
+                <li class="sub-nav-item"><a href="/fr/social-club.php#social-network" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 3.1']['contenu']; ?></a></li>
+                <li class="sub-nav-item"><a href="/fr/social-club.php#social-network" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 3.2']['contenu']; ?></a></li>
+                <li class="sub-nav-item"><a href="/fr/social-club.php#humour" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 3.3']['contenu']; ?></a></li>
+                <!-- <li class="sub-nav-item"><a href="" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 3.4']['contenu']; ?></a></li> -->
+                <!-- Les pages en commentaire permettent d'en ajouter dans le site. 
+                Pour cela, il faut : Déocommenter, remplir le lien (href) et entrez le nom dans la partie admin (dans contents -> hearder) -->
             </ul>
         </li>
         <li class="nav-item menu-exposition">
-            <a href="/fr/exposition.php">L'édition</a>
+            <a href="/fr/exposition.php"><?php echo $contenuView['header']['fr']['page 4']['contenu']; ?></a>
             <ul class="sub-menu">
-                <li class="sub-nav-item"><a href="/fr/exposition.php" onclick="changerLeft2('-18rem');">Étudiants</a></li>
-                <li class="sub-nav-item"><a href="/fr/exposition.php" onclick="changerLeft2('-18rem');">AF</a></li>
+                <li class="sub-nav-item"><a href="/fr/exposition.php" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 4.1']['contenu']; ?></a></li>
+                <li class="sub-nav-item"><a href="/fr/exposition.php" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 4.2']['contenu']; ?></a></li>
+                <!-- <li class="sub-nav-item"><a href="" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 4.3']['contenu']; ?></a></li> -->
+                <!-- <li class="sub-nav-item"><a href="" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 4.4']['contenu']; ?></a></li> -->
+                <!-- Les pages en commentaire permettent d'en ajouter dans le site. 
+                Pour cela, il faut : Déocommenter, remplir le lien (href) et entrez le nom dans la partie admin (dans contents -> hearder) -->
             </ul>
         </li>
         <li class="nav-item menu-search" id="searchActive">
