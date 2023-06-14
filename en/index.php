@@ -1,6 +1,4 @@
-<?php 
-    include('../admin/php/content.php');
-?>
+<?php include('../admin/tables/contents/part/content.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -1,3 +1,4 @@
+<?php include('../admin/tables/contents/part/content.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
