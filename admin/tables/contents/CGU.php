@@ -52,13 +52,11 @@ include('part/content.php');
                     <button id="button-o" class="selectable-button"><span class="orange-txt">Orange</span></button>
                     <button id="button-y" class="selectable-button"><span class="yello-txt">Jaune</span></button>
                 </div>
-                <button id="copyButton">Copier</button>
+                <button id="copyButton">Copier <span>Blaise d'ouverture</span></button>
+                <button id="copyClosingButton">Copier <span>balise de fermeture</span></button>
+                <button id="copyBrButton">Copier<span> saut de ligne</span></button>
                 <label for="outputText">Élement copié : </label>
                 <input type="text" id="outputText" readonly>
-                <div>Balise de fermeture :</div>
-                <button id="copyClosingButton">Copier {{/}}</button>
-                <div>Balise de saut de ligne :</div>
-                <button id="copyBrButton">Copy &lt;br&gt;</button>
                 <script src="/admin/js/miseEnForme.js"></script>
             </div>
         </div>
