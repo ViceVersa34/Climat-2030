@@ -50,10 +50,6 @@ include('part/content.php');
                 <script src="/admin/js/miseEnForme.js"></script>
             </div>
         </div>
-        <div class="pages-selectors">
-            <div class="selector"><a href="#index">Accueil</a></div>
-            <div class="selector"><a href="#CGU">CGU</a></div>
-        </div>
         <div class="pages">
             <div class="page index">
                 <?php include('part/CGU.php'); ?>
