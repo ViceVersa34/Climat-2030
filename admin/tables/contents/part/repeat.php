@@ -11,4 +11,13 @@
     </form>
     <button type="button" onclick="document.getElementById('<?php echo 'form'.$tempId; ?>').submit()">Envoyer</button>
 </div>
-<a href="" class="update-button" onclick="updateContents('<?php echo $tempId; ?>', '<?php echo 'm'.$tempId; ?>');"><img src="/admin/img/modifier.svg" alt="Bouton modifier"></a>
+<?php 
+    if($language == 'fr') {
+        $img = '/admin/img/modifierBleu.svg';
+    } else if($language == 'en') {
+        $img = '/admin/img/modifierRouge.svg';
+    } else {
+        $img = '/admin/img/modifier.svg';
+    }
+?>
+<a href="" class="update-button" onclick="updateContents('<?php echo $tempId; ?>', '<?php echo 'm'.$tempId; ?>');"><img src="<?php echo $img; ?>" alt="Bouton modifier"></a>
