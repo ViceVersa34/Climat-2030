@@ -1,4 +1,4 @@
-<?php include('../admin/tables/contents//part/content.php'); ?>
+<?php include('../admin/tables/contents/part/content.php'); ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
