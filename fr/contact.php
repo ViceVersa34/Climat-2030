@@ -18,7 +18,7 @@
         <div class="contact">
             <div class="objet">
                 <form>
-                    <label for="choix">Que voulez vous faire ? :</label>
+                    <label for="choix">Choisir une option :</label>
                     <select id="choix" name="choix" onchange="afficherChamps()" class="mb">
                         <option value="">-- Sélectionnez --</option>
                         <option value="question">Question</option>
@@ -39,7 +39,7 @@
                         </select>
                     </div>
 
-                    <label for="message">Mail :</label>
+                    <label for="message">E-mail :</label>
                     <input type="mail" name="mail" id="mail" placeholder="Mail">
                     <div class="mb">
                     </div>
@@ -49,7 +49,7 @@
                     <div id="compteur" class="compteur">0/500 caractères</div>
                     <div class="mb">
                     </div>
-
+                    <h2>Merci pour votre demande. <br>On vous contacte très vite !</h2>
                     <input type="submit" value="Envoyer">
                 </form>
             </div>

@@ -18,7 +18,7 @@
         <div class="contact">
             <div class="objet">
                 <form>
-                    <label for="choix">What do you yant to do :</label>
+                    <label for="choix">Choose an option :</label>
                     <select id="choix" name="choix" onchange="afficherChamps()" class="mb">
                         <option value="">-- Select --</option>
                         <option value="question">Question</option>
@@ -39,7 +39,7 @@
                         </select>
                     </div>
 
-                    <label for="message">Mail :</label>
+                    <label for="message">E-mail :</label>
                     <input type="mail" name="mail" id="mail" placeholder="Mail">
                     <div class="mb">
                     </div>
