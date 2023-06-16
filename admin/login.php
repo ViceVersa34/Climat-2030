@@ -1,7 +1,8 @@
 <?php
 
     
-    include('php/link_db.php');
+include('tables/contents/part/content.php'); 
+
 
     if(!empty($_SESSION)) {
         if (array_key_exists('isAdmin', $_SESSION)) {
