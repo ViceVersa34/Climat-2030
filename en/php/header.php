@@ -69,6 +69,15 @@ if (!array_key_exists($url, MAPPING)) {
                 Pour cela, il faut : Déocommenter, remplir le lien (href) et entrez le nom dans la partie admin (dans contents -> hearder) -->
             </ul>
         </li>
+        <li class="nav-item menu-search" id="searchActive">
+            <div class="search main-div">
+                <img src="/img/search.svg" alt="" class="search-icon" id="search-icon" onclick="search();">
+                <div class="search-container" id="search-container">
+                    <input type="text" id="search-input" placeholder="Recherche">
+                    <ul id="suggestions-list"></ul>
+                </div>
+            </div>
+        </li>
         <li class="nav-item">
             <ul class="language">
                 <li class="nav-item-language unresponsive"><a href="<?php echo $url2; ?>">FR</a></li>
