@@ -149,7 +149,7 @@
     <main>        
         <div class="global-title">
             <div class="title">Customers</div>
-            <div class="info-icon" id="infoIcon">🛈</div>
+            <div class="info-icon" id="infoIcon">i</div>
             <div class="info" id="info">La table 'Customers' contient les informations liées aux clients.</div>
         </div>
 

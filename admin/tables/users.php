@@ -129,7 +129,7 @@
     <main>        
         <div class="global-title">
             <div class="title">Users</div>
-            <div class="info-icon" id="infoIcon">🛈</div>
+            <div class="info-icon" id="infoIcon">i</div>
             <div class="info" id="info">La table 'Users' contient les informations liées aux utilisateurs du site (qui se connectes).</div>
         </div>
 
