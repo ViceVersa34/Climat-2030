@@ -33,7 +33,7 @@
     <main>
         <div class="global-title">
             <div class="title">Contents</div>
-            <div class="info-icon" id="infoIcon">🛈</div>
+            <div class="info-icon" id="infoIcon">i</div>
             <div class="info" id="info">La page 'Contents' contient les textes du site. Il est possible de les modifiés ici.</div>
         </div>
         <script src="/admin/js/info.js"></script>
