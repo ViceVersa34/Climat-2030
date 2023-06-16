@@ -11,6 +11,7 @@
                 <li class="sub-nav-item"><a href="/admin/tables/contents/CGU.php">CGU</a></li>
                 <li class="sub-nav-item"><a href="/admin/tables/contents/header.php">header</a></li>
                 <li class="sub-nav-item"><a href="/admin/tables/contents/footer.php">footer</a></li>
+                <li class="sub-nav-item"><a href="/admin/tables/contents/en-savoir-plus.php">En savoir plus</a></li>
             </ul>
         </li>
         <li class="nav-item my-account"><a href="/admin/my-account.php">Mon compte</a></li>
