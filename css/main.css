@@ -61,7 +61,8 @@ h1 {
 }
 
 .yello-txt {
-    color: #f5f6aa !important;
+    /* color: #f5f6aa !important; */
+    color: #dbb254 !important;
 }
 
 .size-txt {
@@ -540,7 +541,7 @@ main {
 	.nav-item:last-child {
 		padding: 0;
 		position: absolute;
-		top: 585px;
+		top: 30rem;
 		left: -55px;
 	}
 
@@ -591,7 +592,7 @@ main {
 	}
 
 	.search-icon {
-		top: 32rem;
+		top: 25.5rem;
 		width: 35px;
 		padding: 1rem .25rem .25rem .75rem;
 		margin-bottom: 1rem;
