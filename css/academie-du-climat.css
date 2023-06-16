@@ -47,7 +47,7 @@
     display: flex;
     align-items: center;
     font-size: .9rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 4rem;
     text-align: justify;
 }
 
@@ -55,19 +55,14 @@
     padding: 0 1.5rem;
     max-width: 1100px;
     width: 100%;
-    margin: 3rem 0;
+    margin: 0;
 }
 
 .programme {
     max-width: 1100px;
     width: 100%;
-    margin-top: 10rem;
+    margin-top: 4rem;
 } 
-
-.desc-programmes .desc {
-    color: #f5f6aa !important;
-    font-size: 1.25rem !important;
-}
 
 .normal {
     display: block;
@@ -80,7 +75,7 @@
 .desc-programmes {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     max-width: 1500px;
     width: 100%;
     text-align: center;
@@ -93,7 +88,6 @@
 }
 
 .desc-programmes .lien-programme {
-    color: #e77754 !important;
     font-size: 1.1rem;
     margin-left: 1.5rem;
 }
@@ -129,7 +123,12 @@
 }
 
 .duree {
-    margin-bottom: 0;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.titre {
+    margin-bottom: 3rem;
 }
 
 .titre p {
@@ -146,13 +145,18 @@
 .A p span,
 .B p span,
 .C p span {
-    font-size: .75rem !important;
+    font-size: 1rem !important;
 }
 
 .A,
 .B,
 .C {
-    font-size: .75rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+.A2 {
+    margin-top: 2rem;
 }
 
 .repere {
@@ -161,6 +165,15 @@
 
 .repere:first-child {
     margin-top: 0 !important;
+}
+
+.competences {
+    margin-top: 2rem;
+}
+
+.ligne {
+    border-top: 1px solid #534946;
+    margin: 5rem 0;
 }
 
 @media only screen and (max-width: 1280px) {
