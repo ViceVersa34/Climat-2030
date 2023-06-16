@@ -51,6 +51,10 @@
     text-align: justify;
 }
 
+.titre-humour {
+    margin-bottom: 1.5rem;
+}
+
 @media only screen and (max-width: 1200px) {
     .humour .menu-humour{
         border-top: solid 1px #1d1919;
