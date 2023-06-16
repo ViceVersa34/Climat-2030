@@ -52,9 +52,9 @@
             <img src="/img/we_can_do_it.png" alt="illustration 'we can do it'">
             <div class="global-counter">
                 <p>
-                    <?php echo $contenu['footer']['fr']['texte compteur 1']['contenu'].' '.$date; ?> :
+                    <?php echo html_entity_decode($contenu['footer']['fr']['texte compteur 1']['contenu']).' '.$date; ?> :
                     <span class="counter orange-txt font-weight"> <?php echo $customers[0]['compteur']; ?> </span>
-                    <?php echo ' '.$contenu['footer']['fr']['texte compteur 2']['contenu']; ?>
+                    <?php echo ' '.html_entity_decode($contenu['footer']['fr']['texte compteur 2']['contenu']); ?>
                 </p>
             </div>
         </div>
@@ -68,7 +68,7 @@
     <div class="bottom">
         <div class="line"></div>
         <div class="legal">
-            <a href="/fr/CGU.php"><?php echo $contenu['footer']['fr']['mention']['contenu']; ?></a>
+            <a href="/fr/CGU.php"><?php echo html_entity_decode($contenu['footer']['fr']['mention']['contenu']); ?></a>
         </div>
     </div>
 </div>
