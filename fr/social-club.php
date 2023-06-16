@@ -16,7 +16,7 @@
 
         <div class="social-network">
             <div class="repere social-club-repere" id="social-network"></div>
-            <h1 class="top_txt">Le réseau <span class="orange-txt size-txt2 txt-g font-family">Social Club</span></h1>
+            <h1 class="top_txt">Le Club <span class="orange-txt size-txt2 txt-g font-family">Climat</span></h1>
             <a href="/fr/contact.php" class="en-savoir-plus">Pré-inscription</a>
 
             <div class="top-illustration">
@@ -81,8 +81,9 @@
 
 
         <div class="humour">
-            <h1 class="top_txt">L'humour <span class="orange-txt size-txt2 txt-g font-family">“L'émancipation des femmes & le climat”</span></h1>
+            <h1 class="top_txt titre-humour">Club <span class="orange-txt size-txt2 txt-g font-family">Humour</span></h1>
             <a href="/fr/contact.php" class="en-savoir-plus">Pré-réservation</a>
+            <div><span class="orange-txt size-txt2 txt-g font-family">“L'émancipation des femmes & le climat”</span></div>
 
             <div class="top-illustration">
                 <img src="/img/humour/illustration_humour.png" alt="Illustration humour">
