@@ -80,17 +80,17 @@ function contentView($donnees) {
 
 function texteView($texte) {
     $pattern = '/{{(.*?)}}/s';
-      $n = 5;
-      while(strpos($texte, '{{') != '') {
-          if (preg_match($pattern, $texte, $matches)) {
+    $n = strlen($texte)/8;
+    while($n > 0) {
+        if (preg_match($pattern, $texte, $matches)) {
             $regExContent = $matches[1];
             $search = '{{'.$regExContent.'}}';
             $replace = regExReplace($regExContent);
-              $texte = str_replace($search, $replace, $texte);
+            $texte = str_replace($search, $replace, $texte);
         }
-      $n--;
+    $n--;
     }
-  return $texte;
+    return $texte;
 }
 
 function regExReplace($regExContent) {
