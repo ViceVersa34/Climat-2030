@@ -43,7 +43,6 @@
                 <div class="lien-utile-item">Climat-2030</div>
                 <div class="lien-utile-item"><a href="/fr/en-savoir-plus.php">En savoir plus sur Climat-2030</a></div>
                 <div class="lien-utile-item"><a href="https://www.instagram.com/climat.2030/" target="blank">Instagram</a></div>
-                <div class="lien-utile-item"><a href="https://www.linkedin.com/" target="blank">Linkedin</a></div>
                 <div class="lien-utile-item"><a href="/fr/contact.php">Contact</a></div>
                 <div class="lien-utile-item"><a href="/admin">Admin</a></div>
             </div>
