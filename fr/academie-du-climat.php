@@ -13,7 +13,7 @@
 
     <main>
 
-        <h1 class="top_txt">Académie du Climat</h1>
+        <h1 class="top_txt">Le Club <span class="yello-txt size-txt2 txt-g">Pédagogique</h1>
         <a href="/fr/contact.php" class="en-savoir-plus">S'inscrire</a>
 
         <div class="top-illustration">
@@ -27,46 +27,47 @@
             <div class="valeurs-part1">
                 <div class="principe">
                     <p>
-                        <span class="yello-txt size-txt">Objectif</span> L'académie s'est fixée comme objectif que chaque personne puisse s'éduquer aux enjeux du climat, quelque soit son niveau de connaissances de départ.
+                        <span class="yello-txt size-txt">Objectif</span><br><br> Climat-2030 s'est fixée comme objectif que chaque personne puisse s'éduquer aux enjeux du climat, 
+                        quelque soit son niveau de connaissances de départ.
                     </p>
                 </div>
                 <div class="principe">
                     <p>
-                        <span class="yello-txt size-txt">Modalités</span><br>
-                        Trois niveaux pour monter en compétence : Débutant, Intermédiaire et Confirmé.<br>
-                        L'académie du climat-2030 favorise l'intelligence collective de groupe.<br>
-                        Les séances mixent le jeu, l'interaction et les données issues du GIEC, de l'ADEME et d'autres organisations scientifiques en lien avec Le Climat.
+                        <span class="yello-txt size-txt">Modalités</span><br><br>
+                        Deux parcours pour d'une part sensibiliser toute l'équipe encadrante et d'autre part éduquer le ou la référent.e Climat-2030<br><br>
+                        Toutes les séances favorisent l'intelligence collective, le jeu et l'interaction. <br><br>
+                        Toutes les données sont issues du GIEC, de l'ADEME et d'autres organisations scientifiques en lien avec Le Climat.
                     </p>
                 </div>
+            </div>
+            <div class="desc-programmes">
+                <div class="size-txt">Programme de formation au climat</div>
+                <div class="lien-programmes">
+                    <a href="#levelA" class="lien-programme yello-txt">Sensibilisation</a>
+                    <a href="#levelB" class="lien-programme yello-txt">Éducation</a>
+                    <!-- <a href="#levelC" class="lien-programme">Éducateur climat </a> -->
+                </div>
+                <div class="repere" id="levelA"></div>
             </div>
         </div>
         
         <div class="programmes">
-            <div class="desc-programmes">
-                <div class="desc">Programme de formation au climat</div>
-                <div class="lien-programmes">
-                    <a href="#levelA" class="lien-programme">Équipe</a>
-                    <a href="#levelB" class="lien-programme">Référent pédagogique</a>
-                    <a href="#levelC" class="lien-programme">Éducateur climat </a>
-                </div>
-                <div class="repere" id="levelA"></div>
-            </div>
             <div class="programme">
                 <div class="level levelA">
                     <div class="txt">
                         <div class="level-content titre">
                             <p>
-                                A - Débutant : Serious Game
+                                Sensibillisation de l'équipe
                             </p>
                         </div>
                         <div class="level-content objectif">
                             <p>
-                                <span>Objectif :</span> Démystifier le climat.
+                                <span>Objectif :</span> <br><br>Démystifier le climat auprès de l'équipe encadrante et pédagogique.
                             </p>
                         </div>
                         <div class="level-content competences">
                             <p>
-                                <span>Compétences acquises :</span> <br>
+                                <span>Compétences acquises :</span> <br><br>
                                 A la fin de ce niveau, je serai en mesure de comprendre et d'expliquer à
                                 mon réseau la crise climatique et les mesures que je peux prendre pour
                                 avoir un impact positif.
@@ -74,19 +75,17 @@
                         </div>
                         <div class="level-content duree">
                             <p>
-                                <span>Durée :</span> 4 séances de formation sur 4 semaines
+                                <span>Durée :</span><br><br> 2 séances d'intelligence collective :
                             </p>
                         </div>
                         <div class="level-content A">
                             <p>
-                                <span>A1 :</span> Comprendre les enjeux du réchauffement climatique - <br>
-                                1 séance en présentiel
+                                <span>Fresque du climat :</span> <br><br>Serious Game pour comprendre les enjeux du réchauffement climatique - 1 séance en présentiel (2h)
                             </p>
                         </div>
-                        <div class="level-content A">
+                        <div class="level-content A A2">
                             <p>
-                                <span>A2 :</span> comprendre les conséquences du réchauffement climatique - <br>
-                                3 séances à distance
+                                <span>Atelier 2 Tonnes :</span> <br><br>Serious Game pour mesurer et réduire son empreinte carbone jusqu'à 2050 en fonction des décisions personnelle et collective -  1 séance en présentiel (2h)
                             </p>
                         </div>
                     </div>
@@ -96,41 +95,53 @@
                 </div>
                 <div class="repere" id="levelB"></div>
             </div>
+            <div class="ligne"></div>
             <div class="programme">
                 <div class="level levelB">
                     <div class="txt">
                         <div class="level-content titre">
                             <p>
-                                B- Intermédiaire : Apprentissage interactif
+                                Éducation référent.e Climat-2030
                             </p>
                         </div>
                         <div class="level-content objectif">
                             <p>
-                                <span>Objectif :</span> Tout savoir sur le climat.
+                                <span>Objectif :</span><br><br> Démystifier le Climat auprès des étudiants.
                             </p>
                         </div>
                         <div class="level-content competences">
                             <p>
-                                <span>Compétences acquises :</span> <br>
-                                A la fin de ce niveau, je serai en mesure de suivre mon impact en temps
-                                réel et de démystifier le climat auprès de mon entourage.
+                                <span>Initiation au parcours Club Climat :</span> <br><br>
+                                A la fin, je serai en mesure de suivre mon impact en temps
+                                réel et de démystifier le climat auprès des étudiants.
+                            </p>
+                        </div>
+                        <div class="level-content B">
+                            <p>
+                                <span>1 :</span> La Biodiversité et le Vivant
+                            </p>
+                        </div>
+                        <div class="level-content B">
+                            <p>
+                                <span>2 :</span> La consommation et l'énergie
                             </p>
                         </div>
                         <div class="level-content duree">
                             <p>
-                                <span>Durée :</span> 8 séances de formation sur 8 semaines
+                                <span>Vivre et penser avec le climat :</span><br><br>
+                                A la fin, je serai en mesure d'être un influenceur auprès 
+                                de étudiants et de démontrer que je suis un virtuose du 
+                                climat par ma façon de vivre et de communiquer.
                             </p>
                         </div>
                         <div class="level-content B">
                             <p>
-                                <span>B1 :</span> La Biodiversité et le Vivant - <br>
-                                4 séances à distance
+                                <span>3 :</span> Se métamorphoser en virtuose dur climat
                             </p>
                         </div>
                         <div class="level-content B">
                             <p>
-                                <span>B2 :</span> La consommation et l'énergie - <br>
-                                4 séances à distance
+                                <span>4 :</span> Agir aujourd'hui pour notre futur dès 2030
                             </p>
                         </div>
                     </div>
@@ -140,7 +151,7 @@
                 </div>
                 <div class="repere" id="levelC"></div>
             </div>
-            <div class="programme">
+            <!-- <div class="programme">
                 <div class="level levelC">
                     <div class="txt">
                         <div class="level-content titre">
@@ -182,7 +193,7 @@
                         <img src="/img/illustration_level.png" alt="Illustration programmes">
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
 
         <div class="scrollUp">
