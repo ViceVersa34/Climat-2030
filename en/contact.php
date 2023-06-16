@@ -18,7 +18,7 @@
         <div class="contact">
             <div class="objet">
                 <form>
-                    <label for="choix">Choose an object :</label>
+                    <label for="choix">What do you yant to do :</label>
                     <select id="choix" name="choix" onchange="afficherChamps()" class="mb">
                         <option value="">-- Select --</option>
                         <option value="question">Question</option>
