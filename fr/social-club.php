@@ -81,6 +81,7 @@
             <div class="repere humour-repere" id="humour"></div>
         </div>
 
+        <div class="separation"></div>
 
         <div class="humour">
             <h1 class="top_txt titre-humour">Club <span class="orange-txt size-txt2 txt-g font-family">Humour</span></h1>
