@@ -12,7 +12,7 @@
     </header>
 
     <main>
-        <h1 class="top_txt"><?php echo $contenuView['index']['fr']['titre']['contenu']; ?></h1>
+        <h1 class="top_txt"><?php echo html_entity_decode($contenuView['index']['fr']['titre']['contenu']); ?></h1>
         <div class="global-bouton">
             <a href="/fr/#countdown" class="bouton">En combien de temps ?</a>
             <a href="/fr/en-savoir-plus.php" class="bouton">En savoir +</a>
@@ -26,18 +26,18 @@
             <div class="valeurs-part1">
                 <div class="principe">
                     <p>
-                        <?php echo $contenuView['index']['fr']['question 1']['contenu']; ?>
+                        <?php echo html_entity_decode($contenuView['index']['fr']['question 1']['contenu']); ?>
                     </p>
                 </div>
                 <div class="principe">
                     <div class="repere" id="countdown"></div>
                     <p>
-                        <?php echo $contenuView['index']['fr']['question 2']['contenu']; ?>
+                        <?php echo html_entity_decode($contenuView['index']['fr']['question 2']['contenu']); ?>
                     </p>
                 </div>
                 <div class="principe">
                     <p>
-                        <?php echo $contenuView['index']['fr']['question 3']['contenu']; ?>
+                        <?php echo html_entity_decode($contenuView['index']['fr']['question 3']['contenu']); ?>
                     </p>    
                 </div>
             </div>
@@ -79,47 +79,47 @@
             <div class="valeurs-part2">
                 <div class="principe sl">
                     <p><p>
-                        <?php echo $contenuView['index']['fr']['question 4']['contenu']; ?>
+                        <?php echo html_entity_decode($contenuView['index']['fr']['question 4']['contenu']); ?>
                     </p>
                 </div>
                 <div class="principe sl">
                     <p>
-                        <?php echo $contenuView['index']['fr']['question 5']['contenu']; ?>
+                        <?php echo html_entity_decode($contenuView['index']['fr']['question 5']['contenu']); ?>
                     </p>
                 </div>
-                <div class="valeur"><?php echo $contenuView['index']['fr']['question 6']['contenu']; ?></div>
+                <div class="valeur"><?php echo html_entity_decode($contenuView['index']['fr']['question 6']['contenu']); ?></div>
                 
                 <div class="penser-climat">
-                    <div class="penser-le-climat"><?php echo $contenuView['index']['fr']['valeurs 0']['contenu']; ?></div>
+                    <div class="penser-le-climat"><?php echo html_entity_decode($contenuView['index']['fr']['valeurs 0']['contenu']); ?></div>
                     
                     <div class="pensee">
                         <p>
-                            <?php echo $contenuView['index']['fr']['valeurs 1']['contenu']; ?>
+                            <?php echo html_entity_decode($contenuView['index']['fr']['valeurs 1']['contenu']); ?>
                         </p>
                     </div>
                     <div class="pensee">
                         <p>
-                            <?php echo $contenuView['index']['fr']['valeurs 2']['contenu']; ?>
+                            <?php echo html_entity_decode($contenuView['index']['fr']['valeurs 2']['contenu']); ?>
                         </p>
                     </div>
                     <div class="pensee">
                         <p>
-                            <?php echo $contenuView['index']['fr']['valeurs 3']['contenu']; ?>
+                            <?php echo html_entity_decode($contenuView['index']['fr']['valeurs 3']['contenu']); ?>
                         </p>
                     </div>
                     <div class="pensee">
                         <p>
-                            <?php echo $contenuView['index']['fr']['valeurs 4']['contenu']; ?>
+                            <?php echo html_entity_decode($contenuView['index']['fr']['valeurs 4']['contenu']); ?>
                         </p>
                     </div>
                     <div class="pensee">
                         <p>
-                            <?php echo $contenuView['index']['fr']['valeurs 5']['contenu']; ?>
+                            <?php echo html_entity_decode($contenuView['index']['fr']['valeurs 5']['contenu']); ?>
                         </p>
                     </div>
                     <div class="pensee">
                         <p>
-                            <?php echo $contenuView['index']['fr']['valeurs 6']['contenu']; ?>
+                            <?php echo html_entity_decode($contenuView['index']['fr']['valeurs 6']['contenu']); ?>
                         </p>
                     </div>
                 </div>
