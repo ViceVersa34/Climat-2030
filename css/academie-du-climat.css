@@ -128,14 +128,14 @@
 }
 
 .titre {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
-.titre p {
+/* .titre p {
     color: #3c491b;
     font-size: 1.5rem;
     font-weight: 700;
-}
+} */
 
 .level-content p span {
     color: #3c491b;
