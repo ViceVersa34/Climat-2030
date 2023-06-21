@@ -13,7 +13,7 @@ const MAPPING = [
     "/fr/CGU.php" => "/en/CGU.php",
     "/fr/contact.php" => "/en/contact.php",
     "/fr/en-savoir-plus.php" => "/en/more-about-climat-2030.php",
-    "/fr/exposition.php" => "/en/the-exhibition.php",
+    "/fr/club-foret.php" => "/en/forest-club.php",
     "/fr/humour.php" => "/en/the-humour.php",
     "/fr/" => "/en/",
     "/fr/inscription.php" => "/en/sign-up.php",
@@ -60,10 +60,10 @@ if (!array_key_exists($url, MAPPING)) {
             </ul>
         </li>
         <li class="nav-item menu-exposition">
-            <a href="/fr/exposition.php"><?php echo $contenuView['header']['fr']['page 4']['contenu']; ?></a>
+            <a><?php echo $contenuView['header']['fr']['page 4']['contenu']; ?></a>
             <ul class="sub-menu">
-                <li class="sub-nav-item"><a href="/fr/exposition.php" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 4.1']['contenu']; ?></a></li>
-                <li class="sub-nav-item"><a href="/fr/exposition.php" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 4.2']['contenu']; ?></a></li>
+                <li class="sub-nav-item"><a href="/fr/club-foret.php#AF" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 4.1']['contenu']; ?></a></li>
+                <li class="sub-nav-item"><a href="/fr/club-foret.php#etudiants" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 4.2']['contenu']; ?></a></li>
                 <!-- <li class="sub-nav-item"><a href="" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 4.3']['contenu']; ?></a></li> -->
                 <!-- <li class="sub-nav-item"><a href="" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 4.4']['contenu']; ?></a></li> -->
                 <!-- Les pages en commentaire permettent d'en ajouter dans le site. 
