@@ -6,12 +6,16 @@
         <li class="nav-item contents">
             <a href="/admin/tables/contents/">Contents</a>
             <ul class="sub-menu">
-                <li class="sub-nav-item"><a href="/admin/tables/contents/">Accueil</a></li>
-                <li class="sub-nav-item"><a href="/admin/tables/contents/CGU.php">CGU</a></li>
-                <li class="sub-nav-item"><a href="/admin/tables/contents/header.php">header</a></li>
-                <li class="sub-nav-item"><a href="/admin/tables/contents/footer.php">footer</a></li>
-                <li class="sub-nav-item"><a href="/admin/tables/contents/en-savoir-plus.php">En savoir plus</a></li>
-                <li class="sub-nav-item"><a href="/admin/tables/contents/academie-du-climat.php">Academie Du Climat</a></li>
+                <div class="div-sub-menu">
+                    <li class="sub-nav-item"><a href="/admin/tables/contents/">Accueil</a></li>
+                    <li class="sub-nav-item"><a href="/admin/tables/contents/CGU.php">CGU</a></li>
+                    <li class="sub-nav-item"><a href="/admin/tables/contents/header.php">header</a></li>
+                    <li class="sub-nav-item"><a href="/admin/tables/contents/footer.php">footer</a></li>
+                    <li class="sub-nav-item"><a href="/admin/tables/contents/en-savoir-plus.php">En savoir plus</a></li>
+                    <li class="sub-nav-item"><a href="/admin/tables/contents/academie-du-climat.php">Academie Du Climat</a></li>
+                    <li class="sub-nav-item"><a href="/admin/tables/contents/club-climat.php">Club Climat</a></li>
+                    <li class="sub-nav-item"><a href="/admin/tables/contents/club-humour.php">Club Humour</a></li>
+                </div>
             </ul>
         </li>
         <li class="nav-item my-account"><a href="/admin/my-account.php">Mon compte</a></li>
