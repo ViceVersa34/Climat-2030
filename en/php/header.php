@@ -13,7 +13,7 @@ const MAPPING = [
     "/en/CGU.php" => "/fr/CGU.php",
     "/en/contact.php" => "/fr/contact.php",
     "/en/more-about-climat-2030.php" => "/fr/en-savoir-plus.php",
-    "/en/the-exhibition.php" => "/fr/exposition.php",
+    "/en/forest-club.php" => "/fr/club-foret.php",
     "/en/the-humour.php" => "/fr/humour.php",
     "/en/" => "/fr/",
     "/en/sign-up.php" => "/fr/inscription.php",
@@ -51,18 +51,18 @@ if (!array_key_exists($url, MAPPING)) {
             <a><?php echo $contenuView['header']['en']['page 3']['contenu']; ?></a>
             <ul class="sub-menu">
                 <li class="sub-nav-item"><a href="/en/the-social-club-network.php#social-network" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['en']['page 3.1']['contenu']; ?></a></li>
-                <li class="sub-nav-item"><a href="/en/the-social-club-network.php#social-network" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['en']['page 3.2']['contenu']; ?></a></li>
-                <li class="sub-nav-item"><a href="/en/the-social-club-network.php#humour" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['en']['page 3.3']['contenu']; ?></a></li>
+                <li class="sub-nav-item"><a href="/en/the-social-club-network.php#humour" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['en']['page 3.2']['contenu']; ?></a></li>
+                <!-- <li class="sub-nav-item"><a href="" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['en']['page 3.3']['contenu']; ?></a></li> -->
                 <!-- <li class="sub-nav-item"><a href="" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['en']['page 3.4']['contenu']; ?></a></li> -->
                 <!-- Les pages en commentaire permettent d'en ajouter dans le site. 
                 Pour cela, il faut : Déocommenter, remplir le lien (href) et entrez le nom dans la partie admin (dans contents -> hearder) -->
             </ul>
         </li>
         <li class="nav-item menu-exposition">
-            <a href="/en/the-exhibition.php"><?php echo $contenuView['header']['en']['page 4']['contenu']; ?></a>
+            <a><?php echo $contenuView['header']['en']['page 4']['contenu']; ?></a>
             <ul class="sub-menu">
-                <li class="sub-nav-item"><a href="/en/the-exhibition.php" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['en']['page 4.1']['contenu']; ?></a></li>
-                <li class="sub-nav-item"><a href="/en/the-exhibition.php" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['en']['page 4.2']['contenu']; ?></a></li>
+                <li class="sub-nav-item"><a href="/en/forest-club.php#AF" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['en']['page 4.1']['contenu']; ?></a></li>
+                <li class="sub-nav-item"><a href="/en/forest-club.php#etudiants" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['en']['page 4.2']['contenu']; ?></a></li>
                 <!-- <li class="sub-nav-item"><a href="" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['en']['page 4.3']['contenu']; ?></a></li> -->
                 <!-- <li class="sub-nav-item"><a href="" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['en']['page 4.4']['contenu']; ?></a></li> -->
                 <!-- Les pages en commentaire permettent d'en ajouter dans le site. 
