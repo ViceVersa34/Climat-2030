@@ -14,12 +14,52 @@
     <main>
         <div class="repere AF-repere" id="AF"></div>
         <h1 class="top_txt">Pour les <span class="orange-txt size-txt2 txt-g font-family">Alliances Françaises</span></h1>
-        <a href="/fr/contact.php" class="en-savoir-plus">Demande de devis</a>
-
-        <div class="top-illustration">
-            <img src="/img/exposition/illustration_exposition.png" alt="Illustration exposition">
+        
+        <div class="carousel-wrapper">
+            <input type="radio" name="position" id="position1" />
+            <input type="radio" name="position" id="position2" checked/>
+            <input type="radio" name="position" id="position3" />
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="titre-carousel"><span class="orange-txt size-txt font-family">Balade en forêt</span></div>
+                    <div class="img-carousel">
+                        <img src="/img/exposition/illustration_exposition.png" alt="">
+                    </div>
+                    <div class="description">
+                        <p>
+                            Installation artistique “La grande Histoire du Climat” à exposer au sein des AF à l'occasion de la semaine du climat, des COP de l'ONU...
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel">
+                    <div class="titre-carousel"><span class="orange-txt size-txt font-family">Panorama du Climat</span></div>
+                    <div class="img-carousel">
+                        <img src="/img/exposition/illustration_exposition.png" alt="">
+                    </div>
+                    <div class="description">
+                        <p>
+                            Grandes frises panoramiques à installer au-dessus des tableaux blancs des salles de cours.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel">
+                    <div class="titre-carousel"><span class="orange-txt size-txt font-family">Conférence</span></div>
+                    <div class="img-carousel">
+                        <img src="/img/exposition/illustration_exposition.png" alt="">
+                    </div>
+                    <div class="description">
+                        <p>
+                            Conférence dédiée aux équipes et aux étudiants des AF par Francis Hallé. La botanique, la biodiversité des forêts primaires et les champignons n'auront plus de secret pour vous.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
+        
+        <script src="/js/autoscroll.js"></script>
 
+        <a href="/fr/contact.php" class="en-savoir-plus">Commander</a>
+        
         <div class="valeurs">
             <div class="valeurs-part1">
                 <div class="principe">
@@ -39,22 +79,6 @@
                         <span class="yello-txt size-txt">Comment</span> Investir dans la plantation d'arbres de Francis Hallé pour la forêt primaire en permettant aux Alliances Françaises de reverser à l'association FH 12€ pour chaque commande d'article ci-dessous.
                     </p>
                 </div>
-                <div class="principe ml-principe">
-                    <p>
-                        <span class="orange-txt size-txt font-family">Balade en forêt</span> Installation artistique “La grande Histoire du Climat” à exposer au sein des AF à l'occasion de la semaine du climat, des COP de l'ONU...
-                    </p>
-                </div>
-                <div class="principe ml-principe">
-                    <p>
-                        <span class="orange-txt size-txt font-family">Panorama du Climat</span> Grandes frises panoramiques à installer au-dessus des tableaux blancs des salles de cours.
-                    </p>
-                </div>
-                <div class="principe ml-principe">
-                    <p>
-                        <span class="orange-txt size-txt font-family">Conférence</span> Conférence dédiée aux équipes et aux étudiants de AF de Francis Hallé sur le lien entre la botanique, la biodiversité des forêts primaires et les champignons.
-                    </p>
-                </div>
-            </div>
             <div class="repere etudiants-repere" id="etudiants"></div>
         </div>
 

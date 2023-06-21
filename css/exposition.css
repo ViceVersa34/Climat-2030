@@ -1,5 +1,5 @@
 /* ------------------------------ HEADER ------------------------------*/
-.menu-exposition{
+.menu-exposition {
     border-top: solid 1px #ba83f0;
 }
 
@@ -21,12 +21,16 @@
     top: 0;
 }
 
+.separation {
+    margin-top: 8rem;
+}
+
 /* ------------------------------ Changement forme txt ------------------------------*/
 .valeurs {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
     max-width: 1000px;
     width: 100%;
     margin-top: 4rem;
@@ -59,9 +63,118 @@
     margin-top: 8rem;
 }
 
+.carousel-wrapper {
+    height: 600px;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 500px 100px;
+    grid-template-columns: 1fr 30px 30px 30px 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.carousel-container {
+    grid-row: 1 / 2;
+    grid-column: 1 / 6;
+    width: 98vw;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    perspective: 600px;
+    --items: 5;
+    --middle: 3;
+    --position: 1;
+    pointer-events: none;
+    margin-top: 4rem;
+}
+
+.carousel {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    padding: 1rem .5rem .5rem .5rem;
+    background-color: #161515;
+    box-shadow: 0px 0px 5px #dba32f;
+    border-radius: 15px;
+    --r: calc(var(--position) - var(--offset));
+    --abs: max(calc(var(--r) * -1), var(--r));
+    transition: all 0.25s linear;
+    transform: rotateY(calc(-10deg * var(--r))) translateX(calc(-300px * var(--r)));
+    z-index: calc((var(--position) - var(--abs)));
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30px 240px 106px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.carousel .titre-carousel {
+    text-align: center;
+}
+
+.description {
+    width: 384px;
+    padding: 0 1.5rem;
+}
+
+.carousel p {
+    text-align: justify;
+}   
+
+.carousel img {
+    width: 325px;
+}
+
+.img-carousel {
+    width: 392px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel:nth-of-type(1) {
+    --offset: 1;
+}
+
+.carousel:nth-of-type(2) {
+    --offset: 2;
+}
+
+.carousel:nth-of-type(3) {
+    --offset: 3;
+}
+
+input:nth-of-type(1) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+input:nth-of-type(1):checked~.carousel-container {
+    --position: 1;
+}
+
+input:nth-of-type(2) {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+input:nth-of-type(2):checked~.carousel-container {
+    --position: 2;
+}
+
+input:nth-of-type(3) {
+    grid-column: 4 /5;
+    grid-row: 2 / 3;
+}
+
+input:nth-of-type(3):checked~.carousel-container {
+    --position: 3;
+}
+
 @media only screen and (max-width: 1200px) {
-    .menu-exposition{
+    .menu-exposition {
         border-top: solid 1px #1d1919;
     }
 }
-
