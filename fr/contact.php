@@ -34,8 +34,9 @@
                         <label for="devisSelect">Choisissez une option de devis :</label>
                         <select id="devisSelect" name="devisSelect">
                             <option value="">-- Sélectionnez --</option>
-                            <option value="option1">Académie du climat</option>
-                            <option value="option2">Exposition "La grande histoire du climat"</option>
+                            <option value="option1">Club Pédagogique</option>
+                            <option value="option2">Club Climat</option>
+                            <option value="option2">Club Humour</option>
                         </select>
                     </div>
 
