@@ -41,27 +41,7 @@
         <div class="boutons">
             <a href="" onclick="miseEnForme();" class="bouton">Mise en forme</a>
         </div>
-        <div id="miseEnForme" class="mise-en-forme invisible">
-            <div class="constructeur">
-                <div>Balise d'ouverture :</div>
-                <div class="constructeur-bouton">
-                    <button id="button-g" class="selectable-button"><span class="font-weight">Gras</span></button>
-                    <button id="button-t1" class="selectable-button"><span class="">Taille 1</span></button>
-                    <button id="button-t2" class="selectable-button"><span class="">Taille 2</span></button>
-                    <button id="button-p" class="selectable-button"><span class="font-family">Police</span></button>
-                    <button id="button-o" class="selectable-button"><span class="orange-txt">Orange</span></button>
-                    <button id="button-y" class="selectable-button"><span class="yello-txt">Jaune</span></button>
-                </div>
-                <button id="copyButton">Copier</button>
-                <label for="outputText">Élement copié : </label>
-                <input type="text" id="outputText" readonly>
-                <div>Balise de fermeture :</div>
-                <button id="copyClosingButton">Copier {{/}}</button>
-                <div>Balise de saut de ligne :</div>
-                <button id="copyBrButton">Copy &lt;br&gt;</button>
-                <script src="/admin/js/miseEnForme.js"></script>
-            </div>
-        </div>
+        <?php include('part/mise-en-forme.php'); ?>
         <div class="pages">
             <div class="page index">
                 <?php include('part/academie-du-climat.php'); ?>
