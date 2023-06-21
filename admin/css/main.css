@@ -137,3 +137,11 @@ header {
 .nav-item:hover .sub-menu {
 	display: flex;
 }
+
+.div-sub-menu {
+	display: flex;
+	max-width: 80vw;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
