@@ -12,7 +12,7 @@
     </header>
 
     <main>
-
+        <div class="repere AF-repere" id="AF"></div>
         <h1 class="top_txt">Pour les <span class="orange-txt size-txt2 txt-g font-family">Alliances Françaises</span></h1>
         <a href="/fr/contact.php" class="en-savoir-plus">Demande de devis</a>
 
@@ -55,6 +55,7 @@
                     </p>
                 </div>
             </div>
+            <div class="repere etudiants-repere" id="etudiants"></div>
         </div>
 
         
