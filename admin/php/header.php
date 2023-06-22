@@ -1,5 +1,5 @@
 <div class="nav">
-    <a href="/fr/" class="img-logo"><img src="/img/logoV2.00.png" alt="logo Climat-2030"></a>
+    <a href="/fr/" class="img-logo"><img src="<?php echo $images['header']['logo']['image']; ?>" alt="logo Climat-2030"></a>
     <ul class="nav-list" id="nav">
         <li class="nav-item users"><a href="/admin/tables/users.php">Users</a></li>
         <li class="nav-item customers"><a href="/admin/tables/customers.php">Customers</a></li>
@@ -15,6 +15,20 @@
                     <li class="sub-nav-item"><a href="/admin/tables/contents/academie-du-climat.php">Academie Du Climat</a></li>
                     <li class="sub-nav-item"><a href="/admin/tables/contents/club-climat.php">Club Climat</a></li>
                     <li class="sub-nav-item"><a href="/admin/tables/contents/club-humour.php">Club Humour</a></li>
+                </div>
+            </ul>
+        </li>
+        <li class="nav-item images">
+            <a href="/admin/tables/images/">Images</a>
+            <ul class="sub-menu">
+                <div class="div-sub-menu">
+                    <li class="sub-nav-item"><a href="/admin/tables/images/">Accueil</a></li>
+                    <li class="sub-nav-item"><a href="/admin/tables/images/club-pedagogique.php">Club Pédagogique</a></li>
+                    <li class="sub-nav-item"><a href="/admin/tables/images/club-climat.php">Club Climat</a></li>
+                    <li class="sub-nav-item"><a href="/admin/tables/images/club-humour.php">Club Humour</a></li>
+                    <li class="sub-nav-item"><a href="/admin/tables/images/club-foret.php">Club Foret</a></li>
+                    <li class="sub-nav-item"><a href="/admin/tables/images/header.php">Header</a></li>
+                    <li class="sub-nav-item"><a href="/admin/tables/images/footer.php">Footer</a></li>
                 </div>
             </ul>
         </li>
