@@ -133,4 +133,35 @@ function regExReplace($regExContent) {
 $contenu = content($contents);
 $contenuView = contentView($contents);
 
+$sql = "SELECT * FROM `images` ORDER BY id_images ASC";
+$requete = $db->query($sql);
+$images = $requete->fetchAll();
+
+function images($images) {
+    $image = array();
+
+    foreach ($images as $ligne) {
+        $page = $ligne['images_page'];
+        $titre = $ligne['images_name'];
+        $path = $ligne['images_path'];
+        $id = $ligne['id_images'];
+
+        if (!isset($image[$page])) {
+            $image[$page] = array();
+        }
+
+        if (!isset($image[$page][$titre])) {
+            $image[$page][$titre] = array();
+        }
+
+        $image[$page][$titre] = array(
+            'image' => $path,
+            'id' => $id
+        );
+    }
+
+    return $image;
+}
+
+$images = images($images);
 ?>
