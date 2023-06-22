@@ -1,11 +1,11 @@
 <?php
 
 //constante d'environnement
-if ($_SERVER['SERVER_NAME'] == 'enzo-palermo.com') {
-    define("DBHOST", "enzopak162.mysql.db");
-    define("DBUSER", "enzopak162");
-    define("DBPASS", "5G4de67f");
-    define("DBNAME", "enzopak162");
+if ($_SERVER['SERVER_NAME'] == 'climat-2030.org') {
+    define("DBHOST", "bgooodiclimat.mysql.db");
+    define("DBUSER", "bgooodiclimat");
+    define("DBPASS", "23marsDonuts");
+    define("DBNAME", "bgooodiclimat");
 }
 
 if ($_SERVER['SERVER_NAME'] == 'climat-2030') {
