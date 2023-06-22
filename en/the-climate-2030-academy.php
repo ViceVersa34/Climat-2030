@@ -17,10 +17,10 @@
         <a href="/fr/contact.php" class="en-savoir-plus">Sign in</a>
 
         <div class="top-illustration">
-            <img src="/img/academie_du_climat/oiseau.jpg" alt="Illustration - 'oiseau'">
-            <img src="/img/academie_du_climat/oiseau.jpg" alt="Illustration - 'oiseau'">
-            <img src="/img/academie_du_climat/oiseau.jpg" alt="Illustration - 'oiseau'">
-            <img src="/img/academie_du_climat/oiseau.jpg" alt="Illustration - 'oiseau'">
+            <img src="<?php echo $images['club-pedagogique']['illustration 1']['image']; ?>" alt="Illustration - 'oiseau'">
+            <img src="<?php echo $images['club-pedagogique']['illustration 1']['image']; ?>" alt="Illustration - 'oiseau'">
+            <img src="<?php echo $images['club-pedagogique']['illustration 1']['image']; ?>" alt="Illustration - 'oiseau'">
+            <img src="<?php echo $images['club-pedagogique']['illustration 1']['image']; ?>" alt="Illustration - 'oiseau'">
         </div>
 
         <div class="valeurs">

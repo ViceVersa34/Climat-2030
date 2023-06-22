@@ -32,7 +32,7 @@ if (!array_key_exists($url, MAPPING)) {
 <div class="nav">
     <div class="blur" id="blur" onclick="changerLeft2('-18rem');"></div> <!-- Cache permettant de sortir du menu (en mode responsive) lors d'un click a côté -->
     <button class="menu-burger" onclick="changerLeft('0');"><img src="/img/menu.svg" alt="Menu burger"></button>
-    <a href="/fr/" class="img-logo"><img src="/img/logoV2.00.png" alt="logo Climat-2030"></a>
+    <a href="/fr/" class="img-logo"><img src="<?php echo $images['header']['logo']['image']; ?>" alt="logo Climat-2030"></a>
     <ul class="nav-list" id="nav">
         <li class="arrow-menu"><button class="arrow-menu-burger" onclick="changerLeft2('-20rem');"><img src="/img/croix.svg" alt="Menu burger"></button></li>
         <li class="nav-item menu-acceuil"><a href="/fr/"><?php echo $contenuView['header']['fr']['page 1']['contenu']; ?></a></li>

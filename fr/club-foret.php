@@ -23,7 +23,7 @@
                 <div class="carousel">
                     <div class="titre-carousel"><span class="orange-txt size-txt font-family">Balade en forêt</span></div>
                     <div class="img-carousel">
-                        <img src="/img/exposition/illustration_exposition.png" alt="">
+                        <img src="<?php echo $images['club-foret-AF']['illustration carousel 1']['image']; ?>" alt="">
                     </div>
                     <div class="description">
                         <p>
@@ -34,7 +34,7 @@
                 <div class="carousel">
                     <div class="titre-carousel"><span class="orange-txt size-txt font-family">Panorama du Climat</span></div>
                     <div class="img-carousel">
-                        <img src="/img/exposition/illustration_exposition.png" alt="">
+                        <img src="<?php echo $images['club-foret-AF']['illustration carousel 2']['image']; ?>" alt="">
                     </div>
                     <div class="description">
                         <p>
@@ -45,7 +45,7 @@
                 <div class="carousel">
                     <div class="titre-carousel"><span class="orange-txt size-txt font-family">Conférence</span></div>
                     <div class="img-carousel">
-                        <img src="/img/exposition/illustration_exposition.png" alt="">
+                        <img src="<?php echo $images['club-foret-AF']['illustration carousel 3']['image']; ?>" alt="">
                     </div>
                     <div class="description">
                         <p>

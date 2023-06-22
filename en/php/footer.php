@@ -48,7 +48,7 @@
             </div>
         </div>
         <div class="center">
-            <img src="/img/we_can_do_it.png" alt="illustration 'we can do it'">
+            <img src="<?php echo $images['footer']['illustration 1']['image']; ?>" alt="illustration 'we can do it'">
             <div class="global-counter">
                 <p>
                     <?php echo $contenu['footer']['en']['texte compteur 1']['contenu'].' '.$date; ?> :
@@ -60,7 +60,7 @@
         <div class="right">
             <div class="label">
                 <div class="txt orange-txt size-txt2 txt-g font-family">Label</div>
-                <img src="/img/generation_egalite.svg" alt="logo génération égalité">
+                <img src="<?php echo $images['footer']['label']['image']; ?>" alt="logo génération égalité">
             </div>
         </div>
     </div>

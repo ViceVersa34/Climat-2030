@@ -19,7 +19,7 @@
         </div>
         
         <div class="top-illustration">
-            <img src="/img/index/butterfly.jpg" alt="Illustration - 'earth day'">
+            <img src="<?php echo $images['index']['illustration 1']['image']; ?>" alt="Illustration - 'earth day'">
         </div>
 
         <div class="valeurs">

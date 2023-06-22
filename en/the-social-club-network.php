@@ -19,7 +19,7 @@
             <a href="/fr/contact.php" class="en-savoir-plus">Pré-inscription</a>
 
             <div class="top-illustration">
-                <img src="/img/social_club/casque.jpg" alt="Illustration social club">
+                <img src="<?php echo $images['club-climat']['illustration 1']['image']; ?>" alt="Illustration social club">
             </div>
 
             <div class="valeurs">
@@ -38,7 +38,7 @@
                     </div>
                 </div>
                 <div class="bottom-illustration">
-                    <img src="/img/social_club/fiche_telecom.jpg" alt="Illustration social club">
+                    <img src="<?php echo $images['club-climat']['illustration 2']['image']; ?>" alt="Illustration social club">
                 </div>
                 <div class="infos">
                     <div class="info">
@@ -66,7 +66,7 @@
             <div><?php echo html_entity_decode($contenuView['club-humour']['en']['titre 2']['contenu']); ?></div>
 
             <div class="top-illustration">
-                <img src="/img/humour/illustration_humour.png" alt="Illustration humour">
+                <img src="<?php echo $images['club-humour']['illustration 1']['image']; ?>" alt="Illustration humour">
             </div>
 
             <div class="valeurs">
