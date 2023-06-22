@@ -1,0 +1,113 @@
+.nav-item.images {
+    border-top: solid 1px #ba83f0 !important;
+}
+
+.global-title {
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-right: .5rem;
+}
+
+.info-icon {
+    font-size: 2rem;
+	font-weight: 300;
+    margin-left: .5rem;
+}
+
+.info {
+    display: none;
+    position: absolute;
+    padding: 1rem;
+    border-radius: 15px;
+    border: solid 1px #ecdcce60;
+    background: #161515;
+    box-shadow: 0px 0px 5px #2e2a2a;
+    margin-top: 2.5rem;
+}
+
+.pages-selectors {
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+.selector {
+    transition: .2s;
+    margin: 0 1rem;
+}
+
+.selector a {
+    text-align: center;
+    border-radius: 10px;
+    padding: .5rem 1.5rem;
+    background: #ba83f0;
+    transition: .15s;
+}
+
+.selector:hover {
+    transform: scale(1.1);
+}
+
+main {
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.images img {
+    width: 500px;
+}
+
+.invisible {
+    display: none !important;
+}
+
+.update-button img {
+    width: 30px;
+    margin-left: 1rem;
+}
+
+.info-icon {
+    width: 1.7rem;
+    height: 1.7rem;
+    text-align: center;
+    font-size: 1.5rem;
+	font-weight: 900;
+    margin-left: .5rem;
+    margin-top: .5rem;
+    border: solid #ffffff 2px;
+    border-radius: 50%;
+}
+
+.group-image {
+    border-bottom: solid 1px #534946;
+    padding: 2rem;
+    margin: 0 0 2rem 0;
+}
+
+.image {
+    display: grid;
+    grid-template-columns: 500px 75px;
+    margin: .5rem 0;
+    padding: 0 0 0 2rem;
+    margin-bottom: 2rem;
+}
+
+img.update-button {
+    width: 30px;
+    margin-left: 1rem;
+    background: #161515;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: none;
+    margin: none;
+    cursor: pointer;
+}
