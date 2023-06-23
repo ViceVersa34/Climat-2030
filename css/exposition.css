@@ -173,6 +173,97 @@ input:nth-of-type(3):checked~.carousel-container {
     --position: 3;
 }
 
+.carousel-wrapper input[type="radio"] {
+    cursor: pointer;
+}
+
+.carousel-book-wrapper {
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px #dba32f;
+    margin: 6rem 0 4rem 0;
+}
+
+.carousel-book-container {
+    width: 400px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-book {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    justify-content: center;
+    align-items: start;
+}
+
+.carousel-book.active-carousel-book {
+    display: flex;
+    /* Affiche uniquement la page active */
+}
+
+.carousel-book img {
+    height: 480px;
+    cursor: zoom-in;
+}
+
+.carousel-book-buttons {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.carousel-book-buttons button {
+    width: 85px;
+    border: none;
+    background: none;
+    transition: .15s;
+}
+
+.carousel-book-buttons button img {
+    width: 50px;
+    transition: .15s;
+}
+
+.carousel-book-buttons button img:hover {
+    transform: scale(1.15);
+}
+
+.carousel-book-titre {
+    text-align: center;
+    margin-bottom: .75rem;
+}
+
+div.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9998;
+}
+    
+div.overlay img {
+    height: 95vh;
+    cursor: zoom-out;
+
+}
+  
+.page-counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+}
+
 @media only screen and (max-width: 1200px) {
     .menu-exposition {
         border-top: solid 1px #1d1919;
@@ -210,17 +301,39 @@ input:nth-of-type(3):checked~.carousel-container {
         align-items: center;
         justify-content: center;
     }
+
+    .carousel-book-container {
+        width: 300px;
+        height: 400px;
+    }
+    
+    .carousel-book img {
+        height: 380px;
+    }
+    
+    .carousel-book-buttons {
+        width: 300px;
+    }
+    
+    .carousel-book-buttons button img:hover {
+        transform: scale(1);
+    }
+        
+    div.overlay img {
+        width: 95vw;
+        height: auto;
+    }
 }
 
 @media only screen and (max-width: 400px) {
-
+    
     .carousel {
         width: 250px;
         height: 450px;
         padding: 1rem .5rem .5rem .5rem;
         grid-template-rows: 30px 200px 146px;
     }
-
+    
     .carousel .titre-carousel {
         text-align: center;
     }
@@ -243,5 +356,51 @@ input:nth-of-type(3):checked~.carousel-container {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    
+    .carousel-book-container {
+        width: 250px;
+        height: 350px;
+    }
+    
+    .carousel-book img {
+        height: 330px;
+    }
+    
+    .carousel-book-buttons {
+        width: 250px;
+    }
+    
+    .carousel-book-buttons button img:hover {
+        transform: scale(1);
+    }
+    
+    div.overlay img {
+        width: 95vw;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+.carousel-book-container {
+    width: 200px;
+    height: 300px;
+    }
+    
+    .carousel-book img {
+        height: 280px;
+    }
+    
+    .carousel-book-buttons {
+        width: 200px;
+    }
+    
+    .carousel-book-buttons button img:hover {
+        transform: scale(1);
+    }
+        
+    div.overlay img {
+        width: 95vw;
+        height: auto;
     }
 }
