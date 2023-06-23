@@ -1,6 +1,6 @@
 <?php
     session_start();
-    include('../php/link_db.php');
+    include('contents/part/content.php'); 
     include('../php/isAdmin.php');
 
     $sql = "SELECT * FROM `users` ORDER BY `id_users` ASC";
