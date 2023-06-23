@@ -76,7 +76,7 @@
                                 <input type="hidden" name="id_images" value="<?php echo $images['club-climat']['illustration 1']['id']; ?>">
                                 <input type="hidden" name="oldImage" value="<?php echo $images['club-climat']['illustration 1']['image']; ?>">
                                 <input type="file" name="image">
-                                <button type="submit"><img src="/admin/img/modifier.svg" class="update-button"></button>
+                                <button type="submit">Modifier</button>
                             </form>
                         </div>
                     </div>
@@ -89,7 +89,7 @@
                                 <input type="hidden" name="id_images" value="<?php echo $images['club-climat']['illustration 2']['id']; ?>">
                                 <input type="hidden" name="oldImage" value="<?php echo $images['club-climat']['illustration 2']['image']; ?>">
                                 <input type="file" name="image">
-                                <button type="submit"><img src="/admin/img/modifier.svg" class="update-button"></button>
+                                <button type="submit">Modifier</button>
                             </form>
                         </div>
                     </div>

@@ -76,7 +76,7 @@
                                 <input type="hidden" name="id_images" value="<?php echo $images['header']['logo']['id']; ?>">
                                 <input type="hidden" name="oldImage" value="<?php echo $images['header']['logo']['image']; ?>">
                                 <input type="file" name="image">
-                                <button type="submit"><img src="/admin/img/modifier.svg" class="update-button"></button>
+                                <button type="submit">Modifier</button>
                             </form>
                         </div>
                     </div>
