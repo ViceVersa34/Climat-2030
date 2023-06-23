@@ -42,6 +42,29 @@
         <div class="content">
             <div class="language">
                 <?php 
+                    $tempContenu = $contenu['club-humour']['fr']['en-savoir-plus']['contenu'];
+                    $tempContenuView = $contenuView['club-humour']['fr']['en-savoir-plus']['contenu'];
+                    $tempId = $contenu['club-humour']['fr']['en-savoir-plus']['id'];
+                    $language = 'fr';
+                ?>
+                <?php include('repeat.php'); ?>
+            </div>
+            <div class="language">
+                <?php 
+                    $tempContenu = $contenu['club-humour']['en']['en-savoir-plus']['contenu'];
+                    $tempContenuView = $contenuView['club-humour']['en']['en-savoir-plus']['contenu'];
+                    $tempId = $contenu['club-humour']['en']['en-savoir-plus']['id'];
+                    $language = 'en';
+                ?>
+                <?php include('repeat.php'); ?>
+            </div>            
+        </div>
+    </div>
+
+    <div class="group-content">
+        <div class="content">
+            <div class="language">
+                <?php 
                     $tempContenu = $contenu['club-humour']['fr']['titre question 1']['contenu'];
                     $tempContenuView = $contenuView['club-humour']['fr']['titre question 1']['contenu'];
                     $tempId = $contenu['club-humour']['fr']['titre question 1']['id'];

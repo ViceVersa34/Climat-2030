@@ -24,6 +24,49 @@
         </div>
     </div>
 
+    <div class="group-content">
+        <div class="content">
+            <div class="language">
+                <?php 
+                    $tempContenu = $contenu['index']['fr']['en-savoir-plus']['contenu'];
+                    $tempContenuView = $contenuView['index']['fr']['en-savoir-plus']['contenu'];
+                    $tempId = $contenu['index']['fr']['en-savoir-plus']['id']; 
+                    $language = 'fr';
+                ?>
+                <?php include('repeat.php'); ?>
+            </div>
+            <div class="language">
+                <?php 
+                    $tempContenu = $contenu['index']['en']['en-savoir-plus']['contenu'];
+                    $tempContenuView = $contenuView['index']['en']['en-savoir-plus']['contenu'];
+                    $tempId = $contenu['index']['en']['en-savoir-plus']['id']; 
+                    $language = 'en';
+                ?>
+                <?php include('repeat.php'); ?>
+            </div>
+        </div>
+        <div class="content">
+            <div class="language">
+                <?php 
+                    $tempContenu = $contenu['index']['fr']['en-savoir-plus temps']['contenu'];
+                    $tempContenuView = $contenuView['index']['fr']['en-savoir-plus temps']['contenu'];
+                    $tempId = $contenu['index']['fr']['en-savoir-plus temps']['id']; 
+                    $language = 'fr';
+                ?>
+                <?php include('repeat.php'); ?>
+            </div>
+            <div class="language">
+                <?php 
+                    $tempContenu = $contenu['index']['en']['en-savoir-plus temps']['contenu'];
+                    $tempContenuView = $contenuView['index']['en']['en-savoir-plus temps']['contenu'];
+                    $tempId = $contenu['index']['en']['en-savoir-plus temps']['id']; 
+                    $language = 'en';
+                ?>
+                <?php include('repeat.php'); ?>
+            </div>
+        </div>
+    </div>
+
 
     <div class="group-content">
         <div class="content">

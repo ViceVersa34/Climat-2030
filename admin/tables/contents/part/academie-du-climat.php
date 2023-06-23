@@ -23,6 +23,29 @@
             </div>            
         </div>
     </div>
+    
+    <div class="group-content">
+        <div class="content">
+            <div class="language">
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['fr']['en-savoir-plus']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['fr']['en-savoir-plus']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['fr']['en-savoir-plus']['id'];
+                    $language = 'fr';
+                ?>
+                <?php include('repeat.php'); ?>
+            </div>
+            <div class="language">
+            <?php 
+                    $tempContenu = $contenu['academie-du-climat']['en']['en-savoir-plus']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['en']['en-savoir-plus']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['en']['en-savoir-plus']['id'];
+                    $language = 'en';
+                ?>
+                <?php include('repeat.php'); ?>
+            </div>            
+        </div>
+    </div>
 
     <div class="group-content">
         <div class="content">
