@@ -36,6 +36,7 @@ option {
 }
 
 input[type="submit"] {
+    width: 300px;
     background-color: #ba83f0;
     padding: 10px 15px;
     border: none;
@@ -43,6 +44,11 @@ input[type="submit"] {
     cursor: pointer;
     color: #ffffff !important;
     font-size: 1.25rem;
+    transition: .2s;
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.1);
 }
 
 .mb {
