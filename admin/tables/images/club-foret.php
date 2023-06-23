@@ -102,7 +102,45 @@
                                 <input type="hidden" name="id_images" value="<?php echo $images['club-foret-AF']['illustration carousel 3']['id']; ?>">
                                 <input type="hidden" name="oldImage" value="<?php echo $images['club-foret-AF']['illustration carousel 3']['image']; ?>">
                                 <input type="file" name="image">
-                                <button type="submit"><img src="/admin/img/modifier.svg" class="update-button"></button>
+                                <button type="submit">Modifier</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page index">
+                <div class="images">
+                    <div class="group-image">
+                        <div class="image">
+                            <img src="<?php echo $images['club-foret-etudiants']['illustration carousel livre 1']['image']; ?>">
+                            <form action="" method="post" enctype="multipart/form-data">
+                                <input type="hidden" name="action" value="updateImage">
+                                <input type="hidden" name="id_images" value="<?php echo $images['club-foret-etudiants']['illustration carousel livre 1']['id']; ?>">
+                                <input type="hidden" name="oldImage" value="<?php echo $images['club-foret-etudiants']['illustration carousel livre 1']['image']; ?>">
+                                <input type="file" name="image">
+                                <button type="submit">Modifier</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="group-image">
+                        <div class="image">
+                            <img src="<?php echo $images['club-foret-etudiants']['illustration carousel livre 2']['image']; ?>">
+                            <form action="" method="post" enctype="multipart/form-data">
+                                <input type="hidden" name="action" value="updateImage">
+                                <input type="hidden" name="id_images" value="<?php echo $images['club-foret-etudiants']['illustration carousel livre 2']['id']; ?>">
+                                <input type="hidden" name="oldImage" value="<?php echo $images['club-foret-etudiants']['illustration carousel livre 2']['image']; ?>">
+                                <input type="file" name="image">
+                                <button type="submit">Modifier</button>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <div class="group-image">
+                        <div class="image">
+                            <img src="<?php echo $images['club-foret-etudiants']['illustration carousel livre 3']['image']; ?>">
+                            <form action="" method="post" enctype="multipart/form-data">
+                                <input type="hidden" name="action" value="updateImage">
                                 <input type="hidden" name="id_images" value="<?php echo $images['club-foret-etudiants']['illustration carousel livre 3']['id']; ?>">
                                 <input type="hidden" name="oldImage" value="<?php echo $images['club-foret-etudiants']['illustration carousel livre 3']['image']; ?>">
                                 <input type="file" name="image">
