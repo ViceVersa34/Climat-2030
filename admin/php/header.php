@@ -18,6 +18,7 @@
                     <li class="sub-nav-item"><a href="/admin/tables/contents/club-foret-AF.php">Club foret - AF</a></li>
                     <li class="sub-nav-item"><a href="/admin/tables/contents/club-foret-etudiants.php">Club foret - Étudiants</a></li>
                     <li class="sub-nav-item"><a href="/admin/tables/contents/contact.php">Contact</a></li>
+                    <li class="sub-nav-item"><a href="/admin/tables/contents/eco-sensibilise.php">Éco-sensibilisé</a></li>
                 </div>
             </ul>
         </li>
