@@ -13,7 +13,7 @@
 
     <main>
 
-        <h1 class="top_txt">Contact - <span class="orange-txt size-txt2 font-weight font-family">Climat-2030</span></h1>
+        <h1 class="top_txt"><?php echo html_entity_decode($contenuView['contact']['fr']['titre']['contenu']); ?></h1>
 
         <div class="contact">
             <div class="objet">
@@ -50,8 +50,8 @@
                     <div id="compteur" class="compteur">0/500 caractères</div>
                     <div class="mb">
                     </div>
-                    <h2>Merci pour votre demande. <br>On vous contacte très vite !</h2>
-                    <input type="submit" value="Envoyer">
+                    <h2><?php echo html_entity_decode($contenuView['contact']['fr']['commentaire']['contenu']); ?></h2>
+                    <input type="submit" class="en-savoir-plus" value="<?php echo html_entity_decode($contenuView['contact']['fr']['en-savoir-plus']['contenu']); ?>">
                 </form>
             </div>
         </div>

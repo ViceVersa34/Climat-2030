@@ -58,7 +58,7 @@
         
         <script src="/js/autoscroll.js"></script>
 
-        <a href="/fr/contact.php" class="en-savoir-plus">Commander</a>
+        <a href="/fr/contact.php" class="en-savoir-plus"><?php echo html_entity_decode($contenuView['club-foret-AF']['fr']['en-savoir-plus']['contenu']); ?></a>
         
         <div class="valeurs">
             <div class="valeurs-part1">

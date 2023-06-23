@@ -15,8 +15,8 @@
 
         <h1 class="top_txt"><?php echo html_entity_decode($contenuView['index']['en']['titre']['contenu']); ?></h1>
         <div class="global-bouton">
-            <a href="/en/#countdown" class="bouton">How long did it take ?</a>
-            <a href="/en/more-about-climat-2030.php" class="bouton">Learn more</a>
+            <a href="/en/#countdown" class="bouton"><?php echo html_entity_decode($contenuView['index']['en']['en-savoir-plus temps']['contenu']); ?></a>
+            <a href="/en/more-about-climat-2030.php" class="bouton"><?php echo html_entity_decode($contenuView['index']['en']['en-savoir-plus']['contenu']); ?></a>
         </div>
 
         <div class="top-illustration">

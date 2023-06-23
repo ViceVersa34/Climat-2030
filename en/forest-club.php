@@ -13,8 +13,8 @@
 
     <main>
 
-        <h1 class="top_txt">The exhibition <span class="orange-txt size-txt2 txt-g font-family">“The great history of climate change”</span></h1>
-        <a href="/en/contact.php" class="en-savoir-plus">Request a quote</a>
+    <div class="repere AF-repere" id="AF"></div>
+        <h1 class="top_txt"><?php echo html_entity_decode($contenuView['club-foret-AF']['en']['titre']['contenu']); ?></span></h1>
 
         <div class="top-illustration">
             <img src="/img/exposition/illustration_exposition.png" alt="Illustration exposition">

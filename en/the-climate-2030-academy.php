@@ -14,7 +14,7 @@
     <main>
 
         <h1 class="top_txt"><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['titre']['contenu']); ?></h1>
-        <a href="/fr/contact.php" class="en-savoir-plus">Sign in</a>
+        <a href="/en/contact.php" class="en-savoir-plus"><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['en-savoir-plus']['contenu']); ?></a>
 
         <div class="top-illustration">
             <img src="<?php echo $images['club-pedagogique']['illustration 1']['image']; ?>" alt="Illustration - 'oiseau'">
