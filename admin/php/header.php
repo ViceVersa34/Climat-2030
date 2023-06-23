@@ -15,6 +15,9 @@
                     <li class="sub-nav-item"><a href="/admin/tables/contents/academie-du-climat.php">Academie Du Climat</a></li>
                     <li class="sub-nav-item"><a href="/admin/tables/contents/club-climat.php">Club Climat</a></li>
                     <li class="sub-nav-item"><a href="/admin/tables/contents/club-humour.php">Club Humour</a></li>
+                    <li class="sub-nav-item"><a href="/admin/tables/contents/club-foret-AF.php">Club foret - AF</a></li>
+                    <li class="sub-nav-item"><a href="/admin/tables/contents/club-foret-etudiants.php">Club foret - Étudiants</a></li>
+                    <li class="sub-nav-item"><a href="/admin/tables/contents/contact.php">Contact</a></li>
                 </div>
             </ul>
         </li>
