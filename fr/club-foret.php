@@ -13,7 +13,7 @@
 
     <main>
         <div class="repere AF-repere" id="AF"></div>
-        <h1 class="top_txt">Pour les <span class="orange-txt size-txt2 txt-g font-family">Alliances Françaises</span></h1>
+        <h1 class="top_txt"><?php echo html_entity_decode($contenuView['club-foret-AF']['fr']['titre']['contenu']); ?></span></h1>
         
         <div class="carousel-wrapper">
             <input type="radio" name="position" id="position1" />
@@ -21,36 +21,30 @@
             <input type="radio" name="position" id="position3" />
             <div class="carousel-container">
                 <div class="carousel">
-                    <div class="titre-carousel"><span class="orange-txt size-txt font-family">Balade en forêt</span></div>
+                    <div class="titre-carousel"><?php echo html_entity_decode($contenuView['club-foret-AF']['fr']['titre carousel 1']['contenu']); ?></div>
                     <div class="img-carousel">
-                        <img src="<?php echo $images['club-foret-AF']['illustration carousel 1']['image']; ?>" alt="">
+                        <img src="<?php echo $images['club-foret-AF']['illustration carousel 1']['image']; ?>" alt="Illustration carousel n°1">
                     </div>
                     <div class="description">
-                        <p>
-                            Installation artistique “La grande Histoire du Climat” à exposer au sein des AF à l'occasion de la semaine du climat, des COP de l'ONU...
-                        </p>
+                        <p><?php echo html_entity_decode($contenuView['club-foret-AF']['fr']['carousel 1']['contenu']); ?></p>
                     </div>
                 </div>
                 <div class="carousel">
-                    <div class="titre-carousel"><span class="orange-txt size-txt font-family">Panorama du Climat</span></div>
+                    <div class="titre-carousel"><?php echo html_entity_decode($contenuView['club-foret-AF']['fr']['titre carousel 2']['contenu']); ?></div>
                     <div class="img-carousel">
-                        <img src="<?php echo $images['club-foret-AF']['illustration carousel 2']['image']; ?>" alt="">
+                        <img src="<?php echo $images['club-foret-AF']['illustration carousel 2']['image']; ?>" alt="Illustration carousel n°2">
                     </div>
                     <div class="description">
-                        <p>
-                            Grandes frises panoramiques à installer au-dessus des tableaux blancs des salles de cours.
-                        </p>
+                        <p><?php echo html_entity_decode($contenuView['club-foret-AF']['fr']['carousel 2']['contenu']); ?></p>
                     </div>
                 </div>
                 <div class="carousel">
-                    <div class="titre-carousel"><span class="orange-txt size-txt font-family">Conférence</span></div>
+                    <div class="titre-carousel"><?php echo html_entity_decode($contenuView['club-foret-AF']['fr']['titre carousel 3']['contenu']); ?></div>
                     <div class="img-carousel">
-                        <img src="<?php echo $images['club-foret-AF']['illustration carousel 3']['image']; ?>" alt="">
+                        <img src="<?php echo $images['club-foret-AF']['illustration carousel 3']['image']; ?>" alt="Illustration carousel n°3">
                     </div>
                     <div class="description">
-                        <p>
-                            Conférence dédiée aux équipes et aux étudiants des AF par Francis Hallé. La botanique, la biodiversité des forêts primaires et les champignons n'auront plus de secret pour vous.
-                        </p>
+                        <p><?php echo html_entity_decode($contenuView['club-foret-AF']['fr']['carousel 3']['contenu']); ?></p>
                     </div>
                 </div>
             </div>
@@ -63,21 +57,13 @@
         <div class="valeurs">
             <div class="valeurs-part1">
                 <div class="principe">
-                    <p>
-                        <span class="yello-txt size-txt">Objectif</span> Compenser l'empreinte carbone des Alliances Françaises en participant au financement du premier projet de renaturation d'une fotêt primaire à conditon qu'une partie de la forêt soit prévue en France.
-                    </p>
+                    <p><?php echo html_entity_decode($contenuView['club-foret-AF']['fr']['question 1']['contenu']); ?></p>
                 </div>
                 <div class="principe">
-                    <p>
-                        <span class="yello-txt size-txt">Choix et Impact attendu</span> Contribuer à porter l'ambition de l'association Francis Hallé Pour Une Forêt Primaire afin d'accélérer auprès de l'État Français et de l'Europe son projet de forestation afin que renaisse la biodiversité. 
-                        <!-- <span class="yello-txt size-txt">Impact attendu</span> Changer de paradigme. <br> Hubert Reeves a dit un jour : "L'Homme mène un combat contre la nature, 
-                        s'il gagne, il perd.". <br> En s'éduquant avec Climat-2030, l'Humain mènera un combat pour la nature. S'il perd (ses habitudes), il gagne. -->
-                    </p>
+                    <p><?php echo html_entity_decode($contenuView['club-foret-AF']['fr']['question 2']['contenu']); ?></p>
                 </div>
                 <div class="principe">
-                    <p>
-                        <span class="yello-txt size-txt">Comment</span> Investir dans la plantation d'arbres de Francis Hallé pour la forêt primaire en permettant aux Alliances Françaises de reverser à l'association FH 12€ pour chaque commande d'article ci-dessous.
-                    </p>
+                    <p><?php echo html_entity_decode($contenuView['club-foret-AF']['fr']['question 3']['contenu']); ?></p>
                 </div>
             <div class="repere etudiants-repere" id="etudiants"></div>
         </div>
@@ -86,35 +72,46 @@
         <div class="separation"></div>
 
 
-        <h1 class="etudiant top_txt">Pour les <span class="orange-txt size-txt2 txt-g font-family">Étudiants</span></h1>
-        <a href="/fr/contact.php" class="en-savoir-plus">Demande de devis</a>
+        <h1 class="etudiant top_txt"><?php echo html_entity_decode($contenuView['club-foret-etudiants']['fr']['titre']['contenu']); ?></span></h1>
 
-        <div class="top-illustration">
-            <img src="/img/exposition/illustration_exposition.png" alt="Illustration exposition">
+        <div class="carousel-book-wrapper">
+            <div class="carousel-book-titre"><?php echo html_entity_decode($contenuView['club-foret-etudiants']['fr']['carousel livre titre']['contenu']); ?></div>
+            <div class="carousel-book-container">
+                <div class="carousel-book active-carousel-book">
+                    <img src="<?php echo $images['club-foret-etudiants']['illustration carousel livre 1']['image']; ?>" alt="Illustration livret page 1" onclick="zoomerImage(this)">
+                </div>
+                <div class="carousel-book">
+                    <img src="<?php echo $images['club-foret-etudiants']['illustration carousel livre 2']['image']; ?>" alt="Illustration livret page 2" onclick="zoomerImage(this)">
+                </div>
+                <div class="carousel-book">
+                    <img src="<?php echo $images['club-foret-etudiants']['illustration carousel livre 3']['image']; ?>" alt="Illustration livret page 3" onclick="zoomerImage(this)">
+                </div>
+            </div>
+            <div class="carousel-book-buttons">
+                <button class="prev-button"><img src="/img/precedent.svg" alt=""></button>
+                <div class="page-counter">
+                    <span id="current-page">1</span> / <span id="total-pages">3</span>
+                </div>
+                <button class="next-button"><img src="/img/suivant.svg" alt=""></button>
+            </div>
         </div>
+        <script src="/js/carousel.js"></script>
+
+        <a href="/fr/contact.php" class="en-savoir-plus"><?php echo html_entity_decode($contenuView['club-foret-etudiants']['fr']['en-savoir-plus']['contenu']); ?></a>
 
         <div class="valeurs">
             <div class="valeurs-part1">
                 <div class="principe">
-                    <p>
-                        <span class="yello-txt size-txt">Objectif</span> Compenser l'empreinte carbone des édutiants en leur permettant de participant au financement du premier projet de renaturation d'une fotêt primaire. Point d'orgue de ce projet, une partie de la forêt est prévue en France.
-                    </p>
+                    <p><?php echo html_entity_decode($contenuView['club-foret-etudiants']['fr']['question 1']['contenu']); ?></p>
                 </div>
                 <div class="principe">
-                    <p>
-                        <span class="yello-txt size-txt">Impact attendu</span> Changer de paradigme. <br> Hubert Reeves a dit un jour : "L'Homme mène un combat contre la nature, 
-                        s'il gagne, il perd.". <br> En s'éduquant avec Climat-2030, l'Humain mènera un combat pour la nature. S'il perd (ses habitudes), il gagne.
-                    </p>
+                    <p><?php echo html_entity_decode($contenuView['club-foret-etudiants']['fr']['question 2']['contenu']); ?></p>
                 </div>
                 <div class="principe">
-                    <p>
-                        <span class="yello-txt size-txt">Comment</span>  Faire rayonner l'association Francis Hallé Pour Une Forêt Primaire dans le monde entier en permettant au étudiants de devenant des ambassadeurs de bonne volonté de cette ONG. Pour chaque livret commandé, une partie sera reversé a HF.
-                    </p>
+                    <p><?php echo html_entity_decode($contenuView['club-foret-etudiants']['fr']['question 3']['contenu']); ?></p>
                 </div>
                 <div class="principe ml-principe">
-                    <p>
-                        <span class="orange-txt size-txt font-family">Livret</span> “Le Climat et moi”, livre de poche illustré.
-                    </p>
+                    <p><?php echo html_entity_decode($contenuView['club-foret-etudiants']['fr']['contenu 1']['contenu']); ?></p>
                 </div>
             </div>
         </div>
