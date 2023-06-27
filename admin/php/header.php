@@ -36,6 +36,7 @@
                 </div>
             </ul>
         </li>
+        <li class="nav-item prices"><a href="/admin/tables/prices.php">Prices</a></li>
         <li class="nav-item my-account"><a href="/admin/my-account.php">Mon compte</a></li>
         <li class="nav-item"><a href="/admin/login.php?destroy="><img src="/admin/img/bouton-marche.svg" alt="Déconnection"></a></li>
     </ul>
