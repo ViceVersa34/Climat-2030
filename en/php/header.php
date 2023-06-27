@@ -17,7 +17,8 @@ const MAPPING = [
     "/en/the-humour.php" => "/fr/humour.php",
     "/en/" => "/fr/",
     "/en/sign-up.php" => "/fr/inscription.php",
-    "/en/the-social-club-network.php" => "/fr/social-club.php"
+    "/en/the-social-club-network.php" => "/fr/social-club.php",
+    "/en/eco-aware.php" => "/fr/eco-sensibilise.php"
 ];
 
 if (!array_key_exists($url, MAPPING)) {
