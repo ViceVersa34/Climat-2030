@@ -19,13 +19,10 @@
     <main>
         <h1 class="top_txt"><?php echo html_entity_decode($contenuView['eco-sensibilise']['fr']['titre 1']['contenu']) . ' <span class="orange-txt size-txt2 font-family">' . $customers[0]['compteur'] . '</span> ' . html_entity_decode($contenuView['eco-sensibilise']['fr']['titre 2']['contenu']); ?></h1>
         
-        <div class="titre-eco-sensibilise">
-            <span class="size-txt"><span class="yello-txt">Félicitations !</span> Vous faites parti.e.s du club des <span class="yello-txt">éco-sensibilisé.e.s au climat</span>. <br>
-            Maintenant, vous êtes en mesure de réduire votre empreinte carbone et de sensibiliser votre entourage.</span>
-        </div>
+        <div class="titre-eco-sensibilise"><?php echo html_entity_decode($contenuView['eco-sensibilise']['fr']['contenu']['contenu']); ?></div>
         
         <div class="eco-sensibilise-tableau">
-            <img src="/img/eco-sensibilise/laurier_vert.svg" alt="Image Lauriet">
+            <img src="<?php echo $images['eco-sensibilise']['illustration 1']['image']; ?>" alt="Image Lauriet">
             <?php
                 $num = $customers[0]['compteur'];
 

@@ -33,6 +33,7 @@
                     <li class="sub-nav-item"><a href="/admin/tables/images/club-foret.php">Club Foret</a></li>
                     <li class="sub-nav-item"><a href="/admin/tables/images/header.php">Header</a></li>
                     <li class="sub-nav-item"><a href="/admin/tables/images/footer.php">Footer</a></li>
+                    <li class="sub-nav-item"><a href="/admin/tables/images/eco-sensibilise.php">Éco-sensibilisé</a></li>
                 </div>
             </ul>
         </li>
