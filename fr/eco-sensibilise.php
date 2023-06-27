@@ -8,7 +8,7 @@
 <html lang="fr">
 <head>
     <?php include('php/head.php'); ?>
-    <!-- <link rel="stylesheet" href="/css/eco-sensibilise.css"> -->
+    <link rel="stylesheet" href="/css/eco-sensibilise.css">
     <title>Accueil - Climat-2030</title>
 </head>
 <body id="body">
@@ -19,6 +19,39 @@
     <main>
         <h1 class="top_txt"><?php echo html_entity_decode($contenuView['eco-sensibilise']['fr']['titre 1']['contenu']) . ' <span class="orange-txt size-txt2 font-family">' . $customers[0]['compteur'] . '</span> ' . html_entity_decode($contenuView['eco-sensibilise']['fr']['titre 2']['contenu']); ?></h1>
         
+        <div class="titre-eco-sensibilise">
+            <span class="size-txt"><span class="yello-txt">Félicitations !</span> Vous faites parti.e.s du club des <span class="yello-txt">éco-sensibilisé.e.s au climat</span>. <br>
+            Maintenant, vous êtes en mesure de réduire votre empreinte carbone et de sensibiliser votre entourage.</span>
+        </div>
+        
+        <div class="eco-sensibilise-tableau">
+            <img src="/img/eco-sensibilise/laurier_vert.svg" alt="Image Lauriet">
+            <?php
+                $num = $customers[0]['compteur'];
+
+                $sql = "SELECT * FROM `customers` ORDER BY id_customers DESC";
+                $requete = $db->query($sql);
+                $customers = $requete->fetchAll();
+
+
+                foreach($customers as $customer) { ?>
+                    <div class="eco-sensibilise">
+                        N° <?php echo $num; ?> : 
+                        <span class="orange-txt font-weight"><?php echo ucfirst($customer['customers_surname']); ?></span>, 
+                        <?php echo $customer['customers_age']; ?> ans, 
+                        <?php echo $customer['customers_status']; ?> 
+                        <?php echo ucfirst($customer['customers_nationality']); ?> éco-sensibilisé.e à l'
+                        <?php echo strtoupper($customer['customers_organism']); ?> de 
+                        <?php echo ucfirst($customer['customers_city_organism']); ?>, 
+                        <?php echo ucfirst($customer['customers_country_organism']); ?>.
+                    </div>
+                    <!-- N° $id : $prenom, $age ans, $statut de nationalité $nationalité à l'$orga de $ville_orga en $pays_orga. -->
+            <?php 
+                $num --; 
+                }
+            ?>
+        </div>
+
         <div class="scrollUp">
             <a href="#top"><img src="/img/up-arrow.svg"/></a>
         </div>
