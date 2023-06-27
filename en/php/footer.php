@@ -50,11 +50,13 @@
         <div class="center">
             <img src="<?php echo $images['footer']['illustration 1']['image']; ?>" alt="illustration 'we can do it'">
             <div class="global-counter">
-                <p>
-                    <?php echo $contenu['footer']['en']['texte compteur 1']['contenu'].' '.$date; ?> :
-                    <span class="counter orange-txt font-weight"> <?php echo $customers[0]['compteur']; ?> </span>
-                    <?php echo ' '.$contenu['footer']['en']['texte compteur 2']['contenu']; ?>
-                </p>
+                <a href="/en/eco-aware.php">
+                    <p>
+                        <?php echo $contenu['footer']['en']['texte compteur 1']['contenu'].' '.$date; ?> :
+                        <span class="counter orange-txt font-weight"> <?php echo $customers[0]['compteur']; ?> </span>
+                        <?php echo ' '.$contenu['footer']['en']['texte compteur 2']['contenu']; ?>
+                    </p>
+                </a>
             </div>
         </div>
         <div class="right">
