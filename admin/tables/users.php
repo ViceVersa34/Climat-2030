@@ -37,7 +37,7 @@
             $users_isAdmin = htmlspecialchars((int)$_GET['users_isAdmin']);
 
             if($users_password1 == $users_password2) {
-                $users_password = password_hash(htmlspecialchars(strtolower($users_password1)), PASSWORD_DEFAULT);
+                $users_password = password_hash(htmlspecialchars($users_password1), PASSWORD_DEFAULT);
                 $sql = "INSERT INTO `users`(`users_name`, `users_surname`, `users_mail`, `users_password`, `users_isAdmin`) 
                 VALUES ('$users_name', '$users_surname', '$users_mail', '$users_password', '$users_isAdmin')";
                 $requete = $db->query($sql);
