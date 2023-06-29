@@ -3,9 +3,9 @@
 <html lang="en">
 <head>
     <?php include('php/head.php'); ?>
-    <link rel="stylesheet" href="/css/social-club.css">
+    <link rel="stylesheet" href="/css/club-climat.css">
     <link rel="stylesheet" href="/css/humour.css">
-    <title>The Social Club network - Climat-2030</title>
+    <title>The Social Club - Climat-2030</title>
 </head>
 <body id="body">
     <header>
@@ -14,7 +14,7 @@
 
     <main>
         <div class="social-network">
-            <div class="repere social-club-repere" id="social-network"></div>
+            <div class="repere social-club-repere" id="climate-club"></div>
             <h1 class="top_txt"><?php echo html_entity_decode($contenuView['club-climat']['en']['titre']['contenu']); ?></span></h1>
             <a href="/en/contact.php" class="en-savoir-plus"><?php echo html_entity_decode($contenuView['club-climat']['en']['en-savoir-plus']['contenu']); ?></a>
 
@@ -55,7 +55,7 @@
                     </div>
                 </div>
             </div>
-            <div class="repere humour-repere" id="humour"></div>
+            <div class="repere humour-repere" id="humour-club"></div>
         </div>
 
         <div class="separation"></div>
