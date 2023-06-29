@@ -113,7 +113,7 @@
 <html lang="fr">
 <head>
     <?php include('../php/head.php'); ?>
-    <title>Document</title>
+    <title>Users - Climat 2030</title>
     <link rel="stylesheet" href="/admin/css/tables.css">
     <link rel="stylesheet" href="/admin/css/users.css">
     <script src="/admin/js/delete.js"></script>
