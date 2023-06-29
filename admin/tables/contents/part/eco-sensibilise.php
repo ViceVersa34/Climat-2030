@@ -37,4 +37,27 @@
             </div>            
         </div>
     </div>
+
+    <div class="group-content">
+        <div class="content">
+            <div class="language">
+                <?php 
+                    $tempContenu = $contenu['eco-sensibilise']['fr']['contenu']['contenu'];
+                    $tempContenuView = $contenuView['eco-sensibilise']['fr']['contenu']['contenu'];
+                    $tempId = $contenu['eco-sensibilise']['fr']['contenu']['id'];
+                    $language = 'fr';
+                ?>
+                <?php include('repeat.php'); ?>
+            </div>
+            <div class="language">
+                <?php 
+                    $tempContenu = $contenu['eco-sensibilise']['en']['contenu']['contenu'];
+                    $tempContenuView = $contenuView['eco-sensibilise']['en']['contenu']['contenu'];
+                    $tempId = $contenu['eco-sensibilise']['en']['contenu']['id'];
+                    $language = 'en';
+                ?>
+                <?php include('repeat.php'); ?>
+            </div>            
+        </div>
+    </div>
 </div>
