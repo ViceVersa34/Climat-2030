@@ -9,7 +9,7 @@ if (!strpos($_SERVER['REQUEST_URI'], '?') == '') {
 
 const MAPPING = [
     "/fr/404.php" => "/en/404.php",
-    "/fr/academie-du-climat.php" => "/en/the-climate-2030-academy.php",
+    "/fr/club-pedaogique.php" => "/en/the-pedagogical-club.php",
     "/fr/CGU.php" => "/en/CGU.php",
     "/fr/contact.php" => "/en/contact.php",
     "/fr/en-savoir-plus.php" => "/en/more-about-climat-2030.php",
@@ -17,7 +17,7 @@ const MAPPING = [
     "/fr/humour.php" => "/en/the-humour.php",
     "/fr/" => "/en/",
     "/fr/inscription.php" => "/en/sign-up.php",
-    "/fr/social-club.php" => "/en/the-social-club-network.php",
+    "/fr/club-social.php" => "/en/the-social-club.php",
     "/fr/eco-sensibilise.php" => "/en/eco-aware.php"
 ];
 
@@ -38,7 +38,7 @@ if (!array_key_exists($url, MAPPING)) {
         <li class="arrow-menu"><button class="arrow-menu-burger" onclick="changerLeft2('-20rem');"><img src="/img/croix.svg" alt="Menu burger"></button></li>
         <li class="nav-item menu-acceuil"><a href="/fr/"><?php echo $contenuView['header']['fr']['page 1']['contenu']; ?></a></li>
         <li class="nav-item menu-academie-du-climat">
-            <a href="/fr/academie-du-climat.php"><?php echo $contenuView['header']['fr']['page 2']['contenu']; ?></a>
+            <a href="/fr/club-pedaogique.php"><?php echo $contenuView['header']['fr']['page 2']['contenu']; ?></a>
             <ul class="sub-menu">
                 <!-- <li class="sub-nav-item"><a href="" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 2.1']['contenu']; ?></a></li> -->
                 <!-- <li class="sub-nav-item"><a href="" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 2.2']['contenu']; ?></a></li> -->
@@ -52,9 +52,9 @@ if (!array_key_exists($url, MAPPING)) {
             <a><?php echo $contenuView['header']['fr']['page 3']['contenu']; ?></a>
             <ul class="sub-menu">
                 <!-- <li class="sub-nav-item"><a href="/fr/academie-du-climat.php" onclick="changerLeft2('-18rem');">Parcours Climat</a></li> -->
-                <li class="sub-nav-item"><a href="/fr/social-club.php#social-network" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 3.1']['contenu']; ?></a></li>
-                <li class="sub-nav-item"><a href="/fr/social-club.php#humour" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 3.2']['contenu']; ?></a></li>
-                <!-- <li class="sub-nav-item"><a href="/fr/social-club.php#humour" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 3.3']['contenu']; ?></a></li> -->
+                <li class="sub-nav-item"><a href="/fr/club-social.php#club-climat" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 3.1']['contenu']; ?></a></li>
+                <li class="sub-nav-item"><a href="/fr/club-social.php#club-humour" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 3.2']['contenu']; ?></a></li>
+                <!-- <li class="sub-nav-item"><a href="" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 3.3']['contenu']; ?></a></li> -->
                 <!-- <li class="sub-nav-item"><a href="" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 3.4']['contenu']; ?></a></li> -->
                 <!-- Les pages en commentaire permettent d'en ajouter dans le site. 
                 Pour cela, il faut : Déocommenter, remplir le lien (href) et entrez le nom dans la partie admin (dans contents -> hearder) -->

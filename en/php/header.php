@@ -9,7 +9,7 @@ if (!strpos($_SERVER['REQUEST_URI'], '?') == '') {
 
 const MAPPING = [
     "/en/404.php" => "/fr/404.php",
-    "/en/the-climate-2030-academy.php" => "/fr/academie-du-climat.php",
+    "/en/the-pedagogical-club.php" => "/fr/club-pedaogique.php",
     "/en/CGU.php" => "/fr/CGU.php",
     "/en/contact.php" => "/fr/contact.php",
     "/en/more-about-climat-2030.php" => "/fr/en-savoir-plus.php",
@@ -17,7 +17,7 @@ const MAPPING = [
     "/en/the-humour.php" => "/fr/humour.php",
     "/en/" => "/fr/",
     "/en/sign-up.php" => "/fr/inscription.php",
-    "/en/the-social-club-network.php" => "/fr/social-club.php",
+    "/en/the-social-club.php" => "/fr/club-social.php",
     "/en/eco-aware.php" => "/fr/eco-sensibilise.php"
 ];
 
@@ -38,7 +38,7 @@ if (!array_key_exists($url, MAPPING)) {
         <li class="arrow-menu"><button class="arrow-menu-burger" onclick="changerLeft2('-20rem');"><img src="/img/croix.svg" alt="Menu burger"></button></li>
         <li class="nav-item menu-acceuil"><a href="/en/"><?php echo $contenuView['header']['en']['page 1']['contenu']; ?></a></li>
         <li class="nav-item menu-academie-du-climat">
-            <a href="/en/the-climate-2030-academy.php"><?php echo $contenuView['header']['en']['page 2']['contenu']; ?></a>
+            <a href="/en/the-pedagogical-club.php"><?php echo $contenuView['header']['en']['page 2']['contenu']; ?></a>
             <ul class="sub-menu">
                 <!-- <li class="sub-nav-item"><a href="" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['en']['page 2.1']['contenu']; ?></a></li> -->
                 <!-- <li class="sub-nav-item"><a href="" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['en']['page 2.2']['contenu']; ?></a></li> -->
@@ -51,8 +51,8 @@ if (!array_key_exists($url, MAPPING)) {
         <li class="nav-item menu-social-club">
             <a><?php echo $contenuView['header']['en']['page 3']['contenu']; ?></a>
             <ul class="sub-menu">
-                <li class="sub-nav-item"><a href="/en/the-social-club-network.php#social-network" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['en']['page 3.1']['contenu']; ?></a></li>
-                <li class="sub-nav-item"><a href="/en/the-social-club-network.php#humour" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['en']['page 3.2']['contenu']; ?></a></li>
+                <li class="sub-nav-item"><a href="/en/the-social-club.php#climate-club" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['en']['page 3.1']['contenu']; ?></a></li>
+                <li class="sub-nav-item"><a href="/en/the-social-club.php#humour-club" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['en']['page 3.2']['contenu']; ?></a></li>
                 <!-- <li class="sub-nav-item"><a href="" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['en']['page 3.3']['contenu']; ?></a></li> -->
                 <!-- <li class="sub-nav-item"><a href="" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['en']['page 3.4']['contenu']; ?></a></li> -->
                 <!-- Les pages en commentaire permettent d'en ajouter dans le site. 
