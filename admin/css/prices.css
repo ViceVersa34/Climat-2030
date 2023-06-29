@@ -54,12 +54,32 @@ table {
     min-width: 80px;
 }
 
+.calculed-prices-tab {
+    margin: 0% 1.5rem;
+}
+
+.calculed-prices-tab th, .calculed-prices-tab td{
+    border: solid 1px #ecdcce60;
+    padding: .5rem .5rem;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 80px;
+}
+
 .update-tab th, .update-tab td{
     border: solid 1px #ecdcce60;
     margin-left: auto;
     margin-right: auto;
     padding: .5rem .5rem !important;
     width: 98px;
+}
+
+th {
+    font-weight: 400 !important;
+}
+
+td {
+    font-weight: 700 !important;
 }
 
 input {
@@ -109,4 +129,18 @@ input[type=submit] {
 
 input[type=submit]:hover {
     transform: scale(1.1);
+}
+
+.td {
+    background: #2e2a2a;
+}
+
+canvas {
+    max-width: 800px;
+    max-height: 400px;
+    margin: 2rem 1rem 4rem 1rem;
+}
+
+.titre-tableau {
+    margin: 4rem 1rem 2rem 1rem;
 }

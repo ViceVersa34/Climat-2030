@@ -113,6 +113,10 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    transform: scale(1.1);
+}
+
 .image form {
     display: flex;
     flex-direction: column;

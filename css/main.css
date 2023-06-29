@@ -61,8 +61,15 @@ h1 {
 }
 
 .yello-txt {
-    /* color: #f5f6aa !important; */
     color: #dbb254 !important;
+}
+
+.black-txt {
+	color: #161515 !important;
+}
+
+.green-txt {
+	color: #225d1b !important;
 }
 
 .size-txt {
@@ -374,6 +381,20 @@ main {
 
 .label .txt {
 	margin-bottom: 1.5rem;
+}
+
+.label img {
+	max-width: 125px;
+	width: 100%;
+	margin: .25rem;
+}
+
+.label-img {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 300px;
+	align-items: center;
+	justify-content: center;
 }
 
 .line {
@@ -708,6 +729,16 @@ main {
 	}
 }
 
+@media only screen and (max-width: 1178px) {
+	.label {
+		font-size: 2rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	
+}
 @media only screen and (max-width: 800px) {
 
 	.bandeau-contact {

@@ -95,7 +95,8 @@
 }
 
 .valeur {
-    margin: 2rem 0 2rem 0;
+    margin: 2rem 0;
+    font-size: .9rem;
 }
 
 .penser-le-climat {
@@ -111,12 +112,15 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin: 1rem 0 6rem 0;
+	margin: 2rem 0 6rem 0;
+    padding: 4rem;
+    border-radius: 20px;
+    background: #ecdcce;
 }
 
 .countdown {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
@@ -144,11 +148,29 @@
 
 .unit {
 	font-size: .9rem;
+    color: #225d1b !important;
+    font-weight: 700;
+}
+
+.bouton-unresponsive {
+    display: block !important;
+}
+
+.bouton-responsive {
+    display: none !important;
 }
 
 @media only screen and (max-width: 1200px) {
     .menu-acceuil {
         border-top: solid 1px #1d1919;
+    }
+
+    .bouton-unresponsive {
+        display: none !important;
+    }
+    
+    .bouton-responsive {
+        display: block !important;
     }
 }
 
@@ -200,18 +222,24 @@
 }
 
 @media only screen and (max-width: 500px) {
-	.countdown {
-		display: flex;
+    .countdown {
+        display: flex;
 		flex-direction: column;
 	}
 	
 	.countdown-top {
-		display: flex;
+        display: flex;
 		margin-bottom: .4rem;
 	}
 	
 	.countdown-bottom {
-		display: flex;
+        display: flex;
 		margin-top: .4rem;
 	}
+}
+
+@media only screen and (max-width: 500px) {
+    .global-countdown {
+        padding: 1rem;
+    }
 }

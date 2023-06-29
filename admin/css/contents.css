@@ -64,6 +64,14 @@
     color: #e77754 !important;
 }
 
+.black-txt {
+	color: #161515 !important;
+}
+
+.green-txt {
+	color: #225d1b !important;
+}
+
 .size-txt2 {
     font-size: 2rem !important;
 }
@@ -117,6 +125,10 @@ input, textarea {
     margin-bottom: 10px;
     color: #ffffff !important;
     outline: 0;
+}
+
+textarea {
+    height: 200px !important;
 }
 
 .invisible {
@@ -196,7 +208,7 @@ input, textarea {
 }
 
 .selectable-button.active {
-    background-color: #534946; /* Couleur de fond pour les boutons sélectionnés */
+    background-color: #685e5b; /* Couleur de fond pour les boutons sélectionnés */
 }
 
 #outputText {
