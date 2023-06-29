@@ -98,10 +98,12 @@ function texteView($texte) {
 
 function regExReplace($regExContent) {
     $splitContent = explode('-', $regExContent);
-      $list = ['y', 'o', 't1', 't2', 'g', 'p', '/'];
+      $list = ['y', 'o', 'n', 'v', 't1', 't2', 'g', 'p', '/'];
       $replace = [
         'y' => 'yello-txt',
         'o' => 'orange-txt',
+        'n' => 'black-txt',
+        'v' => 'green-txt',
         't1' => 'size-txt',
         't2' => 'size-txt2',
         'g' => 'font-weight',

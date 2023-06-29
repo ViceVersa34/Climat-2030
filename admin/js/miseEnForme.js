@@ -1,12 +1,23 @@
 function miseEnForme() {
-    event.preventDefault(); // Annule le comportement par défaut du lien ou du formulaire
-    var divElement = document.getElementById("miseEnForme");
-    divElement.classList.toggle("invisible");
-  }
+  event.preventDefault(); // Annule le comportement par défaut du lien ou du formulaire
+  var divElement = document.getElementById("miseEnForme");
+  divElement.classList.toggle("invisible");
+}
+
+
+
+
+
+
+
+
 
 // Récupérer tous les boutons sélectionnables
 const selectableButtons = document.querySelectorAll('.selectable-button');
-const forbiddenCombos = ['t1t2', 'oy'];
+const groups = {
+  t: ['button-t1', 'button-t2'],
+  yonv: ['button-y', 'button-o', 'button-n', 'button-v']
+};
 
 // Ajouter un gestionnaire d'événement de clic à chaque bouton sélectionnable
 selectableButtons.forEach(button => {
@@ -14,46 +25,18 @@ selectableButtons.forEach(button => {
     // Vérifier les contraintes de sélection
     const buttonId = button.id;
     const isButtonSelected = button.classList.toggle('active');
-  
-    // Vérifier les combinaisons interdites
-    if (forbiddenCombos.some(combo => combo.includes(buttonId))) {
-      const conflictingButtonId = forbiddenCombos.find(combo => combo.includes(buttonId) && combo !== buttonId);
-      const conflictingButton = document.getElementById(`button-${conflictingButtonId}`);
-      
-      if (isButtonSelected && conflictingButton.classList.contains('active')) {
-        conflictingButton.classList.remove('active');
-      }
-    }
 
-    // Vérifier les contraintes de sélection spécifiques à "o" et "y"
-    if (buttonId === 'button-o' && isButtonSelected) {
-      const yButton = document.getElementById('button-y');
-      if (yButton.classList.contains('active')) {
-        yButton.classList.remove('active');
+    // Vérifier les groupes de boutons
+    Object.keys(groups).forEach(group => {
+      if (groups[group].includes(buttonId) && isButtonSelected) {
+        groups[group].forEach(groupId => {
+          if (groupId !== buttonId) {
+            const conflictingButton = document.getElementById(groupId);
+            conflictingButton.classList.remove('active');
+          }
+        });
       }
-    }
-
-    if (buttonId === 'button-y' && isButtonSelected) {
-      const oButton = document.getElementById('button-o');
-      if (oButton.classList.contains('active')) {
-        oButton.classList.remove('active');
-      }
-    }
-
-    // Vérifier les contraintes de sélection spécifiques à "t1" et "t2"
-    if (buttonId === 'button-t1' && isButtonSelected) {
-      const t2Button = document.getElementById('button-t2');
-      if (t2Button.classList.contains('active')) {
-        t2Button.classList.remove('active');
-      }
-    }
-
-    if (buttonId === 'button-t2' && isButtonSelected) {
-      const t1Button = document.getElementById('button-t1');
-      if (t1Button.classList.contains('active')) {
-        t1Button.classList.remove('active');
-      }
-    }
+    });
   });
 });
 
@@ -67,7 +50,7 @@ copyButton.addEventListener('click', () => {
   const selectedButtons = Array.from(selectableButtons)
     .filter(button => button.classList.contains('active'))
     .map(button => button.id.replace('button-', ''));
-  
+
   const copiedText = '{{' + selectedButtons.join('-') + '}}';
   copyToClipboard(copiedText);
 });
@@ -94,6 +77,7 @@ function copyToClipboard(text) {
 
   outputText.value = text;
 }
+
 
 
 
