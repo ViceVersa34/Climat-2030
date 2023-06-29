@@ -6,6 +6,10 @@
     margin-top: 10rem;
 }
 
+h2 {
+    margin: 0 1rem;
+}
+
 /* ------------------------------ HEADER ------------------------------*/
 .humour .menu-humour{
     border-top: solid 1px #ba83f0;
