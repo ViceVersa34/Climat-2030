@@ -62,7 +62,9 @@
         <div class="global-title">
             <div class="title">Images</div>
             <div class="info-icon" id="infoIcon">i</div>
-            <div class="info" id="info">La table 'images' contient les images du site. Vous pouvez les modifier ici.</div>
+            <div class="info" id="info">La table 'images' contient les images du site. Vous pouvez les modifier ici. <br>
+                                        Attention au format de l'image (identique à la précedente) et au poids (une image trop lourde ne sera pas uploadée. <br>
+                                        Dans ce cas la, la compressé).</div>
         </div>
         <script src="/admin/js/info.js"></script>
         <div class="pages">
