@@ -82,6 +82,19 @@
                             </form>
                         </div>
                     </div>
+
+                    <div class="group-image">
+                        <div class="image">
+                            <img src="<?php echo $images['club-pedagogique']['illustration programmes']['image']; ?>">
+                            <form action="" method="post" enctype="multipart/form-data">
+                                <input type="hidden" name="action" value="updateImage">
+                                <input type="hidden" name="id_images" value="<?php echo $images['club-pedagogique']['illustration programmes']['id']; ?>">
+                                <input type="hidden" name="oldImage" value="<?php echo $images['club-pedagogique']['illustration programmes']['image']; ?>">
+                                <input type="file" name="image">
+                                <button type="submit">Modifier</button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
