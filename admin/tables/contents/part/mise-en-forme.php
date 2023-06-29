@@ -8,8 +8,10 @@
             <button id="button-p" class="selectable-button"><span class="font-family">Police</span></button>
             <button id="button-o" class="selectable-button"><span class="orange-txt">Orange</span></button>
             <button id="button-y" class="selectable-button"><span class="yello-txt">Jaune</span></button>
+            <button id="button-n" class="selectable-button"><span class="">Noir</span></button>
+            <button id="button-v" class="selectable-button"><span class="green-txt">Vert</span></button>
         </div>
-        <button id="copyButton">Copier <span>Blaise d'ouverture</span></button>
+        <button id="copyButton">Copier <span>Balise d'ouverture</span></button>
         <button id="copyClosingButton">Copier <span>balise de fermeture</span></button>
         <button id="copyBrButton">Copier<span> saut de ligne</span></button>
         <label for="outputText">Élement copié : </label>
