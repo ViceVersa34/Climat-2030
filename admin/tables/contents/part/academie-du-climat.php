@@ -28,6 +28,57 @@
         <div class="content">
             <div class="language">
                 <?php 
+                    $tempContenu = $contenu['academie-du-climat']['fr']['programme 0']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['fr']['programme 0']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['fr']['programme 0']['id'];
+                    $language = 'fr';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['fr']['programme 1']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['fr']['programme 1']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['fr']['programme 1']['id'];
+                    $language = 'fr';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['fr']['programme 2']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['fr']['programme 2']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['fr']['programme 2']['id'];
+                    $language = 'fr';
+                ?>
+                <?php include('repeat.php'); ?>
+            </div>
+            <div class="language">
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['en']['programme 0']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['en']['programme 0']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['en']['programme 0']['id'];
+                    $language = 'en';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['en']['programme 1']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['en']['programme 1']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['en']['programme 1']['id'];
+                    $language = 'en';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['en']['programme 2']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['en']['programme 2']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['en']['programme 2']['id'];
+                    $language = 'en';
+                ?>
+                <?php include('repeat.php'); ?>
+            </div>            
+        </div>
+    </div>
+
+    <div class="group-content">
+        <div class="content">
+            <div class="language">
+                <?php 
                     $tempContenu = $contenu['academie-du-climat']['fr']['en-savoir-plus']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['en-savoir-plus']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['en-savoir-plus']['id'];
@@ -114,57 +165,6 @@
                     $tempContenu = $contenu['academie-du-climat']['en']['detail 2']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['detail 2']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['detail 2']['id'];
-                    $language = 'en';
-                ?>
-                <?php include('repeat.php'); ?>
-            </div>            
-        </div>
-    </div>
-
-    <div class="group-content">
-        <div class="content">
-            <div class="language">
-                <?php 
-                    $tempContenu = $contenu['academie-du-climat']['fr']['programme 0']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['fr']['programme 0']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['fr']['programme 0']['id'];
-                    $language = 'fr';
-                ?>
-                <?php include('repeat.php'); ?>
-                <?php 
-                    $tempContenu = $contenu['academie-du-climat']['fr']['programme 1']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['fr']['programme 1']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['fr']['programme 1']['id'];
-                    $language = 'fr';
-                ?>
-                <?php include('repeat.php'); ?>
-                <?php 
-                    $tempContenu = $contenu['academie-du-climat']['fr']['programme 2']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['fr']['programme 2']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['fr']['programme 2']['id'];
-                    $language = 'fr';
-                ?>
-                <?php include('repeat.php'); ?>
-            </div>
-            <div class="language">
-                <?php 
-                    $tempContenu = $contenu['academie-du-climat']['en']['programme 0']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['en']['programme 0']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['en']['programme 0']['id'];
-                    $language = 'en';
-                ?>
-                <?php include('repeat.php'); ?>
-                <?php 
-                    $tempContenu = $contenu['academie-du-climat']['en']['programme 1']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['en']['programme 1']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['en']['programme 1']['id'];
-                    $language = 'en';
-                ?>
-                <?php include('repeat.php'); ?>
-                <?php 
-                    $tempContenu = $contenu['academie-du-climat']['en']['programme 2']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['en']['programme 2']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['en']['programme 2']['id'];
                     $language = 'en';
                 ?>
                 <?php include('repeat.php'); ?>
