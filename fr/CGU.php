@@ -99,7 +99,7 @@
         </div>
 
         <div class="mention-images">
-            <div class="title-mention-image">Credit for image creators</div>
+            <div class="title-mention-image">Mention des créateurs d'images</div>
             <div class="image">
                 <img src="<?php echo $images['index']['illustration 1']['image']; ?>" alt="Crédit image 1">
                 <div class="mention">
