@@ -24,7 +24,7 @@
     <?php include('../../php/head.php'); ?>
     <link rel="stylesheet" href="/admin/css/contents.css">
     <script src="/admin/js/updateContents.js"></script>
-    <title>Document</title>
+    <title>Content - Climat 2030</title>
 </head>
 <body>
     <header>

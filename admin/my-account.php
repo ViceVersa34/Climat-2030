@@ -42,7 +42,7 @@
 <head>
     <?php include('php/head.php'); ?>
     <link rel="stylesheet" href="/admin/css/my-account.css">
-    <title> Admin - Climat-2030</title>
+    <title>My account - Climat-2030</title>
 </head>
 <body id="body">
     <header>

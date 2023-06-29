@@ -52,7 +52,7 @@
 <head>
     <?php include('../../php/head.php'); ?>
     <link rel="stylesheet" href="/admin/css/images.css">
-    <title>Document</title>
+    <title>Images - Climat 2030</title>
 </head>
 <body>
     <header>

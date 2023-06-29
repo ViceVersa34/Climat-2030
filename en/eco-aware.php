@@ -9,7 +9,7 @@
 <head>
     <?php include('php/head.php'); ?>
     <link rel="stylesheet" href="/css/eco-sensibilise.css">
-    <title>Accueil - Climat-2030</title>
+    <title>Eco-aware - Climat-2030</title>
 </head>
 <body id="body">
     <header>

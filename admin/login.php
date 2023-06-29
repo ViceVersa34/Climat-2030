@@ -61,7 +61,7 @@ include('tables/contents/part/content.php');
 <head>
     <?php include('../fr/php/head.php'); ?>
     <link rel="stylesheet" href="/admin/css/login.css">
-    <title>Admin - Climat-2030</title>
+    <title>Login - Climat-2030</title>
 </head>
 <body id="body">
     <header>

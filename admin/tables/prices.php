@@ -61,7 +61,7 @@
 <html lang="fr">
 <head>
     <?php include('../php/head.php'); ?>
-    <title>Document</title>
+    <title>Prices - Climat 2030</title>
     <link rel="stylesheet" href="/admin/css/prices.css">
     <script src="/admin/js/updatePrices.js"></script>
 </head>

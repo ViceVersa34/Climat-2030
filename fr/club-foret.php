@@ -3,8 +3,8 @@
 <html lang="fr">
 <head>
     <?php include('php/head.php'); ?>
-    <link rel="stylesheet" href="/css/exposition.css">
-    <title>L'Exposition - Climat-2030</title>
+    <link rel="stylesheet" href="/css/club-foret.css">
+    <title>Club Foret - Climat-2030</title>
 </head>
 <body id="body">
     <header>

@@ -133,7 +133,7 @@
 <html lang="en">
 <head>
     <?php include('../php/head.php'); ?>
-    <title>Document</title>
+    <title>Customers - Climat 2030</title>
     <link rel="stylesheet" href="/admin/css/tables.css">
     <link rel="stylesheet" href="/admin/css/customers.css">
     <script src="/admin/js/delete.js"></script>
