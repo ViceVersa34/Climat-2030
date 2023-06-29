@@ -85,11 +85,50 @@
 
                     <div class="group-image">
                         <div class="image">
-                            <img src="<?php echo $images['footer']['label']['image']; ?>">
+                            <img src="<?php echo $images['footer']['label1']['image']; ?>">
                             <form action="" method="post" enctype="multipart/form-data">
                                 <input type="hidden" name="action" value="updateImage">
-                                <input type="hidden" name="id_images" value="<?php echo $images['footer']['label']['id']; ?>">
-                                <input type="hidden" name="oldImage" value="<?php echo $images['footer']['label']['image']; ?>">
+                                <input type="hidden" name="id_images" value="<?php echo $images['footer']['label1']['id']; ?>">
+                                <input type="hidden" name="oldImage" value="<?php echo $images['footer']['label1']['image']; ?>">
+                                <input type="file" name="image">
+                                <button type="submit">Modifier</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="group-image">
+                        <div class="image">
+                            <img src="<?php echo $images['footer']['label2']['image']; ?>">
+                            <form action="" method="post" enctype="multipart/form-data">
+                                <input type="hidden" name="action" value="updateImage">
+                                <input type="hidden" name="id_images" value="<?php echo $images['footer']['label2']['id']; ?>">
+                                <input type="hidden" name="oldImage" value="<?php echo $images['footer']['label2']['image']; ?>">
+                                <input type="file" name="image">
+                                <button type="submit">Modifier</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="group-image">
+                        <div class="image">
+                            <img src="<?php echo $images['footer']['label3']['image']; ?>">
+                            <form action="" method="post" enctype="multipart/form-data">
+                                <input type="hidden" name="action" value="updateImage">
+                                <input type="hidden" name="id_images" value="<?php echo $images['footer']['label3']['id']; ?>">
+                                <input type="hidden" name="oldImage" value="<?php echo $images['footer']['label3']['image']; ?>">
+                                <input type="file" name="image">
+                                <button type="submit">Modifier</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="group-image">
+                        <div class="image">
+                            <img src="<?php echo $images['footer']['label4']['image']; ?>">
+                            <form action="" method="post" enctype="multipart/form-data">
+                                <input type="hidden" name="action" value="updateImage">
+                                <input type="hidden" name="id_images" value="<?php echo $images['footer']['label4']['id']; ?>">
+                                <input type="hidden" name="oldImage" value="<?php echo $images['footer']['label4']['image']; ?>">
                                 <input type="file" name="image">
                                 <button type="submit">Modifier</button>
                             </form>
