@@ -63,6 +63,7 @@
     <?php include('../php/head.php'); ?>
     <title>Prices - Climat 2030</title>
     <link rel="stylesheet" href="/admin/css/prices.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="/admin/js/updatePrices.js"></script>
 </head>
 <body>
@@ -80,47 +81,90 @@
         <script src="/admin/js/info.js"></script>
 
         <div class="bouton" onclick="updatePrices();">Modifier le tableau</div>
-            <div class="tableau">
-                <table class="prices-tab" id="prices-tab">
-                    <?php
-                        for($i = 1; $i <= 9; $i++) {
-                            echo '<tr>';
-                            for($j = 1; $j <= 15; $j++) {
-                                if(($i == 1) or ($j == 1)) {
-                                    echo '<td>'.$pricesTab[$i][$j]['prices'].'</td>';
-                                } else {
-                                    echo '<th>'.number_format(round(floatval($pricesTab[$i][$j]['prices']), 2), 2, '.', '').'€</th>';
-                                }
-                            }
-                            echo '</tr>';
-                        }
-                    ?>
-                </table>
-            </div>
-            <?php echo '<form action="" method="get" class="invisible" id="update-tab">'; ?>
-            <input type="hidden" name="action" value="update">
-            <div class="tableau">
-                <table class="update-tab">
-                    <?php
-                        for($i = 1; $i <= 9; $i++) {
-                            echo '<tr>';
-                            for($j = 1; $j <= 15; $j++) {
-                                if(($i == 1) or ($j == 1)) {
-                                    echo '<td><input type="text" name="'.$i.'-'.$j.'" value="'.$pricesTab[$i][$j]['prices'].'"></td>';
-                                } else {
-                                    echo '<th><input type="text" name="'.$i.'-'.$j.'" value="'.$pricesTab[$i][$j]['prices'].'"></th>';
-                                }
-                            }
-                            echo '</tr>';
-                        }
-                        ?>
-                </table>
-            </div>
-            <?php
-            echo '<input type="submit" value="Modifier">';
-            echo '</form>'; 
-            ?>
         
+        <div class="titre-tableau">Éco-participation par élève selon l'effectif et la tranche de prix par AF par an.</div>
+
+        <div class="tableau">
+            <table class="prices-tab" id="prices-tab">
+                <?php
+                    for($i = 1; $i <= 9; $i++) {
+                        echo '<tr>';
+                        for($j = 1; $j <= 15; $j++) {
+                            if(($i == 1) or ($j == 1)) {
+                                echo '<td class="td">'.$pricesTab[$i][$j]['prices'].'</td>';
+                            } else {
+                                echo '<th>'.number_format(round(floatval($pricesTab[$i][$j]['prices']), 2), 2, '.', '').'€</th>';
+                            }
+                        }
+                        echo '</tr>';
+                    }
+                ?>
+            </table>
+        </div>
+
+
+        <?php echo '<form action="" method="get" class="invisible" id="update-tab">'; ?>
+        <input type="hidden" name="action" value="update">
+        <div class="tableau">
+            <table class="update-tab">
+                <?php
+                    for($i = 1; $i <= 9; $i++) {
+                        echo '<tr>';
+                        for($j = 1; $j <= 15; $j++) {
+                            if(($i == 1) or ($j == 1)) {
+                                echo '<td><input type="text" name="'.$i.'-'.$j.'" value="'.$pricesTab[$i][$j]['prices'].'"></td>';
+                            } else {
+                                echo '<th><input type="text" name="'.$i.'-'.$j.'" value="'.$pricesTab[$i][$j]['prices'].'"></th>';
+                            }
+                        }
+                        echo '</tr>';
+                    }
+                    ?>
+            </table>
+        </div>
+        <?php
+        echo '<input type="submit" value="Modifier">';
+        echo '</form>'; 
+        ?>
+
+        <canvas id="myChart"></canvas>
+        <script src="/admin/js/prices.js"></script>
+        <?php
+        $jsonPriceTab = json_encode($pricesTab);
+        ?>
+        <script>
+            createCanvas(<?php echo $jsonPriceTab; ?>);
+        </script>
+
+        <div class="titre-tableau">Revenu des éco-participations pour Climat-2030 par mois (éco-part x effectif moyen / 12)</div>
+
+        <div class="tableau">
+            <table class="calculed-prices-tab">
+                <?php
+                    for($i = 11; $i <= 19; $i++) {
+                        echo '<tr>';
+                        for($j = 1; $j <= 15; $j++) {
+                            if(($i == 11) or ($j == 1)) {
+                                echo '<td class="td">'.$pricesTab[$i][$j]['prices'].'</td>';
+                            } else {
+                                echo '<th>'.number_format(round(floatval(($pricesTab[$i-10][$j]['prices'] * $pricesTab[11][$j]['prices']) / 12), 2), 2, '.', '').'€</th>';
+                            }
+                        }
+                        echo '</tr>';
+                    }
+                ?>
+            </table>
+        </div>
+        
+        <canvas id="myChart2"></canvas>
+        <script src="/admin/js/prices.js"></script>
+        <?php
+        $jsonPriceTab = json_encode($pricesTab);
+        ?>
+        <script>
+            createCanvas2(<?php echo $jsonPriceTab; ?>);
+        </script>
+
     </main>
 </body>
 </html>
