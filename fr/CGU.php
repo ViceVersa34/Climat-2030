@@ -101,37 +101,53 @@
         <div class="mention-images">
             <div class="title-mention-image">Credit for image creators</div>
             <div class="image">
-                <img src="/img/index/earth_day.jpg" alt="earth day every day">
-                <div class="mention"><a href="https://www.hannahrosengren.com/#/earth-day-every-day/" target="blank">Hanna Rosengren</a></div>
+                <img src="<?php echo $images['index']['illustration 1']['image']; ?>" alt="Crédit image 1">
+                <div class="mention">
+                    <a href="<?php echo html_entity_decode($contenuView['CGU']['fr/en']['lien image 1']['contenu']); ?>" target="blank">
+                        <?php echo html_entity_decode($contenuView['CGU']['fr/en']['texte image 1']['contenu']); ?>
+                    </a>
+                </div>
             </div>
             <div class="image">
-                <img src="/img/academie_du_climat/oiseau.jpg" alt="Illustration oiseau">
-                <div class="mention"><a href="https://i.pinimg.com/564x/9e/4b/26/9e4b26c459c7078c7da15a085e1c384b.jpg" target="blank">i.pinimg.com</a></div>
+                <img src="<?php echo $images['club-pedagogique']['illustration 1']['image']; ?>" alt="Crédit image 2">
+                <div class="mention">
+                    <a href="<?php echo html_entity_decode($contenuView['CGU']['fr/en']['lien image 2']['contenu']); ?>" target="blank">
+                        <?php echo html_entity_decode($contenuView['CGU']['fr/en']['texte image 2']['contenu']); ?>
+                    </a>
+                </div>
             </div>
             <div class="image">
-                <img src="/img/index/butterfly.jpg" alt="Illustration butterfly">
-                <div class="mention"><a href="https://i.pinimg.com/564x/1a/99/6e/1a996e0052ff9ea0f19eae1f98577961.jpg" target="blank">i.pinimg.com</a></div>
+                <img src="<?php echo $images['club-climat']['illustration 1']['image']; ?>" alt="Crédit image 3">
+                <div class="mention">
+                    <a href="<?php echo html_entity_decode($contenuView['CGU']['fr/en']['lien image 3']['contenu']); ?>" target="blank">
+                        <?php echo html_entity_decode($contenuView['CGU']['fr/en']['texte image 3']['contenu']); ?>
+                    </a>
+                </div>
             </div>
             <div class="image">
-                <img src="/img/we_can_do_it.png" alt="Illustration we-can-do-it">
-                <div class="mention"><a href="https://www.instagram.com/p/B9e5rOgB8BY/" target="blank">Instagram Vo_Maria</a></div>
+                <img src="<?php echo $images['club-climat']['illustration 2']['image']; ?>" alt="Crédit image 4">
+                <div class="mention">
+                    <a href="<?php echo html_entity_decode($contenuView['CGU']['fr/en']['lien image 4']['contenu']); ?>" target="blank">
+                        <?php echo html_entity_decode($contenuView['CGU']['fr/en']['texte image 4']['contenu']); ?>
+                    </a>
+                </div>
             </div>
             <div class="image">
-                <img src="/img/social_club/fiche_telecom.jpg" alt="Illustration fiche télécom">
-                <div class="mention"><a href="https://i.pinimg.com/564x/13/98/9e/13989e4f3e58c0c47bef32c8ff3a33c6.jpg" target="blank">i.pinimg.com</a></div>
+                <img src="<?php echo $images['club-humour']['illustration 1']['image']; ?>" alt="Crédit image 5">
+                <div class="mention">
+                    <a href="<?php echo html_entity_decode($contenuView['CGU']['fr/en']['lien image 5']['contenu']); ?>" target="blank">
+                        <?php echo html_entity_decode($contenuView['CGU']['fr/en']['texte image 5']['contenu']); ?>
+                    </a>
+                </div>
             </div>
             <div class="image">
-                <img src="/img/social_club/casque.jpg" alt="Illustration casque">
-                <div class="mention"><a href="https://i.pinimg.com/564x/2b/fc/b7/2bfcb788f335145d1f81d7f17af16ec5.jpg" target="blank">i.pinimg.com</a></div>
+                <img src="<?php echo $images['footer']['illustration 1']['image']; ?>" alt="Crédit image 6">
+                <div class="mention">
+                    <a href="<?php echo html_entity_decode($contenuView['CGU']['fr/en']['lien image 6']['contenu']); ?>" target="blank">
+                        <?php echo html_entity_decode($contenuView['CGU']['fr/en']['texte image 6']['contenu']); ?>
+                    </a>
+                </div>
             </div>
-            <div class="image">
-                <img src="/img/humour/ALONDRA_DE_LA_PARRA.jpg" alt="Illustration chnateuse">
-                <div class="mention"><a href="https://www.limelightmagazine.com.au/wp-content/uploads/2018/08/891be202-alondra-de-la-parra-copy.jpg" target="blank">lime light magazine</a></div>
-            </div>
-            <!-- <div class="image">
-                <img src="/img/humour/illustration_humour.png" alt="Illutration femme qui chante/crie">
-                <div class="mention"><a href=""></a></div>
-            </div> -->
         </div>
 
 
