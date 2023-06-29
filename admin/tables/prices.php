@@ -136,7 +136,7 @@
             createCanvas(<?php echo $jsonPriceTab; ?>);
         </script>
 
-        <div class="titre-tableau">Revenu des éco-participations pour Climat-2030 par mois (éco-part x effectif moyen / 12)</div>
+        <div class="titre-tableau">Abonnement des AF par mois (éco-part x effectif moyen / 12)</div>
 
         <div class="tableau">
             <table class="calculed-prices-tab">
