@@ -62,7 +62,12 @@
         <div class="right">
             <div class="label">
                 <div class="txt orange-txt size-txt2 txt-g font-family">Label</div>
-                <img src="<?php echo $images['footer']['label']['image']; ?>" alt="logo génération égalité">
+                <div class="label-img">
+                    <img src="<?php echo $images['footer']['label1']['image']; ?>" alt="logo génération égalité">
+                    <img src="<?php echo $images['footer']['label2']['image']; ?>" alt="logo génération égalité">
+                    <img src="<?php echo $images['footer']['label3']['image']; ?>" alt="logo génération égalité">
+                    <img src="<?php echo $images['footer']['label4']['image']; ?>" alt="logo génération égalité">
+                </div>
             </div>
         </div>
     </div>
