@@ -14,7 +14,8 @@
     <main>
         <h1 class="top_txt"><?php echo html_entity_decode($contenuView['index']['fr']['titre']['contenu']); ?></h1>
         <div class="global-bouton">
-            <a href="/fr/#countdown" class="bouton"><?php echo html_entity_decode($contenuView['index']['fr']['en-savoir-plus temps']['contenu']); ?></a>
+            <a href="/fr/#countdown" class="bouton bouton-unresponsive" onclick="countdownPopUp(3000, 4000);"><?php echo html_entity_decode($contenuView['index']['fr']['en-savoir-plus temps']['contenu']); ?></a>
+            <a href="/fr/#countdown" class="bouton bouton-responsive"><?php echo html_entity_decode($contenuView['index']['fr']['en-savoir-plus temps']['contenu']); ?></a>
             <a href="/fr/en-savoir-plus.php" class="bouton"><?php echo html_entity_decode($contenuView['index']['fr']['en-savoir-plus']['contenu']); ?></a>
         </div>
         
@@ -24,13 +25,13 @@
 
         <div class="valeurs">
             <div class="valeurs-part1">
+                <div class="repere" id="countdown"></div>
                 <div class="principe">
                     <p>
                         <?php echo html_entity_decode($contenuView['index']['fr']['question 1']['contenu']); ?>
                     </p>
                 </div>
                 <div class="principe">
-                    <div class="repere" id="countdown"></div>
                     <p>
                         <?php echo html_entity_decode($contenuView['index']['fr']['question 2']['contenu']); ?>
                     </p>
@@ -42,38 +43,39 @@
                 </div>
             </div>
 
-            <div class="global-countdown">
+            <div class="global-countdown" id="countdownPopUp">
                 <div class="countdown">
                     <div class="countdown-top">
                         <div class="countdown-item">
                             <div id="years" class="time size-txt2 font-weight orange-txt">00</div>
-                            <div class="unit">ANS</div>
+                            <div class="unit" id="unit1">ANS</div>
                         </div>
                         <div class="countdown-item">
                             <div id="months" class="time size-txt2 font-weight orange-txt">00</div>
-                            <div class="unit">MOIS</div>
+                            <div class="unit" id="unit2">MOIS</div>
                         </div>  
                         <div class="countdown-item">
                             <div id="days" class="time size-txt2 font-weight orange-txt">00</div>
-                            <div class="unit">JOURS</div>
+                            <div class="unit" id="unit3">JOURS</div>
                         </div>
                     </div>  
                     <div class="countdown-bottom">
                         <div class="countdown-item">
                             <div id="hours" class="time size-txt2 font-weight orange-txt">00</div>
-                            <div class="unit">HEURES</div>
+                            <div class="unit" id="unit4">HEURES</div>
                         </div>
                         <div class="countdown-item">
                             <div id="minutes" class="time size-txt2 font-weight orange-txt">00</div>
-                            <div class="unit">MIN</div>
+                            <div class="unit" id="unit5">MIN</div>
                         </div>
                         <div class="countdown-item">
                             <div id="seconds" class="time size-txt2 font-weight orange-txt">00</div>
-                            <div class="unit">SEC</div>
+                            <div class="unit" id="unit6">SEC</div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="popupcountdown" id="popupcountdown"></div>
             <script src="/js/countdown.js"></script>
 
             <div class="valeurs-part2">
@@ -87,10 +89,18 @@
                         <?php echo html_entity_decode($contenuView['index']['fr']['question 5']['contenu']); ?>
                     </p>
                 </div>
-                <div class="valeur"><?php echo html_entity_decode($contenuView['index']['fr']['question 6']['contenu']); ?></div>
+
+                <div class="valeur">
+                    <p>
+                        <?php echo html_entity_decode($contenuView['index']['fr']['question 6']['contenu']); ?>
+                    </p>
+                </div>
                 
                 <div class="penser-climat">
-                    <div class="penser-le-climat"><?php echo html_entity_decode($contenuView['index']['fr']['valeurs 0']['contenu']); ?></div>
+                    <div class="penser-le-climat">
+                        <p>
+                            <?php echo html_entity_decode($contenuView['index']['fr']['valeurs 0']['contenu']); ?></div>
+                        </p>    
                     
                     <div class="pensee">
                         <p>
