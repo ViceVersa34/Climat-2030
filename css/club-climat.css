@@ -27,8 +27,8 @@
 }
 
 .social-network .top-illustration img {
-    width: 725px;
-    border-radius: 250px;
+    width: 500px;
+    border-radius: 150px;
 }
 
 /* ------------------------------ Changement forme txt ------------------------------*/
@@ -96,41 +96,9 @@
     }
 }
 
-@media only screen and (max-width: 1100px) {
-    .social-network .top-illustration img {
-        width: 900px;
-        border-radius: 250px;
-    }
-    
-}
-
-@media only screen and (max-width: 970px) {
-    .social-network .top-illustration img {
-        width: 800px;
-        border-radius: 250px;
-    }
-    
-}
-
-@media only screen and (max-width: 870px) {
-    .social-network .top-illustration img {
-        width: 700px;
-        border-radius: 250px;
-    }
-    
-}
-
-@media only screen and (max-width: 770px) {
-    .social-network .top-illustration img {
-        width: 600px;
-        border-radius: 250px;
-    }
-    
-}
-
 @media only screen and (max-width: 730px) {
     .social-network .top-illustration img {
-        max-width: 600px;
+        max-width: 500px;
         width: 100%;
         border-radius: 150px;
     }

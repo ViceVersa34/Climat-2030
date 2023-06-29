@@ -3,18 +3,6 @@
     border-top: solid 1px #ba83f0;
 }
 
-/* ------------------------------ ILLUSTRATION ------------------------------*/
-.top-illustration {
-    display: flex;
-    padding: 2rem;
-}
-
-.top-illustration img {
-    max-width: 1100px;
-    width: 100%;
-    border-radius: 100px;
-}
-
 .AF-repere {
     position: absolute;
     left: 0;
@@ -25,7 +13,6 @@
     margin-top: 8rem;
 }
 
-/* ------------------------------ Changement forme txt ------------------------------*/
 .valeurs {
     display: flex;
     flex-direction: column;
@@ -232,6 +219,14 @@ input:nth-of-type(3):checked~.carousel-container {
 .carousel-book-buttons button img:hover {
     transform: scale(1.15);
 }
+
+input[type='radio'] {
+    width:18px;
+    height:18px;
+    border:1px solid #ba83f0;
+    accent-color: #ba83f0;
+    margin: 0 .5rem 0 .5rem;
+}   
 
 .carousel-book-titre {
     text-align: center;
