@@ -78,14 +78,14 @@
         <div class="carousel-book-wrapper">
             <div class="carousel-book-titre"><?php echo html_entity_decode($contenuView['club-foret-etudiants']['en']['carousel livre titre']['contenu']); ?></div>
             <div class="carousel-book-container">
-                <div class="carousel-book active-carousel-book">
-                    <img src="/page1.jpg" alt="Page 1" onclick="zoomerImage(this)">
+            <div class="carousel-book active-carousel-book">
+                    <img src="<?php echo $images['club-foret-etudiants']['illustration carousel livre 1']['image']; ?>" alt="Illustration livret page 1" onclick="zoomerImage(this)">
                 </div>
                 <div class="carousel-book">
-                    <img src="/page2.jpg" alt="Page 2" onclick="zoomerImage(this)">
+                    <img src="<?php echo $images['club-foret-etudiants']['illustration carousel livre 2']['image']; ?>" alt="Illustration livret page 2" onclick="zoomerImage(this)">
                 </div>
                 <div class="carousel-book">
-                    <img src="/page3.jpg" alt="Page 3" onclick="zoomerImage(this)">
+                    <img src="<?php echo $images['club-foret-etudiants']['illustration carousel livre 3']['image']; ?>" alt="Illustration livret page 3" onclick="zoomerImage(this)">
                 </div>
             </div>
             <div class="carousel-book-buttons">
