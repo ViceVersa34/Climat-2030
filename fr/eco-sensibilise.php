@@ -22,7 +22,12 @@
         <div class="titre-eco-sensibilise"><?php echo html_entity_decode($contenuView['eco-sensibilise']['fr']['contenu']['contenu']); ?></div>
         
         <div class="eco-sensibilise-tableau">
-            <img src="<?php echo $images['eco-sensibilise']['illustration 1']['image']; ?>" alt="Image Lauriet">
+            <div class="tableau-eco-sensibilise-img">
+                <img src="<?php echo $images['eco-sensibilise']['illustration 1']['image']; ?>" alt="Image Lauriet">
+                <img src="<?php echo $images['eco-sensibilise']['illustration 1']['image']; ?>" alt="Image Lauriet">
+                <img src="<?php echo $images['eco-sensibilise']['illustration 1']['image']; ?>" alt="Image Lauriet">
+                <img src="<?php echo $images['eco-sensibilise']['illustration 1']['image']; ?>" alt="Image Lauriet">
+            </div>
             <?php
                 $num = $customers[0]['compteur'];
 
@@ -34,7 +39,7 @@
                 foreach($customers as $customer) { ?>
                     <div class="eco-sensibilise">
                         N° <?php echo $num; ?> : 
-                        <span class="orange-txt font-weight"><?php echo ucfirst($customer['customers_surname']); ?></span>, 
+                        <span class="green-txt font-weight"><?php echo ucfirst($customer['customers_surname']); ?></span>, 
                         <?php echo $customer['customers_age']; ?> ans, 
                         <?php echo $customer['customers_status']; ?> 
                         <?php echo ucfirst($customer['customers_nationality']); ?> éco-sensibilisé.e à l'
