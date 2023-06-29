@@ -593,4 +593,131 @@
             </div>
         </div>
     </div>
+
+    <div class="group-content">
+        <div class="content">
+            <img src="<?php echo $images['index']['illustration 1']['image']; ?>" class="image-credit" alt="Crédit image 1">
+            <div class="language">
+                <?php
+                    $tempContenu = $contenu['CGU']['fr/en']['texte image 1']['contenu'];
+                    $tempContenuView = $contenuView['CGU']['fr/en']['texte image 1']['contenu'];
+                    $tempId = $contenu['CGU']['fr/en']['texte image 1']['id'];
+                    $language = '';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php
+                    $tempContenu = $contenu['CGU']['fr/en']['lien image 1']['contenu'];
+                    $tempContenuView = $contenuView['CGU']['fr/en']['lien image 1']['contenu'];
+                    $tempId = $contenu['CGU']['fr/en']['lien image 1']['id'];
+                    $language = '';
+                ?>
+                <?php include('repeat.php'); ?>
+            </div>
+        </div>
+    </div>
+    <div class="group-content">
+        <div class="content">
+            <img src="<?php echo $images['club-pedagogique']['illustration 1']['image']; ?>" class="image-credit" alt="Crédit image 2">
+            <div class="language">
+                <?php
+                    $tempContenu = $contenu['CGU']['fr/en']['texte image 2']['contenu'];
+                    $tempContenuView = $contenuView['CGU']['fr/en']['texte image 2']['contenu'];
+                    $tempId = $contenu['CGU']['fr/en']['texte image 2']['id'];
+                    $language = '';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php
+                    $tempContenu = $contenu['CGU']['fr/en']['lien image 2']['contenu'];
+                    $tempContenuView = $contenuView['CGU']['fr/en']['lien image 2']['contenu'];
+                    $tempId = $contenu['CGU']['fr/en']['lien image 2']['id'];
+                    $language = '';
+                ?>
+                <?php include('repeat.php'); ?>
+            </div>
+        </div>
+    </div>
+    <div class="group-content">
+        <div class="content">
+            <img src="<?php echo $images['club-climat']['illustration 1']['image']; ?>" class="image-credit" alt="Crédit image 3">
+            <div class="language">
+                <?php
+                    $tempContenu = $contenu['CGU']['fr/en']['texte image 3']['contenu'];
+                    $tempContenuView = $contenuView['CGU']['fr/en']['texte image 3']['contenu'];
+                    $tempId = $contenu['CGU']['fr/en']['texte image 3']['id'];
+                    $language = '';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php
+                    $tempContenu = $contenu['CGU']['fr/en']['lien image 3']['contenu'];
+                    $tempContenuView = $contenuView['CGU']['fr/en']['lien image 3']['contenu'];
+                    $tempId = $contenu['CGU']['fr/en']['lien image 3']['id'];
+                    $language = '';
+                ?>
+                <?php include('repeat.php'); ?>
+            </div>
+        </div>
+    </div>
+    <div class="group-content">
+        <div class="content">
+            <img src="<?php echo $images['club-climat']['illustration 2']['image']; ?>" class="image-credit" alt="Crédit image 4">
+            <div class="language">
+                <?php
+                    $tempContenu = $contenu['CGU']['fr/en']['texte image 4']['contenu'];
+                    $tempContenuView = $contenuView['CGU']['fr/en']['texte image 4']['contenu'];
+                    $tempId = $contenu['CGU']['fr/en']['texte image 4']['id'];
+                    $language = '';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php
+                    $tempContenu = $contenu['CGU']['fr/en']['lien image 4']['contenu'];
+                    $tempContenuView = $contenuView['CGU']['fr/en']['lien image 4']['contenu'];
+                    $tempId = $contenu['CGU']['fr/en']['lien image 4']['id'];
+                    $language = '';
+                ?>
+                <?php include('repeat.php'); ?>
+            </div>
+        </div>
+    </div>
+    <div class="group-content">
+        <div class="content">
+            <img src="<?php echo $images['club-humour']['illustration 1']['image']; ?>" class="image-credit" alt="Crédit image 5">
+            <div class="language">
+                <?php
+                    $tempContenu = $contenu['CGU']['fr/en']['texte image 5']['contenu'];
+                    $tempContenuView = $contenuView['CGU']['fr/en']['texte image 5']['contenu'];
+                    $tempId = $contenu['CGU']['fr/en']['texte image 5']['id'];
+                    $language = '';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php
+                    $tempContenu = $contenu['CGU']['fr/en']['lien image 5']['contenu'];
+                    $tempContenuView = $contenuView['CGU']['fr/en']['lien image 5']['contenu'];
+                    $tempId = $contenu['CGU']['fr/en']['lien image 5']['id'];
+                    $language = '';
+                ?>
+                <?php include('repeat.php'); ?>
+            </div>
+        </div>
+    </div>
+    <div class="group-content">
+        <div class="content">
+            <img src="<?php echo $images['footer']['illustration 1']['image']; ?>" class="image-credit" alt="Crédit image 6">
+            <div class="language">
+                <?php
+                    $tempContenu = $contenu['CGU']['fr/en']['texte image 6']['contenu'];
+                    $tempContenuView = $contenuView['CGU']['fr/en']['texte image 6']['contenu'];
+                    $tempId = $contenu['CGU']['fr/en']['texte image 6']['id'];
+                    $language = '';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php
+                    $tempContenu = $contenu['CGU']['fr/en']['lien image 6']['contenu'];
+                    $tempContenuView = $contenuView['CGU']['fr/en']['lien image 6']['contenu'];
+                    $tempId = $contenu['CGU']['fr/en']['lien image 6']['id'];
+                    $language = '';
+                ?>
+                <?php include('repeat.php'); ?>
+            </div>
+        </div>
+    </div>
 </div>
