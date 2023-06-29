@@ -3,8 +3,8 @@
 <html lang="fr">
 <head>
     <?php include('php/head.php'); ?>
-    <link rel="stylesheet" href="/css/academie-du-climat.css">
-    <title>L'Académie du climat - Climat-2030</title>
+    <link rel="stylesheet" href="/css/club-pedaogique.css">
+    <title>The Pedagogical Club - Climat-2030</title>
 </head>
 <body id="body">
     <header>
@@ -88,7 +88,7 @@
                         </div>
                     </div>
                     <div class="img">
-                        <img src="/img/illustration_level.png" alt="Illustration programmes">
+                        <img src="<?php echo $images['club-pedagogique']['illustration programmes']['image']; ?>" alt="Illustration programmes">
                     </div>
                 </div>
                 <div class="repere" id="levelB"></div>
@@ -132,7 +132,7 @@
                         </div>
                     </div>
                     <div class="img">
-                        <img src="/img/illustration_level.png" alt="Illustration programmes">
+                        <img src="<?php echo $images['club-pedagogique']['illustration programmes']['image']; ?>" alt="Illustration programmes">
                     </div>
                 </div>
                 <div class="repere" id="levelC"></div>
