@@ -48,7 +48,7 @@ if (!array_key_exists($url, MAPPINGENFR)) {
             </ul>
         </li>
         <li class="nav-item menu-social-club">
-            <a><?php echo $contenuView['header']['en']['page 3']['contenu']; ?></a>
+            <a href="/the-social-club"><?php echo $contenuView['header']['en']['page 3']['contenu']; ?></a>
             <ul class="sub-menu">
                 <li class="sub-nav-item"><a href="/the-social-club#climate-club" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['en']['page 3.1']['contenu']; ?></a></li>
                 <li class="sub-nav-item"><a href="/the-social-club#humour-club" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['en']['page 3.2']['contenu']; ?></a></li>
@@ -59,7 +59,7 @@ if (!array_key_exists($url, MAPPINGENFR)) {
             </ul>
         </li>
         <li class="nav-item menu-exposition">
-            <a><?php echo $contenuView['header']['en']['page 4']['contenu']; ?></a>
+            <a href="/forest-club"><?php echo $contenuView['header']['en']['page 4']['contenu']; ?></a>
             <ul class="sub-menu">
                 <li class="sub-nav-item"><a href="/forest-club#AF" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['en']['page 4.1']['contenu']; ?></a></li>
                 <li class="sub-nav-item"><a href="/forest-club#etudiants" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['en']['page 4.2']['contenu']; ?></a></li>
