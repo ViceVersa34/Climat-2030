@@ -150,6 +150,21 @@
     margin-bottom: 8rem;
 }
 
+.repere-levelA {
+    position: absolute;
+    top: 1250px;
+}
+
+.repere-levelB {
+    position: absolute;
+    top: 2100px;
+}
+
+.repere-levelB-en {
+    position: absolute;
+    top: 2050px;
+}
+
 @media only screen and (max-width: 1280px) {
     .menu-academie-du-climat{
         border-top: solid 1px #1d1919;

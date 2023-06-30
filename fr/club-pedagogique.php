@@ -40,13 +40,13 @@
                 <div class="principe titre">
                     <p><?php echo html_entity_decode($contenuView['academie-du-climat']['fr']['titre detail 2']['contenu']); ?></p>
                 </div>
-                <div class="repere" id="levelA"></div>
                 <div class="principe">
                     <p><?php echo html_entity_decode($contenuView['academie-du-climat']['fr']['detail 2']['contenu']); ?></p>
                 </div>
             </div>
         </div>
         
+        <div class="repere-levelA" id="levelA"></div>
         <div class="programmes">
             <div class="programme">
                 <div class="level levelA">
@@ -89,9 +89,9 @@
                         <img src="<?php echo $images['club-pedagogique']['illustration programmes']['image']; ?>" alt="Illustration programmes">
                     </div>
                 </div>
-                <div class="repere" id="levelB"></div>
             </div>
             <div class="ligne"></div>
+            <div class="repere-levelB" id="levelB"></div>
             <div class="programme">
                 <div class="level levelB">
                     <div class="txt">
