@@ -14,7 +14,7 @@
 
     <main>
         <div class="social-network">
-            <div class="repere social-club-repere" id="club-climat"></div>
+            <div class="social-club-repere" id="club-climat"></div>
             <h1 class="top_txt"><?php echo html_entity_decode($contenuView['club-climat']['fr']['titre']['contenu']); ?></span></h1>
             <a href="/contact" class="en-savoir-plus"><?php echo html_entity_decode($contenuView['club-climat']['fr']['en-savoir-plus']['contenu']); ?></a>
             <div class="desc-club-climat">
@@ -65,11 +65,11 @@
                     </div>
                 </div>
             </div>
-            <div class="repere humour-repere" id="club-humour"></div>
         </div>
-
+        
         <div class="separation"></div>
-
+        
+        <div class="humour-repere" id="club-humour"></div>
         <div class="humour">
             <h1 class="top_txt titre-humour"><?php echo html_entity_decode($contenuView['club-humour']['fr']['titre 1']['contenu']); ?></h1>
             <a href="/contact" class="en-savoir-plus"><?php echo html_entity_decode($contenuView['club-humour']['fr']['en-savoir-plus']['contenu']); ?></a>
