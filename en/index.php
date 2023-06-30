@@ -32,7 +32,6 @@
                     </p>
                 </div>
                 <div class="principe">
-                    <div class="repere" id="countdown"></div>
                     <p>
                         <?php echo html_entity_decode($contenuView['index']['en']['question 2']['contenu']); ?>
                     </p>
@@ -43,7 +42,8 @@
                     </p>    
                 </div>
             </div>
-
+            
+            <div class="repere-coundown" id="countdown"></div>
             <div class="global-countdown" id="countdownPopUp">
                 <div class="countdown">
                     <div class="countdown-top">

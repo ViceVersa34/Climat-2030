@@ -160,6 +160,11 @@
     display: none !important;
 }
 
+.repere-coundown {
+    position: absolute;
+    top: 1075px;
+}
+
 @media only screen and (max-width: 1200px) {
     .menu-acceuil {
         border-top: solid 1px #1d1919;
