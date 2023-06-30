@@ -24,13 +24,13 @@
                     <a href="#parcours" class="lien-club-climat"><?php echo html_entity_decode($contenuView['club-climat']['en']['repere 2']['contenu']); ?></a>
                 </div>
             </div>
+            <div class="titre-presentation"><?php echo html_entity_decode($contenuView['club-climat']['en']['titre presentation']['contenu']); ?></div>
             <div class="top-illustration">
                 <img src="<?php echo $images['club-climat']['illustration 1']['image']; ?>" alt="Illustration social club">
             </div>
 
             <div class="valeurs">
                 <div class="repere-climat repere-climat-top" id="presentation"></div>
-                <div class="titre-presentation"><?php echo html_entity_decode($contenuView['club-climat']['en']['titre presentation']['contenu']); ?></div>
                 <div class="valeurs-part1">
                     <div class="principe">
                         <p><?php echo html_entity_decode($contenuView['club-climat']['en']['question 1']['contenu']); ?></p>
@@ -45,11 +45,11 @@
                         <p><?php echo html_entity_decode($contenuView['club-climat']['en']['question 4']['contenu']); ?></p>
                     </div>
                 </div>
+                <div class="titre-parcours"><?php echo html_entity_decode($contenuView['club-climat']['en']['titre parcours']['contenu']); ?></div>
                 <div class="bottom-illustration">
                     <img src="<?php echo $images['club-climat']['illustration 2']['image']; ?>" alt="Illustration social club">
                 </div>
                 <div class="repere-climat repere-climat-bottom" id="parcours"></div>
-                <div class="titre-parcours"><?php echo html_entity_decode($contenuView['club-climat']['en']['titre parcours']['contenu']); ?></div>
                 <div class="infos">
                     <div class="info">
                         <p><?php echo html_entity_decode($contenuView['club-climat']['en']['contenu 1']['contenu']); ?></p>

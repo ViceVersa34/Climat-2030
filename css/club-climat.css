@@ -64,7 +64,7 @@
 /* ------------------------------ ILLUSTRATION ------------------------------*/
 .social-network .bottom-illustration {
     display: flex;
-    margin: 10rem 0 4rem 0 ;
+    margin: 2rem 0 4rem 0 ;
 }
 
 .social-network .bottom-illustration img {
@@ -115,15 +115,20 @@
 }
 
 .repere-climat-top {
-    top: 375px;
+    top: 350px;
 }
 
 .repere-climat-bottom {
-    top: 1325px;
+    top: 1360px;
 }
 
-.titre-presentation, .titre-parcours {
+.titre-presentation {
     margin: 0 1rem 2rem 1rem;
+}
+
+.titre-parcours {
+    margin: 8rem 1rem 2rem 1rem;
+
 }
 
 @media only screen and (max-width: 1200px) {
