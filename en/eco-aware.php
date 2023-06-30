@@ -38,7 +38,7 @@
 
                 foreach($customers as $customer) { ?>
                     <div class="eco-sensibilise">
-                        N° <?php echo $num; ?> : 
+                        <?php echo $num; ?> : 
                         <span class="green-txt font-weight"><?php echo ucfirst($customer['customers_surname']); ?></span>, 
                         <?php echo $customer['customers_age']; ?> ans, 
                         <?php echo $customer['customers_status']; ?> 
