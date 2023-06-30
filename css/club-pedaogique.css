@@ -88,9 +88,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem 2rem;
-    background: #ecdcce;
-    border-radius: 125px;
     max-width: 900px;
     width: 100%;
 }
@@ -99,6 +96,9 @@
     max-width: 500px;
     width: 100%;
     padding: 1rem;
+    padding: 4rem;
+    border-radius: 125px;
+    background: #ecdcce;
 }
 
 .level p {
