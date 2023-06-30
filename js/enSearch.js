@@ -3,18 +3,16 @@
 const searchInput = document.getElementById('search-input');
 const suggestionsList = document.getElementById('suggestions-list');
 
-const words = ['Home', 'The Climate-2030 academy', 'The social club network', 'The exhibition', 'The humour', 'Sign up', 'Learn more', 'Contact', 'CGU'];
+const words = ['Home', 'The pegagogical club', 'The social club', 'The forest club', 'The humour', 'Learn more', 'Contact us', 'CGU'];
 
 const pageUrls = {
-    "Home": "/fr/",
-    "The Climate-2030 academy": "/fr/academie-du-climat.php",
-    "The social club network": "/fr/social-club.php",
-    "The exhibition": "/fr/exposition.php",
-    "The humour": "/fr/humour.php",
-    "Sign up": "/fr/inscription.php",
-    "Learn more": "/fr/en-savoir-plus.php",
-    "Contact": "/fr/contact.php",
-    "CGU": "/fr/CGU.php"
+    "Home": "/home",
+    "The pegagogical club": "/the-pedagogical-club",
+    "The social club": "/the-social-club",
+    "The forest club": "/forest-club",
+    "Learn more": "/more-about-climat-2030",
+    "Contact us": "/contact-us",
+    "CGU": "/enCGU"
 };
 
 searchInput.addEventListener('input', function () {

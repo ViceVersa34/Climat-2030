@@ -41,16 +41,16 @@
         <div class="left">
             <div class="lien-utile">
                 <div class="lien-utile-item">Climat-2030</div>
-                <div class="lien-utile-item"><a href="/fr/en-savoir-plus.php">En savoir plus sur Climat-2030</a></div>
+                <div class="lien-utile-item"><a href="/en-savoir-plus">En savoir plus sur Climat-2030</a></div>
                 <div class="lien-utile-item"><a href="https://www.instagram.com/climat.2030/" target="blank">Instagram</a></div>
-                <div class="lien-utile-item"><a href="/fr/contact.php">Contact</a></div>
+                <div class="lien-utile-item"><a href="/contact">Contact</a></div>
                 <div class="lien-utile-item"><a href="/admin">Admin</a></div>
             </div>
         </div>
         <div class="center">
             <img src="<?php echo $images['footer']['illustration 1']['image']; ?>" alt="illustration 'we can do it'">
             <div class="global-counter">
-                <a href="/fr/eco-sensibilise.php">
+                <a href="/eco-sensibilise">
                     <p>
                     <?php echo html_entity_decode($contenu['footer']['fr']['texte compteur 1']['contenu']).' '.$date; ?> :
                     <span class="counter orange-txt font-weight"> <?php echo $customers[0]['compteur']; ?> </span>
@@ -74,7 +74,7 @@
     <div class="bottom">
         <div class="line"></div>
         <div class="legal">
-            <a href="/fr/CGU.php"><?php echo html_entity_decode($contenu['footer']['fr']['mention']['contenu']); ?></a>
+            <a href="/CGU"><?php echo html_entity_decode($contenu['footer']['fr']['mention']['contenu']); ?></a>
         </div>
     </div>
 </div>

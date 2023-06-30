@@ -1,5 +1,5 @@
 <?php 
-    include('../admin/tables/contents/part/content.php'); 
+    include('admin/tables/contents/part/content.php'); 
     $sql = "SELECT COUNT(*) AS `compteur` FROM `customers`";
     $requete = $db->query($sql);
     $customers = $requete->fetchAll();    
@@ -7,13 +7,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php include('php/head.php'); ?>
+    <?php include('en/php/head.php'); ?>
     <link rel="stylesheet" href="/css/eco-sensibilise.css">
     <title>Eco-aware - Climat-2030</title>
 </head>
 <body id="body">
     <header>
-        <?php include('php/header.php'); ?>
+        <?php include('en/php/header.php'); ?>
     </header>
 
     <main>
@@ -61,7 +61,7 @@
     </main>
 
     <footer>
-        <?php include('php/footer.php'); ?>
+        <?php include('en/php/footer.php'); ?>
     </footer>
 </body>
 </html>

@@ -1,3 +1,7 @@
 <?php
 
-header("Refresh: 0;url=/fr/");
+include 'configuration.php';
+
+$file = getFileFromUrl();
+
+include $file;

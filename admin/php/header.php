@@ -1,5 +1,5 @@
 <div class="nav">
-    <a href="/fr/" class="img-logo"><img src="<?php echo $images['header']['logo']['image']; ?>" alt="logo Climat-2030"></a>
+    <a href="/" class="img-logo"><img src="<?php echo $images['header']['logo']['image']; ?>" alt="logo Climat-2030"></a>
     <ul class="nav-list" id="nav">
         <li class="nav-item users"><a href="/admin/tables/users.php">Users</a></li>
         <li class="nav-item customers"><a href="/admin/tables/customers.php">Customers</a></li>

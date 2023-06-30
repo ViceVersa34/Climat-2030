@@ -1,14 +1,14 @@
-<?php include('../admin/tables/contents/part/content.php'); ?>
+<?php include('admin/tables/contents/part/content.php'); ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <?php include('php/head.php'); ?>
+    <?php include('fr/php/head.php'); ?>
     <link rel="stylesheet" href="/css/contact.css">
     <title>Contact - Climat-2030</title>
 </head>
 <body id="body">
     <header>
-        <?php include('php/header.php'); ?>
+        <?php include('fr/php/header.php'); ?>
     </header>
 
     <main>
@@ -63,7 +63,7 @@
     </main>
 
     <footer>
-        <?php include('php/footer.php'); ?>
+        <?php include('fr/php/footer.php'); ?>
     </footer>
 </body>
 </html>

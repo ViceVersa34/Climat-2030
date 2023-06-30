@@ -1,14 +1,14 @@
-<?php include('../admin/tables/contents/part/content.php'); ?>
+<?php include('admin/tables/contents/part/content.php'); ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <?php include('php/head.php'); ?>
+    <?php include('fr/php/head.php'); ?>
     <link rel="stylesheet" href="/css/club-foret.css">
     <title>Club Foret - Climat-2030</title>
 </head>
 <body id="body">
     <header>
-        <?php include('php/header.php'); ?>
+        <?php include('fr/php/header.php'); ?>
     </header>
 
     <main>
@@ -52,7 +52,7 @@
         
         <script src="/js/autoscroll.js"></script>
 
-        <a href="/fr/contact.php" class="en-savoir-plus"><?php echo html_entity_decode($contenuView['club-foret-AF']['fr']['en-savoir-plus']['contenu']); ?></a>
+        <a href="/contact" class="en-savoir-plus"><?php echo html_entity_decode($contenuView['club-foret-AF']['fr']['en-savoir-plus']['contenu']); ?></a>
         
         <div class="valeurs">
             <div class="valeurs-part1">
@@ -97,7 +97,7 @@
         </div>
         <script src="/js/carousel.js"></script>
 
-        <a href="/fr/contact.php" class="en-savoir-plus"><?php echo html_entity_decode($contenuView['club-foret-etudiants']['fr']['en-savoir-plus']['contenu']); ?></a>
+        <a href="/contact" class="en-savoir-plus"><?php echo html_entity_decode($contenuView['club-foret-etudiants']['fr']['en-savoir-plus']['contenu']); ?></a>
 
         <div class="valeurs">
             <div class="valeurs-part1">
@@ -123,7 +123,7 @@
     </main>
 
     <footer>
-        <?php include('php/footer.php'); ?>
+        <?php include('fr/php/footer.php'); ?>
     </footer>
 </body>
 </html>

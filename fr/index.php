@@ -1,22 +1,22 @@
-<?php include('../admin/tables/contents/part/content.php'); ?>
+<?php include('admin/tables/contents/part/content.php'); ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <?php include('php/head.php'); ?>
+    <?php include('fr/php/head.php'); ?>
     <link rel="stylesheet" href="/css/index.css">
     <title>Accueil - Climat-2030</title>
 </head>
 <body id="body">
     <header>
-        <?php include('php/header.php'); ?>
+        <?php include('fr/php/header.php'); ?>
     </header>
 
     <main>
         <h1 class="top_txt"><?php echo html_entity_decode($contenuView['index']['fr']['titre']['contenu']); ?></h1>
         <div class="global-bouton">
-            <a href="/fr/#countdown" class="bouton bouton-unresponsive" onclick="countdownPopUp(3000, 4000);"><?php echo html_entity_decode($contenuView['index']['fr']['en-savoir-plus temps']['contenu']); ?></a>
-            <a href="/fr/#countdown" class="bouton bouton-responsive"><?php echo html_entity_decode($contenuView['index']['fr']['en-savoir-plus temps']['contenu']); ?></a>
-            <a href="/fr/en-savoir-plus.php" class="bouton"><?php echo html_entity_decode($contenuView['index']['fr']['en-savoir-plus']['contenu']); ?></a>
+            <a href="/#countdown" class="bouton bouton-unresponsive" onclick="countdownPopUp(3000, 4000);"><?php echo html_entity_decode($contenuView['index']['fr']['en-savoir-plus temps']['contenu']); ?></a>
+            <a href="/#countdown" class="bouton bouton-responsive"><?php echo html_entity_decode($contenuView['index']['fr']['en-savoir-plus temps']['contenu']); ?></a>
+            <a href="/en-savoir-plus" class="bouton"><?php echo html_entity_decode($contenuView['index']['fr']['en-savoir-plus']['contenu']); ?></a>
         </div>
         
         <div class="top-illustration">
@@ -146,7 +146,7 @@
     </main>
 
     <footer>
-        <?php include('php/footer.php'); ?>
+        <?php include('fr/php/footer.php'); ?>
     </footer>
 </body>
 </html>

@@ -41,16 +41,16 @@
         <div class="left">
             <div class="lien-utile">
                 <div class="lien-utile-item">Climat-2030</div>
-                <div class="lien-utile-item"><a href="/en/more-about-climat-2030.php">Learn more about Climat-2030</a></div>
+                <div class="lien-utile-item"><a href="/more-about-climat-2030">Learn more about Climat-2030</a></div>
                 <div class="lien-utile-item"><a href="https://www.instagram.com/climat.2030/" target="blank">Instagram</a></div>
-                <div class="lien-utile-item"><a href="/en/contact.php">Contact</a></div>
+                <div class="lien-utile-item"><a href="/contact-us">Contact</a></div>
                 <div class="lien-utile-item"><a href="/admin">Admin</a></div>
             </div>
         </div>
         <div class="center">
             <img src="<?php echo $images['footer']['illustration 1']['image']; ?>" alt="illustration 'we can do it'">
             <div class="global-counter">
-                <a href="/en/eco-aware.php">
+                <a href="/eco-aware">
                     <p>
                         <?php echo $contenu['footer']['en']['texte compteur 1']['contenu'].' '.$date; ?> :
                         <span class="counter orange-txt font-weight"> <?php echo $customers[0]['compteur']; ?> </span>
@@ -74,7 +74,7 @@
     <div class="bottom">
         <div class="line"></div>
         <div class="legal">
-            <a href="/en/CGU.php"><?php echo $contenu['footer']['en']['mention']['contenu']; ?></a>
+            <a href="/en-CGU"><?php echo $contenu['footer']['en']['mention']['contenu']; ?></a>
         </div>
     </div>
 </div>

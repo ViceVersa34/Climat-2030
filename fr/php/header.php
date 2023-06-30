@@ -7,25 +7,24 @@ if (!strpos($_SERVER['REQUEST_URI'], '?') == '') {
     $url2 = $url;
 }
 
-const MAPPING = [
-    "/fr/404.php" => "/en/404.php",
-    "/fr/club-pedaogique.php" => "/en/the-pedagogical-club.php",
-    "/fr/CGU.php" => "/en/CGU.php",
-    "/fr/contact.php" => "/en/contact.php",
-    "/fr/en-savoir-plus.php" => "/en/more-about-climat-2030.php",
-    "/fr/club-foret.php" => "/en/forest-club.php",
-    "/fr/humour.php" => "/en/the-humour.php",
-    "/fr/" => "/en/",
-    "/fr/inscription.php" => "/en/sign-up.php",
-    "/fr/club-social.php" => "/en/the-social-club.php",
-    "/fr/eco-sensibilise.php" => "/en/eco-aware.php"
+const MAPPINGENFR = [
+    "/club-pedagogique" => "/the-pedagogical-club",
+    "/CGU" => "/en-CGU",
+    "/contact" => "/contact-us",
+    "/en-savoir-plus" => "/more-about-climat-2030",
+    "/club-foret" => "/forest-club",
+    "/humour" => "/the-humour",
+    "/" => "/home",
+    "/inscription" => "/sign-up",
+    "/club-social" => "/the-social-club",
+    "/eco-sensibilise" => "/eco-aware"
 ];
 
-if (!array_key_exists($url, MAPPING)) {
-    $url2 = "/en/404.php";
-    $url = "/fr/404.php";
+if (!array_key_exists($url, MAPPINGENFR)) {
+    $url2 = "/en-404";
+    $url = "/404";
 } else {
-    $url2 = MAPPING[$url];
+    $url2 = MAPPINGENFR[$url];
 }
 
 ?>
@@ -33,12 +32,12 @@ if (!array_key_exists($url, MAPPING)) {
 <div class="nav">
     <div class="blur" id="blur" onclick="changerLeft2('-18rem');"></div> <!-- Cache permettant de sortir du menu (en mode responsive) lors d'un click a côté -->
     <button class="menu-burger" onclick="changerLeft('0');"><img src="/img/menu.svg" alt="Menu burger"></button>
-    <a href="/fr/" class="img-logo"><img src="<?php echo $images['header']['logo']['image']; ?>" alt="logo Climat-2030"></a>
+    <a href="/" class="img-logo"><img src="<?php echo $images['header']['logo']['image']; ?>" alt="logo Climat-2030"></a>
     <ul class="nav-list" id="nav">
         <li class="arrow-menu"><button class="arrow-menu-burger" onclick="changerLeft2('-20rem');"><img src="/img/croix.svg" alt="Menu burger"></button></li>
-        <li class="nav-item menu-acceuil"><a href="/fr/"><?php echo $contenuView['header']['fr']['page 1']['contenu']; ?></a></li>
+        <li class="nav-item menu-acceuil"><a href="/"><?php echo $contenuView['header']['fr']['page 1']['contenu']; ?></a></li>
         <li class="nav-item menu-academie-du-climat">
-            <a href="/fr/club-pedaogique.php"><?php echo $contenuView['header']['fr']['page 2']['contenu']; ?></a>
+            <a href="/club-pedagogique"><?php echo $contenuView['header']['fr']['page 2']['contenu']; ?></a>
             <ul class="sub-menu">
                 <!-- <li class="sub-nav-item"><a href="" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 2.1']['contenu']; ?></a></li> -->
                 <!-- <li class="sub-nav-item"><a href="" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 2.2']['contenu']; ?></a></li> -->
@@ -51,9 +50,8 @@ if (!array_key_exists($url, MAPPING)) {
         <li class="nav-item menu-social-club">
             <a><?php echo $contenuView['header']['fr']['page 3']['contenu']; ?></a>
             <ul class="sub-menu">
-                <!-- <li class="sub-nav-item"><a href="/fr/academie-du-climat.php" onclick="changerLeft2('-18rem');">Parcours Climat</a></li> -->
-                <li class="sub-nav-item"><a href="/fr/club-social.php#club-climat" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 3.1']['contenu']; ?></a></li>
-                <li class="sub-nav-item"><a href="/fr/club-social.php#club-humour" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 3.2']['contenu']; ?></a></li>
+                <li class="sub-nav-item"><a href="/club-social#club-climat" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 3.1']['contenu']; ?></a></li>
+                <li class="sub-nav-item"><a href="/club-social#club-humour" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 3.2']['contenu']; ?></a></li>
                 <!-- <li class="sub-nav-item"><a href="" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 3.3']['contenu']; ?></a></li> -->
                 <!-- <li class="sub-nav-item"><a href="" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 3.4']['contenu']; ?></a></li> -->
                 <!-- Les pages en commentaire permettent d'en ajouter dans le site. 
@@ -63,8 +61,8 @@ if (!array_key_exists($url, MAPPING)) {
         <li class="nav-item menu-exposition">
             <a><?php echo $contenuView['header']['fr']['page 4']['contenu']; ?></a>
             <ul class="sub-menu">
-                <li class="sub-nav-item"><a href="/fr/club-foret.php#AF" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 4.1']['contenu']; ?></a></li>
-                <li class="sub-nav-item"><a href="/fr/club-foret.php#etudiants" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 4.2']['contenu']; ?></a></li>
+                <li class="sub-nav-item"><a href="/club-foret#AF" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 4.1']['contenu']; ?></a></li>
+                <li class="sub-nav-item"><a href="/club-foret#etudiants" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 4.2']['contenu']; ?></a></li>
                 <!-- <li class="sub-nav-item"><a href="" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 4.3']['contenu']; ?></a></li> -->
                 <!-- <li class="sub-nav-item"><a href="" onclick="changerLeft2('-18rem');"><?php echo $contenuView['header']['fr']['page 4.4']['contenu']; ?></a></li> -->
                 <!-- Les pages en commentaire permettent d'en ajouter dans le site. 

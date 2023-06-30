@@ -1,20 +1,20 @@
-<?php include('../admin/tables/contents/part/content.php'); ?>
+<?php include('admin/tables/contents/part/content.php'); ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <?php include('php/head.php'); ?>
+    <?php include('en/php/head.php'); ?>
     <link rel="stylesheet" href="/css/club-pedaogique.css">
     <title>The Pedagogical Club - Climat-2030</title>
 </head>
 <body id="body">
     <header>
-        <?php include('php/header.php'); ?>
+        <?php include('en/php/header.php'); ?>
     </header>
 
     <main>
 
         <h1 class="top_txt"><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['titre']['contenu']); ?></h1>
-        <a href="/en/contact.php" class="en-savoir-plus"><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['en-savoir-plus']['contenu']); ?></a>
+        <a href="/contact-us" class="en-savoir-plus"><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['en-savoir-plus']['contenu']); ?></a>
         <div class="desc-programmes">
             <div class="size-txt"><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['programme 0']['contenu']); ?></div>
             <div class="lien-programmes">
@@ -144,7 +144,7 @@
     </main>
 
     <footer>
-        <?php include('php/footer.php'); ?>
+        <?php include('en/php/footer.php'); ?>
     </footer>
 </body>
 </html>
