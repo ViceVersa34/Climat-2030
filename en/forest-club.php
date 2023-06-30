@@ -13,7 +13,7 @@
 
     <main>
 
-    <div class="repere AF-repere" id="AF"></div>
+    <div class="AF-repere" id="AF"></div>
         <h1 class="top_txt"><?php echo html_entity_decode($contenuView['club-foret-AF']['en']['titre']['contenu']); ?></span></h1>
         
         <div class="carousel-wrapper">
@@ -66,15 +66,15 @@
                 <div class="principe">
                     <p><?php echo html_entity_decode($contenuView['club-foret-AF']['en']['question 3']['contenu']); ?></p>
                 </div>
-            <div class="repere etudiants-repere" id="etudiants"></div>
+            </div>
         </div>
-
-        
+            
+            
         <div class="separation"></div>
-
-
+            
+            
+        <div class="etudiants-repere" id="etudiants"></div>
         <h1 class="etudiant top_txt"><?php echo html_entity_decode($contenuView['club-foret-etudiants']['en']['titre']['contenu']); ?></span></h1>
-
         <div class="carousel-book-wrapper">
             <div class="carousel-book-titre"><?php echo html_entity_decode($contenuView['club-foret-etudiants']['en']['carousel livre titre']['contenu']); ?></div>
             <div class="carousel-book-container">
