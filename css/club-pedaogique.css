@@ -95,7 +95,6 @@
 .level .txt {
     max-width: 500px;
     width: 100%;
-    padding: 1rem;
     padding: 4rem;
     border-radius: 125px;
     background: #ecdcce;
@@ -166,10 +165,6 @@
 }
 
 @media only screen and (max-width: 1280px) {
-    .menu-academie-du-climat{
-        border-top: solid 1px #1d1919;
-    }
-
     /* ------------------------------ OISEAU ------------------------------*/
     .top-illustration img {
         width: 300px;
@@ -204,6 +199,12 @@
     .programme {
         margin-top: 0;
     } 
+}
+
+@media only screen and (max-width: 1000px) {
+    .menu-academie-du-climat{
+        border-top: solid 1px #1d1919;
+    }
 }
 
 @media only screen and (max-width: 950px) {
@@ -260,9 +261,9 @@
         display: none;
     }
 
-    .level {
-        padding: 1.5rem 4rem;
-        border-radius: 125px;
+    .level .txt {
+        padding: 2rem;
+        border-radius: 75px;
     }
 }
 
