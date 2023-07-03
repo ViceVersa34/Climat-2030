@@ -76,13 +76,25 @@ h2 {
 }
 
 @media only screen and (max-width: 1200px) {
+        .humour .top-illustration img {
+        width: 800px;
+        border-radius: 100px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
     .humour .menu-humour{
         border-top: solid 1px #1d1919;
     }
 
-    .humour .top-illustration img {
-        width: 800px;
-        border-radius: 100px;
+    .humour-repere {
+        position: absolute;
+        top: 2900px;
+    }
+    
+    .humour-repere-en {
+        position: absolute;
+        top: 2875px;
     }
 }
 
