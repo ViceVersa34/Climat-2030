@@ -57,7 +57,7 @@
                         <input type="number" id="prix" oninput="estimationPrix();">
                     </div>
 
-                    <div class="prixEstime" id="prixEstime">Estimation : 0€ par abonnement pas mois la 1ère année</div>
+                    <div class="prixEstime" id="prixEstime">Estimation : 0€ par abonnement par mois la 1ère année</div>
 
                     <label for="message">E-mail :</label>
                     <input type="mail" name="mail" id="mail" placeholder="Mail">
