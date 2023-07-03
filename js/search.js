@@ -3,13 +3,17 @@
 const searchInput = document.getElementById('search-input');
 const suggestionsList = document.getElementById('suggestions-list');
 
-const words = ['Accueil', 'Club Pédagogique', 'Le Social Club', 'Le Club Foret', 'En savoir plus', 'Contact', 'CGU'];
+const words = ['Accueil', 'Le Club Pédagogique', 'Le Club Social', 'Le Club Climat', 'Le Club Humour', 'Le Club Foret', 'Le Club Foret AF', 'Le Club Foret Étudiant', 'En savoir plus', 'Contact', 'CGU'];
 
 const pageUrls = {
     "Accueil": "/",
-    "Club Pédagogique": "/club-pedagogique",
-    "Le Social Club": "/social-club",
+    "Le Club Pédagogique": "/club-pedagogique",
+    "Le Club Social": "/club-social",
+    "Le Club Climat": "/club-social#club-climat",
+    "Le Club Humour": "/club-social#club-humour",
     "Le Club Foret": "/club-foret",
+    "Le Club Foret AF": "/club-foret#AF",
+    "Le Club Foret Étudiant": "/club-foret#etudiants",
     "En savoir plus" : "/en-savoir-plus",
     "Contact" : "/contact",
     "CGU" : "/CGU"

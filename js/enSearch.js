@@ -3,16 +3,20 @@
 const searchInput = document.getElementById('search-input');
 const suggestionsList = document.getElementById('suggestions-list');
 
-const words = ['Home', 'The pegagogical club', 'The social club', 'The forest club', 'The humour', 'Learn more', 'Contact us', 'CGU'];
+const words = ['Home', 'The Pegagogical Club', 'The Social Club', 'The Climate Club', 'The Humour Club', 'The Forest Club', 'The Forest Club AF', 'The Forest Club Student', 'Learn more', 'Contact us', 'CGU'];
 
 const pageUrls = {
     "Home": "/home",
-    "The pegagogical club": "/the-pedagogical-club",
-    "The social club": "/the-social-club",
-    "The forest club": "/forest-club",
+    "The Pegagogical Club": "/the-pedagogical-club",
+    "The Social Club": "/the-social-club",
+    "The Climate Club": "/the-social-club#climate-club",
+    "The Humour Club": "/the-social-club#humour-club",
+    "The Forest Club": "/forest-club",
+    "The Forest Club AF": "/forest-club#AF",
+    "The Forest Club Student": "/forest-club#etudiants",
     "Learn more": "/more-about-climat-2030",
     "Contact us": "/contact-us",
-    "CGU": "/enCGU"
+    "CGU": "/en-CGU"
 };
 
 searchInput.addEventListener('input', function () {
