@@ -17,6 +17,7 @@
             <div class="social-club-repere" id="club-climat"></div>
             <h1 class="top_txt"><?php echo html_entity_decode($contenuView['club-climat']['fr']['titre']['contenu']); ?></span></h1>
             <a href="/contact" class="en-savoir-plus"><?php echo html_entity_decode($contenuView['club-climat']['fr']['en-savoir-plus']['contenu']); ?></a>
+
             <div class="desc-club-climat">
                 <div class="size-txt"><?php echo html_entity_decode($contenuView['academie-du-climat']['fr']['programme 0']['contenu']); ?></div>
                 <div class="liens-club-climat">
@@ -24,6 +25,7 @@
                     <a href="#parcours" class="lien-club-climat"><?php echo html_entity_decode($contenuView['club-climat']['fr']['repere 2']['contenu']); ?></a>
                 </div>
             </div>
+            
             <div class="titre-presentation"><?php echo html_entity_decode($contenuView['club-climat']['fr']['titre presentation']['contenu']); ?></div>
             <div class="top-illustration">
                 <img src="<?php echo $images['club-climat']['illustration 1']['image']; ?>" alt="Illustration social club">
