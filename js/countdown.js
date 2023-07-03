@@ -45,39 +45,34 @@ function countdownPopUp(tempsAgrandissement, tempsRetour) {
 
     const largeurEcran = window.innerWidth;
     const hauteurEcran = window.innerHeight;
-    // const element2 = document.getElementById('popupcountdown');
     const widthOriginale = getComputedStyle(element).width;
     const heightOriginale = getComputedStyle(element).height;
 
-    // const foncSize1Originale = getComputedStyle(years).fontSize;
-    // const foncSize2Originale = getComputedStyle(unit1).fontSize;
-    const foncSize1Originale = '0.9rem';
-    const foncSize2Originale = '1.25rem';
+    const fontSize1Originale = '0.9rem';
+    const fontSize2Originale = '1.25rem';
 
-    // const width = '800px'; // Taille agrandie de la div
-    // const height = '350px'; // Taille agrandie de la div
-    const width = `${hauteurEcran * 45 / 100}px`;; // Taille agrandie de la div
-    const height = `${hauteurEcran * 40 / 100}px`;; // Taille agrandie de la div
-    const transitionDuration1 = '1.5s'; // Durée de la transition CSS
-    const foncSize1 = '1.75rem';
-    const foncSize2 = '3.5rem';
+    const width = `${hauteurEcran * 45 / 100}px`; // Taille agrandie de la div
+    const height = `${hauteurEcran * 40 / 100}px`; // Taille agrandie de la div
+    const transitionDuration = '1.5s'; // Durée de la transition CSS
+    const fontSize1 = '1.75rem';
+    const fontSize2 = '3.5rem';
 
     // Ajouter une transition CSS
-    element.style.transition = `${transitionDuration1} ease`;
+    element.style.transition = `${transitionDuration} ease`;
 
-    unit1.style.transition = `${transitionDuration1} ease`;
-    unit2.style.transition = `${transitionDuration1} ease`;
-    unit3.style.transition = `${transitionDuration1} ease`;
-    unit4.style.transition = `${transitionDuration1} ease`;
-    unit5.style.transition = `${transitionDuration1} ease`;
-    unit6.style.transition = `${transitionDuration1} ease`;
+    unit1.style.transition = `${transitionDuration} ease`;
+    unit2.style.transition = `${transitionDuration} ease`;
+    unit3.style.transition = `${transitionDuration} ease`;
+    unit4.style.transition = `${transitionDuration} ease`;
+    unit5.style.transition = `${transitionDuration} ease`;
+    unit6.style.transition = `${transitionDuration} ease`;
     
-    years.style.transition = `${transitionDuration1} ease`;
-    months.style.transition = `${transitionDuration1} ease`;
-    days.style.transition = `${transitionDuration1} ease`;
-    hours.style.transition = `${transitionDuration1} ease`;
-    minutes.style.transition = `${transitionDuration1} ease`;
-    seconds.style.transition = `${transitionDuration1} ease`;
+    years.style.transition = `${transitionDuration} ease`;
+    months.style.transition = `${transitionDuration} ease`;
+    days.style.transition = `${transitionDuration} ease`;
+    hours.style.transition = `${transitionDuration} ease`;
+    minutes.style.transition = `${transitionDuration} ease`;
+    seconds.style.transition = `${transitionDuration} ease`;
 
     // Agrandissement de la div
     years.classList.toggle("size-txt2");
@@ -90,19 +85,19 @@ function countdownPopUp(tempsAgrandissement, tempsRetour) {
     element.style.width = width;
     element.style.height = height;
 
-    unit1.style.fontSize = foncSize1;
-    unit2.style.fontSize = foncSize1;
-    unit3.style.fontSize = foncSize1;
-    unit4.style.fontSize = foncSize1;
-    unit5.style.fontSize = foncSize1;
-    unit6.style.fontSize = foncSize1;
+    unit1.style.fontSize = fontSize1;
+    unit2.style.fontSize = fontSize1;
+    unit3.style.fontSize = fontSize1;
+    unit4.style.fontSize = fontSize1;
+    unit5.style.fontSize = fontSize1;
+    unit6.style.fontSize = fontSize1;
     
-    years.style.fontSize = foncSize2;
-    months.style.fontSize = foncSize2;
-    days.style.fontSize = foncSize2;
-    hours.style.fontSize = foncSize2;
-    minutes.style.fontSize = foncSize2;
-    seconds.style.fontSize = foncSize2;
+    years.style.fontSize = fontSize2;
+    months.style.fontSize = fontSize2;
+    days.style.fontSize = fontSize2;
+    hours.style.fontSize = fontSize2;
+    minutes.style.fontSize = fontSize2;
+    seconds.style.fontSize = fontSize2;
     
     // Attendre le temps d'agrandissement
     setTimeout(() => {
@@ -110,19 +105,19 @@ function countdownPopUp(tempsAgrandissement, tempsRetour) {
         element.style.width = widthOriginale;
         element.style.height = heightOriginale;
 
-        unit1.style.fontSize = foncSize1Originale;
-        unit2.style.fontSize = foncSize1Originale;
-        unit3.style.fontSize = foncSize1Originale;
-        unit4.style.fontSize = foncSize1Originale;
-        unit5.style.fontSize = foncSize1Originale;
-        unit6.style.fontSize = foncSize1Originale;
+        unit1.style.fontSize = fontSize1Originale;
+        unit2.style.fontSize = fontSize1Originale;
+        unit3.style.fontSize = fontSize1Originale;
+        unit4.style.fontSize = fontSize1Originale;
+        unit5.style.fontSize = fontSize1Originale;
+        unit6.style.fontSize = fontSize1Originale;
         
-        years.style.fontSize = foncSize2Originale;
-        months.style.fontSize = foncSize2Originale;
-        days.style.fontSize = foncSize2Originale;
-        hours.style.fontSize = foncSize2Originale;
-        minutes.style.fontSize = foncSize2Originale;
-        seconds.style.fontSize = foncSize2Originale;
+        years.style.fontSize = fontSize2Originale;
+        months.style.fontSize = fontSize2Originale;
+        days.style.fontSize = fontSize2Originale;
+        hours.style.fontSize = fontSize2Originale;
+        minutes.style.fontSize = fontSize2Originale;
+        seconds.style.fontSize = fontSize2Originale;
 
         years.classList.toggle("size-txt2");
         months.classList.toggle("size-txt2");
