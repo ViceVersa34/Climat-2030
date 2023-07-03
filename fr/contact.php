@@ -14,23 +14,30 @@
     <main>
 
         <h1 class="top_txt"><?php echo html_entity_decode($contenuView['contact']['fr']['titre']['contenu']); ?></h1>
+        <script src="/js/contact.js"></script>
 
+        <?php
+            $jsonPriceTab = json_encode($pricesTab);
+        ?>
+        <script>
+            setTab(<?php echo $jsonPriceTab; ?>);
+        </script>
         <div class="contact">
             <div class="objet">
                 <form>
                     <label for="choix">Choisir une option :</label>
-                    <select id="choix" name="choix" onchange="afficherChamps()" class="mb">
+                    <select id="choix" name="choix" onchange="afficherChamps()">
                         <option value="">-- Sélectionnez --</option>
                         <option value="question">Question</option>
                         <option value="devis">Devis</option>
                     </select>
 
-                    <div id="champsQuestion" style="display: none;" class="mb">
+                    <div id="champsQuestion">
                         <label for="questionInput">Objet détaillé :</label>
                         <input type="text" id="questionInput" name="questionInput">
                     </div>
 
-                    <div id="champsDevis" style="display: none;" class="mb">
+                    <div id="champsDevis">
                         <label for="devisSelect">Choisissez une option de devis :</label>
                         <select id="devisSelect" name="devisSelect">
                             <option value="">-- Sélectionnez --</option>
@@ -40,19 +47,28 @@
                         </select>
                     </div>
 
+                    <div id="champsNbEleve">
+                        <label for="nbEleve">Nombre moyen d'éleve de votre AF :</label>
+                        <input type="number" id="nbEleve" oninput="estimationPrix();">
+                    </div>
+
+                    <div id="ChampsPrix">
+                        <label for="prix">Prix moyen du cours :</label>
+                        <input type="number" id="prix" oninput="estimationPrix();">
+                    </div>
+
+                    <div class="prixEstime" id="prixEstime">Estimation : 0€ par abonnement pas mois la 1ère année</div>
+
                     <label for="message">E-mail :</label>
                     <input type="mail" name="mail" id="mail" placeholder="Mail">
-                    <div class="mb">
-                    </div>
                     
                     <label for="message">Message :</label>
                     <textarea id="message" name="message" maxlength="500" oninput="compterCaracteres()"></textarea>
                     <div id="compteur" class="compteur">0/500 caractères</div>
-                    <div class="mb">
-                    </div>
                     <h2><?php echo html_entity_decode($contenuView['contact']['fr']['commentaire']['contenu']); ?></h2>
                     <input type="submit" class="en-savoir-plus" value="<?php echo html_entity_decode($contenuView['contact']['fr']['en-savoir-plus']['contenu']); ?>">
                 </form>
+                
             </div>
         </div>
 
