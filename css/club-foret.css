@@ -264,9 +264,14 @@ div.overlay img {
     top: 1500px;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
     .menu-exposition {
         border-top: solid 1px #1d1919;
+    }
+
+    .etudiants-repere {
+        position: absolute;
+        top: 1775px;
     }
 }
 
