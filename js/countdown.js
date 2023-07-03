@@ -26,8 +26,6 @@ function countdown() {
 setInterval(countdown, 1000);
 countdown();
 
-// -------------------------------------- </COMPTE A REBOURS> --------------------------------------
-
 function countdownPopUp(tempsAgrandissement, tempsRetour) {
     const element = document.getElementById('countdownPopUp');
 
