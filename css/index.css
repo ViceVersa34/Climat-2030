@@ -166,10 +166,6 @@
 }
 
 @media only screen and (max-width: 1200px) {
-    .menu-acceuil {
-        border-top: solid 1px #1d1919;
-    }
-
     .bouton-unresponsive {
         display: none !important;
     }
@@ -185,6 +181,12 @@
     .top-illustration img {
         width: 600px;
         border-radius: 200px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .menu-acceuil {
+        border-top: solid 1px #1d1919;
     }
 }
 
