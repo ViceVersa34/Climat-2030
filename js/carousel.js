@@ -1,3 +1,4 @@
+// Récupération des éléments nécessaires à la fonction
 const carouselContainer = document.querySelector('.carousel-book-container');
 const carouselItems = carouselContainer.querySelectorAll('.carousel-book');
 const currentPageElement = document.getElementById('current-page');
@@ -5,6 +6,7 @@ const totalPagesElement = document.getElementById('total-pages');
 
 let currentIndex = 0;
 
+// Fonction pour mettre à jour le carrousel
 function updateCarousel() {
   carouselItems.forEach((item, index) => {
     if (index === currentIndex) {
@@ -18,6 +20,7 @@ function updateCarousel() {
   currentPageElement.textContent = currentIndex + 1;
 }
 
+// Fonction pour passer à la diapositive suivante
 function nextSlide() {
   currentIndex++;
   if (currentIndex >= carouselItems.length) {
@@ -26,6 +29,7 @@ function nextSlide() {
   updateCarousel();
 }
 
+// Fonction pour passer à la diapositive précédente
 function previousSlide() {
   currentIndex--;
   if (currentIndex < 0) {
@@ -34,6 +38,7 @@ function previousSlide() {
   updateCarousel();
 }
 
+// Récupération des éléments nécessaires à la fonction
 const nextButton = document.querySelector('.next-button');
 const prevButton = document.querySelector('.prev-button');
 
@@ -44,13 +49,7 @@ updateCarousel(); // Affiche la première image comme active
 totalPagesElement.textContent = carouselItems.length; // Définir le nombre total de pages
 
 
-
-
-
-
-
-
-
+// Fonction pour zoomer sur une image
 function zoomerImage(image) {
   // Créez un élément <div> pour afficher l'image zoomée
   var overlay = document.createElement("div");

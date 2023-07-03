@@ -18,6 +18,7 @@ jQuery(function(){
 // -------------------------------------- <NAV-BAR RESPONSIVE> --------------------------------------
 
 function changerLeft (gauche){
+    // Récupération des éléments nécessaires à la fonction
     var element1= document.getElementById('nav');
     var element2 = document.getElementById('body');
     var element3 = document.getElementById('blur');
@@ -46,6 +47,7 @@ function changerLeft (gauche){
 }
 
 function changerLeft2 (gauche){
+    // Récupération des éléments nécessaires à la fonction
     var element1= document.getElementById('nav');
     var element2 = document.getElementById('body');
     var element3 = document.getElementById('blur');

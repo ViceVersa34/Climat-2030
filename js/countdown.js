@@ -1,20 +1,22 @@
 // -------------------------------------- <COMPTE A REBOURS> --------------------------------------
 
+// Fonction pour mettre à jour le compte à rebours
 function countdown() {
-    const deadline = new Date("2030-01-01T00:00:00");
-    const now = new Date();
+    const deadline = new Date("2030-01-01T00:00:00"); // Date limite du compte à rebours
+    const now = new Date(); // Date actuelle
 
-    const timeLeft = deadline.getTime() - now.getTime();
+    const timeLeft = deadline.getTime() - now.getTime(); // Temps restant en millisecondes
 
-    const seconds = Math.floor((timeLeft / 1000) % 60);
-    const minutes = Math.floor((timeLeft / 1000 / 60) % 60);
-    const hours = Math.floor((timeLeft / (1000 * 60 * 60)) % 24);
-    const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+    const seconds = Math.floor((timeLeft / 1000) % 60); // Calcul des secondes restantes
+    const minutes = Math.floor((timeLeft / 1000 / 60) % 60); // Calcul des minutes restantes
+    const hours = Math.floor((timeLeft / (1000 * 60 * 60)) % 24); // Calcul des heures restantes
+    const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24)); // Calcul des jours restants
 
-    const remainingYears = Math.floor(days / 365);
-    const remainingMonths = Math.floor((days % 365) / 30);
-    const remainingDays = (days % 365) % 30;
+    const remainingYears = Math.floor(days / 365); // Calcul des années restantes
+    const remainingMonths = Math.floor((days % 365) / 30); // Calcul des mois restants
+    const remainingDays = (days % 365) % 30; // Calcul des jours restants
 
+    // Mise à jour des éléments HTML avec les valeurs du compte à rebours
     document.getElementById("years").textContent = remainingYears.toString().padStart(2, "0");
     document.getElementById("months").textContent = remainingMonths.toString().padStart(2, "0");
     document.getElementById("days").textContent = remainingDays.toString().padStart(2, "0");
@@ -23,12 +25,14 @@ function countdown() {
     document.getElementById("seconds").textContent = seconds.toString().padStart(2, "0");
 }
 
-setInterval(countdown, 1000);
-countdown();
+setInterval(countdown, 1000); // Appel de la fonction countdown toutes les secondes pour mettre à jour le compte à rebours
+countdown(); // Appel initial de la fonction countdown pour afficher immédiatement le compte à rebours
 
+// Fonction pour animer la pop-up du compte à rebours
 function countdownPopUp(tempsAgrandissement, tempsRetour) {
-    const element = document.getElementById('countdownPopUp');
+    const element = document.getElementById('countdownPopUp');  // Div contenant le compte à rebours
 
+    // Récupération des éléments HTML à animer
     const unit1 = document.getElementById('unit1');
     const unit2 = document.getElementById('unit2');
     const unit3 = document.getElementById('unit3');
@@ -43,13 +47,13 @@ function countdownPopUp(tempsAgrandissement, tempsRetour) {
     const minutes = document.getElementById('minutes');
     const seconds = document.getElementById('seconds');
 
-    const largeurEcran = window.innerWidth;
-    const hauteurEcran = window.innerHeight;
-    const widthOriginale = getComputedStyle(element).width;
-    const heightOriginale = getComputedStyle(element).height;
+    const largeurEcran = window.innerWidth; // Largeur de l'écran
+    const hauteurEcran = window.innerHeight; // Hauteur de l'écran
+    const widthOriginale = getComputedStyle(element).width; // Largeur originale de la div
+    const heightOriginale = getComputedStyle(element).height; // Hauteur originale de la div
 
-    const fontSize1Originale = '0.9rem';
-    const fontSize2Originale = '1.25rem';
+    const fontSize1Originale = '0.9rem';  // Taille de police originale pour les unités
+    const fontSize2Originale = '1.25rem'; // Taille de police originale pour les chiffres
 
     const width = `${hauteurEcran * 45 / 100}px`; // Taille agrandie de la div
     const height = `${hauteurEcran * 40 / 100}px`; // Taille agrandie de la div
@@ -101,7 +105,7 @@ function countdownPopUp(tempsAgrandissement, tempsRetour) {
     
     // Attendre le temps d'agrandissement
     setTimeout(() => {
-        // Réduire la div à sa taille d'origine
+        // Réduire la div à sa taille d'origine et restaurer les styles initiaux
         element.style.width = widthOriginale;
         element.style.height = heightOriginale;
 
@@ -130,9 +134,6 @@ function countdownPopUp(tempsAgrandissement, tempsRetour) {
         setTimeout(() => {
             // Réinitialiser la transition CSS
             element.style.transition = '';
-
-            // Réaliser d'autres actions après le retour à la taille d'origine
-            // ...
         }, tempsRetour);
     }, tempsAgrandissement);
 }

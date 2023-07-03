@@ -1,4 +1,5 @@
 function afficherChamps() {
+    // Récupération des éléments nécessaires à la fonction
     var choix = document.getElementById("choix");
     var choixDevisSelect = document.getElementById("devisSelect");
     var champsQuestion = document.getElementById("champsQuestion");
@@ -8,18 +9,21 @@ function afficherChamps() {
     var prixEstime = document.getElementById("prixEstime");
 
     if (choix.value === "question") {
+        // Affichage de 'Question'
         champsQuestion.style.display = "block";
         champsDevis.style.display = "none";
         champsNbEleve.style.display = "none";
         ChampsPrix.style.display = "none";
         prixEstime.style.display = "none";
     } else if (choix.value === "devis") {
+        // Affichage de 'Devis', 'nbEeve', 'prix' et 'prixEstime'
         champsQuestion.style.display = "none";
         champsDevis.style.display = "block";
         champsNbEleve.style.display = "block";
         ChampsPrix.style.display = "block";
         prixEstime.style.display = "block";
     } else {
+        // Masquage de tous les éléments
         champsQuestion.style.display = "none";
         champsDevis.style.display = "none";
         champsNbEleve.style.display = "none";
@@ -29,18 +33,24 @@ function afficherChamps() {
 }
 
 function compterCaracteres() {
+    // Récupération des éléments nécessaires à la fonction
     var message = document.getElementById("message");
     var compteur = document.getElementById("compteur");
     var nombreCaracteres = message.value.length;
+
+    // Affiche la nombre de caractères
     compteur.textContent = nombreCaracteres + "/500 caractères";
 }
 
+// Création du tableau vide
 var TAB = '';
 
+// Remplis le tableau
 function setTab(tab) {
     TAB = tab;
 }
 
+// Retourne le prix en fonction du nombre d'élève et du prix du cours
 function returnPrix(tab, nbEleveValue, prixValue) {
     estimation = 0;
     if(nbEleveValue != '' && prixValue != '') {
@@ -302,6 +312,7 @@ function returnPrix(tab, nbEleveValue, prixValue) {
 }
 
 function estimationPrix() {
+    // Récupération des éléments nécessaires à la fonction
     var nbEleve = document.getElementById("nbEleve");
     var prix = document.getElementById("prix");
     var prixEstime = document.getElementById("prixEstime");
@@ -310,17 +321,22 @@ function estimationPrix() {
     var tab = TAB;
     var finalEstimation = 0;
 
+    // Récupération du prix
     returnPrix(tab, nbEleveValue, prixValue);
 
+    // Calcul de total par mois + arrondi
     finalEstimation = Math.round(estimation['prices'] * nbEleveValue / 12 * 100) / 100;
     if(isNaN(finalEstimation)) {
+        // Mise a 0 si la valeur = NaN
         finalEstimation = 0;
     }
 
+    // Affichage du prix
     prixEstime.textContent = 'Estimation : ' + finalEstimation + "€ par abonnement par mois la 1ère année";
 }
 
 function estimationPrixEn() {
+    // Récupération des éléments nécessaires à la fonction
     var nbEleve = document.getElementById("nbEleve");
     var prix = document.getElementById("prix");
     var prixEstime = document.getElementById("prixEstime");
@@ -329,12 +345,16 @@ function estimationPrixEn() {
     var tab = TAB;
     var finalEstimation = 0;
 
+    // Récupération du prix
     returnPrix(tab, nbEleveValue, prixValue);
 
+    // Calcul de total par mois + arrondi
     finalEstimation = Math.round(estimation['prices'] * nbEleveValue / 12 * 100) / 100;
     if(isNaN(finalEstimation)) {
+        // Mise a 0 si la valeur = NaN
         finalEstimation = 0;
     }
 
+    // Affichage du prix
     prixEstime.textContent = 'Estimate: ' + finalEstimation + "€ per subscription per month the 1st year";
 }
