@@ -1,27 +1,38 @@
 form {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 315px;
     color: #000000 !important;
     margin-bottom: 8rem;
 }
 
-label {
-    margin-bottom: 10px;
-    color: #ffffff !important;
+select,
+input {
+    margin: 10px 0 3rem 0;
 }
 
 select,
-input[type="text"],
-input[type="mail"],
+input,
 textarea {
     padding: 8px;
     border-radius: 10px;
     border: 1px solid #fff;
     background: #272323;
-    margin-bottom: 10px;
     color: #ffffff !important;
     outline: 0;
+    width: 315px;
+}
+
+#champsQuestion,
+#champsDevis,
+#champsNbEleve,
+#ChampsPrix,
+#prixEstime {
+    display: none;
+}
+
+#prixEstime {
+    margin: 0 0 3rem 0;
 }
 
 option {
@@ -36,7 +47,7 @@ option {
 }
 
 input[type="submit"] {
-    width: 300px;
+    width: 315px;
     background-color: #ba83f0;
     padding: 10px 15px;
     border: none;
@@ -51,10 +62,6 @@ input[type="submit"]:hover {
     transform: scale(1.1);
 }
 
-.mb {
-    margin-bottom: 2rem;
-}
-
 h1 {
     margin-bottom: 5rem;
 }
@@ -62,7 +69,7 @@ h1 {
 h2 {
     font-size: 1rem;
     font-weight: 300;
-    margin-bottom: 2.5rem;
+    margin: 2rem 0;;
     text-align: center;
 }
 
