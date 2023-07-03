@@ -1,3 +1,7 @@
+.nav-item.prices {
+    border-top: solid 1px #ba83f0 !important;
+}
+
 .global-title {
     display: flex;
     margin-bottom: 5rem;
