@@ -1,3 +1,8 @@
+.menu-social-club{
+    border-top: solid 1px #ba83f0;
+
+}
+
 .social-network {
     display: flex;
     flex-direction: column;
