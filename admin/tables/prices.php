@@ -3,38 +3,6 @@
     include('contents/part/content.php'); 
     include('../php/isAdmin.php');
 
-    $sql = "SELECT * FROM `prices` ORDER BY `id_prices` ASC";
-    $requete = $db->query($sql);
-    $prices = $requete->fetchAll();
-
-    function prices($donnees) {
-        $prices = array();
-    
-        foreach ($donnees as $ligne) {
-            $row = $ligne['prices_row'];
-            $col = $ligne['prices_col'];
-            $price = $ligne['prices_price'];
-            $id = $ligne['id_prices'];
-    
-            if (!isset($prices[$row])) {
-                $prices[$row] = array();
-            }
-    
-            if (!isset($prices[$row][$col])) {
-                $prices[$row][$col] = array();
-            }
-    
-            $prices[$row][$col]= array(
-                'prices' => $price,
-                'id' => $id
-            );
-        }
-    
-        return $prices;
-    }
-
-    $pricesTab = prices($prices);
-
     if(array_key_exists('action', $_GET)) {
         if($_GET['action'] == 'update') {
             for($k = 1; $k <= 9; $k++) {
