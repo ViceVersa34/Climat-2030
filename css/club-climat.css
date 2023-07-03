@@ -1,6 +1,5 @@
 .menu-social-club{
     border-top: solid 1px #ba83f0;
-
 }
 
 .social-network {
@@ -18,11 +17,6 @@
 
 .titre {
     margin-bottom: 2rem;
-}
-
-/* ------------------------------ HEADER ------------------------------*/
-.social-network .menu-social-club{
-    border-top: solid 1px #ba83f0;
 }
 
 /* ------------------------------ ILLUSTRATION ------------------------------*/
@@ -108,11 +102,13 @@
 .desc-club-climat .liens-club-climat {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .desc-club-climat .lien-club-climat {
     font-size: 1.1rem;
-    margin: 0 1.5rem;
+    margin: .5rem 1.5rem;
 }
 
 .repere-climat {
@@ -124,7 +120,7 @@
 }
 
 .repere-climat-bottom {
-    top: 1360px;
+    top: 1340px;
 }
 
 .titre-presentation {
@@ -136,9 +132,17 @@
 
 }
 
-@media only screen and (max-width: 1200px) {
-    .social-network .menu-social-club{
+@media only screen and (max-width: 1000px) {
+    .menu-social-club{
         border-top: solid 1px #1d1919;
+    }
+
+    .repere-climat-top {
+        top: 500px;
+    }
+    
+    .repere-climat-bottom {
+        top: 1500px;
     }
 }
 
@@ -170,7 +174,7 @@
         max-width: 600px;
         width: 100%;
         border-radius: 100px;
-    }
+    }  
 }
 
 @media only screen and (max-width: 300px) {
