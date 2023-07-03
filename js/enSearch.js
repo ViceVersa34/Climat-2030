@@ -55,5 +55,3 @@ function search() {
     element1.classList.toggle("display");
     element2.classList.toggle("activeSearch");
 }
-
-// -------------------------------------- </RECHERHCER> --------------------------------------
