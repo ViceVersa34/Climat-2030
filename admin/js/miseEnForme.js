@@ -77,7 +77,6 @@ function copyToClipboard(text) {
 }
 
 // miseEnForme
-
 // Récupérer la div déplaçable
 const movableDiv = document.getElementById('miseEnForme');
 
@@ -103,29 +102,7 @@ function drag(event) {
 
     // Calculer les nouvelles coordonnées en fonction du mouvement de la souris
     const newPosX = event.clientX - startX;
-    let newPosY = event.clientY - startY;
-
-    // Vérifier si la souris est en bas de l'écran
-    const windowHeight = window.innerHeight;
-    const scrollY = window.scrollY || window.pageYOffset;
-    const bottomThreshold = windowHeight - 50; // Seuil de 50 pixels depuis le bas de l'écran
-
-    if (event.clientY > bottomThreshold) {
-        // Faire défiler la page vers le bas
-        window.scrollTo(0, scrollY + 10); // Faire défiler de 10 pixels vers le bas
-    }
-
-    // Vérifier si la souris est en haut de l'écran
-    const topThreshold = 50; // Seuil de 50 pixels depuis le haut de l'écran
-
-    if (event.clientY < topThreshold) {
-        // Faire défiler la page vers le haut
-        window.scrollTo(0, scrollY - 10); // Faire défiler de 10 pixels vers le haut
-    }
-
-    // Ajuster la position de la div en tenant compte du défilement de la page
-    const scrolledY = window.scrollY || window.pageYOffset;
-    newPosY += scrolledY;
+    const newPosY = event.clientY - startY;
 
     // Appliquer les nouvelles coordonnées à la div
     movableDiv.style.left = `${newPosX}px`;
@@ -141,3 +118,6 @@ function endDrag(event) {
 
 // Ajouter un écouteur d'événement pour le début du mouvement
 movableDiv.addEventListener('mousedown', startDrag);
+
+// Appliquer une position fixe à la div
+movableDiv.style.position = 'fixed';
