@@ -19,6 +19,9 @@ include('php/isAdmin.php');
         <div>
             Aucune table sélectionnée. Sélectionnez-en une pour continuer.
         </div>
+        <div class="scrollUp">
+            <a href="#top"><img src="/img/up-arrow.svg"/></a>
+        </div>
     </main>
 </body>
 </html>

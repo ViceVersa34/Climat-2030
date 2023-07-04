@@ -98,6 +98,9 @@
                 </div>
             </div>
         </div>
+        <div class="scrollUp">
+            <a href="#top"><img src="/img/up-arrow.svg"/></a>
+        </div>
     </main>
 </body>
 </html>

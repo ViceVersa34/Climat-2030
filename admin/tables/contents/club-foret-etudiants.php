@@ -48,6 +48,9 @@
                 <script src="/admin/js/repereId.js"></script>
             </div>
         </div>
+        <div class="scrollUp">
+            <a href="#top"><img src="/img/up-arrow.svg"/></a>
+        </div>
     </main>
 </body>
 </html>
