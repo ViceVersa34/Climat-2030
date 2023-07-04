@@ -1,5 +1,8 @@
 <div id="miseEnForme" class="mise-en-forme invisible">
     <div class="constructeur">
+        <a href="" onclick="miseEnForme();">
+            <div class="fermer">X</div>
+        </a>
         <div>Balise d'ouverture :</div>
         <div class="constructeur-bouton">
             <button id="button-g" class="selectable-button"><span class="font-weight">Gras</span></button>
@@ -11,11 +14,17 @@
             <button id="button-n" class="selectable-button"><span class="">Noir</span></button>
             <button id="button-v" class="selectable-button"><span class="green-txt">Vert</span></button>
         </div>
-        <button id="copyButton">Copier <span>Balise d'ouverture</span></button>
-        <button id="copyClosingButton">Copier <span>balise de fermeture</span></button>
-        <button id="copyBrButton">Copier<span> saut de ligne</span></button>
-        <label for="outputText">Élement copié : </label>
-        <input type="text" id="outputText" readonly>
+        <div class="boutons-mise-en-forme">
+            <div class="bouton-mise-en-forme">
+                <button id="copyButton">Copier <span>Balise d'ouverture</span></button>
+                <button id="copyClosingButton">Copier <span>balise de fermeture</span></button>
+                <button id="copyBrButton">Copier<span> saut de ligne</span></button>
+            </div>
+            <div class="element-copie">
+                <label for="outputText">Élement copié : </label>
+                <input type="text" id="outputText" readonly>
+            </div>
+        </div>
         <script src="/admin/js/miseEnForme.js"></script>
     </div>
 </div>
