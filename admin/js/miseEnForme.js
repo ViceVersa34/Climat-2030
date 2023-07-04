@@ -1,89 +1,80 @@
 function miseEnForme() {
-  event.preventDefault(); // Annule le comportement par défaut du lien ou du formulaire
-  var divElement = document.getElementById("miseEnForme");
-  divElement.classList.toggle("invisible");
+    event.preventDefault(); // Annule le comportement par défaut du lien ou du formulaire
+    // Récupération des éléments nécessaires à la fonction
+    var divElement = document.getElementById("miseEnForme");
+    divElement.classList.toggle("invisible");
 }
-
-
-
-
-
-
-
-
 
 // Récupérer tous les boutons sélectionnables
 const selectableButtons = document.querySelectorAll('.selectable-button');
 const groups = {
-  t: ['button-t1', 'button-t2'],
-  yonv: ['button-y', 'button-o', 'button-n', 'button-v']
+    t: ['button-t1', 'button-t2'],
+    yonv: ['button-y', 'button-o', 'button-n', 'button-v']
 };
 
 // Ajouter un gestionnaire d'événement de clic à chaque bouton sélectionnable
 selectableButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    // Vérifier les contraintes de sélection
-    const buttonId = button.id;
-    const isButtonSelected = button.classList.toggle('active');
+    button.addEventListener('click', () => {
+        // Vérifier les contraintes de sélection
+        const buttonId = button.id;
+        const isButtonSelected = button.classList.toggle('active');
 
-    // Vérifier les groupes de boutons
-    Object.keys(groups).forEach(group => {
-      if (groups[group].includes(buttonId) && isButtonSelected) {
-        groups[group].forEach(groupId => {
-          if (groupId !== buttonId) {
-            const conflictingButton = document.getElementById(groupId);
-            conflictingButton.classList.remove('active');
-          }
+        // Vérifier les groupes de boutons
+        Object.keys(groups).forEach(group => {
+            if (groups[group].includes(buttonId) && isButtonSelected) {
+                groups[group].forEach(groupId => {
+                    if (groupId !== buttonId) {
+                        // Récupération des éléments nécessaires à la fonction
+                        const conflictingButton = document.getElementById(groupId);
+                        conflictingButton.classList.remove('active');
+                    }
+                });
+            }
         });
-      }
     });
-  });
 });
 
 // Générer le texte à copier
+// Récupération des éléments nécessaires à la fonction
 const copyButton = document.getElementById('copyButton');
 const copyBrButton = document.getElementById('copyBrButton');
 const copyClosingButton = document.getElementById('copyClosingButton');
 const outputText = document.getElementById('outputText');
 
+// Générer le texte à copier lors du click sur le bouton "balise d'ouverture"
 copyButton.addEventListener('click', () => {
-  const selectedButtons = Array.from(selectableButtons)
+    const selectedButtons = Array.from(selectableButtons)
     .filter(button => button.classList.contains('active'))
     .map(button => button.id.replace('button-', ''));
-
-  const copiedText = '{{' + selectedButtons.join('-') + '}}';
-  copyToClipboard(copiedText);
+    
+    const copiedText = '{{' + selectedButtons.join('-') + '}}';
+    copyToClipboard(copiedText);
 });
 
+// Générer le texte à copier lors du click sur le bouton "balise de fermeture"
 copyClosingButton.addEventListener('click', () => {
-  const copiedText = '{{/}}';
-  copyToClipboard(copiedText);
+    const copiedText = '{{/}}';
+    copyToClipboard(copiedText);
 });
 
+// Générer le texte à copier lors du click sur le bouton "balise de saut de ligne"
 copyBrButton.addEventListener('click', () => {
-  const copiedText = '<br>';
-  copyToClipboard(copiedText);
+    const copiedText = '<br>';
+    copyToClipboard(copiedText);
 });
 
 // Fonction pour copier le texte dans le presse-papiers
 function copyToClipboard(text) {
-  const textarea = document.createElement('textarea');
-  textarea.value = text;
-  textarea.style.position = 'fixed';
-  document.body.appendChild(textarea);
-  textarea.select();
-  document.execCommand('copy');
-  document.body.removeChild(textarea);
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    textarea.style.position = 'fixed';
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textarea);
 
-  outputText.value = text;
+    outputText.value = text;
 }
-
-
-
-
-
-
-
 
 // miseEnForme
 
@@ -96,56 +87,56 @@ let startY = 0;
 
 // Fonction de gestionnaire d'événement pour le début du mouvement
 function startDrag(event) {
-  startX = event.clientX - movableDiv.offsetLeft;
-  startY = event.clientY - movableDiv.offsetTop;
+    startX = event.clientX - movableDiv.offsetLeft;
+    startY = event.clientY - movableDiv.offsetTop;
 
-  // Ajouter un écouteur d'événement pour suivre le mouvement de la souris
-  document.addEventListener('mousemove', drag);
+    // Ajouter un écouteur d'événement pour suivre le mouvement de la souris
+    document.addEventListener('mousemove', drag);
 
-  // Ajouter un écouteur d'événement pour détecter la fin du mouvement
-  document.addEventListener('mouseup', endDrag);
+    // Ajouter un écouteur d'événement pour détecter la fin du mouvement
+    document.addEventListener('mouseup', endDrag);
 }
 
 // Fonction de gestionnaire d'événement pour le déplacement
 function drag(event) {
-  event.preventDefault();
+    event.preventDefault();
 
-  // Calculer les nouvelles coordonnées en fonction du mouvement de la souris
-  const newPosX = event.clientX - startX;
-  let newPosY = event.clientY - startY;
+    // Calculer les nouvelles coordonnées en fonction du mouvement de la souris
+    const newPosX = event.clientX - startX;
+    let newPosY = event.clientY - startY;
 
-  // Vérifier si la souris est en bas de l'écran
-  const windowHeight = window.innerHeight;
-  const scrollY = window.scrollY || window.pageYOffset;
-  const bottomThreshold = windowHeight - 50; // Seuil de 50 pixels depuis le bas de l'écran
+    // Vérifier si la souris est en bas de l'écran
+    const windowHeight = window.innerHeight;
+    const scrollY = window.scrollY || window.pageYOffset;
+    const bottomThreshold = windowHeight - 50; // Seuil de 50 pixels depuis le bas de l'écran
 
-  if (event.clientY > bottomThreshold) {
-    // Faire défiler la page vers le bas
-    window.scrollTo(0, scrollY + 10); // Faire défiler de 10 pixels vers le bas
-  }
+    if (event.clientY > bottomThreshold) {
+        // Faire défiler la page vers le bas
+        window.scrollTo(0, scrollY + 10); // Faire défiler de 10 pixels vers le bas
+    }
 
-  // Vérifier si la souris est en haut de l'écran
-  const topThreshold = 50; // Seuil de 50 pixels depuis le haut de l'écran
+    // Vérifier si la souris est en haut de l'écran
+    const topThreshold = 50; // Seuil de 50 pixels depuis le haut de l'écran
 
-  if (event.clientY < topThreshold) {
-    // Faire défiler la page vers le haut
-    window.scrollTo(0, scrollY - 10); // Faire défiler de 10 pixels vers le haut
-  }
+    if (event.clientY < topThreshold) {
+        // Faire défiler la page vers le haut
+        window.scrollTo(0, scrollY - 10); // Faire défiler de 10 pixels vers le haut
+    }
 
-  // Ajuster la position de la div en tenant compte du défilement de la page
-  const scrolledY = window.scrollY || window.pageYOffset;
-  newPosY += scrolledY;
+    // Ajuster la position de la div en tenant compte du défilement de la page
+    const scrolledY = window.scrollY || window.pageYOffset;
+    newPosY += scrolledY;
 
-  // Appliquer les nouvelles coordonnées à la div
-  movableDiv.style.left = `${newPosX}px`;
-  movableDiv.style.top = `${newPosY}px`;
+    // Appliquer les nouvelles coordonnées à la div
+    movableDiv.style.left = `${newPosX}px`;
+    movableDiv.style.top = `${newPosY}px`;
 }
 
 // Fonction de gestionnaire d'événement pour la fin du mouvement
 function endDrag(event) {
-  // Supprimer les écouteurs d'événement
-  document.removeEventListener('mousemove', drag);
-  document.removeEventListener('mouseup', endDrag);
+    // Supprimer les écouteurs d'événement
+    document.removeEventListener('mousemove', drag);
+    document.removeEventListener('mouseup', endDrag);
 }
 
 // Ajouter un écouteur d'événement pour le début du mouvement

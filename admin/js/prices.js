@@ -1,6 +1,7 @@
 function createCanvas(tab) {
+    // Récupérer tous les éléments en position absolute
     const canvas = document.getElementById('myChart').getContext('2d');
-    // console.log(tab[2][15]['prices'])
+    // Création des tableau vide qui servirons à stocker les valeurs des lignes
     let row1 = [];
     let data1 = [];
     let data2 = [];
@@ -10,12 +11,14 @@ function createCanvas(tab) {
     let data6 = [];
     let data7 = [];
     let data8 = [];
+    // Remplissage de la première ligne a partir du tableau passer en argument
     for (let i = 1; i <= 15; i++) {
         if (i >= 2 && i <= 15) {
             row1.push(tab['1'][i]['prices']);
         }
+        // Remplissage des autres lignes a partir du tableau passer en argument
         for (let j = 1; j <= 9; j++) {
-            if(i > 1) {
+            if (i > 1) {
                 if (j === 2) {
                     data1.push(tab[j][i]['prices']);
                 }
@@ -43,11 +46,12 @@ function createCanvas(tab) {
             }
         }
     }
-
+    // Création du graphique
     const myChart = new Chart(canvas, {
         type: 'line',
         data: {
             labels: row1,
+            // Création des lignes grace au variable rowX créés ci-dessus
             datasets: [
                 {
                     label: '50 -',
@@ -111,8 +115,9 @@ function createCanvas(tab) {
 }
 
 function createCanvas2(tab) {
+    // Récupérer tous les éléments en position absolute
     const canvas = document.getElementById('myChart2').getContext('2d');
-    // console.log(tab[2][15]['prices'])
+    // Création des tableau vide qui servirons à stocker les valeurs des lignes
     let row1 = [];
     let data1 = [];
     let data2 = [];
@@ -122,44 +127,48 @@ function createCanvas2(tab) {
     let data6 = [];
     let data7 = [];
     let data8 = [];
+    // Remplissage de la première ligne a partir du tableau passer en argument
     for (let i = 1; i <= 15; i++) {
         if (i >= 2 && i <= 15) {
             row1.push(tab['1'][i]['prices']);
         }
+        // Remplissage des autres lignes a partir du tableau passer en argument
         for (let j = 11; j <= 19; j++) {
-            if(i > 1) {
+            if (i > 1) {
                 if (j === 12) {
-                    data1.push(tab[j-10][i]['prices'] * tab[11][i]['prices'] / 12);
+                    data1.push(tab[j - 10][i]['prices'] * tab[11][i]['prices'] / 12);
                 }
                 if (j === 13) {
-                    data2.push(tab[j-10][i]['prices'] * tab[11][i]['prices'] / 12);
+                    data2.push(tab[j - 10][i]['prices'] * tab[11][i]['prices'] / 12);
                 }
                 if (j === 14) {
-                    data3.push(tab[j-10][i]['prices'] * tab[11][i]['prices'] / 12);
+                    data3.push(tab[j - 10][i]['prices'] * tab[11][i]['prices'] / 12);
                 }
                 if (j === 15) {
-                    data4.push(tab[j-10][i]['prices'] * tab[11][i]['prices'] / 12);
+                    data4.push(tab[j - 10][i]['prices'] * tab[11][i]['prices'] / 12);
                 }
                 if (j === 16) {
-                    data5.push(tab[j-10][i]['prices'] * tab[11][i]['prices'] / 12);
+                    data5.push(tab[j - 10][i]['prices'] * tab[11][i]['prices'] / 12);
                 }
                 if (j === 17) {
-                    data6.push(tab[j-10][i]['prices'] * tab[11][i]['prices'] / 12);
+                    data6.push(tab[j - 10][i]['prices'] * tab[11][i]['prices'] / 12);
                 }
                 if (j === 18) {
-                    data7.push(tab[j-10][i]['prices'] * tab[11][i]['prices'] / 12);
+                    data7.push(tab[j - 10][i]['prices'] * tab[11][i]['prices'] / 12);
                 }
                 if (j === 19) {
-                    data8.push(tab[j-10][i]['prices'] * tab[11][i]['prices'] / 12);
+                    data8.push(tab[j - 10][i]['prices'] * tab[11][i]['prices'] / 12);
                 }
             }
         }
     }
 
+    // Création du graphique
     const myChart = new Chart(canvas, {
         type: 'line',
         data: {
             labels: row1,
+            // Création des lignes grace au variable rowX créés ci-dessus
             datasets: [
                 {
                     label: '50 -',
