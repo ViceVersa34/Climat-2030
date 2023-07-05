@@ -1,5 +1,5 @@
 <div class="page-selector" id="index"></div>
-<h2 class="title-page">club Climat</h2>
+<h2 class="title-page">Club Climat</h2>
 <div class="contents">
     <div class="group-content">
         <div class="content">
