@@ -3,13 +3,13 @@
     
     if(array_key_exists('action', $_POST)) {
         if($_POST['action'] = 'mail') {
-            $choix = $_POST['choix'];
-            $objet_detaille = $_POST['questionInput'];
-            $devisSelect = $_POST['devisSelect'];
-            $nbEleve = $_POST['nbEleve'];
-            $prix = $_POST['prix'];
-            $mail = $_POST['mail'];
-            $message = $_POST['message'];
+            $choix = htmlspecialchars($_POST['choix']);
+            $objet_detaille = htmlspecialchars($_POST['questionInput']);
+            $devisSelect = htmlspecialchars($_POST['devisSelect']);
+            $nbEleve = htmlspecialchars($_POST['nbEleve']);
+            $prix = htmlspecialchars($_POST['prix']);
+            $mail = htmlspecialchars($_POST['mail']);
+            $message = htmlspecialchars($_POST['message']);
 
             if($devisSelect == 'club-pedagogique') {
                 $devisSelect = 'Club pédagogique';
@@ -23,30 +23,49 @@
             if($choix == 'question') {
                 $content = "<html>
                             <head>
-                                <style>
-                                    body {
-                                        font-family: Arial, sans-serif;
-                                        background-color: #f7f7f7;
-                                    }
-                                    h1 {
-                                        color: #333333;
-                                    }
-                                    p {
-                                        color: #555555;
-                                        line-height: 1.5;
-                                    }
-                                </style>
+                            <style>
+                            body {
+                                font-family: Arial, sans-serif;
+                                background: #d9d9d9;
+                                max-width: 600px;
+                                min-height: 400px;
+                                margin-left: auto;
+                                margin-right: auto;
+                                padding: 1.5rem;
+                                border-radius: 10px;
+                            }
+                            h1 {
+                                color: #333333;
+                                text-align: center;
+                            }
+                            div {
+                                color: #000000;
+                                line-height: 1.5;
+                            }
+                            p {
+                                color: #555555;
+                                line-height: 1;
+                            }
+                            span {
+                                font-weght: 700;
+                            }
+                        </style>
                             </head>
                             <body>
                                 <h1>Demande de contact pour : une question</h1>
                                 <div>
-                                    Le mail provient de : <a href=\"mailto:".$mail."\">".$mail."</a>
+                                    Le mail provient de : <a href=\"mailto:".$mail."?subject=Re%20:%20Contact%20Climat-2030%20-%20".$objet_detaille."&body=Bonjour%2C%0D%0A%0D%0AJe%20fais%20suite%20à%20votre%20prise%20de%20contact.%0D%0A%0D%0A\">".$mail."</a>
                                     <br> <br> <br>
-                                    La question porte sur : ".$objet_detaille." :
+                                    La question porte sur : ".$objet_detaille.".
                                     <br> <br>
+                                    Message : <br>
                                     <p>
                                         ".$message."
                                     </p>
+                                    <div>
+                                        <span style=\"color: #ff0000;\">ATTENTION : NE PAS RÉPONDRE DE CETTE ADRESSE !</span> <br> <br>
+                                        <a href=\"https://mail.ovh.net/roundcube/?_task=mail&_mbox=INBOX\">Aller sur roundcube</a>
+                                    </div>
                                 </div>
                             </body>
                             </html>";
@@ -58,8 +77,12 @@
                                     body {
                                         font-family: Arial, sans-serif;
                                         background: #d9d9d9;
-                                        max-width: 200px;
-                                        min-height: 200px;
+                                        max-width: 600px;
+                                        min-height: 400px;
+                                        margin-left: auto;
+                                        margin-right: auto;
+                                        padding: 1.5rem;
+                                        border-radius: 10px;
                                     }
                                     h1 {
                                         color: #333333;
@@ -73,27 +96,35 @@
                                         color: #555555;
                                         line-height: 1;
                                     }
+                                    span {
+                                        font-weight: 700;
+                                    }
                                 </style>
                             </head>
                             <body>
                                 <h1>Demande de contact pour : un devis</h1>
                                 <div>
-                                    Le mail provient de : <a href=\"mailto:".$mail."\">".$mail."</a>
+                                    Le mail provient de : <a href=\"mailto:".$mail."?subject=Re%20:%20Contact%20Climat-2030%20-%20".$devisSelect."&body=Bonjour%2C%0D%0A%0D%0AJe%20fais%20suite%20à%20votre%20prise%20de%20contact.%0D%0A%0D%0A\">".$mail."</a>
                                     <br> <br> <br>
-                                    La demande de devis porte sur : ".$devisSelect." :
+                                    La demande de devis porte sur : ".$devisSelect.".
                                     <br>
-                                    L'AF concernée comporte ".$nbEleve." étudiants et font payer le cours ".$prix."€.
+                                    L'AF concernée comporte <span>".$nbEleve." étudiants</span> et le tarif des cours est de <span>".$prix."€</span>.
                                     <br> <br>
+                                    Message : <br>
                                     <p>
                                         ".$message."
                                     </p>
+                                    <div>
+                                        <span style=\"color: #ff0000;\">ATTENTION : NE PAS RÉPONDRE DE CETTE ADRESSE !</span> <br> <br>
+                                        <a href=\"https://mail.ovh.net/roundcube/?_task=mail&_mbox=INBOX\">Aller sur roundcube</a>
+                                    </div>
                                 </div>
                             </body>
                             </html>";
             }
 
-            $to = "palermo.enzo.ep@gmail.com"; 
-            $subject = "Test mail PHP"; 
+            $to = "contact@climat-2030.org"; 
+            $subject = "climat-2030"; 
             $headers = "From: Climat-2030 <contact@climat-2030.org>\r\n";
             $headers .= "Reply-To: contact@climat-2030.org\r\n";
             $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
@@ -106,6 +137,11 @@
             }
         }
     }
+
+    $tab_message = [
+        0 => '<span style="color: #225d1b !important">Le mail a été envoyé avec succès</span>',
+        1 => '<span style="color: #ff0000 !important">Une erreur est survenue. Le mail n\'a pas pu être envoyé</span>'
+    ];
 
 ?>
 <!DOCTYPE html>
@@ -144,7 +180,7 @@
 
                     <div id="champsQuestion">
                         <label for="questionInput">Objet détaillé :</label>
-                        <input type="text" id="questionInput" name="questionInput">
+                        <input type="text" id="questionInput" name="questionInput" maxlength="80">
                     </div>
 
                     <div id="champsDevis">
@@ -177,6 +213,13 @@
                     <div id="compteur" class="compteur">0/500 caractères</div>
                     <h2><?php echo html_entity_decode($contenuView['contact']['fr']['commentaire']['contenu']); ?></h2>
                     <input type="submit" class="en-savoir-plus" value="<?php echo html_entity_decode($contenuView['contact']['fr']['en-savoir-plus']['contenu']); ?>">
+                    <div class="message-mail">
+                        <?php
+                            if(array_key_exists('message', $_GET)) {
+                                echo html_entity_decode($tab_message[$_GET['message']]);
+                            }
+                        ?>
+                    </div>
                 </form>
                 
             </div>
