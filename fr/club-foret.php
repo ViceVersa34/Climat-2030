@@ -52,7 +52,8 @@
         
         <script src="/js/autoscroll.js"></script>
 
-        <a href="/contact" class="en-savoir-plus"><?php echo html_entity_decode($contenuView['club-foret-AF']['fr']['en-savoir-plus']['contenu']); ?></a>
+        <!-- <a href="/contact" class="en-savoir-plus"><?php echo html_entity_decode($contenuView['club-foret-AF']['fr']['en-savoir-plus']['contenu']); ?></a> -->
+        <a href="<?php echo html_entity_decode($contenuView['club-foret-AF']['fr/en']['lien payasso']['contenu']); ?>" class="en-savoir-plus"><?php echo html_entity_decode($contenuView['club-foret-AF']['fr']['en-savoir-plus']['contenu']); ?></a>
         
         <div class="valeurs">
             <div class="valeurs-part1">
@@ -95,7 +96,7 @@
         </div>
         <script src="/js/carousel.js"></script>
 
-        <a href="/contact" class="en-savoir-plus"><?php echo html_entity_decode($contenuView['club-foret-etudiants']['fr']['en-savoir-plus']['contenu']); ?></a>
+        <a href="<?php echo html_entity_decode($contenuView['club-foret-AF']['fr/en']['lien payasso']['contenu']); ?>" class="en-savoir-plus"><?php echo html_entity_decode($contenuView['club-foret-etudiants']['fr']['en-savoir-plus']['contenu']); ?></a>
 
         <div class="valeurs">
             <div class="valeurs-part1">

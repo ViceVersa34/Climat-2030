@@ -68,6 +68,17 @@
                 <?php include('repeat.php'); ?>
             </div>            
         </div>
+        <div class="content">
+            <div class="language">
+                <?php 
+                    $tempContenu = $contenu['club-foret-AF']['fr/en']['lien payasso']['contenu'];
+                    $tempContenuView = $contenuView['club-foret-AF']['fr/en']['lien payasso']['contenu'];
+                    $tempId = $contenu['club-foret-AF']['fr/en']['lien payasso']['id'];
+                    $language = '';
+                ?>
+                <?php include('repeat.php'); ?>
+            </div>         
+        </div>
     </div>
     
     <div class="group-content">
