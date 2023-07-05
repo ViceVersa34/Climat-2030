@@ -73,6 +73,10 @@ h2 {
     text-align: center;
 }
 
+.message-mail {
+    text-align: center;
+}
+
 @media only screen and (max-width: 330px) {
     form {
         width: 250px;
