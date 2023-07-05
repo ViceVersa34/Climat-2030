@@ -1,8 +1,6 @@
 <div id="miseEnForme" class="mise-en-forme invisible">
     <div class="constructeur">
-        <a href="" onclick="miseEnForme();">
-            <div class="fermer">X</div>
-        </a>
+        <div class="fermer" onclick="miseEnForme();">X</div>
         <div>Balise d'ouverture :</div>
         <div class="constructeur-bouton">
             <button id="button-g" class="selectable-button"><span class="font-weight">Gras</span></button>
