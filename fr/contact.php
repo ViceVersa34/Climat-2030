@@ -212,6 +212,10 @@
                     <textarea id="message" name="message" maxlength="500" oninput="compterCaracteres()"></textarea>
                     <div id="compteur" class="compteur">0/500 caractères</div>
                     <h2><?php echo html_entity_decode($contenuView['contact']['fr']['commentaire']['contenu']); ?></h2>
+                    <div class="CGU-CGV">
+                        <input type="checkbox" name="CGU" id="CGU" required>
+                        <div class="checkbox-CGU-CGV">Accepter les Conditions Générales <a href="/CGU#CGU" class="link-accept-CGVU">d'Utilisations</a> et <a href="/CGU#CGV" class="link-accept-CGVU">de Ventes</a></div>
+                    </div>
                     <input type="submit" class="en-savoir-plus" value="<?php echo html_entity_decode($contenuView['contact']['fr']['en-savoir-plus']['contenu']); ?>">
                     <div class="message-mail">
                         <?php
