@@ -1,7 +1,7 @@
 <?php
     session_start();
-include('tables/contents/part/content.php'); 
-include('php/isAdmin.php');
+    include('tables/contents/part/content.php'); 
+    include('php/isAdmin.php');
 ?>
 
 <!DOCTYPE html>
