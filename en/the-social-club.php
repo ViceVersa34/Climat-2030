@@ -17,11 +17,12 @@
             <div class="social-club-repere" id="climate-club"></div>
             <h1 class="top_txt"><?php echo html_entity_decode($contenuView['club-climat']['en']['titre']['contenu']); ?></span></h1>
             <a href="/contact-us" class="en-savoir-plus"><?php echo html_entity_decode($contenuView['club-climat']['en']['en-savoir-plus']['contenu']); ?></a>
+
             <div class="desc-club-climat">
-                <div class="size-txt"><?php echo html_entity_decode($contenuView['academie-du-climat']['fr']['programme 0']['contenu']); ?></div>
                 <div class="liens-club-climat">
                     <a href="#presentation" class="lien-club-climat"><?php echo html_entity_decode($contenuView['club-climat']['en']['repere 1']['contenu']); ?></a>
-                    <a href="#parcours" class="lien-club-climat"><?php echo html_entity_decode($contenuView['club-climat']['en']['repere 2']['contenu']); ?></a>
+                    <a href="/the-pedagogical-club#levelC" class="lien-club-climat"><?php echo html_entity_decode($contenuView['club-climat']['en']['repere 2']['contenu']); ?></a>
+                    <a href="#parcours" class="lien-club-climat"><?php echo html_entity_decode($contenuView['club-climat']['en']['repere 3']['contenu']); ?></a>
                 </div>
             </div>
             <div class="titre-presentation"><?php echo html_entity_decode($contenuView['club-climat']['en']['titre presentation']['contenu']); ?></div>

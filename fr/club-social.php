@@ -19,10 +19,10 @@
             <a href="/contact" class="en-savoir-plus"><?php echo html_entity_decode($contenuView['club-climat']['fr']['en-savoir-plus']['contenu']); ?></a>
 
             <div class="desc-club-climat">
-                <div class="size-txt"><?php echo html_entity_decode($contenuView['academie-du-climat']['fr']['programme 0']['contenu']); ?></div>
                 <div class="liens-club-climat">
                     <a href="#presentation" class="lien-club-climat"><?php echo html_entity_decode($contenuView['club-climat']['fr']['repere 1']['contenu']); ?></a>
-                    <a href="#parcours" class="lien-club-climat"><?php echo html_entity_decode($contenuView['club-climat']['fr']['repere 2']['contenu']); ?></a>
+                    <a href="/club-pedagogique#levelC" class="lien-club-climat"><?php echo html_entity_decode($contenuView['club-climat']['fr']['repere 2']['contenu']); ?></a>
+                    <a href="#parcours" class="lien-club-climat"><?php echo html_entity_decode($contenuView['club-climat']['fr']['repere 3']['contenu']); ?></a>
                 </div>
             </div>
             
