@@ -15,21 +15,9 @@
     ];
 
     $jour = date('d');
-    $moi = mois[date('m')];
+    $mois = mois[date('m')];
     $annee = date('Y');
-    $date = $jour.' '.$moi.' '.$annee;
-
-    $i = -1;
-    foreach (str_split($_SERVER['PHP_SELF']) as $chemin) {
-        if ($chemin == '/') {
-            $i += 1;
-        }   
-    }
-    // $path = str_repeat('../', $i) . 'admin/php/link_db.php';
-
-    // if ($_SERVER['PHP_SELF'] != '/admin/login.php') {
-    //     include($path); 
-    // }
+    $date = $jour.' '.$mois.' '.$annee;
     
     $sql = "SELECT COUNT(*) AS `compteur` FROM `customers`";
     $requete = $db->query($sql);
