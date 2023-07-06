@@ -1,6 +1,4 @@
 <?php
-define('VAR_LOGIN', 'login');
-define('VAR_PASSWORD', 'password');
 
 const MAPPING = [
     '' => 'fr/index.php',
@@ -25,7 +23,7 @@ const MAPPING = [
 ];
 
 function getFileFromUrl(){
-    $url = getVar('url');
+    $url = retrieveVar('url', $_GET);
     if(is_bool($url)){
         $url = '';
     }
@@ -35,15 +33,6 @@ function getFileFromUrl(){
     return MAPPING[$url];
 }
 
-function getVar($name) {
-    return retrieveVar($name, $_GET);
-}
-function postVar($name) {
-    return retrieveVar($name, $_POST);
-}
-function sessionVar($name) {
-    return retrieveVar($name, $_SESSION);
-}
 function retrieveVar($name, $tab){
     if (isset($tab[$name])) {
         if (! empty($tab[$name])) {
