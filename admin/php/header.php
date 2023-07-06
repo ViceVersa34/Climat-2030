@@ -17,6 +17,7 @@
                     <li class="sub-nav-item"><a href="/admin/tables/contents/club-foret-etudiants.php">Club foret - Étudiants</a></li>
                     <li class="sub-nav-item"><a href="/admin/tables/contents/en-savoir-plus.php">En savoir plus</a></li>
                     <li class="sub-nav-item"><a href="/admin/tables/contents/CGU.php">CGU</a></li>
+                    <li class="sub-nav-item"><a href="/admin/tables/contents/CGV.php">CGV</a></li>
                     <li class="sub-nav-item"><a href="/admin/tables/contents/eco-sensibilise.php">Éco-sensibilisé</a></li>
                     <li class="sub-nav-item"><a href="/admin/tables/contents/contact.php">Contact</a></li>
                 </div>
