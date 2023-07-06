@@ -64,6 +64,13 @@
                     $language = 'fr';
                 ?>
                 <?php include('repeat.php'); ?>
+                <?php 
+                    $tempContenu = $contenu['club-climat']['fr']['repere 3']['contenu'];
+                    $tempContenuView = $contenuView['club-climat']['fr']['repere 3']['contenu'];
+                    $tempId = $contenu['club-climat']['fr']['repere 3']['id'];
+                    $language = 'fr';
+                ?>
+                <?php include('repeat.php'); ?>
             </div>
             <div class="language">
                 <?php 
@@ -77,6 +84,13 @@
                     $tempContenu = $contenu['club-climat']['en']['repere 2']['contenu'];
                     $tempContenuView = $contenuView['club-climat']['en']['repere 2']['contenu'];
                     $tempId = $contenu['club-climat']['en']['repere 2']['id'];
+                    $language = 'en';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php 
+                    $tempContenu = $contenu['club-climat']['en']['repere 3']['contenu'];
+                    $tempContenuView = $contenuView['club-climat']['en']['repere 3']['contenu'];
+                    $tempId = $contenu['club-climat']['en']['repere 3']['id'];
                     $language = 'en';
                 ?>
                 <?php include('repeat.php'); ?>
