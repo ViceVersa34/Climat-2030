@@ -16,10 +16,10 @@
         <h1 class="top_txt"><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['titre']['contenu']); ?></h1>
         <a href="/contact-us" class="en-savoir-plus"><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['en-savoir-plus']['contenu']); ?></a>
         <div class="desc-programmes">
-            <div class="size-txt"><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['programme 0']['contenu']); ?></div>
             <div class="lien-programmes">
-                <a href="#levelA" class="lien-programme yello-txt"><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['programme 1']['contenu']); ?></a>
-                <a href="#levelB" class="lien-programme yello-txt"><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['programme 2']['contenu']); ?></a>
+                <a href="#levelA" class="lien-programme"><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['programme 1']['contenu']); ?></a>
+                <a href="#levelB" class="lien-programme"><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['programme 2']['contenu']); ?></a>
+                <a href="#levelC" class="lien-programme"><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['programme 3']['contenu']); ?></a>
             </div>
         </div>
         <div class="top-illustration">
@@ -61,10 +61,10 @@
                             <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 1 objectif']['contenu']); ?></p>
                         </div>
                         <div class="level-content">
-                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 1 titre competances']['contenu']); ?></p>
+                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 1 titre competences']['contenu']); ?></p>
                         </div>
                         <div class="level-content paragraphe groupe-titre-paragraphe">
-                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 1 competances']['contenu']); ?></p>
+                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 1 competences']['contenu']); ?></p>
                         </div>
                         <div class="level-content">
                             <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 1 titre duree']['contenu']); ?></p>
@@ -83,6 +83,9 @@
                         </div>
                         <div class="level-content paragraphe2">
                             <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 1 seance 2']['contenu']); ?></p>
+                        </div>
+                        <div class="inscription">
+                            <a href="/contact" class="inscription-sensibilisation"><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['s-inscrire-sensibilisation']['contenu']); ?></a>
                         </div>
                     </div>
                     <div class="img">
@@ -105,28 +108,80 @@
                             <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 2 objectif']['contenu']); ?></p>
                         </div>
                         <div class="level-content">
-                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 2 titre competances 1']['contenu']); ?></p>
+                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 2 titre competences 1']['contenu']); ?></p>
                         </div>
                         <div class="level-content paragraphe groupe-titre-paragraphe2">
-                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 2 competances 1.1']['contenu']); ?></p>
+                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 2 competences 1.1']['contenu']); ?></p>
                         </div>
                         <div class="level-content paragraphe2">
-                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 2 competances 1.2']['contenu']); ?></p>
+                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 2 competences 1.2']['contenu']); ?></p>
                         </div>
                         <div class="level-content paragraphe2 groupe-titre-paragraphe">
-                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 2 competances 1.3']['contenu']); ?></p>
+                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 2 competences 1.3']['contenu']); ?></p>
                         </div>
                         <div class="level-content">
-                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 2 titre competances 2']['contenu']); ?></p>
+                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 2 titre competences 2']['contenu']); ?></p>
                         </div>
                         <div class="level-content paragraphe groupe-titre-paragraphe2">
-                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 2 competances 2.1']['contenu']); ?></p>
+                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 2 competences 2.1']['contenu']); ?></p>
                         </div>
                         <div class="level-content paragraphe2">
-                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 2 competances 2.2']['contenu']); ?></p>
+                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 2 competences 2.2']['contenu']); ?></p>
                         </div>
                         <div class="level-content paragraphe2">
-                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 2 competances 2.3']['contenu']); ?></p>
+                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 2 competences 2.3']['contenu']); ?></p>
+                        </div>
+                        <div class="inscription">
+                            <a href="/contact" class="inscription-formation"><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['s-inscrire-formation-AF']['contenu']); ?></a>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <img src="<?php echo $images['club-pedagogique']['illustration programmes']['image']; ?>" alt="Illustration programmes">
+                    </div>
+                </div>
+                <div class="repere" id="levelC"></div>
+            </div>
+        </div>
+            <div class="ligne"></div>
+            <div class="repere-levelC" id="levelC"></div>
+            <div class="programme">
+                <div class="level levelC">
+                    <div class="txt">
+                        <div class="level-content groupe-titre-paragraphe titre">
+                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 3 titre']['contenu']); ?></p>
+                        </div>
+                        <div class="level-content">
+                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 3 titre objectif']['contenu']); ?></p>
+                        </div>
+                        <div class="level-content paragraphe groupe-titre-paragraphe">
+                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 3 objectif']['contenu']); ?></p>
+                        </div>
+                        <div class="level-content">
+                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 3 titre competences 1']['contenu']); ?></p>
+                        </div>
+                        <div class="level-content paragraphe groupe-titre-paragraphe2">
+                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 3 competences 1.1']['contenu']); ?></p>
+                        </div>
+                        <div class="level-content paragraphe2">
+                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 3 competences 1.2']['contenu']); ?></p>
+                        </div>
+                        <div class="level-content paragraphe2 groupe-titre-paragraphe">
+                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 3 competences 1.3']['contenu']); ?></p>
+                        </div>
+                        <div class="level-content">
+                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 3 titre competences 2']['contenu']); ?></p>
+                        </div>
+                        <div class="level-content paragraphe groupe-titre-paragraphe2">
+                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 3 competences 2.1']['contenu']); ?></p>
+                        </div>
+                        <div class="level-content paragraphe2">
+                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 3 competences 2.2']['contenu']); ?></p>
+                        </div>
+                        <div class="level-content paragraphe2">
+                            <p><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['prog 3 competences 2.3']['contenu']); ?></p>
+                        </div>
+                        <div class="inscription">
+                            <a href="/contact" class="inscription-formation"><?php echo html_entity_decode($contenuView['academie-du-climat']['en']['s-inscrire-formation']['contenu']); ?></a>
                         </div>
                     </div>
                     <div class="img">
