@@ -1,7 +1,8 @@
 <?php
 
+    session_start();
     include('part/content.php');
-    include('php/isAdmin.php');
+    include('../../php/isAdmin.php');
 
     if(array_key_exists('action', $_GET) and
     array_key_exists('id_contents', $_GET) and

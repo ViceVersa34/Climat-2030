@@ -1,6 +1,7 @@
 <?php
+    session_start();
     include('../contents/part/content.php');
-    include('php/isAdmin.php');
+    include('../../php/isAdmin.php');
 
     if(array_key_exists('action', $_POST)) {
         if($_POST['action'] == 'updateImage') { 
