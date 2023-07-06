@@ -7,6 +7,7 @@ function afficherChamps() {
     var champsNbEleve = document.getElementById("champsNbEleve");
     var ChampsPrix = document.getElementById("ChampsPrix");
     var prixEstime = document.getElementById("prixEstime");
+    var devisCubPedagogique = document.getElementById("champsDevisClubPedagogique");
 
     if (choix.value === "question") {
         // Affichage de 'Question'
@@ -22,6 +23,7 @@ function afficherChamps() {
         champsNbEleve.style.display = "block";
         ChampsPrix.style.display = "block";
         prixEstime.style.display = "block";
+
     } else {
         // Masquage de tous les éléments
         champsQuestion.style.display = "none";
@@ -29,6 +31,12 @@ function afficherChamps() {
         champsNbEleve.style.display = "none";
         ChampsPrix.style.display = "none";
         prixEstime.style.display = "none";
+    }
+
+    if(choixDevisSelect.value === 'club-pedagogique') {
+        devisCubPedagogique.style.display = "block"
+    } else {
+        devisCubPedagogique.style.display = "none"
     }
 }
 

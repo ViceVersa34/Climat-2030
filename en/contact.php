@@ -10,6 +10,28 @@
             $prix = htmlspecialchars($_POST['prix']);
             $mail = htmlspecialchars($_POST['mail']);
             $message = htmlspecialchars($_POST['message']);
+            $sensibilisation = 'off';
+            $formation = 'off';
+            $devisClubPedagogique = 'Aucun';
+
+            if(array_key_exists('devis-club-pedagogique-sensibilisation', $_POST)) {
+                if($_POST['devis-club-pedagogique-sensibilisation'] == 'on') {
+                    $sensibilisation = 'on';
+                }
+            }
+            if(array_key_exists('devis-club-pedagogique-formation', $_POST)) {
+                if($_POST['devis-club-pedagogique-formation'] == 'on') {
+                    $formation = 'on';
+                }
+            }
+
+            if($sensibilisation == 'on' and $formation == 'off') {
+                $devisClubPedagogique = 'sensibilisation';
+            } else if($sensibilisation == 'off' and $formation == 'on') {
+                $devisClubPedagogique = 'éducation';
+            } else if($sensibilisation == 'on' and $formation == 'on') {
+                $devisClubPedagogique = 'sensibilation et éducation';
+            }
 
             if($devisSelect == 'club-pedagogique') {
                 $devisSelect = 'Pedagogical Club';
@@ -20,36 +42,38 @@
             }
 
             $content = 'Une erreur est survenue';
+
+            $style = "<style>
+                        body {
+                            font-family: Arial, sans-serif;
+                            background: #d9d9d9;
+                            max-width: 600px;
+                            min-height: 400px;
+                            margin-left: auto;
+                            margin-right: auto;
+                            padding: 1.5rem;
+                            border-radius: 10px;
+                        }
+                        h1 {
+                            color: #333333;
+                            text-align: center;
+                        }
+                        div {
+                            color: #000000;
+                            line-height: 1.5;
+                        }
+                        p {
+                            color: #555555;
+                            line-height: 1;
+                        }
+                        span {
+                            font-weght: 700;
+                        }
+                    </style>";
             if($choix == 'question') {
                 $content = "<html>
                             <head>
-                            <style>
-                            body {
-                                font-family: Arial, sans-serif;
-                                background: #d9d9d9;
-                                max-width: 600px;
-                                min-height: 400px;
-                                margin-left: auto;
-                                margin-right: auto;
-                                padding: 1.5rem;
-                                border-radius: 10px;
-                            }
-                            h1 {
-                                color: #333333;
-                                text-align: center;
-                            }
-                            div {
-                                color: #000000;
-                                line-height: 1.5;
-                            }
-                            p {
-                                color: #555555;
-                                line-height: 1;
-                            }
-                            span {
-                                font-weght: 700;
-                            }
-                        </style>
+                            ".$style."
                             </head>
                             <body>
                                 <h1>Demande de contact pour : une question</h1>
@@ -63,7 +87,7 @@
                                         ".$message."
                                     </p>
                                     <div>
-                                        <span style=\"color: #ff0000;\">ATTENTION : NE PAS RÉPONDRE DE CETTE ADRESSE !</span> <br> <br>
+                                        <span style=\"color: #ff0000;\">ATTENTION : NE PAS RÉPONDRE DE L'ADRESSE ECOUDERC74@GMAIL.COM !</span> <br> <br>
                                         <a href=\"https://mail.ovh.net/roundcube/?_task=mail&_mbox=INBOX\">Aller sur roundcube</a>
                                     </div>
                                 </div>
@@ -71,56 +95,57 @@
                             </html>";
             }
             if($choix == 'devis') {
-                $content = "<html>
-                            <head>
-                                <style>
-                                    body {
-                                        font-family: Arial, sans-serif;
-                                        background: #d9d9d9;
-                                        max-width: 600px;
-                                        min-height: 400px;
-                                        margin-left: auto;
-                                        margin-right: auto;
-                                        padding: 1.5rem;
-                                        border-radius: 10px;
-                                    }
-                                    h1 {
-                                        color: #333333;
-                                        text-align: center;
-                                    }
-                                    div {
-                                        color: #000000;
-                                        line-height: 1.5;
-                                    }
-                                    p {
-                                        color: #555555;
-                                        line-height: 1;
-                                    }
-                                    span {
-                                        font-weight: 700;
-                                    }
-                                </style>
-                            </head>
-                            <body>
-                                <h1>Demande de contact pour : un devis</h1>
-                                <div>
-                                    Le mail provient de : <a href=\"mailto:".$mail."?subject=Re%20:%20Contact%20Climat-2030%20-%20".$devisSelect."&body=Bonjour%2C%0D%0A%0D%0AJe%20fais%20suite%20à%20votre%20prise%20de%20contact.%0D%0A%0D%0A\">".$mail."</a>
-                                    <br> <br> <br>
-                                    La demande de devis porte sur : ".$devisSelect.".
-                                    <br>
-                                    L'AF concernée comporte <span>".$nbEleve." étudiants</span> et le tarif des cours est de <span>".$prix."€</span>.
-                                    <br> <br>
-                                    Message : <br>
-                                    <p>
-                                        ".$message."
-                                    </p>
+                if($devisSelect == 'Club pédagogique') {
+                    $content = "<html>
+                                <head>
+                                ".$style."
+                                </head>
+                                <body>
+                                    <h1>Demande de contact pour : un devis</h1>
                                     <div>
-                                        <span style=\"color: #ff0000;\">ATTENTION : NE PAS RÉPONDRE DE CETTE ADRESSE !</span> <br> <br>
-                                        <a href=\"https://mail.ovh.net/roundcube/?_task=mail&_mbox=INBOX\">Aller sur roundcube</a>
+                                        Le mail provient de : <a href=\"mailto:".$mail."?subject=Re%20:%20Contact%20Climat-2030%20-%20".$devisSelect."&body=Bonjour%2C%0D%0A%0D%0AJe%20fais%20suite%20à%20votre%20prise%20de%20contact.%0D%0A%0D%0A\">".$mail."</a>
+                                        <br> <br> <br>
+                                        La demande de devis porte sur : ".$devisSelect." pour : ".$devisClubPedagogique.".
+                                        <br>
+                                        L'AF concernée comporte <span>".$nbEleve." étudiants</span> et le tarif des cours est de <span>".$prix."€</span>.
+                                        <br> <br>
+                                        Message : <br>
+                                        <p>
+                                            ".$message."
+                                        </p>
+                                        <div>
+                                            <span style=\"color: #ff0000;\">ATTENTION : NE PAS RÉPONDRE DE L'ADRESSE ECOUDERC74@GMAIL.COM !</span> <br> <br>
+                                            <a href=\"https://mail.ovh.net/roundcube/?_task=mail&_mbox=INBOX\">Aller sur roundcube</a>
+                                        </div>
                                     </div>
-                                </div>
-                            </body>
-                            </html>";
+                                </body>
+                                </html>";
+                } else {
+                    $content = "<html>
+                                <head>
+                                ".$style."
+                                </head>                                
+                                <body>
+                                    <h1>Demande de contact pour : un devis</h1>
+                                    <div>
+                                        Le mail provient de : <a href=\"mailto:".$mail."?subject=Re%20:%20Contact%20Climat-2030%20-%20".$devisSelect."&body=Bonjour%2C%0D%0A%0D%0AJe%20fais%20suite%20à%20votre%20prise%20de%20contact.%0D%0A%0D%0A\">".$mail."</a>
+                                        <br> <br> <br>
+                                        La demande de devis porte sur : ".$devisSelect.".
+                                        <br>
+                                        L'AF concernée comporte <span>".$nbEleve." étudiants</span> et le tarif des cours est de <span>".$prix."€</span>.
+                                        <br> <br>
+                                        Message : <br>
+                                        <p>
+                                            ".$message."
+                                        </p>
+                                        <div>
+                                            <span style=\"color: #ff0000;\">ATTENTION : NE PAS RÉPONDRE DE L'ADRESSE ECOUDERC74@GMAIL.COM !</span> <br> <br>
+                                            <a href=\"https://mail.ovh.net/roundcube/?_task=mail&_mbox=INBOX\">Aller sur roundcube</a>
+                                        </div>
+                                    </div>
+                                </body>
+                                </html>";
+                }
             }
 
             $to = "contact@climat-2030.org"; 
@@ -186,12 +211,22 @@
 
                     <div id="champsDevis">
                         <label for="devisSelect">Choose a quote option :</label>
-                        <select id="devisSelect" name="devisSelect">
+                        <select id="devisSelect" name="devisSelect" onchange="afficherChamps()">
                             <option value="">-- Select --</option>
                             <option value="club-pedagogique">Pedagogical Club</option>
                             <option value="club-climat">Climate Club</option>
                             <option value="club-humour">Humour Club</option>
                         </select>
+                    </div>
+
+                    <div id="champsDevisClubPedagogique">
+                        <div class="devis-club-pedagogique-option">Choose one or more option(s)</div>
+                        <div class="checkbox">
+                            <input type="checkbox" name="devis-club-pedagogique-sensibilisation" id="devis-club-pedagogique-sensibilisation"> <!-- checked ???? -->
+                            <div>Sensitization</div>
+                            <input type="checkbox" name="devis-club-pedagogique-formation" id="devis-club-pedagogique-formation"> <!-- checked ???? -->
+                            <div>Training</div>
+                        </div>
                     </div>
 
                     <div id="champsNbEleve">
