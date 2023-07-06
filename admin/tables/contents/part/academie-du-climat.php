@@ -51,13 +51,6 @@
         <div class="content">
             <div class="language">
                 <?php 
-                    $tempContenu = $contenu['academie-du-climat']['fr']['programme 0']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['fr']['programme 0']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['fr']['programme 0']['id'];
-                    $language = 'fr';
-                ?>
-                <?php include('repeat.php'); ?>
-                <?php 
                     $tempContenu = $contenu['academie-du-climat']['fr']['programme 1']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['programme 1']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['programme 1']['id'];
@@ -71,15 +64,15 @@
                     $language = 'fr';
                 ?>
                 <?php include('repeat.php'); ?>
-            </div>
-            <div class="language">
                 <?php 
-                    $tempContenu = $contenu['academie-du-climat']['en']['programme 0']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['en']['programme 0']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['en']['programme 0']['id'];
-                    $language = 'en';
+                    $tempContenu = $contenu['academie-du-climat']['fr']['programme 3']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['fr']['programme 3']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['fr']['programme 3']['id'];
+                    $language = 'fr';
                 ?>
                 <?php include('repeat.php'); ?>
+            </div>
+            <div class="language">
                 <?php 
                     $tempContenu = $contenu['academie-du-climat']['en']['programme 1']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['programme 1']['contenu'];
@@ -91,6 +84,13 @@
                     $tempContenu = $contenu['academie-du-climat']['en']['programme 2']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['programme 2']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['programme 2']['id'];
+                    $language = 'en';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['en']['programme 3']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['en']['programme 3']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['en']['programme 3']['id'];
                     $language = 'en';
                 ?>
                 <?php include('repeat.php'); ?>
@@ -197,16 +197,16 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
-                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 1 titre competances']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 1 titre competances']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['fr']['prog 1 titre competances']['id'];
+                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 1 titre competences']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 1 titre competences']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['fr']['prog 1 titre competences']['id'];
                     $language = 'fr';
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
-                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 1 competances']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 1 competances']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['fr']['prog 1 competances']['id'];
+                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 1 competences']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 1 competences']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['fr']['prog 1 competences']['id'];
                     $language = 'fr';
                 ?>
                 <?php include('repeat.php'); ?>
@@ -276,16 +276,16 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
-                    $tempContenu = $contenu['academie-du-climat']['en']['prog 1 titre competances']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 1 titre competances']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['en']['prog 1 titre competances']['id'];
+                    $tempContenu = $contenu['academie-du-climat']['en']['prog 1 titre competences']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 1 titre competences']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['en']['prog 1 titre competences']['id'];
                     $language = 'en';
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
-                    $tempContenu = $contenu['academie-du-climat']['en']['prog 1 competances']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 1 competances']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['en']['prog 1 competances']['id'];
+                    $tempContenu = $contenu['academie-du-climat']['en']['prog 1 competences']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 1 competences']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['en']['prog 1 competences']['id'];
                     $language = 'en';
                 ?>
                 <?php include('repeat.php'); ?>
@@ -360,58 +360,58 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
-                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 2 titre competances 1']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 2 titre competances 1']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['fr']['prog 2 titre competances 1']['id'];
+                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 2 titre competences 1']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 2 titre competences 1']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['fr']['prog 2 titre competences 1']['id'];
                     $language = 'fr';
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
-                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 2 competances 1.1']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 2 competances 1.1']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['fr']['prog 2 competances 1.1']['id'];
+                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 2 competences 1.1']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 2 competences 1.1']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['fr']['prog 2 competences 1.1']['id'];
                     $language = 'fr';
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
-                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 2 competances 1.2']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 2 competances 1.2']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['fr']['prog 2 competances 1.2']['id'];
+                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 2 competences 1.2']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 2 competences 1.2']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['fr']['prog 2 competences 1.2']['id'];
                     $language = 'fr';
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
-                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 2 competances 1.3']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 2 competances 1.3']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['fr']['prog 2 competances 1.3']['id'];
+                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 2 competences 1.3']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 2 competences 1.3']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['fr']['prog 2 competences 1.3']['id'];
                     $language = 'fr';
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
-                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 2 titre competances 2']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 2 titre competances 2']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['fr']['prog 2 titre competances 2']['id'];
+                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 2 titre competences 2']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 2 titre competences 2']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['fr']['prog 2 titre competences 2']['id'];
                     $language = 'fr';
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
-                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 2 competances 2.1']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 2 competances 2.1']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['fr']['prog 2 competances 2.1']['id'];
+                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 2 competences 2.1']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 2 competences 2.1']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['fr']['prog 2 competences 2.1']['id'];
                     $language = 'fr';
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
-                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 2 competances 2.2']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 2 competances 2.2']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['fr']['prog 2 competances 2.2']['id'];
+                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 2 competences 2.2']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 2 competences 2.2']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['fr']['prog 2 competences 2.2']['id'];
                     $language = 'fr';
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
-                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 2 competances 2.3']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 2 competances 2.3']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['fr']['prog 2 competances 2.3']['id'];
+                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 2 competences 2.3']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 2 competences 2.3']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['fr']['prog 2 competences 2.3']['id'];
                     $language = 'fr';
                 ?>
                 <?php include('repeat.php'); ?>
@@ -439,58 +439,221 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
-                    $tempContenu = $contenu['academie-du-climat']['en']['prog 2 titre competances 1']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 2 titre competances 1']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['en']['prog 2 titre competances 1']['id'];
+                    $tempContenu = $contenu['academie-du-climat']['en']['prog 2 titre competences 1']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 2 titre competences 1']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['en']['prog 2 titre competences 1']['id'];
                     $language = 'en';
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
-                    $tempContenu = $contenu['academie-du-climat']['en']['prog 2 competances 1.1']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 2 competances 1.1']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['en']['prog 2 competances 1.1']['id'];
+                    $tempContenu = $contenu['academie-du-climat']['en']['prog 2 competences 1.1']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 2 competences 1.1']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['en']['prog 2 competences 1.1']['id'];
                     $language = 'en';
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
-                    $tempContenu = $contenu['academie-du-climat']['en']['prog 2 competances 1.2']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 2 competances 1.2']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['en']['prog 2 competances 1.2']['id'];
+                    $tempContenu = $contenu['academie-du-climat']['en']['prog 2 competences 1.2']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 2 competences 1.2']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['en']['prog 2 competences 1.2']['id'];
                     $language = 'en';
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
-                    $tempContenu = $contenu['academie-du-climat']['en']['prog 2 competances 1.3']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 2 competances 1.3']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['en']['prog 2 competances 1.3']['id'];
+                    $tempContenu = $contenu['academie-du-climat']['en']['prog 2 competences 1.3']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 2 competences 1.3']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['en']['prog 2 competences 1.3']['id'];
                     $language = 'en';
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
-                    $tempContenu = $contenu['academie-du-climat']['en']['prog 2 titre competances 2']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 2 titre competances 2']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['en']['prog 2 titre competances 2']['id'];
+                    $tempContenu = $contenu['academie-du-climat']['en']['prog 2 titre competences 2']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 2 titre competences 2']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['en']['prog 2 titre competences 2']['id'];
                     $language = 'en';
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
-                    $tempContenu = $contenu['academie-du-climat']['en']['prog 2 competances 2.1']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 2 competances 2.1']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['en']['prog 2 competances 2.1']['id'];
+                    $tempContenu = $contenu['academie-du-climat']['en']['prog 2 competences 2.1']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 2 competences 2.1']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['en']['prog 2 competences 2.1']['id'];
                     $language = 'en';
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
-                    $tempContenu = $contenu['academie-du-climat']['en']['prog 2 competances 2.2']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 2 competances 2.2']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['en']['prog 2 competances 2.2']['id'];
+                    $tempContenu = $contenu['academie-du-climat']['en']['prog 2 competences 2.2']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 2 competences 2.2']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['en']['prog 2 competences 2.2']['id'];
                     $language = 'en';
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
-                    $tempContenu = $contenu['academie-du-climat']['en']['prog 2 competances 2.3']['contenu'];
-                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 2 competances 2.3']['contenu'];
-                    $tempId = $contenu['academie-du-climat']['en']['prog 2 competances 2.3']['id'];
+                    $tempContenu = $contenu['academie-du-climat']['en']['prog 2 competences 2.3']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 2 competences 2.3']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['en']['prog 2 competences 2.3']['id'];
+                    $language = 'en';
+                ?>
+                <?php include('repeat.php'); ?>
+            </div>
+        </div>
+    </div>
+
+    <div class="group-content">
+        <div class="content">
+            <div class="language">
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 3 titre']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 3 titre']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['fr']['prog 3 titre']['id'];
+                    $language = 'fr';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 3 titre objectif']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 3 titre objectif']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['fr']['prog 3 titre objectif']['id'];
+                    $language = 'fr';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 3 objectif']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 3 objectif']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['fr']['prog 3 objectif']['id'];
+                    $language = 'fr';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 3 titre competences 1']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 3 titre competences 1']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['fr']['prog 3 titre competences 1']['id'];
+                    $language = 'fr';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 3 competences 1.1']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 3 competences 1.1']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['fr']['prog 3 competences 1.1']['id'];
+                    $language = 'fr';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 3 competences 1.2']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 3 competences 1.2']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['fr']['prog 3 competences 1.2']['id'];
+                    $language = 'fr';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 3 competences 1.3']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 3 competences 1.3']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['fr']['prog 3 competences 1.3']['id'];
+                    $language = 'fr';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 3 titre competences 2']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 3 titre competences 2']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['fr']['prog 3 titre competences 2']['id'];
+                    $language = 'fr';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 3 competences 2.1']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 3 competences 2.1']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['fr']['prog 3 competences 2.1']['id'];
+                    $language = 'fr';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 3 competences 2.2']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 3 competences 2.2']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['fr']['prog 3 competences 2.2']['id'];
+                    $language = 'fr';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['fr']['prog 3 competences 2.3']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 3 competences 2.3']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['fr']['prog 3 competences 2.3']['id'];
+                    $language = 'fr';
+                ?>
+                <?php include('repeat.php'); ?>
+            </div>
+            <div class="language">
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['en']['prog 3 titre']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 3 titre']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['en']['prog 3 titre']['id'];
+                    $language = 'en';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['en']['prog 3 titre objectif']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 3 titre objectif']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['en']['prog 3 titre objectif']['id'];
+                    $language = 'en';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['en']['prog 3 objectif']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 3 objectif']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['en']['prog 3 objectif']['id'];
+                    $language = 'en';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['en']['prog 3 titre competences 1']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 3 titre competences 1']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['en']['prog 3 titre competences 1']['id'];
+                    $language = 'en';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['en']['prog 3 competences 1.1']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 3 competences 1.1']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['en']['prog 3 competences 1.1']['id'];
+                    $language = 'en';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['en']['prog 3 competences 1.2']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 3 competences 1.2']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['en']['prog 3 competences 1.2']['id'];
+                    $language = 'en';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['en']['prog 3 competences 1.3']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 3 competences 1.3']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['en']['prog 3 competences 1.3']['id'];
+                    $language = 'en';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['en']['prog 3 titre competences 2']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 3 titre competences 2']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['en']['prog 3 titre competences 2']['id'];
+                    $language = 'en';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['en']['prog 3 competences 2.1']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 3 competences 2.1']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['en']['prog 3 competences 2.1']['id'];
+                    $language = 'en';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['en']['prog 3 competences 2.2']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 3 competences 2.2']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['en']['prog 3 competences 2.2']['id'];
+                    $language = 'en';
+                ?>
+                <?php include('repeat.php'); ?>
+                <?php 
+                    $tempContenu = $contenu['academie-du-climat']['en']['prog 3 competences 2.3']['contenu'];
+                    $tempContenuView = $contenuView['academie-du-climat']['en']['prog 3 competences 2.3']['contenu'];
+                    $tempId = $contenu['academie-du-climat']['en']['prog 3 competences 2.3']['id'];
                     $language = 'en';
                 ?>
                 <?php include('repeat.php'); ?>
