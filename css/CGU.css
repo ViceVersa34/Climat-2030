@@ -1,3 +1,29 @@
+.titre-partie-legle {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.boutons-partie-legale {
+    display: flex;
+    align-items: normal;
+    justify-content: center;
+    margin: 2rem .5rem 8rem .5rem;
+}
+
+.bouton-partie-legale {
+    margin: .5rem 1rem .5rem 1rem;
+}
+
+/* -------------------- CGU -------------------- */
+.repere-CGU {
+    position: absolute;
+    top: 300px;
+}
+
+.CGU {
+    margin-top: 5rem;
+}
+
 .articles {
     max-width: 1000px;
     width: 100%;
@@ -27,7 +53,22 @@
     list-style : initial !important;
 }
 
+/* -------------------- CGV -------------------- */
+.CGV {
+    margin: 10rem 5rem 4rem .5rem;
+}
+
+.repere-CGV {
+    position: absolute;
+    top: 3300px;
+}
+
 /* -------------------- Mention icônes -------------------- */
+.repere-icones {
+    position: absolute;
+    top: 7050px;
+}
+
 .title-mention-icone {
     max-width: 1000px;
     width: 100%;
@@ -62,6 +103,11 @@
 }
 
 /* -------------------- Mention image -------------------- */
+.repere-images {
+    position: absolute;
+    top: 7700px;
+}
+
 .title-mention-image {
     max-width: 1000px;
     width: 100%;

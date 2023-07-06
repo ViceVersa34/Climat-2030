@@ -12,9 +12,21 @@
     </header>
 
     <main>
+        <div class="partie-legle">
+            <div class="titre-partie-legle"><?php echo html_entity_decode($contenuView['CGU']['fr']['titre partie legale']['contenu']); ?></div>
+            <div class="boutons-partie-legale">
+                <div class="bouton-partie-legale"><a href="#CGU"><?php echo html_entity_decode($contenuView['CGU']['fr']['partie 1 partie legale']['contenu']); ?></a></div>
+                <div class="bouton-partie-legale"><a href="#CGV"><?php echo html_entity_decode($contenuView['CGU']['fr']['partie 2 partie legale']['contenu']); ?></a></div>
+                <div class="bouton-partie-legale"><a href="#icones"><?php echo html_entity_decode($contenuView['CGU']['fr']['partie 3 partie legale']['contenu']); ?></a></div>
+                <div class="bouton-partie-legale"><a href="#images"><?php echo html_entity_decode($contenuView['CGU']['fr']['partie 4 partie legale']['contenu']); ?></a></div>
+            </div>
+        </div>
+
+        <div class="separation"></div>
+
         <div class="CGU">
+            <div class="repere-CGU" id="CGU"></div>
             <h1 class="top_txt"><?php echo html_entity_decode($contenuView['CGU']['fr']['titre']['contenu']); ?></span></h1>
-            
             <div class="articles">
                 <div class="article">
                     <div class="titre-article"><?php echo html_entity_decode($contenuView['CGU']['fr']['titre article 1']['contenu']); ?></div>
@@ -76,7 +88,79 @@
             </div>
         </div>
 
+        <div class="separation"></div>
+
+        <div class="CGV">
+            <div class="repere-CGV" id="CGV"></div>
+            <h1 class="top_txt"><?php echo html_entity_decode($contenuView['CGV']['fr']['titre']['contenu']); ?></span></h1>
+            <div class="articles">
+                <div class="article">
+                    <div class="titre-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['titre article 1']['contenu']); ?></div>
+                    <div class="texte-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['article 1']['contenu']); ?></div>
+                </div>
+                <div class="article">
+                    <div class="titre-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['titre article 2']['contenu']); ?></div>
+                    <div class="texte-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['article 2']['contenu']); ?></div>
+                </div>
+                <div class="article">
+                    <div class="titre-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['titre article 3']['contenu']); ?></div>
+                    <div class="texte-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['article 3']['contenu']); ?></div>
+                </div>
+                <div class="article">
+                    <div class="titre-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['titre article 4']['contenu']); ?></div>
+                    <div class="texte-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['article 4']['contenu']); ?></div>
+                </div>
+                <div class="article">
+                    <div class="titre-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['titre article 5']['contenu']); ?></div>
+                    <div class="texte-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['article 5']['contenu']); ?></div>
+                </div>
+                <div class="article">
+                    <div class="titre-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['titre article 6']['contenu']); ?></div>
+                    <div class="texte-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['article 6']['contenu']); ?></div>
+                </div>
+                <div class="article">
+                    <div class="titre-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['titre article 7']['contenu']); ?></div>
+                    <div class="texte-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['article 7']['contenu']); ?></div>
+                </div>
+                <div class="article">
+                    <div class="titre-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['titre article 8']['contenu']); ?></div>
+                    <div class="texte-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['article 8']['contenu']); ?></div>
+                </div>
+                <div class="article">
+                    <div class="titre-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['titre article 9']['contenu']); ?></div>
+                    <div class="texte-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['article 9']['contenu']); ?></div>
+                </div>
+                <div class="article">
+                    <div class="titre-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['titre article 10']['contenu']); ?></div>
+                    <div class="texte-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['article 10']['contenu']); ?></div>
+                </div>
+                <div class="article">
+                    <div class="titre-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['titre article 11']['contenu']); ?></div>
+                    <div class="texte-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['article 11']['contenu']); ?></div>
+                </div>
+                <div class="article">
+                    <div class="titre-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['titre article 12']['contenu']); ?></div>
+                    <div class="texte-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['article 12']['contenu']); ?></div>
+                </div>
+                <div class="article">
+                    <div class="titre-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['titre article 13']['contenu']); ?></div>
+                    <div class="texte-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['article 13']['contenu']); ?></div>
+                </div>
+                <div class="article">
+                    <div class="titre-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['titre article 14']['contenu']); ?></div>
+                    <div class="texte-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['article 14']['contenu']); ?></div>
+                </div>
+                <div class="article">
+                    <div class="titre-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['titre article 15']['contenu']); ?></div>
+                    <div class="texte-article"><?php echo html_entity_decode($contenuView['CGV']['fr']['article 15']['contenu']); ?></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="separation"></div>
+
         <div class="mention-icones">
+            <div class="repere-icones" id="icones"></div>
             <div class="title-mention-icone">Mention des créateurs d'icônes</div>
             <div class="icone">
                 <img src="/img/up-arrow.svg" alt="up arrow icons">
@@ -98,7 +182,10 @@
             </div>
         </div>
 
+        <div class="separation"></div>
+
         <div class="mention-images">
+            <div class="repere-images" id="images"></div>
             <div class="title-mention-image">Mention des créateurs d'images</div>
             <div class="image">
                 <img src="<?php echo $images['index']['illustration 1']['image']; ?>" alt="Crédit image 1">
