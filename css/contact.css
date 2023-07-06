@@ -27,12 +27,32 @@ textarea {
 #champsDevis,
 #champsNbEleve,
 #ChampsPrix,
-#prixEstime {
+#prixEstime,
+#champsDevisClubPedagogique {
     display: none;
 }
 
 #prixEstime {
     margin: 0 0 3rem 0;
+}
+
+#champsDevisClubPedagogique {
+    margin: 0 .5rem 3rem .5rem;
+}
+
+#champsDevisClubPedagogique .checkbox {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    align-items: center;
+    margin: .5rem 0 0 0;
+}
+
+#champsDevisClubPedagogique input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    accent-color: #ba83f0;
+    margin: .5rem 0 .5rem 0;
 }
 
 option {
