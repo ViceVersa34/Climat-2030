@@ -3,27 +3,32 @@
     include('contents/part/content.php'); 
     include('../php/isAdmin.php');
 
+    // Vérifie si le paramètre 'action' est présent dans l'URL
     if(array_key_exists('action', $_GET)) {
-        if($_GET['action'] == 'update') {
-            for($k = 1; $k <= 9; $k++) {
-                for($l = 1; $l <= 15; $l++) {
-                    $price = $_GET[$k.'-'.$l];
-                    $row = $k;
-                    $col = $l;
 
+        // Vérifie si la valeur du paramètre 'action' est 'update'
+        if($_GET['action'] == 'update') {
+            // Parcours les lignes de 1 à 9
+            for($k = 1; $k <= 9; $k++) {
+                // Parcours les colonnes de 1 à 15
+                for($l = 1; $l <= 15; $l++) {
+                    // Récupère le prix à partir des paramètres de l'URL
+                    $price = $_GET[$k.'-'.$l];
+                    $row = $k; // Numéro de ligne
+                    $col = $l; // Numéro de colonne
+
+                    // Requête SQL pour mettre à jour le prix dans la table 'prices' selon les coordonnées (ligne, colonne)
                     $sql = "UPDATE `prices` SET `prices_price`='$price' WHERE `prices_row` = $row AND `prices_col` = $col";
                     $requete = $db->query($sql);
                     $users = $requete->fetchAll();
                 }
             }
+            // Redirige l'utilisateur vers la page "/admin/tables/prices.php" après la mise à jour
             header("Refresh: 0;url=/admin/tables/prices.php");
         }
-        
     }
-
-    
-    
 ?>
+
 
 <!DOCTYPE html>
 <html lang="fr">

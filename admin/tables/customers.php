@@ -1,26 +1,43 @@
 <?php
+
+    // Démarre une session PHP pour gérer les variables de session
     session_start();
+    // Inclut un fichier contenant du contenu spécifique
     include('contents/part/content.php'); 
-    include('../php/isAdmin.php');
+    // Inclut un fichier PHP pour vérifier si l'utilisateur est un administrateur
+    include('../php/isAdmin.php'); 
+    // Requête SQL pour sélectionner tous les enregistrements de la table "customers" et les trier par ordre croissant d'identifiant
+    $sql = "SELECT * FROM `customers` ORDER BY `id_customers` ASC"; 
 
-    $sql = "SELECT * FROM `customers` ORDER BY `id_customers` ASC";
-
-    if(array_key_exists('action', $_GET)) {
-        if($_GET['action'] == 'delete' and array_key_exists('id', $_GET)) {
-            if($_GET['id'] == 'all') {
-                $sql = "TRUNCATE `climat-2030`.`customers`";
-                $requete = $db->query($sql);
-                $customers = $requete->fetchAll();
-                header("Refresh: 0;url=/admin/tables/customers.php");
+    // Vérifie si le paramètre 'action' est présent dans l'URL
+    if(array_key_exists('action', $_GET)) { 
+        // Vérifie si l'action est 'delete' et si le paramètre 'id' est présent dans l'URL
+        if($_GET['action'] == 'delete' && array_key_exists('id', $_GET)) { 
+            // Vérifie si la valeur de 'id' est 'all'
+            if($_GET['id'] == 'all') { 
+                // Requête SQL pour vider complètement la table 'customers'
+                $sql = "TRUNCATE `climat-2030`.`customers`"; 
+                // Exécute la requête SQL
+                $requete = $db->query($sql); 
+                // Récupère tous les enregistrements résultants de la requête
+                $customers = $requete->fetchAll(); 
+                // Redirige vers une autre page après l'exécution de l'action
+                header("Refresh: 0;url=/admin/tables/customers.php"); 
             } else {
-                $id = $_GET['id'];
-                $sql = "DELETE FROM `customers` WHERE id_customers = $id";
-                $requete = $db->query($sql);
-                $customers = $requete->fetchAll();
+                // Récupère la valeur de 'id' dans l'URL
+                $id = $_GET['id']; 
+                // Requête SQL pour supprimer un enregistrement spécifique de la table 'customers'
+                $sql = "DELETE FROM `customers` WHERE id_customers = $id"; 
+                // Exécute la requête SQL
+                $requete = $db->query($sql); 
+                // Récupère tous les enregistrements résultants de la requête
+                $customers = $requete->fetchAll(); 
+                // Redirige vers une autre page après l'exécution de l'action
                 header("Refresh: 0;url=/admin/tables/customers.php");
             }
         }
         
+        // Vérifie si le paramètre 'action' et les données sont présentes dans l'URL
         if($_GET['action'] == 'add' and 
         array_key_exists('customers_name', $_GET) and
         array_key_exists('customers_surname', $_GET) and
@@ -33,6 +50,7 @@
         array_key_exists('customers_country_organism', $_GET) and
         array_key_exists('customers_city_organism', $_GET)) {
             
+            // Définission des variables contenant les données
             $customers_name = htmlspecialchars(strtolower($_GET['customers_name']));
             $customers_surname = htmlspecialchars(strtolower($_GET['customers_surname']));
             $customers_mail = htmlspecialchars(strtolower($_GET['customers_mail']));
@@ -44,15 +62,19 @@
             $customers_country_organism = htmlspecialchars(strtolower($_GET['customers_country_organism']));
             $customers_city_organism = htmlspecialchars(strtolower($_GET['customers_city_organism']));
             
+            // Création de la rêquete SQL
             $sql = "INSERT INTO `customers`(`customers_name`, `customers_surname`, `customers_mail`, `customers_phone`, `customers_age`, `customers_status`, `customers_nationality`, `customers_organism`, `customers_country_organism`, `customers_city_organism`) 
             VALUES ('$customers_name', '$customers_surname', '$customers_mail', '$customers_phone', '$customers_age', '$customers_status', '$customers_nationality', '$customers_organism', '$customers_country_organism', '$customers_city_organism')";
+            // Exécution de la rêquete SQL
             $requete = $db->query($sql);
-            $customers = $requete->fetchAll();
+            // Création d'une nouvelle rêquete SQL
             $sql = "SELECT * FROM `customers` ORDER BY `id_customers` ASC";
 
+            // Redirection
             header("Refresh: 0;url=/admin/tables/customers.php");
         }
         
+        // Vérifie si le paramètre 'action' et les données sont présentes dans l'URL
         if($_GET['action'] == 'update' and 
         array_key_exists('id_customers', $_GET) and
         array_key_exists('customers_name', $_GET) and
@@ -66,7 +88,8 @@
         array_key_exists('customers_country_organism', $_GET) and
         array_key_exists('customers_city_organism', $_GET)) {
             
-            $id_customers = htmlspecialchars(strtolower($_GET['id_customers']));
+            // Définission des variables contenant les données
+            $id_customers = (strtolower($_GET['id_customers']));
             $customers_name = htmlspecialchars(strtolower($_GET['customers_name']));
             $customers_surname = htmlspecialchars(strtolower($_GET['customers_surname']));
             $customers_mail = htmlspecialchars(strtolower($_GET['customers_mail']));
@@ -78,42 +101,55 @@
             $customers_country_organism = htmlspecialchars(strtolower($_GET['customers_country_organism']));
             $customers_city_organism = htmlspecialchars(strtolower($_GET['customers_city_organism']));
             
+            // Création de la rêquete SQL
             $sql = "UPDATE `customers` 
             SET `customers_name`='$customers_name',`customers_surname`='$customers_surname',`customers_mail`='$customers_mail',
             `customers_phone`='$customers_phone',`customers_age`='$customers_age',`customers_status`='$customers_status',`customers_nationality`='$customers_nationality',
             `customers_organism`='$customers_organism',`customers_country_organism`='$customers_country_organism',`customers_city_organism`='$customers_city_organism' WHERE id_customers='$id_customers'";
+            // Exécution de la rêquete SQL
             $requete = $db->query($sql);
-            $customers = $requete->fetchAll();
+            // Création d'une nouvelle rêquete SQL
             $sql = "SELECT * FROM `customers` ORDER BY `id_customers` ASC";
 
+            // Redirection
             header("Refresh: 0;url=/admin/tables/customers.php");
         }
 
+        // Vérifie si le paramètre 'action' et les données sont présentes dans l'URL
         if($_GET['action'] == 'sortSearch' and 
         array_key_exists('sort', $_GET) and
         array_key_exists('order', $_GET) and
         array_key_exists('search', $_GET) and
         array_key_exists('query', $_GET)) {
+            // Vérifie quel paramètre est vide ou non
             if(!empty($_GET['sort']) and !empty($_GET['order']) and empty($_GET['search']) and empty($_GET['query'])) {
+                // Définition des variable contenant les information liées au tri
                 $sort = strtolower($_GET['sort']);
                 $order = strtolower($_GET['order']);
                 
+                // Création de la rêquete SQL
                 $sql = "SELECT * FROM `customers` ORDER BY $sort $order";
             }
 
+            // Vérifie quel paramètre est vide ou non
             if(empty($_GET['sort']) and empty($_GET['order']) and !empty($_GET['search']) and !empty($_GET['query'])) {
+                // Définition des variable contenant les information liées à la recherche
                 $search = strtolower($_GET['search']);
                 $query = strtolower($_GET['query']);
                 
+                // Création de la rêquete SQL
                 $sql = "SELECT * FROM `customers` WHERE $search='$query'";
             }
             
+            // Vérifie quel paramètre est vide ou non
             if(!empty($_GET['sort']) and !empty($_GET['order']) and !empty($_GET['search']) and !empty($_GET['query'])) {
+                // Définition des variable contenant les information liées au tri et à la recherche
                 $sort = strtolower($_GET['sort']);
                 $order = strtolower($_GET['order']);
                 $search = strtolower($_GET['search']);
                 $query = strtolower($_GET['query']);
 
+                // Création de la rêquete SQL
                 $sql = "SELECT * FROM `customers` WHERE $search=$query ORDER BY $sort $order";
             }
             
@@ -121,10 +157,9 @@
         
     }
     
-    
-
-
+    // Exécution de la rêquete SQL
     $requete = $db->query($sql);
+    // Récupère tous les enregistrements résultants de la requête
     $customers = $requete->fetchAll();
     
 ?>

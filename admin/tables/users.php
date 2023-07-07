@@ -3,17 +3,24 @@
     include('contents/part/content.php'); 
     include('../php/isAdmin.php');
 
+    // Sélectionne tous les utilisateurs dans la table 'users' en les triant par ordre croissant d'ID
     $sql = "SELECT * FROM `users` ORDER BY `id_users` ASC";
 
+    // Vérifie si le paramètre 'action' est présent dans l'URL
     if(array_key_exists('action', $_GET)) {
+
+        // Vérifie si la valeur du paramètre 'action' est 'delete'
         if($_GET['action'] == 'delete' and array_key_exists('id', $_GET)) {
+            // Vérifie si la valeur de 'id' est 'all'
             if($_GET['id'] == 'all') {
+                // Supprime tous les enregistrements de la table 'users'
                 $sql = "TRUNCATE `climat-2030`.`users`";
                 $requete = $db->query($sql);
                 $users = $requete->fetchAll();
                 header("Refresh: 0;url=/admin/tables/users.php");
             } else {
                 $id = $_GET['id'];
+                // Supprime l'utilisateur avec l'ID spécifié de la table 'users'
                 $sql = "DELETE FROM `users` WHERE id_users = $id";
                 $requete = $db->query($sql);
                 $users = $requete->fetchAll();
@@ -21,6 +28,7 @@
             }
         }
         
+        // Vérifie si la valeur du paramètre 'action' est 'add'
         if($_GET['action'] == 'add' and 
         array_key_exists('users_name', $_GET) and
         array_key_exists('users_surname', $_GET) and
@@ -29,6 +37,7 @@
         array_key_exists('users_password2', $_GET) and
         array_key_exists('users_isAdmin', $_GET)) {
             
+            // Définission des variables contenant les données
             $users_name = htmlspecialchars(strtolower($_GET['users_name']));
             $users_surname = htmlspecialchars(strtolower($_GET['users_surname']));
             $users_mail = htmlspecialchars(strtolower($_GET['users_mail']));
@@ -36,8 +45,11 @@
             $users_password2 = htmlspecialchars(strtolower($_GET['users_password2']));
             $users_isAdmin = htmlspecialchars((int)$_GET['users_isAdmin']);
 
+            // Vérifie si les mots de passe saisis correspondent
             if($users_password1 == $users_password2) {
+                // Hash du mot de passe saisi
                 $users_password = password_hash(htmlspecialchars($users_password1), PASSWORD_DEFAULT);
+                // Insère un nouvel utilisateur dans la table 'users' avec les données fournies
                 $sql = "INSERT INTO `users`(`users_name`, `users_surname`, `users_mail`, `users_password`, `users_isAdmin`) 
                 VALUES ('$users_name', '$users_surname', '$users_mail', '$users_password', '$users_isAdmin')";
                 $requete = $db->query($sql);
@@ -45,9 +57,11 @@
                 $sql = "SELECT * FROM `users` ORDER BY `id_users` ASC";
                 header("Refresh: 0;url=/admin/tables/users.php");
             }
+            // Redirige l'utilisateur vers la page "/admin/tables/users.php?error=0" si les mots de passe ne correspondent pas
             header("Refresh: 0;url=/admin/tables/users.php?error=0");
         }
         
+        // Vérifie si la valeur du paramètre 'action' est 'update'
         if($_GET['action'] == 'update' and 
         array_key_exists('id_users', $_GET) and
         array_key_exists('users_name', $_GET) and
@@ -55,12 +69,14 @@
         array_key_exists('users_mail', $_GET) and
         array_key_exists('users_isAdmin', $_GET)) {
             
+            // Définission des variables contenant les données
             $id_users = htmlspecialchars(strtolower($_GET['id_users']));
             $users_name = htmlspecialchars(strtolower($_GET['users_name']));
             $users_surname = htmlspecialchars(strtolower($_GET['users_surname']));
             $users_mail = htmlspecialchars(strtolower($_GET['users_mail']));
             $users_isAdmin = htmlspecialchars((int)$_GET['users_isAdmin']);
 
+            // Met à jour les informations de l'utilisateur dans la table 'users' en utilisant l'ID spécifié
             $sql = "UPDATE `users` 
             SET `users_name`='$users_name',`users_surname`='$users_surname',`users_mail`='$users_mail',
             `users_isAdmin`='$users_isAdmin'
@@ -72,26 +88,33 @@
             header("Refresh: 0;url=/admin/tables/users.php");
         }
 
+        // Vérifie si la valeur du paramètre 'action' est 'sortSearch'
         if($_GET['action'] == 'sortSearch' and 
         array_key_exists('sort', $_GET) and
         array_key_exists('order', $_GET) and
         array_key_exists('search', $_GET) and
         array_key_exists('query', $_GET)) {
+            // Vérifie si les paramètres de tri sont fournis sans paramètres de recherche
             if(!empty($_GET['sort']) and !empty($_GET['order']) and empty($_GET['search']) and empty($_GET['query'])) {
+                // Définition des variable contenant les information liées au tri
                 $sort = strtolower($_GET['sort']);
                 $order = strtolower($_GET['order']);
                 
                 $sql = "SELECT * FROM `users` ORDER BY $sort $order";
             }
 
+            // Vérifie si les paramètres de recherche sont fournis sans paramètres de tri
             if(empty($_GET['sort']) and empty($_GET['order']) and !empty($_GET['search']) and !empty($_GET['query'])) {
+                // Définition des variable contenant les information liées à la recherche
                 $search = strtolower($_GET['search']);
                 $query = strtolower($_GET['query']);
                 
                 $sql = "SELECT * FROM `users` WHERE $search='$query'";
             }
             
+            // Vérifie si à la fois les paramètres de tri et de recherche sont fournis
             if(!empty($_GET['sort']) and !empty($_GET['order']) and !empty($_GET['search']) and !empty($_GET['query'])) {
+                // Définition des variable contenant les information liées au tri et à la recherche
                 $sort = strtolower($_GET['sort']);
                 $order = strtolower($_GET['order']);
                 $search = strtolower($_GET['search']);
@@ -104,10 +127,12 @@
         
     }
 
+    // Exécute la requête SQL correspondante pour obtenir les utilisateurs
     $requete = $db->query($sql);
     $users = $requete->fetchAll();
     
 ?>
+
 
 <!DOCTYPE html>
 <html lang="fr">
