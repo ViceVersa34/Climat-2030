@@ -4,19 +4,21 @@
     include('part/content.php');
     include('../../php/isAdmin.php');
 
+    // Vérifie si les paramètres 'action', 'id_contents' et 'contents_content' sont présents dans l'URL
     if(array_key_exists('action', $_GET) and
     array_key_exists('id_contents', $_GET) and
     array_key_exists('contents_content', $_GET)) {
+        // Récupère les valeurs des paramètres 'id_contents' et 'contents_content'
         $id_contents = htmlspecialchars($_GET['id_contents']);
         $contents_content = htmlspecialchars($_GET['contents_content']);
 
+        // Met à jour le contenu du champ 'contents_content' de la table 'contents' pour l'enregistrement avec l'ID spécifié
         $sql = "UPDATE `contents` SET `contents_content`=\"$contents_content\" WHERE id_contents = $id_contents";
         $requete = $db->query($sql);
 
+        // Redirige l'utilisateur vers la page "/admin/tables/contents/contact.php#r$id_contents"
         header("Refresh: 0;url=/admin/tables/contents/contact.php#r$id_contents");
-}
-    
-    // $contenuView = contentView($contents); (dans /admin/php/content.php)
+    }
     
 ?>
 
