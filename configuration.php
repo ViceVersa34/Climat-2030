@@ -6,7 +6,7 @@
 const MAPPING = [
     '' => 'fr/index.php',
     'club-pedagogique' => 'fr/club-pedagogique.php',
-    'club-social' => 'fr/club-social.php',
+    'club-social' => 'fr/club-climat.php',
     'club-foret' => 'fr/club-foret.php',
     'en-savoir-plus' => 'fr/en-savoir-plus.php',
     'contact' => 'fr/contact.php',
@@ -16,7 +16,7 @@ const MAPPING = [
 
     'home' => 'en/index.php',
     'the-pedagogical-club' => 'en/the-pedagogical-club.php',
-    'the-social-club' => 'en/the-social-club.php',
+    'the-social-club' => 'en/the-climate-club.php',
     'forest-club' => 'en/forest-club.php',
     'more-about-climat-2030' => 'en/more-about-climat-2030.php',
     'contact-us' => 'en/contact.php',

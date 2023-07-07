@@ -10,7 +10,7 @@
                     <li class="sub-nav-item"><a href="/admin/tables/contents/header.php">Header</a></li>
                     <li class="sub-nav-item"><a href="/admin/tables/contents/footer.php">Footer</a></li>
                     <li class="sub-nav-item"><a href="/admin/tables/contents/">Accueil</a></li>
-                    <li class="sub-nav-item"><a href="/admin/tables/contents/academie-du-climat.php">Club Pédagogique</a></li>
+                    <li class="sub-nav-item"><a href="/admin/tables/contents/club-pedagogique.php">Club Pédagogique</a></li>
                     <li class="sub-nav-item"><a href="/admin/tables/contents/club-climat.php">Club Climat</a></li>
                     <li class="sub-nav-item"><a href="/admin/tables/contents/club-humour.php">Club Humour</a></li>
                     <li class="sub-nav-item"><a href="/admin/tables/contents/club-foret-AF.php">Club foret - AF</a></li>

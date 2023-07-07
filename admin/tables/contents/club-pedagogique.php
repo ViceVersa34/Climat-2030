@@ -16,8 +16,8 @@
         $sql = "UPDATE `contents` SET `contents_content`=\"$contents_content\" WHERE id_contents = $id_contents";
         $requete = $db->query($sql);
 
-        // Redirige l'utilisateur vers la page "/admin/tables/contents/academie-du-climat.php#r$id_contents"
-        header("Refresh: 0;url=/admin/tables/contents/academie-du-climat.php#r$id_contents");
+        // Redirige l'utilisateur vers la page "/admin/tables/contents/club-pedagogique.php#r$id_contents"
+        header("Refresh: 0;url=/admin/tables/contents/club-pedagogique.php#r$id_contents");
     }
     
 ?>
@@ -48,7 +48,7 @@
         <?php include('part/mise-en-forme.php'); ?>
         <div class="pages">
             <div class="page index">
-                <?php include('part/academie-du-climat.php'); ?>
+                <?php include('part/club-pedagogique.php'); ?>
                 <script src="/admin/js/repereId.js"></script>
             </div>
         </div>
