@@ -4,6 +4,7 @@
     <div class="group-content">
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['fr']['titre']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['fr']['titre']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['fr']['titre']['id'];
@@ -13,6 +14,7 @@
             </div>
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['en']['titre']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['en']['titre']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['en']['titre']['id'];
@@ -26,6 +28,7 @@
     <div class="group-content">
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['fr']['manifeste titre']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['fr']['manifeste titre']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['fr']['manifeste titre']['id'];
@@ -33,6 +36,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['fr']['manifeste']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['fr']['manifeste']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['fr']['manifeste']['id'];
@@ -40,6 +44,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['fr']['manifeste signature']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['fr']['manifeste signature']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['fr']['manifeste signature']['id'];
@@ -49,6 +54,7 @@
             </div>
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['en']['manifeste titre']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['en']['manifeste titre']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['en']['manifeste titre']['id'];
@@ -56,6 +62,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['en']['manifeste']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['en']['manifeste']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['en']['manifeste']['id'];
@@ -63,6 +70,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['en']['manifeste signature']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['en']['manifeste signature']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['en']['manifeste signature']['id'];
@@ -76,6 +84,7 @@
     <div class="group-content">
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['fr']['titre raison 1']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['fr']['titre raison 1']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['fr']['titre raison 1']['id'];
@@ -83,6 +92,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['fr']['raison 1']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['fr']['raison 1']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['fr']['raison 1']['id'];
@@ -92,6 +102,7 @@
             </div>
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['en']['titre raison 1']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['en']['titre raison 1']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['en']['titre raison 1']['id'];
@@ -99,6 +110,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['en']['raison 1']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['en']['raison 1']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['en']['raison 1']['id'];
@@ -111,6 +123,7 @@
     <div class="group-content">
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['fr']['titre raison 2']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['fr']['titre raison 2']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['fr']['titre raison 2']['id'];
@@ -118,6 +131,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['fr']['raison 2']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['fr']['raison 2']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['fr']['raison 2']['id'];
@@ -127,6 +141,7 @@
             </div>
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['en']['titre raison 2']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['en']['titre raison 2']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['en']['titre raison 2']['id'];
@@ -134,6 +149,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['en']['raison 2']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['en']['raison 2']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['en']['raison 2']['id'];
@@ -146,6 +162,7 @@
     <div class="group-content">
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['fr']['titre raison 3']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['fr']['titre raison 3']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['fr']['titre raison 3']['id'];
@@ -153,6 +170,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['fr']['raison 3']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['fr']['raison 3']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['fr']['raison 3']['id'];
@@ -162,6 +180,7 @@
             </div>
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['en']['titre raison 3']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['en']['titre raison 3']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['en']['titre raison 3']['id'];
@@ -169,6 +188,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['en']['raison 3']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['en']['raison 3']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['en']['raison 3']['id'];
@@ -181,6 +201,7 @@
     <div class="group-content">
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['fr']['titre raison 4']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['fr']['titre raison 4']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['fr']['titre raison 4']['id'];
@@ -188,6 +209,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['fr']['raison 4']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['fr']['raison 4']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['fr']['raison 4']['id'];
@@ -197,6 +219,7 @@
             </div>
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['en']['titre raison 4']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['en']['titre raison 4']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['en']['titre raison 4']['id'];
@@ -204,6 +227,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['en']['raison 4']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['en']['raison 4']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['en']['raison 4']['id'];
@@ -216,6 +240,7 @@
     <div class="group-content">
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['fr']['titre raison 5']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['fr']['titre raison 5']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['fr']['titre raison 5']['id'];
@@ -223,6 +248,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['fr']['raison 5']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['fr']['raison 5']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['fr']['raison 5']['id'];
@@ -232,6 +258,7 @@
             </div>
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['en']['titre raison 5']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['en']['titre raison 5']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['en']['titre raison 5']['id'];
@@ -239,6 +266,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['en-savoir-plus']['en']['raison 5']['contenu'];
                     $tempContenuView = $contenuView['en-savoir-plus']['en']['raison 5']['contenu'];
                     $tempId = $contenu['en-savoir-plus']['en']['raison 5']['id'];

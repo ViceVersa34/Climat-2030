@@ -5,6 +5,7 @@
         <div class="content">
             <div class="language">
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['fr']['titre']['contenu'];
                     $tempContenuView = $contenuView['index']['fr']['titre']['contenu'];
                     $tempId = $contenu['index']['fr']['titre']['id']; 
@@ -14,6 +15,7 @@
             </div>
             <div class="language">
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['en']['titre']['contenu'];
                     $tempContenuView = $contenuView['index']['en']['titre']['contenu'];
                     $tempId = $contenu['index']['en']['titre']['id']; 
@@ -28,6 +30,7 @@
         <div class="content">
             <div class="language">
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['fr']['en-savoir-plus']['contenu'];
                     $tempContenuView = $contenuView['index']['fr']['en-savoir-plus']['contenu'];
                     $tempId = $contenu['index']['fr']['en-savoir-plus']['id']; 
@@ -37,6 +40,7 @@
             </div>
             <div class="language">
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['en']['en-savoir-plus']['contenu'];
                     $tempContenuView = $contenuView['index']['en']['en-savoir-plus']['contenu'];
                     $tempId = $contenu['index']['en']['en-savoir-plus']['id']; 
@@ -48,6 +52,7 @@
         <div class="content">
             <div class="language">
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['fr']['en-savoir-plus temps']['contenu'];
                     $tempContenuView = $contenuView['index']['fr']['en-savoir-plus temps']['contenu'];
                     $tempId = $contenu['index']['fr']['en-savoir-plus temps']['id']; 
@@ -57,6 +62,7 @@
             </div>
             <div class="language">
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['en']['en-savoir-plus temps']['contenu'];
                     $tempContenuView = $contenuView['index']['en']['en-savoir-plus temps']['contenu'];
                     $tempId = $contenu['index']['en']['en-savoir-plus temps']['id']; 
@@ -72,6 +78,7 @@
         <div class="content">
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['fr']['question 1']['contenu'];
                     $tempContenuView = $contenuView['index']['fr']['question 1']['contenu'];
                     $tempId = $contenu['index']['fr']['question 1']['id'];
@@ -81,6 +88,7 @@
             </div>
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['en']['question 1']['contenu'];
                     $tempContenuView = $contenuView['index']['en']['question 1']['contenu'];
                     $tempId = $contenu['index']['en']['question 1']['id'];
@@ -92,6 +100,7 @@
         <div class="content">
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['fr']['question 2']['contenu'];
                     $tempContenuView = $contenuView['index']['fr']['question 2']['contenu'];
                     $tempId = $contenu['index']['fr']['question 2']['id'];
@@ -101,6 +110,7 @@
             </div>
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['en']['question 2']['contenu'];
                     $tempContenuView = $contenuView['index']['en']['question 2']['contenu'];
                     $tempId = $contenu['index']['en']['question 2']['id'];
@@ -112,6 +122,7 @@
         <div class="content">
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['fr']['question 3']['contenu'];
                     $tempContenuView = $contenuView['index']['fr']['question 3']['contenu'];
                     $tempId = $contenu['index']['fr']['question 3']['id'];
@@ -121,6 +132,7 @@
             </div>
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['en']['question 3']['contenu'];
                     $tempContenuView = $contenuView['index']['en']['question 3']['contenu'];
                     $tempId = $contenu['index']['en']['question 3']['id'];
@@ -138,6 +150,7 @@
         <div class="content">
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['fr']['question 4']['contenu'];
                     $tempContenuView = $contenuView['index']['fr']['question 4']['contenu'];
                     $tempId = $contenu['index']['fr']['question 4']['id'];
@@ -147,6 +160,7 @@
             </div>
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['en']['question 4']['contenu'];
                     $tempContenuView = $contenuView['index']['en']['question 4']['contenu'];
                     $tempId = $contenu['index']['en']['question 4']['id'];
@@ -158,6 +172,7 @@
         <div class="content">
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['fr']['question 5']['contenu'];
                     $tempContenuView = $contenuView['index']['fr']['question 5']['contenu'];
                     $tempId = $contenu['index']['fr']['question 5']['id'];
@@ -167,6 +182,7 @@
             </div>
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['en']['question 5']['contenu'];
                     $tempContenuView = $contenuView['index']['en']['question 5']['contenu'];
                     $tempId = $contenu['index']['en']['question 5']['id'];
@@ -178,6 +194,7 @@
         <div class="content">
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['fr']['question 6']['contenu'];
                     $tempContenuView = $contenuView['index']['fr']['question 6']['contenu'];
                     $tempId = $contenu['index']['fr']['question 6']['id'];
@@ -187,6 +204,7 @@
             </div>
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['en']['question 6']['contenu'];
                     $tempContenuView = $contenuView['index']['en']['question 6']['contenu'];
                     $tempId = $contenu['index']['en']['question 6']['id'];
@@ -204,6 +222,7 @@
         <div class="content">
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['fr']['valeurs 0']['contenu'];
                     $tempContenuView = $contenuView['index']['fr']['valeurs 0']['contenu'];
                     $tempId = $contenu['index']['fr']['valeurs 0']['id'];
@@ -213,6 +232,7 @@
             </div>
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['en']['valeurs 0']['contenu'];
                     $tempContenuView = $contenuView['index']['en']['valeurs 0']['contenu'];
                     $tempId = $contenu['index']['en']['valeurs 0']['id'];
@@ -224,6 +244,7 @@
         <div class="content">
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['fr']['valeurs 1']['contenu'];
                     $tempContenuView = $contenuView['index']['fr']['valeurs 1']['contenu'];
                     $tempId = $contenu['index']['fr']['valeurs 1']['id'];
@@ -233,6 +254,7 @@
             </div>
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['en']['valeurs 1']['contenu'];
                     $tempContenuView = $contenuView['index']['en']['valeurs 1']['contenu'];
                     $tempId = $contenu['index']['en']['valeurs 1']['id'];
@@ -244,6 +266,7 @@
         <div class="content">
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['fr']['valeurs 2']['contenu'];
                     $tempContenuView = $contenuView['index']['fr']['valeurs 2']['contenu'];
                     $tempId = $contenu['index']['fr']['valeurs 2']['id'];
@@ -253,6 +276,7 @@
             </div>
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['en']['valeurs 2']['contenu'];
                     $tempContenuView = $contenuView['index']['en']['valeurs 2']['contenu'];
                     $tempId = $contenu['index']['en']['valeurs 2']['id'];
@@ -264,6 +288,7 @@
         <div class="content">
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['fr']['valeurs 3']['contenu'];
                     $tempContenuView = $contenuView['index']['fr']['valeurs 3']['contenu'];
                     $tempId = $contenu['index']['fr']['valeurs 3']['id'];
@@ -273,6 +298,7 @@
             </div>
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['en']['valeurs 3']['contenu'];
                     $tempContenuView = $contenuView['index']['en']['valeurs 3']['contenu'];
                     $tempId = $contenu['index']['en']['valeurs 3']['id'];
@@ -284,6 +310,7 @@
         <div class="content">
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['fr']['valeurs 4']['contenu'];
                     $tempContenuView = $contenuView['index']['fr']['valeurs 4']['contenu'];
                     $tempId = $contenu['index']['fr']['valeurs 4']['id'];
@@ -293,6 +320,7 @@
             </div>
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['en']['valeurs 4']['contenu'];
                     $tempContenuView = $contenuView['index']['en']['valeurs 4']['contenu'];
                     $tempId = $contenu['index']['en']['valeurs 4']['id'];
@@ -304,6 +332,7 @@
         <div class="content">
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['fr']['valeurs 5']['contenu'];
                     $tempContenuView = $contenuView['index']['fr']['valeurs 5']['contenu'];
                     $tempId = $contenu['index']['fr']['valeurs 5']['id'];
@@ -313,6 +342,7 @@
             </div>
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['en']['valeurs 5']['contenu'];
                     $tempContenuView = $contenuView['index']['en']['valeurs 5']['contenu'];
                     $tempId = $contenu['index']['en']['valeurs 5']['id'];
@@ -324,6 +354,7 @@
         <div class="content">
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['fr']['valeurs 6']['contenu'];
                     $tempContenuView = $contenuView['index']['fr']['valeurs 6']['contenu'];
                     $tempId = $contenu['index']['fr']['valeurs 6']['id'];
@@ -333,6 +364,7 @@
             </div>
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['en']['valeurs 6']['contenu'];
                     $tempContenuView = $contenuView['index']['en']['valeurs 6']['contenu'];
                     $tempId = $contenu['index']['en']['valeurs 6']['id'];
@@ -346,6 +378,7 @@
             </div>
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['index']['en']['valeurs 7']['contenu'];
                     $tempContenuView = $contenuView['index']['en']['valeurs 7']['contenu'];
                     $tempId = $contenu['index']['en']['valeurs 7']['id'];

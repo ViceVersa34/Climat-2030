@@ -5,6 +5,7 @@
         <div class="content">
             <div class="language">
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['titre']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['titre']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['titre']['id'];
@@ -14,6 +15,7 @@
             </div>
             <div class="language">
             <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['titre']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['titre']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['titre']['id'];
@@ -28,6 +30,7 @@
         <div class="content">
             <div class="language">
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['en-savoir-plus']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['en-savoir-plus']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['en-savoir-plus']['id'];
@@ -37,6 +40,7 @@
             </div>
             <div class="language">
             <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['en-savoir-plus']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['en-savoir-plus']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['en-savoir-plus']['id'];
@@ -51,6 +55,7 @@
         <div class="content">
             <div class="language">
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['programme 1']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['programme 1']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['programme 1']['id'];
@@ -58,6 +63,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['programme 2']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['programme 2']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['programme 2']['id'];
@@ -65,6 +71,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['programme 3']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['programme 3']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['programme 3']['id'];
@@ -74,6 +81,7 @@
             </div>
             <div class="language">
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['programme 1']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['programme 1']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['programme 1']['id'];
@@ -81,6 +89,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['programme 2']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['programme 2']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['programme 2']['id'];
@@ -88,6 +97,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['programme 3']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['programme 3']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['programme 3']['id'];
@@ -102,6 +112,7 @@
         <div class="content">
             <div class="language">
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['titre detail 1']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['titre detail 1']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['titre detail 1']['id'];
@@ -109,6 +120,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['detail 1']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['detail 1']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['detail 1']['id'];
@@ -118,6 +130,7 @@
             </div>
             <div class="language">
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['titre detail 1']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['titre detail 1']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['titre detail 1']['id'];
@@ -125,6 +138,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['detail 1']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['detail 1']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['detail 1']['id'];
@@ -139,6 +153,7 @@
         <div class="content">
             <div class="language">
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['titre detail 2']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['titre detail 2']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['titre detail 2']['id'];
@@ -146,6 +161,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['detail 2']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['detail 2']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['detail 2']['id'];
@@ -155,6 +171,7 @@
             </div>
             <div class="language">
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['titre detail 2']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['titre detail 2']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['titre detail 2']['id'];
@@ -162,6 +179,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['detail 2']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['detail 2']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['detail 2']['id'];
@@ -176,6 +194,7 @@
         <div class="content">
             <div class="language">
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 1 titre']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 1 titre']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 1 titre']['id'];
@@ -183,6 +202,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 1 titre objectif']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 1 titre objectif']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 1 titre objectif']['id'];
@@ -190,6 +210,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 1 objectif']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 1 objectif']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 1 objectif']['id'];
@@ -197,6 +218,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 1 titre competences']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 1 titre competences']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 1 titre competences']['id'];
@@ -204,6 +226,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 1 competences']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 1 competences']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 1 competences']['id'];
@@ -211,6 +234,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 1 titre duree']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 1 titre duree']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 1 titre duree']['id'];
@@ -218,6 +242,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 1 duree']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 1 duree']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 1 duree']['id'];
@@ -225,6 +250,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 1 titre seance 1']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 1 titre seance 1']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 1 titre seance 1']['id'];
@@ -232,6 +258,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 1 seance 1']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 1 seance 1']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 1 seance 1']['id'];
@@ -239,6 +266,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 1 titre seance 2']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 1 titre seance 2']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 1 titre seance 2']['id'];
@@ -246,6 +274,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 1 seance 2']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 1 seance 2']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 1 seance 2']['id'];
@@ -255,6 +284,7 @@
             </div>
             <div class="language">
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 1 titre']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 1 titre']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 1 titre']['id'];
@@ -262,6 +292,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 1 titre objectif']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 1 titre objectif']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 1 titre objectif']['id'];
@@ -269,6 +300,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 1 objectif']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 1 objectif']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 1 objectif']['id'];
@@ -276,6 +308,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 1 titre competences']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 1 titre competences']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 1 titre competences']['id'];
@@ -283,6 +316,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 1 competences']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 1 competences']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 1 competences']['id'];
@@ -290,6 +324,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 1 titre duree']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 1 titre duree']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 1 titre duree']['id'];
@@ -297,6 +332,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 1 duree']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 1 duree']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 1 duree']['id'];
@@ -304,6 +340,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 1 titre seance 1']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 1 titre seance 1']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 1 titre seance 1']['id'];
@@ -311,6 +348,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 1 seance 1']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 1 seance 1']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 1 seance 1']['id'];
@@ -318,6 +356,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 1 titre seance 2']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 1 titre seance 2']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 1 titre seance 2']['id'];
@@ -325,6 +364,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 1 seance 2']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 1 seance 2']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 1 seance 2']['id'];
@@ -339,6 +379,7 @@
         <div class="content">
             <div class="language">
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 2 titre']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 2 titre']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 2 titre']['id'];
@@ -346,6 +387,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 2 titre objectif']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 2 titre objectif']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 2 titre objectif']['id'];
@@ -353,6 +395,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 2 objectif']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 2 objectif']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 2 objectif']['id'];
@@ -360,6 +403,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 2 titre competences 1']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 2 titre competences 1']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 2 titre competences 1']['id'];
@@ -367,6 +411,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 2 competences 1.1']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 2 competences 1.1']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 2 competences 1.1']['id'];
@@ -374,6 +419,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 2 competences 1.2']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 2 competences 1.2']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 2 competences 1.2']['id'];
@@ -381,6 +427,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 2 competences 1.3']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 2 competences 1.3']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 2 competences 1.3']['id'];
@@ -388,6 +435,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 2 titre competences 2']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 2 titre competences 2']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 2 titre competences 2']['id'];
@@ -395,6 +443,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 2 competences 2.1']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 2 competences 2.1']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 2 competences 2.1']['id'];
@@ -402,6 +451,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 2 competences 2.2']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 2 competences 2.2']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 2 competences 2.2']['id'];
@@ -409,6 +459,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 2 competences 2.3']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 2 competences 2.3']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 2 competences 2.3']['id'];
@@ -418,6 +469,7 @@
             </div>
             <div class="language">
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 2 titre']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 2 titre']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 2 titre']['id'];
@@ -425,6 +477,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 2 titre objectif']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 2 titre objectif']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 2 titre objectif']['id'];
@@ -432,6 +485,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 2 objectif']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 2 objectif']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 2 objectif']['id'];
@@ -439,6 +493,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 2 titre competences 1']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 2 titre competences 1']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 2 titre competences 1']['id'];
@@ -446,6 +501,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 2 competences 1.1']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 2 competences 1.1']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 2 competences 1.1']['id'];
@@ -453,6 +509,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 2 competences 1.2']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 2 competences 1.2']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 2 competences 1.2']['id'];
@@ -460,6 +517,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 2 competences 1.3']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 2 competences 1.3']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 2 competences 1.3']['id'];
@@ -467,6 +525,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 2 titre competences 2']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 2 titre competences 2']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 2 titre competences 2']['id'];
@@ -474,6 +533,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 2 competences 2.1']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 2 competences 2.1']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 2 competences 2.1']['id'];
@@ -481,6 +541,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 2 competences 2.2']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 2 competences 2.2']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 2 competences 2.2']['id'];
@@ -488,6 +549,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 2 competences 2.3']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 2 competences 2.3']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 2 competences 2.3']['id'];
@@ -502,6 +564,7 @@
         <div class="content">
             <div class="language">
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 3 titre']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 3 titre']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 3 titre']['id'];
@@ -509,6 +572,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 3 titre objectif']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 3 titre objectif']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 3 titre objectif']['id'];
@@ -516,6 +580,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 3 objectif']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 3 objectif']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 3 objectif']['id'];
@@ -523,6 +588,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 3 titre competences 1']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 3 titre competences 1']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 3 titre competences 1']['id'];
@@ -530,6 +596,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 3 competences 1.1']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 3 competences 1.1']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 3 competences 1.1']['id'];
@@ -537,6 +604,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 3 competences 1.2']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 3 competences 1.2']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 3 competences 1.2']['id'];
@@ -544,6 +612,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 3 competences 1.3']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 3 competences 1.3']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 3 competences 1.3']['id'];
@@ -551,6 +620,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 3 titre competences 2']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 3 titre competences 2']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 3 titre competences 2']['id'];
@@ -558,6 +628,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 3 competences 2.1']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 3 competences 2.1']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 3 competences 2.1']['id'];
@@ -565,6 +636,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 3 competences 2.2']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 3 competences 2.2']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 3 competences 2.2']['id'];
@@ -572,6 +644,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['fr']['prog 3 competences 2.3']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['fr']['prog 3 competences 2.3']['contenu'];
                     $tempId = $contenu['academie-du-climat']['fr']['prog 3 competences 2.3']['id'];
@@ -581,6 +654,7 @@
             </div>
             <div class="language">
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 3 titre']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 3 titre']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 3 titre']['id'];
@@ -588,6 +662,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 3 titre objectif']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 3 titre objectif']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 3 titre objectif']['id'];
@@ -595,6 +670,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 3 objectif']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 3 objectif']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 3 objectif']['id'];
@@ -602,6 +678,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 3 titre competences 1']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 3 titre competences 1']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 3 titre competences 1']['id'];
@@ -609,6 +686,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 3 competences 1.1']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 3 competences 1.1']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 3 competences 1.1']['id'];
@@ -616,6 +694,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 3 competences 1.2']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 3 competences 1.2']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 3 competences 1.2']['id'];
@@ -623,6 +702,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 3 competences 1.3']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 3 competences 1.3']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 3 competences 1.3']['id'];
@@ -630,6 +710,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 3 titre competences 2']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 3 titre competences 2']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 3 titre competences 2']['id'];
@@ -637,6 +718,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 3 competences 2.1']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 3 competences 2.1']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 3 competences 2.1']['id'];
@@ -644,6 +726,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 3 competences 2.2']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 3 competences 2.2']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 3 competences 2.2']['id'];
@@ -651,6 +734,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['academie-du-climat']['en']['prog 3 competences 2.3']['contenu'];
                     $tempContenuView = $contenuView['academie-du-climat']['en']['prog 3 competences 2.3']['contenu'];
                     $tempId = $contenu['academie-du-climat']['en']['prog 3 competences 2.3']['id'];

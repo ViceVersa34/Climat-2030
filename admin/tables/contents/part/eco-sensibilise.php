@@ -5,6 +5,7 @@
         <div class="content">
             <div class="language">
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['eco-sensibilise']['fr']['titre 1']['contenu'];
                     $tempContenuView = $contenuView['eco-sensibilise']['fr']['titre 1']['contenu'];
                     $tempId = $contenu['eco-sensibilise']['fr']['titre 1']['id'];
@@ -12,6 +13,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['eco-sensibilise']['fr']['titre 2']['contenu'];
                     $tempContenuView = $contenuView['eco-sensibilise']['fr']['titre 2']['contenu'];
                     $tempId = $contenu['eco-sensibilise']['fr']['titre 2']['id'];
@@ -21,6 +23,7 @@
             </div>
             <div class="language">
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['eco-sensibilise']['en']['titre 1']['contenu'];
                     $tempContenuView = $contenuView['eco-sensibilise']['en']['titre 1']['contenu'];
                     $tempId = $contenu['eco-sensibilise']['en']['titre 1']['id'];
@@ -28,6 +31,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['eco-sensibilise']['en']['titre 2']['contenu'];
                     $tempContenuView = $contenuView['eco-sensibilise']['en']['titre 2']['contenu'];
                     $tempId = $contenu['eco-sensibilise']['en']['titre 2']['id'];
@@ -42,6 +46,7 @@
         <div class="content">
             <div class="language">
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['eco-sensibilise']['fr']['contenu']['contenu'];
                     $tempContenuView = $contenuView['eco-sensibilise']['fr']['contenu']['contenu'];
                     $tempId = $contenu['eco-sensibilise']['fr']['contenu']['id'];
@@ -51,6 +56,7 @@
             </div>
             <div class="language">
                 <?php 
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['eco-sensibilise']['en']['contenu']['contenu'];
                     $tempContenuView = $contenuView['eco-sensibilise']['en']['contenu']['contenu'];
                     $tempId = $contenu['eco-sensibilise']['en']['contenu']['id'];

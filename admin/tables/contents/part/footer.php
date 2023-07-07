@@ -4,6 +4,7 @@
     <div class="group-content">
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['footer']['fr']['texte compteur 1']['contenu'];
                     $tempContenuView = $contenuView['footer']['fr']['texte compteur 1']['contenu'];
                     $tempId = $contenu['footer']['fr']['texte compteur 1']['id'];
@@ -11,6 +12,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['footer']['fr']['texte compteur 2']['contenu'];
                     $tempContenuView = $contenuView['footer']['fr']['texte compteur 2']['contenu'];
                     $tempId = $contenu['footer']['fr']['texte compteur 2']['id'];
@@ -20,6 +22,7 @@
             </div>
             <div class="language">
             <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['footer']['en']['texte compteur 1']['contenu'];
                     $tempContenuView = $contenuView['footer']['en']['texte compteur 1']['contenu'];
                     $tempId = $contenu['footer']['en']['texte compteur 1']['id'];
@@ -27,6 +30,7 @@
                 ?>
                 <?php include('repeat.php'); ?>
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['footer']['en']['texte compteur 2']['contenu'];
                     $tempContenuView = $contenuView['footer']['en']['texte compteur 2']['contenu'];
                     $tempId = $contenu['footer']['en']['texte compteur 2']['id'];
@@ -41,6 +45,7 @@
     <div class="group-content">
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['footer']['fr']['mention']['contenu'];
                     $tempContenuView = $contenuView['footer']['fr']['mention']['contenu'];
                     $tempId = $contenu['footer']['fr']['mention']['id'];
@@ -50,6 +55,7 @@
             </div>
             <div class="language">
                 <?php
+                    // Récupère le contenu, la vue du contenu et l'ID du titre en français à partir des variables $contenu et $contenuView
                     $tempContenu = $contenu['footer']['en']['mention']['contenu'];
                     $tempContenuView = $contenuView['footer']['en']['mention']['contenu'];
                     $tempId = $contenu['footer']['en']['mention']['id'];
