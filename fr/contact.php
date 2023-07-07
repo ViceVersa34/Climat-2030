@@ -1,8 +1,11 @@
 <?php 
+    // Inclusion du fichier content.php situé dans le répertoire admin/tables/contents/part/
     include('admin/tables/contents/part/content.php'); 
-    
+
+    // Vérification si l'action 'mail' est présente dans les données envoyées via POST
     if(array_key_exists('action', $_POST)) {
         if($_POST['action'] = 'mail') {
+            // Récupération des valeurs des champs du formulaire
             $choix = htmlspecialchars($_POST['choix']);
             $objet_detaille = htmlspecialchars($_POST['questionInput']);
             $devisSelect = htmlspecialchars($_POST['devisSelect']);
@@ -14,6 +17,8 @@
             $formation = 'off';
             $devisClubPedagogique = 'Aucun';
 
+            // Vérification des valeurs des champs 'devis-club-pedagogique-sensibilisation' et 'devis-club-pedagogique-formation'
+            // et attribution des valeurs appropriées aux variables correspondantes
             if(array_key_exists('devis-club-pedagogique-sensibilisation', $_POST)) {
                 if($_POST['devis-club-pedagogique-sensibilisation'] == 'on') {
                     $sensibilisation = 'on';
@@ -25,6 +30,7 @@
                 }
             }
 
+            // Attribution de la valeur appropriée à la variable $devisClubPedagogique en fonction des valeurs de $sensibilisation et $formation
             if($sensibilisation == 'on' and $formation == 'off') {
                 $devisClubPedagogique = 'sensibilisation';
             } else if($sensibilisation == 'off' and $formation == 'on') {
@@ -33,6 +39,7 @@
                 $devisClubPedagogique = 'sensibilation et éducation';
             }
 
+            // Conversion des valeurs de $devisSelect en noms appropriés si nécessaire
             if($devisSelect == 'club-pedagogique') {
                 $devisSelect = 'Club pédagogique';
             } else if($devisSelect == 'club-climat') {
@@ -41,8 +48,10 @@
                 $devisSelect = 'Club humour';
             }
 
+            // Initialisation de la variable $content avec une valeur par défaut d'erreur
             $content = 'Une erreur est survenue';
-
+            
+            // Définition du style CSS pour l'e-mail
             $style = "<style>
                         body {
                             font-family: Arial, sans-serif;
@@ -70,6 +79,8 @@
                             font-weght: 700;
                         }
                     </style>";
+
+            // Construction du contenu de l'e-mail en fonction de la valeur de $choix
             if($choix == 'question') {
                 $content = "<html>
                             <head>
@@ -148,13 +159,14 @@
                 }
             }
 
+            // Envoi de l'e-mail en utilisant la fonction mail()
             $to = "contact@climat-2030.org"; 
             $subject = "climat-2030"; 
             $headers = "From: Climat-2030 <contact@climat-2030.org>\r\n";
             $headers .= "Reply-To: contact@climat-2030.org\r\n";
             $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
-            $error_message = '';
 
+            // Vérification du succès de l'envoi de l'e-mail et redirection de l'utilisateur en conséquence
             if (mail($to, $subject, $content, $headers)) {
                 header("Refresh: 0;url=/contact?message=0");
             } else {
@@ -163,12 +175,13 @@
         }
     }
 
+    // Tableau associatif pour stocker les messages de retour à afficher à l'utilisateur
     $tab_message = [
         0 => '<span style="color: #225d1b !important">Le mail a été envoyé avec succès</span>',
         1 => '<span style="color: #ff0000 !important">Une erreur est survenue. Le mail n\'a pas pu être envoyé</span>'
     ];
-
 ?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
