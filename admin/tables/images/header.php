@@ -3,8 +3,10 @@
     include('../contents/part/content.php');
     include('../../php/isAdmin.php');
 
+    // Vérifie si l'action "updateImage" est présente dans le tableau $_POST
     if(array_key_exists('action', $_POST)) {
         if($_POST['action'] == 'updateImage') { 
+            // Récupère le chemin de l'image existante
             $existingImage = $_POST['oldImage'];
             $oldImage = explode('/', $existingImage);
             $existingImage = $_SERVER['DOCUMENT_ROOT'] . $existingImage;
@@ -13,6 +15,8 @@
             foreach($oldImage as $old) {
                 $existingPathImage = $existingPathImage . $old . '/';
             }
+            
+            // Vérifie si le fichier image a été correctement téléchargé
             if ($_FILES['image']['error'] === UPLOAD_ERR_OK) {
                 $id_images = $_POST['id_images'];
                 $tempFile = $_FILES['image']['tmp_name'];
@@ -29,12 +33,15 @@
                     // Succès de l'upload, vous pouvez effectuer des opérations supplémentaires si nécessaire
                     // Afficher l'image téléchargée
 
+                    // Supprime l'image existante
                     if (file_exists($existingImage)) {
                         unlink($existingImage);
                     }
                     
+                    // Définit le nouveau chemin de l'image
                     $newPath = $targetDirectory . basename($_FILES['image']['name']);
 
+                    // Met à jour le chemin de l'image dans la base de données
                     $sql = "UPDATE `images` SET `images_path`=\"$newPath\" WHERE id_images = $id_images";
                     $requete = $db->query($sql);
                     header("Refresh: 0;url=/admin/tables/images/header.php");
