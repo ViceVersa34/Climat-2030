@@ -1,39 +1,32 @@
 <?php
-    const mois = [
-        '01' => "January",
-        '02' => "February",
-        '03' => "March",
-        '04' => "April",
-        '05' => "May",
-        '06' => "June",
-        '07' => "July",
-        '08' => "August",
-        '09' => "September",
-        '10' => "October",
-        '11' => "November",
-        '12' => "December"
-    ];
+// Définition d'un tableau constant qui associe les mois en format numérique à leurs noms en anglais
+const mois = [
+    '01' => "January",
+    '02' => "February",
+    '03' => "March",
+    '04' => "April",
+    '05' => "May",
+    '06' => "June",
+    '07' => "July",
+    '08' => "August",
+    '09' => "September",
+    '10' => "October",
+    '11' => "November",
+    '12' => "December"
+];
 
-    $jour = date('d');
-    $moi = mois[date('m')];
-    $annee = date('Y');
-    $date = $jour.' '.$moi.' '.$annee;
+// Récupération du jour, du mois et de l'année actuels
+$jour = date('d');
+$moi = mois[date('m')];
+$annee = date('Y');
 
-    $i = -1;
-    foreach (str_split($_SERVER['PHP_SELF']) as $chemin) {
-        if ($chemin == '/') {
-            $i += 1;
-        }   
-    }
-    // $path = str_repeat('../', $i) . 'admin/php/link_db.php';
+// Création d'une variable $date contenant la date au format "jour mois année"
+$date = $jour.' '.$moi.' '.$annee;
 
-    // if ($_SERVER['PHP_SELF'] != '/admin/login.php') {
-    //     include($path); 
-    // }
-    
-    $sql = "SELECT COUNT(*) AS `compteur` FROM `customers`";
-    $requete = $db->query($sql);
-    $customers = $requete->fetchAll();
+// Comptage du nombre total d'enregistrements dans la table "customers"
+$sql = "SELECT COUNT(*) AS `compteur` FROM `customers`";
+$requete = $db->query($sql);
+$customers = $requete->fetchAll();
 ?>
 
 <div class="footer">

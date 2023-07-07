@@ -1,28 +1,32 @@
 <?php
-    CONST mois = [
-        '01' => "janvier",
-        '02' => "février",
-        '03' => "mars",
-        '04' => "avril",
-        '05' => "mai",
-        '06' => "juin",
-        '07' => "juillet",
-        '08' => "août",
-        '09' => "septembre",
-        '10' => "octobre",
-        '11' => "novembre",
-        '12' => "décembre"
-    ];
+// Définition d'un tableau constant des mois avec leurs correspondances en français
+CONST mois = [
+    '01' => "janvier",
+    '02' => "février",
+    '03' => "mars",
+    '04' => "avril",
+    '05' => "mai",
+    '06' => "juin",
+    '07' => "juillet",
+    '08' => "août",
+    '09' => "septembre",
+    '10' => "octobre",
+    '11' => "novembre",
+    '12' => "décembre"
+];
 
-    $jour = date('d');
-    $mois = mois[date('m')];
-    $annee = date('Y');
-    $date = $jour.' '.$mois.' '.$annee;
-    
-    $sql = "SELECT COUNT(*) AS `compteur` FROM `customers`";
-    $requete = $db->query($sql);
-    $customers = $requete->fetchAll();
+// Récupération de la date actuelle
+$jour = date('d');
+$mois = mois[date('m')];
+$annee = date('Y');
+$date = $jour.' '.$mois.' '.$annee;
+
+// Requête SQL pour compter le nombre de clients dans une table
+$sql = "SELECT COUNT(*) AS `compteur` FROM `customers`";
+$requete = $db->query($sql);
+$customers = $requete->fetchAll();
 ?>
+
 
 <div class="footer">
     <div class="top">
