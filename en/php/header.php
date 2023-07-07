@@ -1,12 +1,15 @@
 <?php
+// Récupération de l'URL actuelle de la requête
 $url = $_SERVER['REQUEST_URI'];
 
+// Vérification si l'URL contient un point d'interrogation pour les paramètres GET
 if (!strpos($_SERVER['REQUEST_URI'], '?') == '') {
     $i = strpos($_SERVER['REQUEST_URI'], '?');
     $url = substr($_SERVER['REQUEST_URI'], 0, $i);
     $url2 = $url;
 }
 
+// Définition d'un tableau constant pour le mapping des URL de l'anglais vers le français
 const MAPPINGENFR = [
     "/the-pedagogical-club" => "/club-pedagogique",
     "/en-CGU" => "/CGU",
@@ -20,14 +23,15 @@ const MAPPINGENFR = [
     "/eco-aware" => "/eco-sensibilise"
 ];
 
+// Vérification si l'URL existe dans le tableau de mapping
 if (!array_key_exists($url, MAPPINGENFR)) {
     $url = "/404";
     $url2 = "/en-404";
 } else {
     $url2 = MAPPINGENFR[$url];
 }
-
 ?>
+
 
 <div class="nav">
     <div class="blur" id="blur" onclick="changerLeft2('-18rem');"></div> <!-- Cache permettant de sortir du menu (en mode responsive) lors d'un click a côté -->
