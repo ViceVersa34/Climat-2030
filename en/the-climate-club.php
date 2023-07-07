@@ -5,7 +5,7 @@
     <?php include('en/php/head.php'); ?>
     <link rel="stylesheet" href="/css/club-climat.css">
     <link rel="stylesheet" href="/css/humour.css">
-    <title>The Social Club - Climat-2030</title>
+    <title>The Climate Club - Climat-2030</title>
 </head>
 <body id="body">
     <header>
