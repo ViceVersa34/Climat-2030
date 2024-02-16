@@ -4,7 +4,7 @@
 if ($_SERVER['SERVER_NAME'] == 'climat-2030.org') {
     define("DBHOST", "bgooodiclimat.mysql.db");
     define("DBUSER", "bgooodiclimat");
-    define("DBPASS", "23marsDonuts");
+    define("DBPASS", "************");
     define("DBNAME", "bgooodiclimat");
 }
 
